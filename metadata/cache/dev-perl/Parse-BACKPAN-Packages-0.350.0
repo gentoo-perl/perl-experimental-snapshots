@@ -1,0 +1,22 @@
+dev-perl/libwww-perl virtual/perl-IO-Zlib virtual/perl-IO-Compress dev-perl/App-Cache dev-perl/Class-Accessor dev-perl/CPAN-DistnameInfo virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/libwww-perl virtual/perl-IO-Zlib virtual/perl-IO-Compress dev-perl/App-Cache dev-perl/Class-Accessor dev-perl/CPAN-DistnameInfo dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LB/LBROCARD/Parse-BACKPAN-Packages-0.35.tar.gz
+
+http://search.cpan.org/dist/Parse-BACKPAN-Packages/
+|| ( Artistic GPL-2 )
+Provide an index of BACKPAN
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test -big-net-test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

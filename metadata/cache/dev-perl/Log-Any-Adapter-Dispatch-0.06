@@ -1,0 +1,22 @@
+dev-perl/Log-Any-Adapter >=dev-perl/log-dispatch-2.26 >=virtual/perl-File-Temp-0.20 virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-perl/Log-Any-Adapter >=dev-perl/log-dispatch-2.26 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JS/JSWARTZ/Log-Any-Adapter-Dispatch-0.06.tar.gz
+
+http://search.cpan.org/dist/Log-Any-Adapter-Dispatch/
+|| ( Artistic GPL-2 )
+Adapter to use Log::Dispatch with Log::Any
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

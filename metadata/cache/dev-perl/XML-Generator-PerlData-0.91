@@ -1,0 +1,22 @@
+>=dev-perl/XML-SAX-0.96 dev-lang/perl[-build]
+>=dev-perl/XML-SAX-0.96 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KH/KHAMPTON/XML-Generator-PerlData-0.91.tar.gz
+
+http://search.cpan.org/dist/XML-Generator-PerlData/
+|| ( Artistic GPL-2 )
+Perl extension for generating SAX2 events from nested Perl data structures
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

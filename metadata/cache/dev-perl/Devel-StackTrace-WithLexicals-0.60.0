@@ -1,0 +1,22 @@
+>=dev-perl/Devel-StackTrace-1.22 >=dev-perl/PadWalker-1.9.2 dev-lang/perl[-build]
+>=dev-perl/Devel-StackTrace-1.22 >=dev-perl/PadWalker-1.9.2 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SA/SARTAK/Devel-StackTrace-WithLexicals-0.06.tar.gz
+
+http://search.cpan.org/dist/Devel-StackTrace-WithLexicals/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Devel::StackTrace + PadWalker
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

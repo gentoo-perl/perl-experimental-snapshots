@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime dev-perl/Moose
+dev-perl/Catalyst-Runtime dev-perl/Moose
+0
+mirror://cpan/authors/id/G/GR/GRODITI/Catalyst-Component-InstancePerContext-0.001001.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Component-InstancePerContext/
+|| ( Artistic GPL-2 )
+Return a new instance a component on each request
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

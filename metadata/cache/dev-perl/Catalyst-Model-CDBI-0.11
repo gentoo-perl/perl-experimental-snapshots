@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime dev-perl/Class-DBI dev-perl/Class-DBI-Loader
+dev-perl/Catalyst-Runtime dev-perl/Class-DBI dev-perl/Class-DBI-Loader
+0
+mirror://cpan/authors/id/A/AG/AGRUNDMA/Catalyst-Model-CDBI-0.11.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Model-CDBI/
+|| ( Artistic GPL-2 )
+Helper for CDBI Models
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

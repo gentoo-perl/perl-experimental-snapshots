@@ -1,0 +1,22 @@
+dev-perl/Class-Data-Inheritable
+dev-perl/Class-Data-Inheritable
+0
+mirror://cpan/authors/id/G/GI/GIULIENK/String-CodiceFiscale-0.01.tar.gz
+
+http://search.cpan.org/dist/String-CodiceFiscale/
+|| ( Artistic GPL-2 )
+Convert personal data into italian Codice Fiscale
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

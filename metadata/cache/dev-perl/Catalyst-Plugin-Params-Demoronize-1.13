@@ -1,0 +1,22 @@
+dev-perl/Encode-ZapCP1252 dev-lang/perl[-build]
+dev-perl/Encode-ZapCP1252 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DI/DIZ/Catalyst-Plugin-Params-Demoronize-1.13.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Params-Demoronize/
+|| ( Artistic GPL-2 )
+Convert common UTF-8 and Windows-1252 characters to their ASCII equivalents
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Regexp-RegGrp-1.0.0 test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+DESCRIPTION=Perl version of Dean Edwards' Packer.js
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/JavaScript-Packer/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=dev-perl/Regexp-RegGrp-1.0.0 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NE/NEVESENIN/JavaScript-Packer-1.000.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-declaredeps	982b2cda8f8bab471d8a8ef1278a776b	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=980f3b75ea545e7f8e81510d108f75f9

@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/ML/MLEHMANN/Linux-DVB-1.01.tar.gz
+
+http://search.cpan.org/dist/Linux-DVB/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Interface to (some parts of) the Linux DVB API
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

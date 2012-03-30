@@ -1,0 +1,22 @@
+dev-perl/Carp-Assert dev-lang/perl[-build]
+dev-perl/Carp-Assert dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MS/MSCHWERN/Class-Fields-0.204.tar.gz
+
+http://search.cpan.org/dist/Class-Fields/
+|| ( Artistic GPL-2 )
+Inspect the fields of a class.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=dev-perl/extutils-depends-0.304 virtual/perl-ExtUtils-MakeMaker dev-lang/perl[-build]
+>=dev-perl/extutils-depends-0.304 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CH/CHOCOLATE/B-Hooks-OP-Annotation-0.44.tar.gz
+
+http://search.cpan.org/dist/B-Hooks-OP-Annotation/
+|| ( Artistic GPL-2 )
+annotate and delegate hooked OPs
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

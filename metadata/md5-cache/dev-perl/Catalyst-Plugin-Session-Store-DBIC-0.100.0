@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Catalyst-Runtime-5.650.0 >=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02 dev-perl/Class-Accessor >=dev-perl/DBIx-Class-0.07000 virtual/perl-MIME-Base64 dev-perl/MRO-Compat virtual/perl-Scalar-List-Utils virtual/perl-Storable test? ( dev-perl/Test-Warn ) dev-lang/perl[-build]
+DESCRIPTION=File storage backend for session data
+EAPI=2
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-DBIC/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.650.0 >=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02 dev-perl/Class-Accessor >=dev-perl/DBIx-Class-0.07000 virtual/perl-MIME-Base64 dev-perl/MRO-Compat virtual/perl-Scalar-List-Utils virtual/perl-Storable dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-DBIC-0.10.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=8b4de3be107bf2edb47721a8983e1506

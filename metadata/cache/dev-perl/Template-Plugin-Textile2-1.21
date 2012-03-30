@@ -1,0 +1,22 @@
+virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.15 >=dev-perl/Text-Textile-2.03
+virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.15 >=dev-perl/Text-Textile-2.03
+0
+mirror://cpan/authors/id/A/AR/ARTHAS/Template-Plugin-Textile2-1.21.tar.gz
+
+http://search.cpan.org/dist/Template-Plugin-Textile2/
+|| ( Artistic GPL-2 )
+Use Textile formatting with Template Toolkit
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=dev-perl/Template-Toolkit-2.14 dev-lang/perl[-build]
+>=dev-perl/Template-Toolkit-2.14 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FA/FAXIOMAN/Template-Plugin-UTF8Decode-0.01.tar.gz
+
+http://search.cpan.org/dist/Template-Plugin-UTF8Decode/
+|| ( Artistic GPL-2 )
+UTF8 decoder filter for Template Toolkit
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

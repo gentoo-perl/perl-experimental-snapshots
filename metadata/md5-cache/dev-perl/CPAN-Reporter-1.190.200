@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-CPAN-1.930.100 dev-perl/Capture-Tiny >=dev-perl/Config-Tiny-2.08 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=virtual/perl-File-Spec-3.19 >=virtual/perl-File-Temp-0.16 virtual/perl-IO virtual/perl-Parse-CPAN-Meta dev-perl/Probe-Perl >=dev-perl/Tee-0.140 >=dev-perl/Test-Reporter-1.54 >=virtual/perl-Archive-Tar-1.54 >=dev-perl/File-Copy-Recursive-0.35 virtual/perl-File-Spec >=dev-perl/File-pushd-0.32 >=dev-perl/IO-CaptureOutput-1.30 virtual/perl-Test-Harness >=virtual/perl-Test-Simple-0.62 >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+DESCRIPTION=Adds CPAN Testers reporting to CPAN.pm
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/CPAN-Reporter/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=virtual/perl-CPAN-1.930.100 dev-perl/Capture-Tiny >=dev-perl/Config-Tiny-2.08 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=virtual/perl-File-Spec-3.19 >=virtual/perl-File-Temp-0.16 virtual/perl-IO virtual/perl-Parse-CPAN-Meta dev-perl/Probe-Perl >=dev-perl/Tee-0.140 >=dev-perl/Test-Reporter-1.54 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.1902.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-declaredeps	982b2cda8f8bab471d8a8ef1278a776b	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=212cb4c8b6b5a9fe5d155d403c5d6bbb

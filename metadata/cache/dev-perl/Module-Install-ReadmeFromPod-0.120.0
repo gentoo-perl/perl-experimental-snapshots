@@ -1,0 +1,22 @@
+>=dev-perl/Module-Install-0.85 virtual/perl-podlators >=dev-perl/Capture-Tiny-0.05 virtual/perl-File-Temp test? ( >=virtual/perl-Test-Simple-0.47 dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl[-build]
+>=dev-perl/Module-Install-0.85 virtual/perl-podlators dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Module-Install-ReadmeFromPod-0.12.tar.gz
+
+http://search.cpan.org/dist/Module-Install-ReadmeFromPod/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A Module::Install extension to automatically convert POD to a README
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

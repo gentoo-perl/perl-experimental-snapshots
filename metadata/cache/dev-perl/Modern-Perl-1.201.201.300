@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.980.0 virtual/perl-IO virtual/perl-IO >=dev-perl/autodie-2.100.0 dev-lang/perl dev-lang/perl >=dev-lang/perl-5.10.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+virtual/perl-IO virtual/perl-IO >=dev-perl/autodie-2.100.0 dev-lang/perl dev-lang/perl >=dev-lang/perl-5.10.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CH/CHROMATIC/Modern-Perl-1.20120130.tar.gz
+
+http://search.cpan.org/dist/Modern-Perl/
+|| ( Artistic GPL-2 )
+enable all of the features of Modern Perl with one import
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

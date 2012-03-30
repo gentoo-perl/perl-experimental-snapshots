@@ -1,0 +1,22 @@
+dzil? ( dev-perl/Dist-Zilla ) moduleinstall? ( dev-perl/Module-Install ) nytprof? ( dev-perl/Devel-NYTProf ) perltidy? ( dev-perl/perltidy ) perlcritic? ( dev-perl/Perl-Critic ) carpalways? ( dev-perl/Carp-Always ) modernperl? ( dev-perl/Modern-Perl ) perlversion? ( dev-perl/Perl-Version ) softwarelicense? ( dev-perl/Software-License ) podreadme? ( dev-perl/Pod-Readme ) cpanuploader? ( dev-perl/CPAN-Uploader ) dev-lang/perl[-build]
+dzil? ( dev-perl/Dist-Zilla ) moduleinstall? ( dev-perl/Module-Install ) nytprof? ( dev-perl/Devel-NYTProf ) perltidy? ( dev-perl/perltidy ) perlcritic? ( dev-perl/Perl-Critic ) carpalways? ( dev-perl/Carp-Always ) modernperl? ( dev-perl/Modern-Perl ) perlversion? ( dev-perl/Perl-Version ) softwarelicense? ( dev-perl/Software-License ) podreadme? ( dev-perl/Pod-Readme ) cpanuploader? ( dev-perl/CPAN-Uploader ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-ModuleDev-0.27.tar.gz
+
+http://search.cpan.org/dist/Task-Kensho-ModuleDev/
+|| ( Artistic GPL-2 )
+A glimpse at an Enlightened Perl (module development tools)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
++dzil +moduleinstall +nytprof +perltidy +perlcritic +carpalways +modernperl +perlversion +softwarelicense +podreadme +cpanuploader
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+test? ( >=dev-perl/Test-Pod-1.26 >=dev-perl/Test-Pod-Coverage-1.08 >=dev-perl/Pod-Coverage-0.18 ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AV/AVIF/Tree-Trie-1.8.tar.gz
+
+http://search.cpan.org/dist/Tree-Trie/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A data structure optimized for prefix lookup
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

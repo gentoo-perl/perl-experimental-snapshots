@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/constant
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( =dev-lang/perl-5.14* ~perl-core/constant-1.210.0 )
+SLOT=0
+_md5_=07941b7edb150f785f832042f0586287

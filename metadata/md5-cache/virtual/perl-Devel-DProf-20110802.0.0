@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Devel-DProf
+KEYWORDS=~amd64 ~x86
+RDEPEND=~perl-core/Devel-DProf-20110802.0.0
+SLOT=0
+_md5_=940d9d095df012a4bb6f30b75fcb2cb6

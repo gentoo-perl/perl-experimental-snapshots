@@ -1,0 +1,22 @@
+>=dev-perl/namespace-clean-0.10 dev-perl/namespace-autoclean dev-perl/Carp-Clan >=dev-perl/MooseX-Types-0.20 dev-perl/MRO-Compat >=dev-perl/Moose-0.90 test? ( dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+>=dev-perl/namespace-clean-0.10 dev-perl/namespace-autoclean dev-perl/Carp-Clan >=dev-perl/MooseX-Types-0.20 dev-perl/MRO-Compat >=dev-perl/Moose-0.90 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-MethodAttributes-0.19.tar.gz
+
+http://search.cpan.org/dist/MooseX-MethodAttributes/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Code atttribute introspection
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

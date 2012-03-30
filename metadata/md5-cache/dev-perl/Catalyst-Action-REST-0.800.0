@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Catalyst-Runtime-5.700.100 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) dev-lang/perl[-build]
+DESCRIPTION=Automated REST Method Dispatching
+EAPI=2
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Action-REST/
+IUSE=json data-taxi config-general php freezethaw xml
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.700.100 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Action-REST-0.80.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=1740bced31893d689901120871932caa

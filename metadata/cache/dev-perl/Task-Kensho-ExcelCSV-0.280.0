@@ -1,0 +1,22 @@
+csv-xs? ( dev-perl/Text-CSV_XS ) parseexcelsimple? ( dev-perl/Spreadsheet-ParseExcel-Simple ) writeexcelsimple? ( dev-perl/Spreadsheet-WriteExcel-Simple ) dev-lang/perl[-build]
+csv-xs? ( dev-perl/Text-CSV_XS ) parseexcelsimple? ( dev-perl/Spreadsheet-ParseExcel-Simple ) writeexcelsimple? ( dev-perl/Spreadsheet-WriteExcel-Simple ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-ExcelCSV-0.28.tar.gz
+
+http://search.cpan.org/dist/Task-Kensho-ExcelCSV/
+|| ( Artistic GPL-2 )
+A glimpse at an Enlightened Perl (modules for Excel / CSV files)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
++csv-xs +parseexcelsimple +writeexcelsimple
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

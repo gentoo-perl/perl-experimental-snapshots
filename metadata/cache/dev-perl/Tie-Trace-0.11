@@ -1,0 +1,22 @@
+dev-perl/PadWalker test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/PadWalker dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KT/KTAT/Tie-Trace-0.11.tar.gz
+
+http://search.cpan.org/dist/Tie-Trace/
+|| ( Artistic GPL-2 )
+easy print debugging with tie, for watching variable
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

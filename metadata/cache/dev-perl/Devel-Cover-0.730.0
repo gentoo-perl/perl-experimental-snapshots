@@ -1,0 +1,22 @@
+virtual/perl-Digest-MD5 virtual/perl-Storable dev-lang/perl[-build]
+virtual/perl-Digest-MD5 virtual/perl-Storable dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PJ/PJCJ/Devel-Cover-0.73.tar.gz
+
+http://search.cpan.org/dist/Devel-Cover/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Code coverage metrics for Perl
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

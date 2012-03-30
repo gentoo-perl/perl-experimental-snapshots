@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-2.100.880 dev-perl/File-Next dev-perl/perltidy >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-2.100.880 dev-perl/File-Next dev-perl/perltidy dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FA/FAYLAND/Dist-Zilla-Plugin-PerlTidy-0.12-fix.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-PerlTidy/
+|| ( Artistic GPL-2 )
+perltidy your dist
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

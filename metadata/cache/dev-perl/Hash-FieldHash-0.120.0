@@ -1,0 +1,22 @@
+>=virtual/perl-Devel-PPPort-3.190.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-ParseXS-2.21.0 >=virtual/perl-Devel-PPPort-3.190.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=dev-perl/Test-LeakTrace-0.70.0 >=virtual/perl-Test-Simple-0.62 >=virtual/perl-XSLoader-0.02 >=virtual/perl-parent-0.221 >=dev-lang/perl-5.8.5 dev-lang/perl[-build]
+>=virtual/perl-XSLoader-0.02 >=virtual/perl-parent-0.221 >=dev-lang/perl-5.8.5 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GF/GFUJI/Hash-FieldHash-0.12.tar.gz
+
+http://search.cpan.org/dist/Hash-FieldHash/
+|| ( Artistic GPL-2 )
+Lightweight field hash for inside-out objects
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=virtual/perl-Attribute-Handlers-0.88 >=dev-perl/Moose-0.90 dev-lang/perl[-build]
+>=virtual/perl-Attribute-Handlers-0.88 >=dev-perl/Moose-0.90 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GB/GBARR/MooseX-Role-Restricted-1.03.tar.gz
+
+http://search.cpan.org/dist/MooseX-Role-Restricted/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Restrict which sub are exported by a role
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

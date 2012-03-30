@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz
+
+http://search.cpan.org/dist/ExtUtils-Constant/
+|| ( Artistic GPL-2 )
+generate XS code to import C header constants
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

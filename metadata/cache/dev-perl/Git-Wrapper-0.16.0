@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.56 virtual/perl-File-Path virtual/perl-File-Spec virtual/perl-IO dev-perl/Test-Deep virtual/perl-Test-Simple virtual/perl-File-Temp dev-perl/File-pushd virtual/perl-IPC-Cmd dev-perl/Sort-Versions dev-vcs/git dev-lang/perl[-build]
+virtual/perl-File-Temp dev-perl/File-pushd virtual/perl-IPC-Cmd dev-perl/Sort-Versions dev-vcs/git dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GE/GENEHACK/Git-Wrapper-0.016.tar.gz
+
+http://search.cpan.org/dist/Git-Wrapper/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+wrap git(7) command-line interface
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

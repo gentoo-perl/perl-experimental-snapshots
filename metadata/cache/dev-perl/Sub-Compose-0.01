@@ -1,0 +1,22 @@
+>=dev-perl/Data-Dump-Streamer-0.01 >=dev-perl/Sub-Name-0.01 dev-lang/perl[-build]
+>=dev-perl/Data-Dump-Streamer-0.01 >=dev-perl/Sub-Name-0.01 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RK/RKINYON/Sub-Compose-0.01.tar.gz
+
+http://search.cpan.org/dist/Sub-Compose/
+|| ( Artistic GPL-2 )
+takes any number of subroutine references and creates a new subroutine reference from them
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

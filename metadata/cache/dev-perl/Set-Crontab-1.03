@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AM/AMS/Set-Crontab-1.03.tar.gz
+
+http://search.cpan.org/dist/Set-Crontab/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Expand crontab(5)-style integer lists
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

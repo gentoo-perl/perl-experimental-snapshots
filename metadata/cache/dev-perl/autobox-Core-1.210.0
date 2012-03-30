@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.46 virtual/perl-ExtUtils-MakeMaker >=dev-perl/autobox-2.710.0 dev-lang/perl[-build]
+>=dev-perl/autobox-2.710.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MS/MSCHWERN/autobox-Core-1.21.tar.gz
+
+http://search.cpan.org/dist/autobox-Core/
+|| ( Artistic GPL-2 )
+Core functions exposed as methods in primitive types
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

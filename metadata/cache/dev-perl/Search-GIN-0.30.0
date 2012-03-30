@@ -1,0 +1,22 @@
+dev-perl/Moose dev-perl/MooseX-Types-Path-Class dev-perl/MooseX-Types-Set-Object >=dev-perl/namespace-clean-0.08 >=dev-perl/Data-Stream-Bulk-0.03 dev-perl/Scope-Guard dev-perl/Set-Object dev-perl/MRO-Compat test? ( dev-perl/Test-use-ok virtual/perl-Test-Simple dev-perl/Test-TempDir ) dev-lang/perl[-build]
+dev-perl/Moose dev-perl/MooseX-Types-Path-Class dev-perl/MooseX-Types-Set-Object >=dev-perl/namespace-clean-0.08 >=dev-perl/Data-Stream-Bulk-0.03 dev-perl/Scope-Guard dev-perl/Set-Object dev-perl/MRO-Compat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/Search-GIN-0.03.tar.gz
+
+http://search.cpan.org/dist/Search-GIN/
+|| ( Artistic GPL-2 )
+Generalized Inverted Indexing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

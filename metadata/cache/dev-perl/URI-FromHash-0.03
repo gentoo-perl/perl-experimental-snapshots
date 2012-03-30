@@ -1,0 +1,22 @@
+dev-perl/Params-Validate >=dev-perl/URI-1.22 virtual/perl-Test-Simple virtual/perl-Module-Build dev-lang/perl[-build]
+dev-perl/Params-Validate >=dev-perl/URI-1.22 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/URI-FromHash-0.03.tar.gz
+
+http://search.cpan.org/dist/URI-FromHash/
+|| ( Artistic GPL-2 )
+Build a URI from a set of named parameters
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Dist-Zilla-4 >=dev-perl/Moose-0.99 virtual/perl-libnet >=dev-perl/Net-Twitter-3 >=dev-perl/WWW-Shorten-3.20 dev-perl/WWW-Shorten-Simple >=dev-perl/namespace-autoclean-0.09 >=dev-perl/Dist-Zilla-4 virtual/perl-File-Temp dev-perl/libwww-perl dev-perl/Params-Util dev-perl/Path-Class dev-perl/Sub-Exporter >=virtual/perl-Test-Simple-0.88 >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+DESCRIPTION=Twitter when you release with Dist::Zilla
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-Twitter/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Dist-Zilla-4 >=dev-perl/Moose-0.99 virtual/perl-libnet >=dev-perl/Net-Twitter-3 >=dev-perl/WWW-Shorten-3.20 dev-perl/WWW-Shorten-Simple >=dev-perl/namespace-autoclean-0.09 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Dist-Zilla-Plugin-Twitter-0.010.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-declaredeps	982b2cda8f8bab471d8a8ef1278a776b	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=d927ff69253e339f3dcc0d6b02d46c75

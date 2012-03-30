@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/ImageSize dev-perl/Path-Class dev-perl/HTML-Parser dev-perl/MRO-Compat
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/ImageSize dev-perl/Path-Class dev-perl/HTML-Parser dev-perl/MRO-Compat
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Images-0.02.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Images/
+|| ( Artistic GPL-2 )
+Generate image tags for static files.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

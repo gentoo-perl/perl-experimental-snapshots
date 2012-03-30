@@ -1,0 +1,22 @@
+virtual/perl-File-Path virtual/perl-File-Spec virtual/perl-IPC-Cmd virtual/perl-Locale-Maketext-Simple virtual/perl-Module-Load-Conditional virtual/perl-Params-Check dev-lang/perl[-build]
+virtual/perl-File-Path virtual/perl-File-Spec virtual/perl-IPC-Cmd virtual/perl-Locale-Maketext-Simple virtual/perl-Module-Load-Conditional virtual/perl-Params-Check dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/File-Fetch-0.24.tar.gz
+
+http://search.cpan.org/dist/File-Fetch/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A generic file fetching mechanism
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

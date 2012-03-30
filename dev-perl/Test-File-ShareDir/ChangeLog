@@ -1,0 +1,38 @@
+# ChangeLog for dev-perl/Test-File-ShareDir
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-File-ShareDir-0.3.1 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Test-File-ShareDir-0.3.1.ebuild:
+  Version Bump
+
+*Test-File-ShareDir-0.3.0 (08 May 2011)
+
+  08 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-File-ShareDir-0.3.0.ebuild:
+  Bump
+
+  24 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Test-File-ShareDir-0.1.0.ebuild:
+  Gone on CPAN
+
+*Test-File-ShareDir-0.2.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-File-ShareDir-0.2.0.ebuild:
+  Bump
+
+*Test-File-ShareDir-0.1.1 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-File-ShareDir-0.1.1.ebuild:
+  Bump
+
+*Test-File-ShareDir-0.1.0 (21 Feb 2011)
+
+  21 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-File-ShareDir-0.1.0.ebuild, +metadata.xml:
+  added
+

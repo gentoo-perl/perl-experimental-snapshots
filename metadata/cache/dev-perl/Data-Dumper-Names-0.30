@@ -1,0 +1,22 @@
+>=dev-perl/PadWalker-0.13 virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/PadWalker-0.13 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/O/OV/OVID/Data-Dumper-Names-0.03.tar.gz
+
+http://search.cpan.org/dist/Data-Dumper-Names/
+|| ( Artistic GPL-2 )
+See your data in the nude
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

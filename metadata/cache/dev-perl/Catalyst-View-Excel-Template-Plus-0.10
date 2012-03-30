@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-perl/Test-Exception
+dev-perl/Catalyst-Runtime dev-perl/Excel-Template-Plus
+0
+mirror://cpan/authors/id/S/ST/STEVAN/Catalyst-View-Excel-Template-Plus-0.01.tar.gz
+
+http://search.cpan.org/dist/Catalyst-View-Excel-Template-Plus/
+|| ( Artistic GPL-2 )
+A Catalyst View for Excel::Template::Plus
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

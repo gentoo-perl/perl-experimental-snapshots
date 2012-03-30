@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MARKSTOS/File-Type-WebImages-1.01.tar.gz
+
+http://search.cpan.org/dist/File-Type-WebImages/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Determine web image file types using magic
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

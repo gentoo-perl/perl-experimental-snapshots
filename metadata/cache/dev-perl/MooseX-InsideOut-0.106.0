@@ -1,0 +1,22 @@
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.80 ) >=dev-perl/Moose-0.94 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/namespace-clean-0.11 dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.80 ) >=dev-perl/Moose-0.94 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/namespace-clean-0.11 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DO/DOY/MooseX-InsideOut-0.106.tar.gz
+
+http://search.cpan.org/dist/MooseX-InsideOut/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+inside-out objects with Moose
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

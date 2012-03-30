@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-2.100.922 >=dev-perl/Dist-Zilla-2.100.860 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed >=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.120.0 >=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971 dev-perl/Dist-Zilla-Plugin-Repository >=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330 >=dev-perl/Dist-Zilla-2.100.960 >=dev-perl/Dist-Zilla-Plugin-Git-1.93.250 >=dev-perl/Dist-Zilla-2.101.40 dev-perl/Moose dev-perl/Moose-Autobox >=dev-perl/Pod-Elemental-0.92.970 dev-perl/Pod-Elemental-Transformer-List >=dev-perl/Pod-Weaver-3.100.310 >=dev-perl/Pod-Weaver-3.92.990 >=virtual/perl-ExtUtils-MakeMaker-6.56 >=virtual/perl-Test-Simple-0.96 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-2.100.922 >=dev-perl/Dist-Zilla-2.100.860 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed >=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.120.0 >=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971 dev-perl/Dist-Zilla-Plugin-Repository >=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330 >=dev-perl/Dist-Zilla-2.100.960 >=dev-perl/Dist-Zilla-Plugin-Git-1.93.250 >=dev-perl/Dist-Zilla-2.101.40 dev-perl/Moose dev-perl/Moose-Autobox >=dev-perl/Pod-Elemental-0.92.970 dev-perl/Pod-Elemental-Transformer-List >=dev-perl/Pod-Weaver-3.100.310 >=dev-perl/Pod-Weaver-3.92.990 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Dist-Zilla-PluginBundle-RJBS-1.007.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-PluginBundle-RJBS/
+|| ( Artistic GPL-2 )
+BeLike::RJBS when you build your dists
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

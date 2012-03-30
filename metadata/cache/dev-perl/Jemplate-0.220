@@ -1,0 +1,22 @@
+>=dev-perl/Template-Toolkit-2.19
+>=dev-perl/Template-Toolkit-2.19
+0
+mirror://cpan/authors/id/R/RK/RKRIMEN/Jemplate-0.22.tar.gz
+
+http://search.cpan.org/dist/Jemplate/
+|| ( Artistic GPL-2 )
+JavaScript Templating with Template Toolkit
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

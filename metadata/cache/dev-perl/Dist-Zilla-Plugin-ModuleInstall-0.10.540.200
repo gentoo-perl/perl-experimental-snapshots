@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-Role-Tempdir-0.10.276.220 >=dev-perl/Module-Install-0.90 >=dev-perl/Moose-0.92 >=dev-perl/Moose-Autobox-0.10 dev-perl/namespace-autoclean >=virtual/perl-ExtUtils-MakeMaker-6.42 test? ( virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-Role-Tempdir-0.10.276.220 >=dev-perl/Module-Install-0.90 >=dev-perl/Moose-0.92 >=dev-perl/Moose-Autobox-0.10 dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-ModuleInstall-0.01054020.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-ModuleInstall/
+|| ( Artistic GPL-2 )
+Build Module::Install based Distributions with Dist::Zilla
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

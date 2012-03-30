@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Dist-Zilla-4.101.582 >=dev-perl/Dist-Zilla-1.7.0 >=virtual/perl-IPC-Cmd-0.580 >=dev-perl/Moose-1.07 >=dev-perl/MooseX-Types-URI-0.02 >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+DESCRIPTION=Automatically include GitHub meta information in META.yml
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-GithubMeta/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Dist-Zilla-4.101.582 >=dev-perl/Dist-Zilla-1.7.0 >=virtual/perl-IPC-Cmd-0.580 >=dev-perl/Moose-1.07 >=dev-perl/MooseX-Types-URI-0.02 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/Dist-Zilla-Plugin-GithubMeta-0.20.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=2af6ef4616d965b551a4a469df999d6c

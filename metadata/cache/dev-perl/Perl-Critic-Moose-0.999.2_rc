@@ -1,0 +1,22 @@
+>=dev-perl/Perl-Critic-1.98 dev-perl/Readonly >=dev-perl/Perl-Critic-1.98 virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/Perl-Critic-1.98 dev-perl/Readonly dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/E/EL/ELLIOTJS/Perl-Critic-Moose-0.999_002.tar.gz
+
+http://search.cpan.org/dist/Perl-Critic-Moose/
+|| ( Artistic GPL-2 )
+Policies for Perl::Critic concerned with using Moose, the "post-modern" object system for Perl.
+
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

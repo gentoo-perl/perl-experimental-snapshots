@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.86 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
+>=dev-perl/Moose-0.86 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RL/RLB/MooseX-Iterator-0.11.tar.gz
+
+http://search.cpan.org/dist/MooseX-Iterator/
+|| ( Artistic GPL-2 )
+Iterate over collections
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

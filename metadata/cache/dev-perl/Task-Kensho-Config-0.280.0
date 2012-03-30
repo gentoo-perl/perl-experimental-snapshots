@@ -1,0 +1,22 @@
+config_any? ( dev-perl/Config-Any ) config_general? ( dev-perl/config-general ) dev-lang/perl[-build]
+config_any? ( dev-perl/Config-Any ) config_general? ( dev-perl/config-general ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-Config-0.28.tar.gz
+
+http://search.cpan.org/dist/Task-Kensho-Config/
+|| ( Artistic GPL-2 )
+A glimpse at an Enlightened Perl (Config-handling Modules)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
++config_any +config_general
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

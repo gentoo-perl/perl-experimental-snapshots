@@ -1,0 +1,22 @@
+virtual/perl-Module-Build >=dev-perl/XML-LibXML-1.63 >=dev-perl/libwww-perl-2.0 >=dev-perl/Class-Accessor-0.30 >=dev-perl/URI-1.35 dev-lang/perl[-build]
+>=dev-perl/XML-LibXML-1.63 >=dev-perl/libwww-perl-2.0 >=dev-perl/Class-Accessor-0.30 >=dev-perl/URI-1.35 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BF/BFAIST/WebService-MusicBrainz-0.93.tar.gz
+
+http://search.cpan.org/dist/WebService-MusicBrainz/
+|| ( Artistic GPL-2 )
+Interface to MusicBrainz web services
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

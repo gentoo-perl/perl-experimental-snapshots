@@ -1,0 +1,22 @@
+>=dev-perl/Graphics-ColorNames-0.32 virtual/perl-Test-Simple dev-perl/Test-NoWarnings virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/Graphics-ColorNames-0.32 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CF/CFAERBER/Graphics-ColorNames-WWW-1.13.tar.gz
+
+http://search.cpan.org/dist/Graphics-ColorNames-WWW/
+|| ( Artistic GPL-2 )
+WWW color names and equivalent RGB values
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

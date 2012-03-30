@@ -1,0 +1,22 @@
+dev-perl/Sub-Exporter test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+dev-perl/Sub-Exporter dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/Check-ISA-0.04.tar.gz
+
+http://search.cpan.org/dist/Check-ISA/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+DWIM, correct checking of an object's class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=dev-lang/perl-5.8.8-r8 virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Path dev-perl/YAML-Syck virtual/perl-File-Spec virtual/perl-File-Temp virtual/perl-Scalar-List-Utils >=virtual/perl-Test-Harness-2.62 >=virtual/perl-Test-Simple-0.62 || ( dev-perl/libwww-perl >=virtual/perl-HTTP-Tiny-0.5.0 ) interesting? ( virtual/perl-MIME-Base64 virtual/perl-Digest-MD5 virtual/perl-Archive-Tar virtual/perl-HTTP-Tiny dev-perl/Archive-Zip dev-perl/Compress-Bzip2 virtual/perl-IO-Compress dev-perl/CPAN-Checksums virtual/perl-Digest-SHA virtual/perl-ExtUtils-CBuilder dev-perl/File-HomeDir dev-perl/File-Which virtual/perl-IO-Zlib dev-perl/libwww-perl virtual/perl-Module-Build dev-perl/Module-Signature virtual/perl-libnet virtual/perl-Parse-CPAN-Meta dev-perl/TermReadKey virtual/perl-Test-Simple dev-perl/Text-Glob virtual/perl-Text-Tabs+Wrap dev-perl/yaml dev-perl/YAML-LibYAML ) readline? ( || ( dev-perl/Term-ReadLine-Perl dev-perl/Term-ReadLine-Gnu ) ) dev-lang/perl[-build]
+>=dev-lang/perl-5.8.8-r8 virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Path dev-perl/YAML-Syck virtual/perl-File-Spec virtual/perl-File-Temp virtual/perl-Scalar-List-Utils >=virtual/perl-Test-Harness-2.62 >=virtual/perl-Test-Simple-0.62 || ( dev-perl/libwww-perl >=virtual/perl-HTTP-Tiny-0.5.0 ) interesting? ( virtual/perl-MIME-Base64 virtual/perl-Digest-MD5 virtual/perl-Archive-Tar virtual/perl-HTTP-Tiny dev-perl/Archive-Zip dev-perl/Compress-Bzip2 virtual/perl-IO-Compress dev-perl/CPAN-Checksums virtual/perl-Digest-SHA virtual/perl-ExtUtils-CBuilder dev-perl/File-HomeDir dev-perl/File-Which virtual/perl-IO-Zlib dev-perl/libwww-perl virtual/perl-Module-Build dev-perl/Module-Signature virtual/perl-libnet virtual/perl-Parse-CPAN-Meta dev-perl/TermReadKey virtual/perl-Test-Simple dev-perl/Text-Glob virtual/perl-Text-Tabs+Wrap dev-perl/yaml dev-perl/YAML-LibYAML ) readline? ( || ( dev-perl/Term-ReadLine-Perl dev-perl/Term-ReadLine-Gnu ) ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AN/ANDK/CPAN-1.9600.tar.gz
+
+http://search.cpan.org/dist/CPAN/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+query, download and build perl modules from CPAN sites
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+readline -interesting
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

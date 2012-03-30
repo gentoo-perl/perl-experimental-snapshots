@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Devel-Declare-0.004000 dev-perl/Devel-PartialDump dev-perl/Moose >=dev-perl/MooseX-Method-Signatures-0.290 >=dev-perl/MooseX-Types-VariantTable-0.03 dev-perl/Sub-Install dev-perl/aliased dev-perl/namespace-autoclean dev-lang/perl[-build]
+DESCRIPTION=Multi Method Dispatch based on Moose type constraints
+EAPI=2
+HOMEPAGE=http://search.cpan.org/dist/MooseX-MultiMethods/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Devel-Declare-0.004000 dev-perl/Devel-PartialDump dev-perl/Moose >=dev-perl/MooseX-Method-Signatures-0.290 >=dev-perl/MooseX-Types-VariantTable-0.03 dev-perl/Sub-Install dev-perl/aliased dev-perl/namespace-autoclean dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/MooseX-MultiMethods-0.10.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=d697a9fb4ba43392eb4d3937c99f35d2

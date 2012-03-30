@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.36 >=virtual/perl-ExtUtils-MakeMaker-6.36 dev-perl/Test-Deep dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.88 >=dev-perl/Catalyst-Runtime-5.800.0 dev-perl/MRO-Compat virtual/perl-Storable dev-perl/Task-Weaken dev-lang/perl[-build]
+DESCRIPTION=Flexible caching support for Catalyst.
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Cache/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.800.0 dev-perl/MRO-Compat virtual/perl-Storable dev-perl/Task-Weaken dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Cache-0.11.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=4ac455640b7d2868f3d9efcee017104b

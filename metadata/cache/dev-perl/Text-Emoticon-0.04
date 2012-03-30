@@ -1,0 +1,22 @@
+dev-perl/UNIVERSAL-require
+dev-perl/UNIVERSAL-require
+0
+mirror://cpan/authors/id/M/MI/MIYAGAWA/Text-Emoticon-0.04.tar.gz
+
+http://search.cpan.org/dist/Text-Emoticon/
+|| ( Artistic GPL-2 )
+Factory class for Yahoo! and MSN emoticons
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

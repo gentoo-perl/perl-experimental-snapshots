@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime >=dev-perl/Catalyst-Plugin-Authentication-0.100.30 >=dev-perl/Set-Object-1.14 >=dev-perl/UNIVERSAL-isa-0.05 dev-lang/perl[-build]
+dev-perl/Catalyst-Runtime >=dev-perl/Catalyst-Plugin-Authentication-0.100.30 >=dev-perl/Set-Object-1.14 >=dev-perl/UNIVERSAL-isa-0.05 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BR/BRICAS/Catalyst-Plugin-Authorization-Roles-0.07.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Authorization-Roles/
+|| ( Artistic GPL-2 )
+Role based authorization for Catalyst based on Catalyst::Plugin::Authentication
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+test? ( >=virtual/perl-Test-Simple-0.88 virtual/perl-Term-ANSIColor ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SZ/SZABGAB/Syntax-Highlight-Engine-Kate-0.06.tar.gz
+
+http://search.cpan.org/dist/Syntax-Highlight-Engine-Kate/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+a port to Perl of the syntax highlight engine of the Kate texteditor.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

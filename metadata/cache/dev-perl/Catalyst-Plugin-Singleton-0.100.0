@@ -1,0 +1,22 @@
+virtual/perl-Module-Build virtual/perl-Scalar-List-Utils dev-perl/MRO-Compat dev-lang/perl[-build]
+virtual/perl-Module-Build virtual/perl-Scalar-List-Utils dev-perl/MRO-Compat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Plugin-Singleton-0.1.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Singleton/
+|| ( Artistic GPL-2 )
+Singleton to context
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

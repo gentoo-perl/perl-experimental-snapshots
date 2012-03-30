@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Base virtual/perl-Test-Simple dev-perl/Plack dev-perl/Plack dev-perl/yaml virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+dev-perl/Plack dev-perl/Plack dev-perl/yaml virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DANJOU/Plack-Middleware-ReverseProxy-0.11.tar.gz
+
+http://search.cpan.org/dist/Plack-Middleware-ReverseProxy/
+|| ( Artistic GPL-2 )
+Supports app to run as a reverse proxy backend
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

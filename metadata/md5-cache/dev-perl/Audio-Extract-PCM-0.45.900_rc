@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=media-sound/sox >=dev-perl/IO-CaptureOutput-1.10 dev-perl/Class-Inspector dev-perl/Class-Accessor virtual/perl-version dev-perl/List-MoreUtils virtual/perl-Module-Build virtual/perl-IO-Compress test? ( virtual/perl-Test-Simple ) ogg? ( dev-perl/Ogg-Vorbis-Decoder ) sndfile? ( dev-perl/Audio-SndFile ) dev-lang/perl[-build]
+DESCRIPTION=Extract PCM data from audio files
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Audio-Extract-PCM/
+IUSE=test sndfile ogg
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=media-sound/sox >=dev-perl/IO-CaptureOutput-1.10 dev-perl/Class-Inspector dev-perl/Class-Accessor virtual/perl-version dev-perl/List-MoreUtils dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PEPE/Audio-Extract-PCM-0.04_59.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=139fc4a5ec17c4fc9ac3856d223e7491

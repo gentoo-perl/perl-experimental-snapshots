@@ -1,0 +1,22 @@
+dev-perl/gtk2-perl dev-perl/Readonly dev-perl/Sub-Exporter dev-perl/Clone dev-perl/Data-Compare dev-perl/Data-TreeDumper dev-perl/Compress-Bzip2 dev-perl/Data-TreeDumper-Renderer-GTK dev-perl/Eval-Context dev-perl/glib-perl dev-perl/List-MoreUtils virtual/perl-MIME-Base64 dev-perl/File-Slurp dev-perl/Algorithm-Diff dev-perl/Module-Util virtual/perl-Module-Build virtual/perl-Test-Simple virtual/perl-PodParser test? ( dev-perl/Test-NoWarnings dev-perl/Test-Warn ) dev-lang/perl[-build]
+dev-perl/gtk2-perl dev-perl/Readonly dev-perl/Sub-Exporter dev-perl/Clone dev-perl/Data-Compare dev-perl/Data-TreeDumper dev-perl/Compress-Bzip2 dev-perl/Data-TreeDumper-Renderer-GTK dev-perl/Eval-Context dev-perl/glib-perl dev-perl/List-MoreUtils virtual/perl-MIME-Base64 dev-perl/File-Slurp dev-perl/Algorithm-Diff dev-perl/Module-Util dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NK/NKH/App-Asciio-1.02.71.tar.gz
+
+http://search.cpan.org/dist/App-Asciio/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+gtk2-perl application to draw ASCII diagrams
+~x86 ~amd64
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

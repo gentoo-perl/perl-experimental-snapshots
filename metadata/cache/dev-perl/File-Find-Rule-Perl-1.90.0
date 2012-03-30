@@ -1,0 +1,22 @@
+virtual/perl-File-Spec dev-perl/File-Find-Rule >=dev-perl/Params-Util-0.38 virtual/perl-Parse-CPAN-Meta dev-lang/perl[-build]
+virtual/perl-File-Spec dev-perl/File-Find-Rule >=dev-perl/Params-Util-0.38 virtual/perl-Parse-CPAN-Meta dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/File-Find-Rule-Perl-1.09.tar.gz
+
+http://search.cpan.org/dist/File-Find-Rule-Perl/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Common rules for searching for Perl things
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

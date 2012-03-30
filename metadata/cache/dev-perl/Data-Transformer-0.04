@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/B/BA/BALDUR/Data-Transformer-0.04.tar.gz
+
+http://search.cpan.org/dist/Data-Transformer/
+|| ( Artistic GPL-2 )
+Traverse a data structure, altering it in place
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

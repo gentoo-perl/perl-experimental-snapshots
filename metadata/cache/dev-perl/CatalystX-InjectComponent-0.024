@@ -1,0 +1,22 @@
+dev-perl/Class-Inspector >=dev-perl/Catalyst-Runtime-5.800.0 test? ( dev-perl/Test-Most ) dev-lang/perl[-build]
+dev-perl/Class-Inspector >=dev-perl/Catalyst-Runtime-5.800.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RK/RKRIMEN/CatalystX-InjectComponent-0.024.tar.gz
+
+http://search.cpan.org/dist/CatalystX-InjectComponent/
+|| ( Artistic GPL-2 )
+Inject components into your Catalyst application
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

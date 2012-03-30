@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.31 dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Dumpvalue-1.15.tar.gz
+
+http://search.cpan.org/dist/Dumpvalue/
+|| ( Artistic GPL-2 )
+provides screen dump of Perl data.
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

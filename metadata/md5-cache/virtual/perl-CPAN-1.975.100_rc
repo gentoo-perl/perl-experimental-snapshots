@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for CPAN
+RDEPEND=~perl-core/CPAN-1.975.100_rc
+SLOT=0
+_md5_=1b40bb0f3a63f0d448315fff49c0c9ad

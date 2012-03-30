@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Test-Deep dev-perl/Test-Exception dev-perl/MRO-Compat
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Test-Deep dev-perl/Test-Exception dev-perl/MRO-Compat
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Cache-0.09.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Cache/
+|| ( Artistic GPL-2 )
+Flexible caching support for Catalyst
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

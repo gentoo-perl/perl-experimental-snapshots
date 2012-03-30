@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.56 >=dev-perl/MooseX-AttributeHelpers-0.13 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
+>=dev-perl/Moose-0.56 >=dev-perl/MooseX-AttributeHelpers-0.13 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PERIGRIN/MooseX-Async-0.07.tar.gz
+
+http://search.cpan.org/dist/MooseX-Async/
+|| ( Artistic GPL-2 )
+The Orphanange of Asynchronous Love Children
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

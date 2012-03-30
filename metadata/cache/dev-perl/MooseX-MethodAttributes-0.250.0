@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.98 >=dev-perl/MooseX-Types-0.210.0 >=dev-perl/namespace-clean-0.100.0 >=virtual/perl-ExtUtils-MakeMaker-6.56 test? ( dev-perl/Test-Exception dev-perl/namespace-autoclean >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.98 >=dev-perl/MooseX-Types-0.210.0 >=dev-perl/namespace-clean-0.100.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-MethodAttributes-0.25.tar.gz
+
+http://search.cpan.org/dist/MooseX-MethodAttributes/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Code atttribute introspection
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

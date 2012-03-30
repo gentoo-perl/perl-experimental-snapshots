@@ -1,0 +1,22 @@
+>=dev-perl/KiokuDB-0.240.0 >=dev-perl/MooseX-StrictConstructor-0.08 dev-lang/perl[-build]
+>=dev-perl/KiokuDB-0.240.0 >=dev-perl/MooseX-StrictConstructor-0.08 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/KiokuX-Model-0.02.tar.gz
+
+http://search.cpan.org/dist/KiokuX-Model/
+|| ( Artistic GPL-2 )
+A simple application specific wrapper for KiokuDB
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

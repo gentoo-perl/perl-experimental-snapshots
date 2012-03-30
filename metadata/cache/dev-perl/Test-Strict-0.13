@@ -1,0 +1,22 @@
+>=dev-perl/Devel-Cover-0.430.0 virtual/perl-File-Spec test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl[-build]
+>=dev-perl/Devel-Cover-0.430.0 virtual/perl-File-Spec dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PD/PDENIS/Test-Strict-0.13.tar.gz
+
+http://search.cpan.org/dist/Test-Strict/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Check syntax, presence of use strict; and test coverage
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

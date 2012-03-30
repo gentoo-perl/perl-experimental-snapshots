@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DL/DLAND/Data-PowerSet-0.05.tar.gz
+
+http://search.cpan.org/dist/Data-PowerSet/
+|| ( Artistic GPL-2 )
+Generate all subsets of a list of elements
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=dev-perl/log-dispatch-2.13 >=dev-perl/Catalyst-Runtime-5.650.0 dev-perl/UNIVERSAL-require test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=dev-perl/log-dispatch-2.13 >=dev-perl/Catalyst-Runtime-5.650.0 dev-perl/UNIVERSAL-require dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SH/SHOT/Catalyst-Plugin-Log-Dispatch-0.11.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Log-Dispatch/
+|| ( Artistic GPL-2 )
+Log module of Catalyst that uses Log::Dispatch
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

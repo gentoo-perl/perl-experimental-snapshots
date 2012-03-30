@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36 virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RE/REHSACK/Hash-MoreUtils-0.02.tar.gz
+
+http://search.cpan.org/dist/Hash-MoreUtils/
+|| ( Artistic GPL-2 )
+Provide the stuff missing in Hash::Util
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

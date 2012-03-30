@@ -1,0 +1,22 @@
+dev-perl/DBD-SQLite >=dev-perl/DBIx-Class-0.08108 >=dev-perl/HTML-FormFu-0.90.0 dev-perl/List-MoreUtils dev-perl/Task-Weaken dev-perl/YAML-Syck test? ( dev-perl/DateTime-Format-SQLite dev-perl/SQL-Translator ) dev-lang/perl[-build]
+dev-perl/DBD-SQLite >=dev-perl/DBIx-Class-0.08108 >=dev-perl/HTML-FormFu-0.90.0 dev-perl/List-MoreUtils dev-perl/Task-Weaken dev-perl/YAML-Syck dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CF/CFRANKS/HTML-FormFu-Model-DBIC-0.09000.tar.gz
+
+http://search.cpan.org/dist/HTML-FormFu-Model-DBIC/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+HTML Form Creation, Rendering and Validation Framework
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

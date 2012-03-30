@@ -1,0 +1,22 @@
+perl-core/Math-BigRat virtual/perl-Math-BigInt virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.950 virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.96 dev-perl/Test-Tester >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+perl-core/Math-BigRat virtual/perl-Math-BigInt virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.950 virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Number-Tolerant-1.701.tar.gz
+
+http://search.cpan.org/dist/Number-Tolerant/
+|| ( Artistic GPL-2 )
+tolerance ranges for inexact numbers
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/IO-CaptureOutput-1.08 >=virtual/perl-Test-Simple-0.62 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DAGOLDEN/Devel-Autoflush-0.05.tar.gz
+
+http://search.cpan.org/dist/Devel-Autoflush/
+|| ( Artistic GPL-2 )
+Set autoflush from the command line
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

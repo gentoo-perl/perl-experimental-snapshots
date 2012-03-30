@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=dev-perl/IRC-Utils-0.120.0 >=dev-perl/POE-1.311.0 dev-perl/POE-Component-Syndicator dev-perl/POE >=dev-perl/POE-Filter-IRCD-2.420.0 dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE >=dev-lang/perl-5.8.1 test? ( >=dev-perl/Test-Differences-0.610.0 >=virtual/perl-Test-Simple-0.47 ) dev-lang/perl[-build]
+>=dev-perl/IRC-Utils-0.120.0 >=dev-perl/POE-1.311.0 dev-perl/POE-Component-Syndicator dev-perl/POE >=dev-perl/POE-Filter-IRCD-2.420.0 dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE dev-perl/POE >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/H/HI/HINRIK/POE-Component-IRC-6.78.tar.gz
+
+http://search.cpan.org/dist/POE-Component-IRC/
+|| ( Artistic GPL-2 )
+A fully event-driven IRC client module
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

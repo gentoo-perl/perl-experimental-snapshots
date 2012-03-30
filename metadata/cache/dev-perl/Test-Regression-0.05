@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.35 dev-perl/Test-MockObject virtual/perl-File-Spec virtual/perl-Test-Simple dev-perl/Test-Differences dev-perl/Text-Diff dev-perl/Algorithm-Diff dev-lang/perl[-build]
+virtual/perl-Test-Simple dev-perl/Test-Differences dev-perl/Text-Diff dev-perl/Algorithm-Diff dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SI/SILASMONK/Test-Regression-0.05.tar.gz
+
+http://search.cpan.org/dist/Test-Regression/
+|| ( Artistic GPL-2 )
+A two-phase Test library. One: Generate outputs. Two: Compare them
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

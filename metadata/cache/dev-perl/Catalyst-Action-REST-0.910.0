@@ -1,0 +1,22 @@
+>=dev-perl/Moose-1.03 dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.300 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) test? ( >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+>=dev-perl/Moose-1.03 dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.300 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Action-REST-0.91.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Action-REST/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Automated REST Method Dispatching
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+json data-taxi config-general php freezethaw xml test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

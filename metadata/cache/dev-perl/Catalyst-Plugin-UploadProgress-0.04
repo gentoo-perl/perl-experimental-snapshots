@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime
+dev-perl/Catalyst-Runtime
+0
+mirror://cpan/authors/id/A/AG/AGRUNDMA/Catalyst-Plugin-UploadProgress-0.04.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-UploadProgress/
+|| ( Artistic GPL-2 )
+Realtime file upload information
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) test? ( dev-perl/Test-Deep dev-perl/Test-Exception dev-perl/Test-Requires >=virtual/perl-Test-Simple-0.88 >=dev-perl/Test-TempDir-0.02 json? ( >=dev-perl/Test-JSON-0.06 ) ) dev-lang/perl[-build]
+DESCRIPTION=An serialization framework for Moose classes
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/MooseX-Storage/
+IUSE=test +json +yaml +storable +file
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-Storage-0.28.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=88e88d425d3ffbb1484bcd7a7727f33b

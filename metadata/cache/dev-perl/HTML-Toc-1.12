@@ -1,0 +1,22 @@
+dev-perl/HTML-Parser test? ( dev-perl/Test-Differences ) dev-lang/perl[-build]
+dev-perl/HTML-Parser dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FV/FVULTO/HTML-Toc-1.12.tar.gz
+
+http://search.cpan.org/dist/HTML-Toc/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Generate, insert and update HTML Table of Content.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

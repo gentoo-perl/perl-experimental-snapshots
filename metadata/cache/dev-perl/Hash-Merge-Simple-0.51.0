@@ -1,0 +1,22 @@
+dev-perl/Clone >=virtual/perl-ExtUtils-MakeMaker-6.56 test? ( dev-perl/Test-Most dev-perl/Test-Deep virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/Clone dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
+
+http://search.cpan.org/dist/Hash-Merge-Simple/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Recursively merge two or more hashes, simply
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

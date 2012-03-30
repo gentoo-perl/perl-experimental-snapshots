@@ -1,0 +1,22 @@
+dev-perl/Devel-Caller >=dev-perl/Moose-0.58 >=dev-perl/Params-Validate-0.88 virtual/perl-Scalar-List-Utils dev-perl/Sub-Exporter >=dev-perl/Test-Fatal-0.001 >=virtual/perl-Test-Simple-0.88 >=virtual/perl-ExtUtils-MakeMaker-6.52 dev-lang/perl[-build]
+dev-perl/Devel-Caller >=dev-perl/Moose-0.58 >=dev-perl/Params-Validate-0.88 virtual/perl-Scalar-List-Utils dev-perl/Sub-Exporter dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-Params-Validate-0.16.tar.gz
+
+http://search.cpan.org/dist/MooseX-Params-Validate/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+an extension of Params::Validate for using Moose's types
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

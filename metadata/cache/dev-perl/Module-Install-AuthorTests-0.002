@@ -1,0 +1,22 @@
+dev-perl/Module-Install dev-lang/perl[-build]
+dev-perl/Module-Install dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Module-Install-AuthorTests-0.002.tar.gz
+
+http://search.cpan.org/dist/Module-Install-AuthorTests/
+|| ( Artistic GPL-2 )
+designate tests only run by module authors
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

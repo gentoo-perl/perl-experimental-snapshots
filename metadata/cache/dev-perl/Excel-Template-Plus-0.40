@@ -1,0 +1,22 @@
+dev-perl/Test-Exception virtual/perl-Module-Build dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.18 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
+dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.18 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/ST/STEVAN/Excel-Template-Plus-0.04.tar.gz
+
+http://search.cpan.org/dist/Excel-Template-Plus/
+|| ( Artistic GPL-2 )
+An extension to the Excel::Template module
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

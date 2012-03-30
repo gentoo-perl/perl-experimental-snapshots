@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-CBuilder-0.230.0 virtual/perl-File-Temp virtual/perl-File-Spec >=virtual/perl-Module-Build-0.360.0 test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl[-build]
+DESCRIPTION=A tool to build C libraries
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/ExtUtils-LibBuilder/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=virtual/perl-ExtUtils-CBuilder-0.230.0 virtual/perl-File-Temp virtual/perl-File-Spec dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/ExtUtils/ExtUtils-LibBuilder-0.04.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=082df75b91540ae4ac86f47227f0a20f

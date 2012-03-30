@@ -1,0 +1,22 @@
+>=virtual/perl-Pod-Simple-3.02 >=virtual/perl-Text-Tabs+Wrap-98.112.902 dev-perl/HTML-Parser virtual/perl-Module-Build virtual/perl-Test-Simple dev-lang/perl[-build]
+>=virtual/perl-Pod-Simple-3.02 >=virtual/perl-Text-Tabs+Wrap-98.112.902 dev-perl/HTML-Parser dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CH/CHROMATIC/Pod-PseudoPod-0.18.tar.gz
+
+http://search.cpan.org/dist/Pod-PseudoPod/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A framework for parsing PseudoPod
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

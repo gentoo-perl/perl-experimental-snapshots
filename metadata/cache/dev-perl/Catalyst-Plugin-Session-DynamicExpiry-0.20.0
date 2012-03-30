@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Plugin-Session-0.110.0
+>=dev-perl/Catalyst-Plugin-Session-0.110.0
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/Catalyst-Plugin-Session-DynamicExpiry-0.02.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-DynamicExpiry/
+|| ( Artistic GPL-2 )
+per-session custom expiry times
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

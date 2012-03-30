@@ -1,0 +1,22 @@
+dev-perl/Test-Pod-Coverage dev-perl/Devel-Declare dev-lang/perl[-build]
+dev-perl/Test-Pod-Coverage dev-perl/Devel-Declare dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RH/RHESA/Method-Signatures-Simple-0.05.tar.gz
+
+http://search.cpan.org/dist/Method-Signatures-Simple/
+|| ( Artistic GPL-2 )
+Basic method declarations with signatures, without source filters
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

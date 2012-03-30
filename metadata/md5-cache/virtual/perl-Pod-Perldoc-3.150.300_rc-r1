@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Pod-Perldoc
+RDEPEND==dev-lang/perl-5.14.0* !perl-core/Pod-Perldoc
+SLOT=0
+_md5_=69dd96b9ed1aadbdf6eebe5896ea52b6

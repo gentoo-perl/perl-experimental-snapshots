@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Moose-0.50 dev-perl/Set-Object dev-perl/MooseX-Types test? ( dev-perl/Test-use-ok dev-perl/Test-Exception ) dev-lang/perl[-build]
+DESCRIPTION=Set::Object type with coercions and stuff.
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/MooseX-Types-Set-Object/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Moose-0.50 dev-perl/Set-Object dev-perl/MooseX-Types dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/MooseX-Types-Set-Object-0.03.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=3e77fcc1d0616e0f8a55617aa78721fe

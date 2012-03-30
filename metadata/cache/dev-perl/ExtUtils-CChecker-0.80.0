@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-perl/Test-Fatal virtual/perl-Test-Simple virtual/perl-ExtUtils-CBuilder dev-lang/perl[-build]
+virtual/perl-ExtUtils-CBuilder dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/ExtUtils-CChecker-0.08.tar.gz
+
+http://search.cpan.org/dist/ExtUtils-CChecker/
+|| ( Artistic GPL-2 )
+configure-time utilities for using C headers, libraries, or OS features
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

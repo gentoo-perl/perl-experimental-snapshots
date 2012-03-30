@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/CSS-Tiny-1.19.tar.gz
+
+http://search.cpan.org/dist/CSS-Tiny/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Read/Write .css files with as little code as possible
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

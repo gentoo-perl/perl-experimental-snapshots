@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.660.0 >=dev-perl/RPC-XML-0.69
+>=dev-perl/Catalyst-Runtime-5.660.0 >=dev-perl/RPC-XML-0.69
+0
+mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Plugin-XMLRPC-2.01.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-XMLRPC/
+|| ( Artistic GPL-2 )
+DEPRECATED Dispatch XMLRPC methods with Catalyst
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

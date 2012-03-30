@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.570.0 >=dev-perl/GD-Barcode-1.15 dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.570.0 >=dev-perl/GD-Barcode-1.15 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Y/YA/YANA/Catalyst-View-GD-Barcode-0.05.tar.gz
+
+http://search.cpan.org/dist/Catalyst-View-GD-Barcode/
+|| ( Artistic GPL-2 )
+Make it easy to use GD::Barcode in Catalyst's View.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

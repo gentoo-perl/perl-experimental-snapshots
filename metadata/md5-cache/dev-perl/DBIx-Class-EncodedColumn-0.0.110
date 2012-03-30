@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) virtual/perl-Test-Simple dev-perl/DBD-SQLite dev-perl/Dir-Self virtual/perl-File-Spec dev-lang/perl[-build]
+DESCRIPTION=Automatic digest columns
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/DBIx-Class-EncodedColumn/
+IUSE=+md5 +sha +blowfish +gpg
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/W/WR/WREIS/DBIx-Class-EncodedColumn-0.00011.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=5c6985cd1361f67c8ff81332506eeaa0

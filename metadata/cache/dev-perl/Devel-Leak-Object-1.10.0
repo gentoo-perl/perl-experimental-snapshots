@@ -1,0 +1,22 @@
+>=virtual/perl-Scalar-List-Utils-1.19 test? ( >=virtual/perl-Test-Simple-0.42 ) dev-lang/perl[-build]
+>=virtual/perl-Scalar-List-Utils-1.19 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/Devel-Leak-Object-1.01.tar.gz
+
+http://search.cpan.org/dist/Devel-Leak-Object/
+|| ( Artistic GPL-2 )
+Detect leaks of objects
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

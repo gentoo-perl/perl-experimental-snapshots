@@ -1,0 +1,22 @@
+virtual/perl-File-Spec test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+virtual/perl-File-Spec dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Y/YA/YANNK/Find-Lib-1.03.tar.gz
+
+http://search.cpan.org/dist/Find-Lib/
+|| ( Artistic GPL-2 )
+Helper to smartly find libs to use in the filesystem tree
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

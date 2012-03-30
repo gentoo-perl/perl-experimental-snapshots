@@ -1,0 +1,22 @@
+smartcomments? ( dev-perl/Smart-Comments ) progressbarsimple? ( dev-perl/Term-ProgressBar-Simple ) ioall? ( dev-perl/IO-All ) dev-lang/perl[-build]
+smartcomments? ( dev-perl/Smart-Comments ) progressbarsimple? ( dev-perl/Term-ProgressBar-Simple ) ioall? ( dev-perl/IO-All ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-Hackery-0.27.tar.gz
+
+http://search.cpan.org/dist/Task-Kensho-Hackery/
+|| ( Artistic GPL-2 )
+A glimpse at an Enlightened Perl (script hackery)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
++smartcomments +progressbarsimple +ioall
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

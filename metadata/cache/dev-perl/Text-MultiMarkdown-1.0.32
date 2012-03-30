@@ -1,0 +1,22 @@
+>=dev-perl/Text-Markdown-1.0.26 test? ( >=virtual/perl-Test-Simple-0.42 dev-perl/Test-Exception dev-perl/Text-Diff dev-perl/List-MoreUtils ) dev-lang/perl[-build]
+>=dev-perl/Text-Markdown-1.0.26 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Text-MultiMarkdown-1.000032.tar.gz
+
+http://search.cpan.org/dist/Text-MultiMarkdown/
+|| ( Artistic GPL-2 )
+Convert MultiMarkdown syntax to (X)HTML
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

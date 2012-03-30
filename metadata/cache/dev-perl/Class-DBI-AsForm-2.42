@@ -1,0 +1,22 @@
+>=dev-perl/Class-DBI-0.94 >=dev-perl/DBI-1.21 dev-perl/HTML-Tree dev-perl/Class-DBI-Plugin-Type
+>=dev-perl/Class-DBI-0.94 >=dev-perl/DBI-1.21 dev-perl/HTML-Tree dev-perl/Class-DBI-Plugin-Type
+0
+mirror://cpan/authors/id/T/TM/TMTM/Class-DBI-AsForm-2.42.tar.gz
+
+http://search.cpan.org/dist/Class-DBI-AsForm/
+|| ( Artistic GPL-2 )
+Produce HTML form elements for database columns
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

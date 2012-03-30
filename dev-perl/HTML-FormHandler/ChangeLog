@@ -1,0 +1,138 @@
+# ChangeLog for dev-perl/HTML-FormHandler
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTML-FormHandler-0.400.40 (27 Mar 2012)
+
+  27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.400.40.ebuild:
+  Version Bump
+
+*HTML-FormHandler-0.360.30 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.360.30.ebuild:
+  Version Bump
+
+*HTML-FormHandler-0.350.30 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.350.30.ebuild:
+  Version Bump
+
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  HTML-FormHandler-0.330.10.ebuild, HTML-FormHandler-0.330.20.ebuild,
+  HTML-FormHandler-0.340.10.ebuild, HTML-FormHandler-0.350.0.ebuild,
+  HTML-FormHandler-0.350.10.ebuild, HTML-FormHandler-0.350.20.ebuild:
+  Fixdep File-ShareDir-Install
+
+*HTML-FormHandler-0.350.20 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.350.20.ebuild:
+  Version Bump
+
+*HTML-FormHandler-0.350.10 (31 Jul 2011)
+
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.350.10.ebuild:
+  Version Bump
+
+*HTML-FormHandler-0.350.0 (22 Jul 2011)
+
+  22 Jul 2011; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.350.0.ebuild:
+  Version bump
+
+*HTML-FormHandler-0.340.10 (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.340.10.ebuild:
+  Version Bump
+
+*HTML-FormHandler-0.330.20 (23 Feb 2011)
+
+  23 Feb 2011; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.330.20.ebuild:
+  Version bump
+
+  22 Feb 2011; Torsten Veller <tove@gentoo.org>
+  -HTML-FormHandler-0.31003.ebuild, -HTML-FormHandler-0.32001.ebuild,
+  -HTML-FormHandler-0.32002.ebuild, -HTML-FormHandler-0.32005.ebuild:
+  Cleanup
+
+*HTML-FormHandler-0.330.10 (22 Feb 2011)
+
+  22 Feb 2011; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.330.10.ebuild:
+  Version bump
+
+*HTML-FormHandler-0.32005 (04 Nov 2010)
+
+  04 Nov 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.32005.ebuild:
+  Version bump
+
+*HTML-FormHandler-0.32002 (05 Aug 2010)
+
+  05 Aug 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.32002.ebuild:
+  Version bump
+
+*HTML-FormHandler-0.32001 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.32001.ebuild:
+  Version bump
+
+  03 Jul 2010; Kent Fredric <kentfredric@gmail.com>
+  -HTML-FormHandler-0.27006.ebuild, -HTML-FormHandler-0.29002.ebuild,
+  -HTML-FormHandler-0.30001.ebuild:
+  Cleaned: Gone on CPAN
+
+*HTML-FormHandler-0.31003 (06 Jun 2010)
+
+  06 Jun 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.31003.ebuild:
+  Version bump
+
+  03 Jun 2010; Torsten Veller <tove@gentoo.org>
+  -HTML-FormHandler-0.29.ebuild, -HTML-FormHandler-0.28001.ebuild:
+  Removed from CPAN
+
+*HTML-FormHandler-0.30001 (10 Feb 2010)
+
+  10 Feb 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.30001.ebuild:
+  Version bump
+
+*HTML-FormHandler-0.29002 (29 Dec 2009)
+
+  29 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.29002.ebuild:
+  Version bumped
+
+*HTML-FormHandler-0.29 (10 Dec 2009)
+
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.29.ebuild:
+  Bumped
+
+*HTML-FormHandler-0.28001 (24 Nov 2009)
+
+  24 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  -HTML-FormHandler-0.27003.ebuild, +HTML-FormHandler-0.28001.ebuild:
+  Bump, Cleanup
+
+*HTML-FormHandler-0.27006 (14 Sep 2009)
+
+  14 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.27006.ebuild:
+  Bumped HFH 
+
+*HTML-FormHandler-0.27003 (03 Aug 2009)
+
+  03 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.27003.ebuild, +metadata.xml:
+  Addded
+

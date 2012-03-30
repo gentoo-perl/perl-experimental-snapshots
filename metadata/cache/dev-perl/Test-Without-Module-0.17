@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CO/CORION/Test-Without-Module-0.17.tar.gz
+
+http://search.cpan.org/dist/Test-Without-Module/
+|| ( Artistic GPL-2 )
+Test fallback behaviour in absence of modules
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

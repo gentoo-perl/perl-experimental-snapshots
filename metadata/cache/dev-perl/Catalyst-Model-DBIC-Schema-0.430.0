@@ -1,0 +1,22 @@
+>=dev-perl/DBIx-Class-0.08114 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-0.90 dev-perl/MooseX-Types dev-perl/namespace-autoclean dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 dev-perl/MooseX-NonMoose ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) test? ( >=virtual/perl-Test-Simple-0.94 dev-perl/Test-Exception ) dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.08114 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-0.90 dev-perl/MooseX-Types dev-perl/namespace-autoclean dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 dev-perl/MooseX-NonMoose ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RK/RKITOVER/Catalyst-Model-DBIC-Schema-0.43.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Model-DBIC-Schema/
+|| ( Artistic GPL-2 )
+DBIx::Class::Schema Model Class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+catalyst_helper caching replication test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

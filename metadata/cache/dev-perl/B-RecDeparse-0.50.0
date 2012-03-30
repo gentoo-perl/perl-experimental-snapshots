@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/V/VP/VPIT/B-RecDeparse-0.05.tar.gz
+
+http://search.cpan.org/dist/B-RecDeparse/
+|| ( Artistic GPL-2 )
+Deparse recursively into subroutines.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

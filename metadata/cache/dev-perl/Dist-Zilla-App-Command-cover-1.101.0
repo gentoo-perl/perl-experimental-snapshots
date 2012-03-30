@@ -1,0 +1,22 @@
+dev-perl/Dist-Zilla virtual/perl-File-Temp dev-perl/Path-Class dev-perl/File-chdir >=virtual/perl-ExtUtils-MakeMaker-6.56 virtual/perl-Scalar-List-Utils test? ( >=virtual/perl-Test-Simple-0.94 ) dev-lang/perl[-build]
+dev-perl/Dist-Zilla virtual/perl-File-Temp dev-perl/Path-Class dev-perl/File-chdir dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MARCEL/Dist-Zilla-App-Command-cover-1.101000.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-App-Command-cover/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Code coverage metrics for your distribution
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

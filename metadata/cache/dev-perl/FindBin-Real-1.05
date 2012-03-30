@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/S/ST/STRO/FindBin-Real-1.05.tar.gz
+
+http://search.cpan.org/dist/FindBin-Real/
+|| ( Artistic GPL-2 )
+Locate directory of original perl script
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

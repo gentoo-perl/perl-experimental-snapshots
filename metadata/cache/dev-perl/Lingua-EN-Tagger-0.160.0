@@ -1,0 +1,22 @@
+>=dev-perl/HTML-Parser-3.45 >=dev-perl/Lingua-Stem-0.81 dev-perl/Memoize-ExpireLRU dev-lang/perl[-build]
+>=dev-perl/HTML-Parser-3.45 >=dev-perl/Lingua-Stem-0.81 dev-perl/Memoize-ExpireLRU dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AC/ACOBURN/Lingua-EN-Tagger-0.16.tar.gz
+
+http://search.cpan.org/dist/Lingua-EN-Tagger/
+GPL-3
+Part-of-speech tagger for English natural language processing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

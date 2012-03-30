@@ -1,0 +1,22 @@
+
+|| ( =dev-lang/perl-5.14* =dev-lang/perl-5.12* =dev-lang/perl-5.10* ~perl-core/CPAN-1.960.0 )
+0
+
+
+
+
+Virtual for CPAN
+~amd64 ~x86
+
+
+
+
+
+
+
+-
+
+
+
+
+

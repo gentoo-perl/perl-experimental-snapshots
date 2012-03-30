@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/Pod-Plainer
+KEYWORDS=~x86 ~amd64
+RDEPEND=~dev-lang/perl-5.10.1 !perl-core/Pod-Plainer
+SLOT=0
+_md5_=9f346b806ad82a8cdef0c6e8192ed4b4

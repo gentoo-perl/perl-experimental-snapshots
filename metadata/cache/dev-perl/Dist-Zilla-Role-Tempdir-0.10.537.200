@@ -1,0 +1,22 @@
+>=virtual/perl-Digest-SHA-5.47 >=virtual/perl-digest-base-1.16 >=dev-perl/Dist-Zilla-2.0.0 >=dev-perl/File-Find-Rule-0.30 >=dev-perl/File-Slurp-9999.13 >=dev-perl/File-Tempdir-0.02 >=dev-perl/File-chdir-0.100.200 >=dev-perl/Moose-0.92 >=dev-perl/Path-Class-0.17 virtual/perl-Scalar-List-Utils >=dev-perl/namespace-autoclean-0.09 dev-perl/Dist-Zilla virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
+>=virtual/perl-Digest-SHA-5.47 >=virtual/perl-digest-base-1.16 >=dev-perl/Dist-Zilla-2.0.0 >=dev-perl/File-Find-Rule-0.30 >=dev-perl/File-Slurp-9999.13 >=dev-perl/File-Tempdir-0.02 >=dev-perl/File-chdir-0.100.200 >=dev-perl/Moose-0.92 >=dev-perl/Path-Class-0.17 virtual/perl-Scalar-List-Utils >=dev-perl/namespace-autoclean-0.09 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Role-Tempdir-0.01053720.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Role-Tempdir/
+|| ( Artistic GPL-2 )
+Shell Out and collect the result in a DZ plug-in.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

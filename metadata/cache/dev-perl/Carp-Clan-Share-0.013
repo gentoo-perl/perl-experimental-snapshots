@@ -1,0 +1,22 @@
+dev-perl/Carp-Clan
+dev-perl/Carp-Clan
+0
+mirror://cpan/authors/id/R/RK/RKRIMEN/Carp-Clan-Share-0.013.tar.gz
+
+http://search.cpan.org/dist/Carp-Clan-Share/
+|| ( Artistic GPL-2 )
+Share your Carp::Clan settings with your whole Clan
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

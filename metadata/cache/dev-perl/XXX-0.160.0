@@ -1,0 +1,22 @@
+dev-perl/yaml dev-lang/perl[-build]
+dev-perl/yaml dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/I/IN/INGY/XXX-0.16.tar.gz
+
+http://search.cpan.org/dist/XXX/
+|| ( Artistic GPL-2 )
+See your data in the nude
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

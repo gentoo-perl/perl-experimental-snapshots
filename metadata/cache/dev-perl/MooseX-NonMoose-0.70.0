@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.90 dev-lang/perl[-build]
+>=dev-perl/Moose-0.90 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DO/DOY/MooseX-NonMoose-0.07.tar.gz
+
+http://search.cpan.org/dist/MooseX-NonMoose/
+|| ( Artistic GPL-2 )
+easy subclassing of non-Moose classes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple dev-perl/Test-LongString dev-perl/Apache-Test ) perl-core/Module-Build >=dev-perl/CGI-Application-3.200.0 dev-perl/Exception-Class dev-perl/Exception-Class-TryCatch dev-lang/perl[-build]
+perl-core/Module-Build >=dev-perl/CGI-Application-3.200.0 dev-perl/Exception-Class dev-perl/Exception-Class-TryCatch dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MARKSTOS/CGI-Application-Dispatch-2.17.tar.gz
+
+http://search.cpan.org/dist/CGI-Application-Dispatch/
+|| ( Artistic GPL-2 )
+Framework for building reusable web-applications
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

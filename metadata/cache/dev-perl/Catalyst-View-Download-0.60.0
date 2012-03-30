@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime dev-perl/Text-CSV dev-perl/XML-Simple test? ( virtual/perl-Test-Simple dev-perl/Test-use-ok dev-perl/Test-WWW-Mechanize ) dev-lang/perl[-build]
+dev-perl/Catalyst-Runtime dev-perl/Text-CSV dev-perl/XML-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GA/GAUDEON/Catalyst-View-Download-0.06.tar.gz
+
+http://search.cpan.org/dist/Catalyst-View-Download/
+|| ( Artistic GPL-2 )
+Takes a nested array and outputs CSV formatted content.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-Test-Simple dev-perl/autobox virtual/perl-Module-Build dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CO/COWENS/autobox-dump-20090426.1746.tar.gz
+
+http://search.cpan.org/dist/autobox-dump/
+|| ( Artistic GPL-2 )
+human/perl readable strings from the results of an EXPR
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.56 dev-perl/Test-Class-Most dev-perl/Test-LongString dev-perl/Capture-Tiny dev-perl/Class-Unload dev-perl/Devel-GlobalDestruction virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/Guard dev-perl/IPC-System-Simple dev-perl/JSON >=dev-perl/Log-Any-0.80.0 virtual/perl-Memoize dev-perl/Method-Signatures-Simple >=dev-perl/Moose-1.15 >=dev-perl/MooseX-HasDefaults-0.30.0 >=dev-perl/MooseX-StrictConstructor-0.130.0 >=virtual/perl-Scalar-List-Utils-1.10.0 dev-perl/Try-Tiny dev-lang/perl[-build]
+dev-perl/Capture-Tiny dev-perl/Class-Unload dev-perl/Devel-GlobalDestruction virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/Guard dev-perl/IPC-System-Simple dev-perl/JSON >=dev-perl/Log-Any-0.80.0 virtual/perl-Memoize dev-perl/Method-Signatures-Simple >=dev-perl/Moose-1.15 >=dev-perl/MooseX-HasDefaults-0.30.0 >=dev-perl/MooseX-StrictConstructor-0.130.0 >=virtual/perl-Scalar-List-Utils-1.10.0 dev-perl/Try-Tiny dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JS/JSWARTZ/Mason-2.14.tar.gz
+
+http://search.cpan.org/dist/Mason/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Powerful, high-performance templating for the web and beyond
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

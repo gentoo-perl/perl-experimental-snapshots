@@ -1,0 +1,22 @@
+>=virtual/perl-Test-Simple-0.32 >=dev-perl/log-dispatch-2.00 >=dev-perl/AppConfig-1.52 dev-perl/IO-stringy >=virtual/perl-File-Temp-0.12 dev-lang/perl[-build]
+>=virtual/perl-Test-Simple-0.32 >=dev-perl/log-dispatch-2.00 >=dev-perl/AppConfig-1.52 dev-perl/IO-stringy >=virtual/perl-File-Temp-0.12 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MIYAGAWA/Log-Dispatch-Config-1.04.tar.gz
+
+http://search.cpan.org/dist/Log-Dispatch-Config/
+|| ( Artistic GPL-2 )
+Log4j for Perl
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

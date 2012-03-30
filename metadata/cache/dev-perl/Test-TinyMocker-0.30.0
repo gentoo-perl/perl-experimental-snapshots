@@ -1,0 +1,22 @@
+test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SU/SUKRIA/Test-TinyMocker-0.03.tar.gz
+
+http://search.cpan.org/dist/Test-TinyMocker/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A very simple tool to mock external modules
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

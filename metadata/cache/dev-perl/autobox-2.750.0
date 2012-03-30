@@ -1,0 +1,22 @@
+>=dev-perl/Scope-Guard-0.20 test? ( dev-perl/Test-Pod ) dev-lang/perl[-build]
+>=dev-perl/Scope-Guard-0.20 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CH/CHOCOLATE/autobox-2.75.tar.gz
+
+http://search.cpan.org/dist/autobox/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Call methods on native types
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

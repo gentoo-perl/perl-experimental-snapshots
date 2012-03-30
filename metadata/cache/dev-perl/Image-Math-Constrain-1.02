@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/A/AD/ADAMK/Image-Math-Constrain-1.02.tar.gz
+
+http://search.cpan.org/dist/Image-Math-Constrain/
+|| ( Artistic GPL-2 )
+Scaling math used in image size constraining (such as thumbnails)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

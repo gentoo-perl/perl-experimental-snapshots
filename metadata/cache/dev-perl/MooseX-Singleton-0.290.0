@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.88 dev-perl/Test-Requires >=dev-perl/Moose-1.100 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+>=dev-perl/Moose-1.100 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KA/KAARE/MooseX-Singleton-0.29.tar.gz
+
+http://search.cpan.org/dist/MooseX-Singleton/
+|| ( Artistic GPL-2 )
+turn your Moose class into a singleton
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

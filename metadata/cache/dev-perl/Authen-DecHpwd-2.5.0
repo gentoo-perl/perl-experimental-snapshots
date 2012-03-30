@@ -1,0 +1,22 @@
+dev-perl/Scalar-String >=dev-perl/Data-Integer-0.003 virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/Scalar-String >=dev-perl/Data-Integer-0.003 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Z/ZE/ZEFRAM/Authen-DecHpwd-2.005.tar.gz
+
+http://search.cpan.org/dist/Authen-DecHpwd/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+DEC VMS password hashing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

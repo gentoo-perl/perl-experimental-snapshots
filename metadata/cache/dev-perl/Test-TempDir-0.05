@@ -1,0 +1,22 @@
+test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+dev-perl/File-NFSLock virtual/perl-File-Path virtual/perl-File-Spec virtual/perl-File-Temp >=dev-perl/Moose-0.87 dev-perl/MooseX-Types-Path-Class >=dev-perl/namespace-clean-0.08 dev-perl/Path-Class dev-perl/Sub-Exporter dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Test-TempDir-0.05.tar.gz
+
+http://search.cpan.org/dist/Test-TempDir/
+|| ( Artistic GPL-2 )
+Temporary files support for testing.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

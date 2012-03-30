@@ -1,0 +1,22 @@
+>=dev-perl/Test-Class-0.33 >=dev-perl/Test-Most-0.21 >=virtual/perl-Module-Build-0.36 dev-lang/perl[-build]
+>=dev-perl/Test-Class-0.33 >=dev-perl/Test-Most-0.21 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/O/OV/OVID/Test-Class-Most-0.05.tar.gz
+
+http://search.cpan.org/dist/Test-Class-Most/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Test Classes the easy way
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

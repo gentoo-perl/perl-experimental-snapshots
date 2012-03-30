@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Spec >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+virtual/perl-File-Spec >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-Bootstrap-lib-0.01023601.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-Bootstrap-lib/
+|| ( Artistic GPL-2 )
+A minimal boot-strapping for Dist::Zilla Plug-ins.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

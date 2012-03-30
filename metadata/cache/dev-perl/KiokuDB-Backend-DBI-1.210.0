@@ -1,0 +1,22 @@
+dev-perl/DBIx-Class >=virtual/perl-ExtUtils-MakeMaker-6.30 >=dev-perl/SQL-Translator-0.110.60 dev-perl/Class-Accessor-Grouped >=dev-perl/DBI-1.607 >=dev-perl/DBIx-Class-0.81.270 dev-perl/DBIx-Class dev-perl/DBIx-Class dev-perl/DBIx-Class >=dev-perl/Data-Stream-Bulk-0.70.0 dev-perl/Data-Stream-Bulk dev-perl/JSON >=dev-perl/KiokuDB-0.460.0 dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/Moose dev-perl/Moose >=dev-perl/MooseX-Types-0.80.0 dev-perl/MooseX-Types dev-perl/SQL-Abstract virtual/perl-Scalar-List-Utils >=dev-perl/Search-GIN-0.70.0 dev-perl/Search-GIN >=virtual/perl-Test-Simple-0.88 dev-perl/Test-TempDir dev-perl/Test-use-ok dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-perl/namespace-clean dev-lang/perl dev-lang/perl test? ( dev-perl/DBD-SQLite dev-perl/DBI dev-perl/KiokuDB dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Test-Exception virtual/perl-Test-Simple dev-perl/Test-TempDir dev-perl/YAML-LibYAML dev-perl/Test-use-ok ) dev-lang/perl[-build]
+>=dev-perl/SQL-Translator-0.110.60 dev-perl/Class-Accessor-Grouped >=dev-perl/DBI-1.607 >=dev-perl/DBIx-Class-0.81.270 dev-perl/DBIx-Class dev-perl/DBIx-Class dev-perl/DBIx-Class >=dev-perl/Data-Stream-Bulk-0.70.0 dev-perl/Data-Stream-Bulk dev-perl/JSON >=dev-perl/KiokuDB-0.460.0 dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/KiokuDB dev-perl/Moose dev-perl/Moose >=dev-perl/MooseX-Types-0.80.0 dev-perl/MooseX-Types dev-perl/SQL-Abstract virtual/perl-Scalar-List-Utils >=dev-perl/Search-GIN-0.70.0 dev-perl/Search-GIN >=virtual/perl-Test-Simple-0.88 dev-perl/Test-TempDir dev-perl/Test-use-ok dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-perl/namespace-clean dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DO/DOY/KiokuDB-Backend-DBI-1.21.tar.gz
+
+http://search.cpan.org/dist/KiokuDB-Backend-DBI/
+|| ( Artistic GPL-2 )
+DBI backend for KiokuDB
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

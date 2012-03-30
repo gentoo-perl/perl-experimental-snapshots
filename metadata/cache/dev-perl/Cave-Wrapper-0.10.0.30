@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 dev-lang/perl dev-perl/Moose dev-perl/namespace-autoclean dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+dev-lang/perl dev-perl/Moose dev-perl/namespace-autoclean dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Cave-Wrapper-0.01000003.tar.gz
+
+http://search.cpan.org/dist/Cave-Wrapper/
+|| ( Artistic GPL-2 )
+A Wrapper to the Paludis cave Client.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

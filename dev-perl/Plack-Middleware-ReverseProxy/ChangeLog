@@ -1,0 +1,35 @@
+# ChangeLog for dev-perl/Plack-Middleware-ReverseProxy
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Plack-Middleware-ReverseProxy-0.110.0 (28 Feb 2012)
+
+  28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Plack-Middleware-ReverseProxy-0.110.0.ebuild:
+  Version Bump
+
+*Plack-Middleware-ReverseProxy-0.100.0 (27 Aug 2011)
+
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Plack-Middleware-ReverseProxy-0.100.0.ebuild:
+  Version bump
+
+*Plack-Middleware-ReverseProxy-0.90.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Plack-Middleware-ReverseProxy-0.90.0.ebuild:
+  Bump
+
+*Plack-Middleware-ReverseProxy-0.80.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -Plack-Middleware-ReverseProxy-0.80.ebuild,
+  +Plack-Middleware-ReverseProxy-0.80.0.ebuild:
+  Addzero
+
+*Plack-Middleware-ReverseProxy-0.80 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Plack-Middleware-ReverseProxy-0.80.ebuild, +metadata.xml:
+  Added
+

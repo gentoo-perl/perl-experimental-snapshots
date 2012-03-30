@@ -1,0 +1,22 @@
+>=dev-perl/Sub-Exporter-0.978 dev-perl/Sub-Name dev-lang/perl[-build]
+>=dev-perl/Sub-Exporter-0.978 dev-perl/Sub-Name dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Sub-Exporter-ForMethods-0.100050.tar.gz
+
+http://search.cpan.org/dist/Sub-Exporter-ForMethods/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+helper routines for using Sub::Exporter to build methods
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

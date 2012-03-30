@@ -1,0 +1,22 @@
+virtual/perl-Test-Simple virtual/perl-Module-Load virtual/perl-Scalar-List-Utils dev-perl/autobox virtual/perl-Module-Build dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CO/COWENS/autobox-List-Util-20090629.tar.gz
+
+http://search.cpan.org/dist/autobox-List-Util/
+|| ( Artistic GPL-2 )
+bring the List::Util functions to autobox
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

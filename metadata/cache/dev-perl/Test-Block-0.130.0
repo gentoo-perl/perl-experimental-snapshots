@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.380.0 >=virtual/perl-Test-Simple-0.47 >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-Exception-0.15 >=virtual/perl-Test-Simple-0.47 >=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+>=virtual/perl-Test-Simple-0.47 >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-Exception-0.15 >=virtual/perl-Test-Simple-0.47 >=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADIE/Test-Block-0.13.tar.gz
+
+http://search.cpan.org/dist/Test-Block/
+|| ( Artistic GPL-2 )
+DEPRECIATED: Specify fine granularity test plans
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

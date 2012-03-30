@@ -1,0 +1,22 @@
+>=dev-perl/Devel-Declare-0.004000 dev-perl/Devel-PartialDump dev-perl/Moose >=dev-perl/MooseX-Method-Signatures-0.240 >=dev-perl/MooseX-Types-VariantTable-0.02 dev-perl/Sub-Install dev-perl/aliased dev-perl/namespace-autoclean dev-lang/perl[-build]
+>=dev-perl/Devel-Declare-0.004000 dev-perl/Devel-PartialDump dev-perl/Moose >=dev-perl/MooseX-Method-Signatures-0.240 >=dev-perl/MooseX-Types-VariantTable-0.02 dev-perl/Sub-Install dev-perl/aliased dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/MooseX-MultiMethods-0.06.tar.gz
+
+http://search.cpan.org/dist/MooseX-MultiMethods/
+|| ( Artistic GPL-2 )
+Multi Method Dispatch based on Moose type constraints
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

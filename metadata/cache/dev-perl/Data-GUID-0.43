@@ -1,0 +1,22 @@
+>=dev-perl/Data-UUID-1.148 >=dev-perl/Sub-Exporter-0.90 >=dev-perl/Sub-Install-0.03 dev-lang/perl[-build]
+>=dev-perl/Data-UUID-1.148 >=dev-perl/Sub-Exporter-0.90 >=dev-perl/Sub-Install-0.03 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Data-GUID-0.043.tar.gz
+
+http://search.cpan.org/dist/Data-GUID/
+|| ( Artistic GPL-2 )
+Globally unique identifiers
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

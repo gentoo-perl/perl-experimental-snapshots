@@ -1,0 +1,22 @@
+virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.88 >=dev-perl/Dist-Zilla-4 dev-perl/Moose-Autobox dev-perl/Params-Util dev-perl/Sub-Exporter dev-perl/Try-Tiny dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-4 dev-perl/Moose-Autobox dev-perl/Params-Util dev-perl/Sub-Exporter dev-perl/Try-Tiny dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Util-Test-KENTNL-0.01000510.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Util-Test-KENTNL/
+|| ( Artistic GPL-2 )
+KENTNL's DZil plugin testing tool.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

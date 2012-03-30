@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Exception virtual/perl-Test-Simple >=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816.0 >=dev-perl/Moose-0.670 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.54 >=dev-perl/namespace-clean-0.090 >=dev-lang/perl-5.8.4 dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816.0 >=dev-perl/Moose-0.670 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.54 >=dev-perl/namespace-clean-0.090 >=dev-lang/perl-5.8.4 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/E/ED/EDENC/Test-WWW-Mechanize-Catalyst-0.56.tar.gz
+
+http://search.cpan.org/dist/Test-WWW-Mechanize-Catalyst/
+|| ( Artistic GPL-2 )
+Test::WWW::Mechanize for Catalyst
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

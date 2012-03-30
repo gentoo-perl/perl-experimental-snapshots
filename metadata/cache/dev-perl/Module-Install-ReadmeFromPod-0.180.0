@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.620.0 >=dev-perl/Capture-Tiny-0.05 >=virtual/perl-ExtUtils-MakeMaker-6.620.0 virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.47 >=dev-perl/Module-Install-1.0.0 dev-lang/perl virtual/perl-podlators >=virtual/perl-podlators-2.2.1 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+>=dev-perl/Module-Install-1.0.0 dev-lang/perl virtual/perl-podlators >=virtual/perl-podlators-2.2.1 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Module-Install-ReadmeFromPod-0.18.tar.gz
+
+http://search.cpan.org/dist/Module-Install-ReadmeFromPod/
+|| ( Artistic GPL-2 )
+A Module::Install extension to automatically convert POD to a README
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

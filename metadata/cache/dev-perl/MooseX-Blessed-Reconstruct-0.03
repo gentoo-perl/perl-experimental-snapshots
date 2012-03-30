@@ -1,0 +1,22 @@
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.93 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.90 dev-perl/namespace-clean test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.93 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.90 dev-perl/namespace-clean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/MooseX-Blessed-Reconstruct-0.03.tar.gz
+
+http://search.cpan.org/dist/MooseX-Blessed-Reconstruct/
+|| ( Artistic GPL-2 )
+A Data::Visitor for creating Moose objects from blessed placeholders
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

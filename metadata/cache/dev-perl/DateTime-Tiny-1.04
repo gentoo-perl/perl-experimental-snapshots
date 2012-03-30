@@ -1,0 +1,22 @@
+test? ( >=virtual/perl-Test-Simple-0.47 ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/DateTime-Tiny-1.04.tar.gz
+
+http://search.cpan.org/dist/DateTime-Tiny/
+|| ( Artistic GPL-2 )
+A date object, with as little code as possible
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

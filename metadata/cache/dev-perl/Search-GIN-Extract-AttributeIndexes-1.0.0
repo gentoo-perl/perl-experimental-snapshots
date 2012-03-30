@@ -1,0 +1,22 @@
+dev-perl/namespace-autoclean dev-perl/Moose virtual/perl-Scalar-List-Utils dev-perl/Search-GIN >=virtual/perl-Module-Build-0.36.01 dev-perl/Data-Dump virtual/perl-File-Temp dev-perl/MooseX-AttributeIndexes dev-perl/MooseX-Types >=virtual/perl-Test-Simple-0.96 dev-lang/perl[-build]
+dev-perl/namespace-autoclean dev-perl/Moose virtual/perl-Scalar-List-Utils dev-perl/Search-GIN dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Search-GIN-Extract-AttributeIndexes-1.0.0.tar.gz
+
+http://search.cpan.org/dist/Search-GIN-Extract-AttributeIndexes/
+|| ( Artistic GPL-2 )
+Automatically collect index metadata from MooseX::AttributeIndexes consuming models.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-Module-Build virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple virtual/perl-version dev-lang/perl[-build]
+DESCRIPTION=Add grammatical parsing features to Perl 5.10 regexes
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Regexp-Grammars/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Test-Simple virtual/perl-version dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DC/DCONWAY/Regexp-Grammars-1.015.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=684070db59c7057afe2b7f1236214432

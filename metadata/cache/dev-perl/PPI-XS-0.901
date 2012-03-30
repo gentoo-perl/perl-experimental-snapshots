@@ -1,0 +1,22 @@
+>=dev-perl/PPI-1.000 test? ( >=virtual/perl-File-Spec-0.82 >=virtual/perl-Test-Simple-0.47 ) dev-lang/perl[-build]
+>=dev-perl/PPI-1.000 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/PPI-XS-0.901.tar.gz
+
+http://search.cpan.org/dist/PPI-XS/
+|| ( Artistic GPL-2 )
+(Minor) XS acceleration for PPI
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

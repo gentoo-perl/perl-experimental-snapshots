@@ -1,0 +1,22 @@
+>=virtual/perl-Test-Simple-0.15 virtual/perl-Module-Build dev-lang/perl[-build]
+>=virtual/perl-Test-Simple-0.15 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MARKF/Test-utf8-0.02.tar.gz
+
+http://search.cpan.org/dist/Test-utf8/
+|| ( Artistic GPL-2 )
+handy utf8 tests
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

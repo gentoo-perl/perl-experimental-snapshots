@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.11.tar.gz
+
+http://search.cpan.org/dist/CPAN-DistnameInfo/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Extract distribution name and version from a distribution filename
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/Filter-Simple
+KEYWORDS=~x86 ~amd64
+RDEPEND=~perl-core/Filter-Simple-0.870.0
+SLOT=0
+_md5_=752da21e3f84e348d278516c8059fcc6

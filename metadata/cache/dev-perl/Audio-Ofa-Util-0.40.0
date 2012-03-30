@@ -1,0 +1,22 @@
+dev-perl/Audio-Ofa >=dev-perl/Audio-Extract-PCM-0.20.0 dev-perl/Class-Accessor dev-perl/XML-Simple dev-perl/WebService-MusicBrainz dev-perl/XML-LibXML virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/Audio-Ofa >=dev-perl/Audio-Extract-PCM-0.20.0 dev-perl/Class-Accessor dev-perl/XML-Simple dev-perl/WebService-MusicBrainz dev-perl/XML-LibXML dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEPE/Audio-Ofa-Util-0.04.tar.gz
+
+http://search.cpan.org/dist/Audio-Ofa-Util/
+|| ( GPL-2 GPL-3 )
+Retrieve audio fingerprints and metadata for unknown audio files
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

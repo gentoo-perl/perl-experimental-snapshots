@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.620.0 >=virtual/perl-ExtUtils-MakeMaker-6.620.0 >=virtual/perl-Test-Simple-0.42 >=app-editors/padre-0.920.0 >=dev-perl/Params-Util-1.40.0 >=dev-perl/perltidy-20101217.0.0 >=dev-lang/perl-5.8.2 dev-lang/perl[-build]
+>=app-editors/padre-0.920.0 >=dev-perl/Params-Util-1.40.0 >=dev-perl/perltidy-20101217.0.0 >=dev-lang/perl-5.8.2 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AZ/AZAWAWI/Padre-Plugin-PerlTidy-0.22.tar.gz
+
+http://search.cpan.org/dist/Padre-Plugin-PerlTidy/
+|| ( Artistic GPL-2 )
+Format perl files using Perl::Tidy
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

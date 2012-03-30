@@ -1,0 +1,22 @@
+dev-perl/Algorithm-Diff
+dev-perl/Algorithm-Diff
+0
+mirror://cpan/authors/id/Y/YA/YAPPO/String-Diff-0.04.tar.gz
+
+http://search.cpan.org/dist/String-Diff/
+|| ( Artistic GPL-2 )
+Simple diff to String
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

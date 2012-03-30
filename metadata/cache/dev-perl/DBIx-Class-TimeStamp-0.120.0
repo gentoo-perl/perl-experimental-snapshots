@@ -1,0 +1,22 @@
+dev-perl/DateTime dev-perl/DBIx-Class dev-perl/DBIx-Class-DynamicDefault dev-perl/DateTime-Format-MySQL dev-perl/Class-Accessor-Grouped dev-perl/DateTime-Format-SQLite virtual/perl-Time-HiRes dev-perl/Time-Warp dev-lang/perl[-build]
+dev-perl/DateTime dev-perl/DBIx-Class dev-perl/DBIx-Class-DynamicDefault dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/DBIx-Class-TimeStamp-0.12.tar.gz
+
+http://search.cpan.org/dist/DBIx-Class-TimeStamp/
+|| ( Artistic GPL-2 )
+DBIx::Class extension to update and create date and time based fields
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

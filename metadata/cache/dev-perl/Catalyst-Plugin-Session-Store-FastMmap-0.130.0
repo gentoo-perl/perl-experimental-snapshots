@@ -1,0 +1,22 @@
+>=dev-perl/Cache-FastMmap-1.290.0 >=dev-perl/Catalyst-Plugin-Session-0.270.0 dev-perl/Path-Class dev-perl/MRO-Compat virtual/perl-File-Spec virtual/perl-File-Temp dev-lang/perl[-build]
+>=dev-perl/Cache-FastMmap-1.290.0 >=dev-perl/Catalyst-Plugin-Session-0.270.0 dev-perl/Path-Class dev-perl/MRO-Compat virtual/perl-File-Spec virtual/perl-File-Temp dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MS/MSTROUT/Catalyst-Plugin-Session-Store-FastMmap-0.13.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-FastMmap/
+|| ( Artistic GPL-2 )
+FastMmap session storage backend.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+dev-perl/DateTime >=dev-perl/DateTime-Format-Builder-0.60 virtual/perl-Module-Build
+dev-perl/DateTime >=dev-perl/DateTime-Format-Builder-0.60
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/DateTime-Format-MySQL-0.04.tar.gz
+
+http://search.cpan.org/dist/DateTime-Format-MySQL/
+|| ( Artistic GPL-2 )
+Parse and format MySQL dates and times
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

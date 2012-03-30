@@ -1,0 +1,22 @@
+dev-perl/perl-ldap dev-perl/Convert-ASN1 dev-lang/perl[-build]
+dev-perl/perl-ldap dev-perl/Convert-ASN1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AA/AAR/Net-LDAP-Server-0.42.tar.gz
+
+http://search.cpan.org/dist/Net-LDAP-Server/
+|| ( Artistic GPL-2 )
+LDAP server side protocol handling
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

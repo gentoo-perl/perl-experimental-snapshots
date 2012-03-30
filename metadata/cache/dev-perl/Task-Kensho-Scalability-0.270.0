@@ -1,0 +1,22 @@
+chi? ( dev-perl/CHI ) dev-lang/perl[-build]
+chi? ( dev-perl/CHI ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-Scalability-0.27.tar.gz
+
+http://search.cpan.org/dist/Task-Kensho-Scalability/
+|| ( Artistic GPL-2 )
+A glimpse at an Enlightened Perl (scalability tools)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
++chi
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

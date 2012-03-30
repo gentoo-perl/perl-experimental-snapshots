@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-Module-Build virtual/perl-Test-Simple >=app-editors/padre-0.65 >=dev-perl/XML-LibXML-1.67 >=dev-perl/XML-Tidy-1 dev-perl/File-Slurp dev-lang/perl[-build]
+DESCRIPTION=Padre and XML
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/Padre-Plugin-XML/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=app-editors/padre-0.65 >=dev-perl/XML-LibXML-1.67 >=dev-perl/XML-Tidy-1 dev-perl/File-Slurp dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHORNY/Padre-Plugin-XML-0.10.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=a00556febd95cc2a1cae92605d9a3211

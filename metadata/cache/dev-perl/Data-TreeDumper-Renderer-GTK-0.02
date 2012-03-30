@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-perl/Cairo dev-perl/gtk2-perl dev-perl/glib-perl dev-perl/Data-TreeDumper dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NK/NKH/Data-TreeDumper-Renderer-GTK-0.02.tar.gz
+
+http://search.cpan.org/dist/Data-TreeDumper-Renderer-GTK/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Gtk2-TreeView renderer for Data-TreeDumper
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

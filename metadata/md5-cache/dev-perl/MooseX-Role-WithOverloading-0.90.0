@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.31 dev-perl/namespace-clean >=dev-perl/namespace-autoclean-0.09 dev-perl/MooseX-Types dev-perl/aliased >=dev-perl/Moose-1.15 test? ( >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+DESCRIPTION=Roles which support overloading
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/MooseX-Role-WithOverloading/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=dev-perl/namespace-clean >=dev-perl/namespace-autoclean-0.09 dev-perl/MooseX-Types dev-perl/aliased >=dev-perl/Moose-1.15 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/MooseX-Role-WithOverloading-0.09.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=e191ee5f064ebe5cfd837277379092ff

@@ -1,0 +1,22 @@
+virtual/perl-Text-Tabs+Wrap dev-perl/Devel-Size dev-perl/Check-ISA virtual/perl-Class-ISA dev-perl/Sort-Naturally dev-perl/Term-Size dev-lang/perl[-build]
+virtual/perl-Text-Tabs+Wrap dev-perl/Devel-Size dev-perl/Check-ISA virtual/perl-Class-ISA dev-perl/Sort-Naturally dev-perl/Term-Size dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NK/NKH/Data-TreeDumper-0.37.tar.gz
+
+http://search.cpan.org/dist/Data-TreeDumper/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Improved replacement for Data::Dumper. Powerful filtering capability
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

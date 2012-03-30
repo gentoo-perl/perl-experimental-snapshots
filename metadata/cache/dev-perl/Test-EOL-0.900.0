@@ -1,0 +1,22 @@
+virtual/perl-File-Spec virtual/perl-Test-Simple virtual/perl-File-Temp >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+virtual/perl-File-Spec virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Test-EOL-0.9.tar.gz
+
+http://search.cpan.org/dist/Test-EOL/
+|| ( Artistic GPL-2 )
+Check the correct line endings in your project
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-XSLoader virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-XSLoader dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/V/VP/VPIT/autovivification-0.10.tar.gz
+
+http://search.cpan.org/dist/autovivification/
+|| ( Artistic GPL-2 )
+Lexically disable autovivification.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

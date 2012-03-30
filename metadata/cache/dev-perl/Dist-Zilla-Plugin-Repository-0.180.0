@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-4.102.340 >=virtual/perl-Test-Simple-0.88 >=dev-perl/Dist-Zilla-4.102.340 >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-4.102.340 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FA/FAYLAND/Dist-Zilla-Plugin-Repository-0.18.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-Repository/
+|| ( Artistic GPL-2 )
+Automatically sets repository URL from svn/svk/Git checkout for Dist::Zilla
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

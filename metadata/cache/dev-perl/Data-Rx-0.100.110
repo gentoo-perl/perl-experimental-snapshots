@@ -1,0 +1,22 @@
+virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable >=virtual/perl-ExtUtils-MakeMaker-6.31 dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Data-Rx-0.100110.tar.gz
+
+http://search.cpan.org/dist/Data-Rx/
+|| ( Artistic GPL-2 )
+perl implementation of Rx schema system
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

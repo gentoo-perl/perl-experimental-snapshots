@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.31 dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Env-1.02.tar.gz
+
+http://search.cpan.org/dist/Env/
+|| ( Artistic GPL-2 )
+perl module that imports environment variables as scalars or arrays
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

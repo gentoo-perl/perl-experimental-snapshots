@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker dev-perl/Archive-Peek virtual/perl-IO-Compress dev-perl/CPAN-DistnameInfo dev-perl/File-Slurp dev-perl/Moose dev-perl/Path-Class dev-perl/PPI dev-perl/Test-InDistDir virtual/perl-Test-Simple virtual/perl-version dev-lang/perl[-build]
+dev-perl/Archive-Peek virtual/perl-IO-Compress dev-perl/CPAN-DistnameInfo dev-perl/File-Slurp dev-perl/Moose dev-perl/Path-Class dev-perl/PPI dev-perl/Test-InDistDir virtual/perl-Test-Simple virtual/perl-version dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MITHALDU/Parse-CPAN-Packages-2.35.tar.gz
+
+http://search.cpan.org/dist/Parse-CPAN-Packages/
+|| ( Artistic GPL-2 )
+Parse 02packages.details.txt.gz
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=virtual/perl-PodParser-0.3 >=virtual/perl-Module-Build-0.36 test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=virtual/perl-PodParser-0.3 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TJ/TJENNESS/Pod-LaTeX-0.59.tar.gz
+
+http://search.cpan.org/dist/Pod-LaTeX/
+|| ( Artistic GPL-2 )
+Convert Pod data to formatted Latex
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

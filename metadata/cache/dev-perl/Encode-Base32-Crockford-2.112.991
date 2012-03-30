@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 virtual/perl-Scalar-List-Utils dev-perl/Test-Warn dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils dev-perl/Test-Warn dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GB/GBARR/Encode-Base32-Crockford-2.112991.tar.gz
+
+http://search.cpan.org/dist/Encode-Base32-Crockford/
+|| ( Artistic GPL-2 )
+encode/decode numbers using Douglas Crockford's Base32 Encoding
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

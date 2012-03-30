@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GM/GMPASSOS/Object-MultiType-0.05.tar.gz
+
+http://search.cpan.org/dist/Object-MultiType/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Perl Objects as Hash, Array, Scalar, Code and Glob at the same time
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

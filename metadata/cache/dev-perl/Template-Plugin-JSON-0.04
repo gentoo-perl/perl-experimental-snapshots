@@ -1,0 +1,22 @@
+>=dev-perl/Template-Toolkit-2.20 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
+>=dev-perl/Template-Toolkit-2.20 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
+0
+mirror://cpan/authors/id/N/NU/NUFFIN/Template-Plugin-JSON-0.04.tar.gz
+
+http://search.cpan.org/dist/Template-Plugin-JSON/
+|| ( Artistic GPL-2 )
+Encodes text to be safe in JavaScript
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

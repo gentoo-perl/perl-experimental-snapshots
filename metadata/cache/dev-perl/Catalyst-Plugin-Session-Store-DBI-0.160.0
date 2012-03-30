@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.490.0 >=dev-perl/Catalyst-Plugin-Session-0.270.0 dev-perl/DBI virtual/perl-MIME-Base64 virtual/perl-Storable dev-perl/MRO-Compat test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.490.0 >=dev-perl/Catalyst-Plugin-Session-0.270.0 dev-perl/DBI virtual/perl-MIME-Base64 virtual/perl-Storable dev-perl/MRO-Compat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-DBI-0.16.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-DBI/
+|| ( Artistic GPL-2 )
+Store your sessions in a database
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean test? ( dev-perl/Test-Exception ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/MooseX-Lexical-Types-0.01.tar.gz
+
+http://search.cpan.org/dist/MooseX-Lexical-Types/
+|| ( Artistic GPL-2 )
+automatically validate lexicals against Moose type constraints
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

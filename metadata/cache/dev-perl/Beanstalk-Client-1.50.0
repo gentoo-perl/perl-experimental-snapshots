@@ -1,0 +1,22 @@
+dev-perl/YAML-Syck dev-perl/Error dev-perl/Class-Accessor dev-lang/perl[-build]
+dev-perl/YAML-Syck dev-perl/Error dev-perl/Class-Accessor dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GB/GBARR/Beanstalk-Client-1.05.tar.gz
+
+http://search.cpan.org/dist/Beanstalk-Client/
+|| ( Artistic GPL-2 )
+Client class to talk to beanstalkd server
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

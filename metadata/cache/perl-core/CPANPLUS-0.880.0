@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/K/KA/KANE/CPANPLUS-0.88.tar.gz
+
+http://search.cpan.org/dist/CPANPLUS/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+API & CLI access to the CPAN mirrors
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user versionator
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

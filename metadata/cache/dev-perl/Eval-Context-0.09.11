@@ -1,0 +1,22 @@
+dev-perl/Readonly dev-perl/Data-Compare dev-perl/Sub-Exporter dev-perl/Package-Generator dev-perl/Data-TreeDumper dev-perl/File-Slurp dev-perl/Sub-Install >=virtual/perl-Safe-2.16 >=virtual/perl-version-0.50 dev-perl/Data-TreeDumper virtual/perl-Module-Build dev-perl/Text-Diff dev-perl/Test-Block dev-perl/Test-Exception dev-perl/Test-NoWarnings dev-perl/Test-Warn dev-perl/Directory-Scratch-Structured dev-perl/Test-Output dev-lang/perl[-build]
+dev-perl/Readonly dev-perl/Data-Compare dev-perl/Sub-Exporter dev-perl/Package-Generator dev-perl/Data-TreeDumper dev-perl/File-Slurp dev-perl/Sub-Install >=virtual/perl-Safe-2.16 >=virtual/perl-version-0.50 dev-perl/Data-TreeDumper dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NK/NKH/Eval-Context-0.09.11.tar.gz
+
+http://search.cpan.org/dist/Eval-Context/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Evalute perl code in context wrapper
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

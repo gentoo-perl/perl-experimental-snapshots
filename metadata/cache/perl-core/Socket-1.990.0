@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-CBuilder >=virtual/perl-ExtUtils-Constant-0.230.0 virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+>=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/Socket-1.99.tar.gz
+
+http://search.cpan.org/dist/Socket/
+|| ( Artistic GPL-2 )
+networking constants and support functions
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

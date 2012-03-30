@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/J/JD/JDUNCAN/Regexp-Copy-0.06.tar.gz
+
+http://search.cpan.org/dist/Regexp-Copy/
+|| ( Artistic GPL-2 )
+copy Regexp objects
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

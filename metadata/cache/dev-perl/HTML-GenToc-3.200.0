@@ -1,0 +1,22 @@
+>=virtual/perl-Getopt-Long-2.34 dev-perl/HTML-Parser >=dev-perl/HTML-LinkList-0.150.100 >=dev-perl/HTML-SimpleParse-0.1 virtual/perl-PodParser >=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Temp virtual/perl-Test-Simple dev-lang/perl[-build]
+>=virtual/perl-Getopt-Long-2.34 dev-perl/HTML-Parser >=dev-perl/HTML-LinkList-0.150.100 >=dev-perl/HTML-SimpleParse-0.1 virtual/perl-PodParser dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RU/RUBYKAT/HTML-GenToc-3.20.tar.gz
+
+http://search.cpan.org/dist/HTML-GenToc/
+|| ( Artistic GPL-2 )
+Generate a Table of Contents for HTML documents.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

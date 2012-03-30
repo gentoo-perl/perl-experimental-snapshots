@@ -1,0 +1,22 @@
+
+|| ( =dev-lang/perl-5.10.1* =dev-lang/perl-5.12.2* =dev-lang/perl-5.14* ) !perl-core/Math-Complex
+0
+
+
+
+
+Virtual for perl-core/Math-Complex
+~x86 ~amd64
+
+
+
+
+
+
+
+-
+
+
+
+
+

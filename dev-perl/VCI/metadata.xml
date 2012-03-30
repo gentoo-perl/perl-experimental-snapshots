@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>dwc@pobox.com</email>
+        <name>Daniel Westermann-Clark</name>
+	</maintainer>
+	<use>
+		<flag name="bazaar"> Add support of the Bazaar VCS</flag>
+		<flag name="git"> Add support for the Git VCS</flag>
+		<flag name="mercurial"> Add support for the Mercurial VCS</flag>
+	</use>
+    <upstream>
+        <remote-id type="cpan">VCI</remote-id>
+    </upstream>
+</pkgmetadata>

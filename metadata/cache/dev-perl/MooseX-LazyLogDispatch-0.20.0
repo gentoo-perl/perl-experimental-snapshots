@@ -1,0 +1,22 @@
+dev-perl/Moose >=dev-perl/Log-Dispatch-Config-0.50.0 test? ( >=virtual/perl-Test-Simple-0.42 >=dev-perl/IO-stringy-2.110 ) dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/Log-Dispatch-Config-0.50.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BL/BLBLACK/MooseX-LazyLogDispatch-0.02.tar.gz
+
+http://search.cpan.org/dist/MooseX-LazyLogDispatch/
+|| ( Artistic GPL-2 )
+A Logging Role for Moose
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

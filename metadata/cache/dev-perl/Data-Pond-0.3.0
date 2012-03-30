@@ -1,0 +1,22 @@
+dev-perl/Params-Classify virtual/perl-parent xsmodule? ( virtual/perl-XSLoader ) virtual/perl-Module-Build >=dev-lang/perl-5.8.0 xsmodule? ( virtual/perl-ExtUtils-CBuilder ) dev-lang/perl[-build]
+dev-perl/Params-Classify virtual/perl-parent xsmodule? ( virtual/perl-XSLoader ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Z/ZE/ZEFRAM/Data-Pond-0.003.tar.gz
+
+http://search.cpan.org/dist/Data-Pond/
+|| ( Artistic GPL-2 )
+Perl-based open notation for data
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test +xsmodule
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

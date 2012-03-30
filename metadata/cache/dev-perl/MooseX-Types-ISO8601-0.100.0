@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.88 >=dev-perl/DateTime-0.41 >=dev-perl/DateTime-Format-Duration-1.30 dev-perl/List-MoreUtils >=dev-perl/Moose-0.790 >=dev-perl/MooseX-Types-0.100.0 >=dev-perl/MooseX-Types-DateTime-0.30.0 virtual/perl-Scalar-List-Utils dev-perl/Try-Tiny dev-perl/aliased >=dev-perl/namespace-autoclean-0.050 dev-lang/perl[-build]
+>=dev-perl/DateTime-0.41 >=dev-perl/DateTime-Format-Duration-1.30 dev-perl/List-MoreUtils >=dev-perl/Moose-0.790 >=dev-perl/MooseX-Types-0.100.0 >=dev-perl/MooseX-Types-DateTime-0.30.0 virtual/perl-Scalar-List-Utils dev-perl/Try-Tiny dev-perl/aliased >=dev-perl/namespace-autoclean-0.050 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DL/DLAMBLEY/MooseX-Types-ISO8601-0.10.tar.gz
+
+http://search.cpan.org/dist/MooseX-Types-ISO8601/
+|| ( Artistic GPL-2 )
+ISO8601 date and duration string type constraints and coercions for Moose
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-Scalar-List-Utils virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DC/DCONWAY/Class-Std-0.011.tar.gz
+
+http://search.cpan.org/dist/Class-Std/
+|| ( Artistic GPL-2 )
+Support for creating standard inside-out classes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

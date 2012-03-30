@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36 >=virtual/perl-Module-Build-0.36 >=virtual/perl-Test-Simple-0.17 >=dev-lang/perl-5.6.2 dev-lang/perl[-build]
+>=dev-lang/perl-5.6.2 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DW/DWHEELER/Encode-ZapCP1252-0.33.tar.gz
+
+http://search.cpan.org/dist/Encode-ZapCP1252/
+|| ( Artistic GPL-2 )
+Zap Windows Western Gremlins
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

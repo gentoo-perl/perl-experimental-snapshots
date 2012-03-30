@@ -1,0 +1,22 @@
+dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL test? ( dev-perl/Test-Expect ) dev-lang/perl[-build]
+dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/CatalystX-REPL-0.04.tar.gz
+
+http://search.cpan.org/dist/CatalystX-REPL/
+|| ( Artistic GPL-2 )
+read-eval-print-loop for debugging your Catalyst application
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

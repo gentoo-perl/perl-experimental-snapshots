@@ -1,0 +1,22 @@
+>=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-CPAN-Meta-YAML-0.100 dev-lang/perl[-build]
+>=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-CPAN-Meta-YAML-0.100 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BA/BARBIE/Test-YAML-Meta-0.18.tar.gz
+
+http://search.cpan.org/dist/Test-YAML-Meta/
+|| ( Artistic GPL-2 )
+Validation of the META.yml file in a distribution
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

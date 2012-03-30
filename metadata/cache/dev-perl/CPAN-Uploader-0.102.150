@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.56 virtual/perl-Test-Simple virtual/perl-File-Spec >=dev-perl/Getopt-Long-Descriptive-0.084 dev-perl/libwww-perl dev-perl/TermReadKey dev-lang/perl[-build]
+virtual/perl-File-Spec >=dev-perl/Getopt-Long-Descriptive-0.084 dev-perl/libwww-perl dev-perl/TermReadKey dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/CPAN-Uploader-0.102150.tar.gz
+
+http://search.cpan.org/dist/CPAN-Uploader/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+upload things to the CPAN
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

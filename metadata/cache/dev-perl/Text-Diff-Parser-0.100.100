@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GW/GWYN/Text-Diff-Parser-0.1001.tar.gz
+
+http://search.cpan.org/dist/Text-Diff-Parser/
+|| ( Artistic GPL-2 )
+Parse patch files containing unified and standard diffs
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

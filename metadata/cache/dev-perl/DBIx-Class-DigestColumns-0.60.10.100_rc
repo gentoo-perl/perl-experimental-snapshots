@@ -1,0 +1,22 @@
+>=dev-perl/DBIx-Class-0.81.210 virtual/perl-Digest-SHA virtual/perl-Digest-MD5 >=virtual/perl-digest-base-1.11 >=dev-perl/DBD-SQLite-1.25 virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.81.210 virtual/perl-Digest-SHA virtual/perl-Digest-MD5 >=virtual/perl-digest-base-1.11 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FR/FREW/DBIx-Class-DigestColumns-0.06001_01.tar.gz
+
+http://search.cpan.org/dist/DBIx-Class-DigestColumns/
+|| ( Artistic GPL-2 )
+Automatic digest columns.
+
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-IO virtual/perl-File-Spec >=virtual/perl-ExtUtils-MakeMaker-6.11 dev-lang/perl[-build]
+virtual/perl-IO virtual/perl-File-Spec dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GW/GWYN/File-ShareDir-Install-0.04.tar.gz
+
+http://search.cpan.org/dist/File-ShareDir-Install/
+|| ( Artistic GPL-2 )
+Install shared files
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

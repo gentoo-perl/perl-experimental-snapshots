@@ -1,0 +1,22 @@
+>=dev-perl/Exception-Class-1.29 || ( >=dev-perl/HTTP-Message-5.817.0 >=dev-perl/libwww-perl-5.817.0 ) >=virtual/perl-Scalar-List-Utils-1.220.0 virtual/perl-Module-Build test? ( >=virtual/perl-Test-Simple-0.88 >=dev-perl/Test-Exception-0.29 ) dev-lang/perl[-build]
+>=dev-perl/Exception-Class-1.29 || ( >=dev-perl/HTTP-Message-5.817.0 >=dev-perl/libwww-perl-5.817.0 ) >=virtual/perl-Scalar-List-Utils-1.220.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TM/TMUELLER/HTTP-Exception-0.03001.tar.gz
+
+http://search.cpan.org/dist/HTTP-Exception/
+|| ( Artistic GPL-2 )
+throw HTTP-Errors as (Exception::Class-) Exceptions
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

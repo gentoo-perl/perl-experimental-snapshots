@@ -1,0 +1,22 @@
+dev-perl/Test-Exception virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LU/LUKEC/mocked-0.09.tar.gz
+
+http://search.cpan.org/dist/mocked/
+|| ( Artistic GPL-2 )
+use mocked libraries in unit tests
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+dev-perl/Template-Toolkit virtual/perl-Encode dev-lang/perl[-build]
+dev-perl/Template-Toolkit virtual/perl-Encode dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MIYAGAWA/Template-Provider-Encoding-0.10.tar.gz
+
+http://search.cpan.org/dist/Template-Provider-Encoding/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Template plugin to specify encoding
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

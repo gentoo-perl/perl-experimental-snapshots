@@ -1,0 +1,22 @@
+>=virtual/perl-Devel-PPPort-3.190.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-Devel-PPPort-3.190.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-ParseXS-2.21.00 >=virtual/perl-Test-Simple-0.88 >=dev-perl/Test-Requires-0.03 >=virtual/perl-XSLoader-0.10 virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+>=virtual/perl-XSLoader-0.10 virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GF/GFUJI/Data-Clone-0.003.tar.gz
+
+http://search.cpan.org/dist/Data-Clone/
+|| ( Artistic GPL-2 )
+Polymorphic data cloning
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

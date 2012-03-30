@@ -1,0 +1,22 @@
+>=dev-perl/CGI-Cookie-XS-0.15
+>=dev-perl/CGI-Cookie-XS-0.15
+0
+mirror://cpan/authors/id/A/AG/AGENT/Cookie-XS-0.11.tar.gz
+
+http://search.cpan.org/dist/Cookie-XS/
+|| ( Artistic GPL-2 )
+(DEPRECATED) HTTP Cookie parser in C (Please use CGI::Cookie::XS instead)
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

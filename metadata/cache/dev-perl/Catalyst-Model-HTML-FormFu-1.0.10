@@ -1,0 +1,22 @@
+dev-perl/Best dev-perl/Catalyst-Runtime dev-perl/Config-Any dev-perl/Data-Visitor >=dev-perl/HTML-FormFu-0.20.0 dev-lang/perl[-build]
+dev-perl/Best dev-perl/Catalyst-Runtime dev-perl/Config-Any dev-perl/Data-Visitor >=dev-perl/HTML-FormFu-0.20.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DM/DMAKI/Catalyst-Model-HTML-FormFu-1.00001.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Model-HTML-FormFu/
+|| ( Artistic GPL-2 )
+FormFu In Your Model
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=dev-perl/B-Hooks-OP-Annotation-0.430.0 >=dev-perl/B-Hooks-OP-Check-0.18 >=dev-perl/Devel-StackTrace-1.270 >=dev-perl/extutils-depends-0.304 virtual/perl-ExtUtils-MakeMaker dev-lang/perl[-build]
+>=dev-perl/B-Hooks-OP-Annotation-0.430.0 >=dev-perl/B-Hooks-OP-Check-0.18 >=dev-perl/Devel-StackTrace-1.270 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CH/CHOCOLATE/true-0.18.tar.gz
+
+http://search.cpan.org/dist/true/
+|| ( Artistic GPL-2 )
+automatically return a true value when a file is required
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

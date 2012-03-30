@@ -1,0 +1,22 @@
+virtual/perl-Archive-Extract virtual/perl-Compress-Raw-Zlib dev-perl/Config-GitLike virtual/perl-IO-Compress dev-perl/Data-Stream-Bulk dev-perl/DateTime dev-perl/Digest-SHA1 dev-perl/File-Find-Rule dev-perl/IO-Digest dev-perl/Moose dev-perl/MooseX-StrictConstructor dev-perl/MooseX-Types-Path-Class dev-perl/namespace-autoclean test? ( >=virtual/perl-Test-Simple-0.88 >=dev-perl/Test-utf8-0.20.0 ) dev-lang/perl[-build]
+virtual/perl-Archive-Extract virtual/perl-Compress-Raw-Zlib dev-perl/Config-GitLike virtual/perl-IO-Compress dev-perl/Data-Stream-Bulk dev-perl/DateTime dev-perl/Digest-SHA1 dev-perl/File-Find-Rule dev-perl/IO-Digest dev-perl/Moose dev-perl/MooseX-StrictConstructor dev-perl/MooseX-Types-Path-Class dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Git-PurePerl-0.46.tar.gz
+
+http://search.cpan.org/dist/Git-PurePerl/
+|| ( Artistic GPL-2 )
+A Pure Perl interface to Git repositories
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple dev-perl/Test-Exception ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JR/JROCKWAY/Algorithm-IncludeExclude-0.01.tar.gz
+
+http://search.cpan.org/dist/Algorithm-IncludeExclude/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+build and evaluate include/exclude lists
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

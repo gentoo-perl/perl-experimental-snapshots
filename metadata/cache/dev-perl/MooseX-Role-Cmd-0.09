@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.90 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
+>=dev-perl/Moose-0.90 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/E/ED/EDENC/MooseX-Role-Cmd-0.09.tar.gz
+
+http://search.cpan.org/dist/MooseX-Role-Cmd/
+|| ( Artistic GPL-2 )
+Wrap system command binaries the Moose way
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

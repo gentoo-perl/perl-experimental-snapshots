@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BP/BPOWERS/Memoize-ExpireLRU-0.55.tar.gz
+
+http://search.cpan.org/dist/Memoize-ExpireLRU/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Expiry plug-in for Memoize that adds LRU cache expiration
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

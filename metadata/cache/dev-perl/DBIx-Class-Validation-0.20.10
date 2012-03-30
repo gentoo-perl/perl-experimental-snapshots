@@ -1,0 +1,22 @@
+>=dev-perl/DBIx-Class-0.07005 >=dev-perl/FormValidator-Simple-0.170.0 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.07005 >=dev-perl/FormValidator-Simple-0.170.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CL/CLACO/DBIx-Class-Validation-0.02001.tar.gz
+
+http://search.cpan.org/dist/DBIx-Class-Validation/
+|| ( Artistic GPL-2 )
+Validate all data before submitting to your database.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

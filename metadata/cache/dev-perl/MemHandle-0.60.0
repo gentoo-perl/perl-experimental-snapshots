@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SC/SCR/MemHandle-0.06.tar.gz
+
+http://search.cpan.org/dist/MemHandle/
+|| ( Artistic GPL-2 )
+supply memory-based FILEHANDLE methods
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

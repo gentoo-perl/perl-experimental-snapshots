@@ -1,0 +1,22 @@
+>=dev-perl/B-Hooks-OP-Check-0.14 dev-perl/extutils-depends dev-lang/perl[-build]
+>=dev-perl/B-Hooks-OP-Check-0.14 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/B-Hooks-OP-Check-StashChange-0.06.tar.gz
+
+http://search.cpan.org/dist/B-Hooks-OP-Check-StashChange/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Invoke callbacks when the stash code is being compiled in changes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

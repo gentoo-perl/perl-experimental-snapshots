@@ -1,0 +1,22 @@
+>=dev-perl/Mixin-Linewise-0.001 test? ( virtual/perl-Test-Simple dev-perl/Test-Deep ) dev-lang/perl[-build]
+>=dev-perl/Mixin-Linewise-0.001 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Pod-Eventual-0.093330.tar.gz
+
+http://search.cpan.org/dist/Pod-Eventual/
+|| ( Artistic GPL-2 )
+read a POD document as a series of trivial events
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

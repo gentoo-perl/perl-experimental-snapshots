@@ -1,0 +1,22 @@
+virtual/perl-IO-Compress dev-perl/CPAN-DistnameInfo dev-perl/Moose virtual/perl-version test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+virtual/perl-IO-Compress dev-perl/CPAN-DistnameInfo dev-perl/Moose virtual/perl-version dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LB/LBROCARD/Parse-CPAN-Packages-2.31.tar.gz
+
+http://search.cpan.org/dist/Parse-CPAN-Packages/
+|| ( Artistic GPL-2 )
+Parse 02packages.details.txt.gz
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

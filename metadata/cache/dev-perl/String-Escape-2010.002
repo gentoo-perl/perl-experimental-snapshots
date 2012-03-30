@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/E/EV/EVO/String-Escape-2010.002.tar.gz
+
+http://search.cpan.org/dist/String-Escape/
+|| ( Artistic GPL-2 )
+Backslash escapes, quoted phrase, word elision, etc.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

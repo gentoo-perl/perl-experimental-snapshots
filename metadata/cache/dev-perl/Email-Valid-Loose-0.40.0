@@ -1,0 +1,22 @@
+>=perl-core/Test-Simple-0.32 >=dev-perl/Email-Valid-0.13
+>=perl-core/Test-Simple-0.32 >=dev-perl/Email-Valid-0.13
+0
+mirror://cpan/authors/id/M/MI/MIYAGAWA/Email-Valid-Loose-0.04.tar.gz
+
+http://search.cpan.org/dist/Email-Valid-Loose/
+|| ( Artistic GPL-2 )
+Email::Valid which allows dot before at mark
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

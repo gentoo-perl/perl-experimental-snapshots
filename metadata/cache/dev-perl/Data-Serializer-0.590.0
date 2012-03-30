@@ -1,0 +1,22 @@
+virtual/perl-AutoLoader virtual/perl-IO virtual/perl-Digest-SHA virtual/perl-IO virtual/perl-Test-Simple virtual/perl-File-Spec virtual/perl-Module-Build dev-lang/perl[-build]
+virtual/perl-AutoLoader virtual/perl-IO virtual/perl-Digest-SHA dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NE/NEELY/Data-Serializer-0.59.tar.gz
+
+http://search.cpan.org/dist/Data-Serializer/
+|| ( Artistic GPL-2 )
+Modules that serialize data structures
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

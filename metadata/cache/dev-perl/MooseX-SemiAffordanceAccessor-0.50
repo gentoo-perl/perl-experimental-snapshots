@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.84 virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/Moose-0.84 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-SemiAffordanceAccessor-0.05.tar.gz
+
+http://search.cpan.org/dist/MooseX-SemiAffordanceAccessor/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Name your accessors foo() and set_foo()
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

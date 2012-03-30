@@ -1,0 +1,22 @@
+dev-perl/Class-Accessor dev-perl/Digest-HMAC dev-perl/libwww-perl dev-perl/LWP-UserAgent-Determined dev-perl/XML-Simple dev-perl/URI test? ( dev-perl/Digest-MD5-File ) dev-lang/perl[-build]
+dev-perl/Class-Accessor dev-perl/Digest-HMAC dev-perl/libwww-perl dev-perl/LWP-UserAgent-Determined dev-perl/XML-Simple dev-perl/URI dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TI/TIMA/Amazon-S3-0.45.tar.gz
+
+http://search.cpan.org/dist/Amazon-S3/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A portable client library for working with and managing Amazon S3 buckets and keys.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

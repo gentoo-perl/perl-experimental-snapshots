@@ -1,0 +1,30 @@
+# ChangeLog for dev-perl/Array-Diff
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Array-Diff-0.70.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com> -Array-Diff-0.70.ebuild,
+  +Array-Diff-0.70.0.ebuild:
+  Addzero
+
+*Array-Diff-0.70 (30 Jan 2011)
+*Array-Diff-0.50.20 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Array-Diff-0.50.20.ebuild,
+  +Array-Diff-0.70.ebuild, -Array-Diff-0.05002.ebuild,
+  -Array-Diff-0.07000.ebuild:
+  Migrate to new version scheme
+
+*Array-Diff-0.07000 (05 Nov 2010)
+
+  05 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +Array-Diff-0.07000.ebuild:
+  Bump
+
+*Array-Diff-0.05002 (22 May 2010)
+
+  22 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Array-Diff-0.05002.ebuild, +metadata.xml:
+  Added
+

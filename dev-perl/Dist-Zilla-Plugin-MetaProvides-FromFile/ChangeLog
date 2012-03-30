@@ -1,0 +1,34 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.602.90 (23 Feb 2012)
+
+  23 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.602.90.ebuild:
+  Version Bump
+
+  06 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.342.10.ebuild,
+  Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.602.80.ebuild:
+  Fixdep Dist-Zilla-Plugin-MetaProvides
+
+*Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.602.80 (05 Apr 2011)
+
+  05 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.602.80.ebuild:
+  Bump
+
+*Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.342.10 (05 Apr 2011)
+
+  05 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-FromFile-1.110.342.10.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-FromFile-1.11034201.ebuild:
+  Migrate
+
+*Dist-Zilla-Plugin-MetaProvides-FromFile-1.11034201 (18 Aug 2010)
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-FromFile-1.11034201.ebuild, +metadata.xml:
+  Added
+

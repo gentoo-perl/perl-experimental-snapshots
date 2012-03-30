@@ -1,0 +1,22 @@
+virtual/perl-digest-base virtual/perl-Scalar-List-Utils dev-perl/MRO-Compat >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Catalyst-Plugin-Session dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Action-RenderView test? ( virtual/perl-Test-Simple dev-perl/Test-use-ok ) dev-lang/perl[-build]
+virtual/perl-digest-base virtual/perl-Scalar-List-Utils dev-perl/MRO-Compat >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Catalyst-Plugin-Session dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Action-RenderView dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/H/HI/HIDE/Catalyst-Controller-RequestToken-0.06.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Controller-RequestToken/
+|| ( Artistic GPL-2 )
+Handling transaction token across forms
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

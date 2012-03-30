@@ -1,0 +1,22 @@
+dev-perl/MooseX-Types dev-perl/namespace-autoclean >=dev-perl/aliased-0.300.0 dev-perl/Moose dev-lang/perl[-build]
+dev-perl/MooseX-Types dev-perl/namespace-autoclean >=dev-perl/aliased-0.300.0 dev-perl/Moose dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/MooseX-LazyRequire-0.03.tar.gz
+
+http://search.cpan.org/dist/MooseX-LazyRequire/
+|| ( Artistic GPL-2 )
+Required attributes which fail only when trying to use them
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

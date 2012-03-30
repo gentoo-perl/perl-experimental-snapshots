@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SA/SAPER/Devel-SimpleTrace-0.08.tar.gz
+
+http://search.cpan.org/dist/Devel-SimpleTrace/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+See where you code warns and dies using stack traces
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

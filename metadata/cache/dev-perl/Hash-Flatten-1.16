@@ -1,0 +1,22 @@
+test? ( dev-perl/Test-Assertions dev-perl/Log-Trace dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BB/BBC/Hash-Flatten-1.16.tar.gz
+
+http://search.cpan.org/dist/Hash-Flatten/
+GPL-2
+flatten/unflatten complex data hashes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

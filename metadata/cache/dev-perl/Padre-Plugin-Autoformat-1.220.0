@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.01 dev-lang/perl[-build]
+app-editors/padre dev-perl/text-autoformat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AZ/AZAWAWI/Padre-Plugin-Autoformat-1.22.tar.gz
+
+http://search.cpan.org/dist/Padre-Plugin-Autoformat/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+reformat your text within Padre
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

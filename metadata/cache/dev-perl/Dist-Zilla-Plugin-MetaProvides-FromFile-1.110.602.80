@@ -1,0 +1,22 @@
+dev-perl/Class-Load dev-perl/Config-INI >=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.342.10 dev-perl/Moose dev-perl/Moose-Autobox dev-perl/namespace-autoclean >=dev-perl/Dist-Zilla-4.0 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
+dev-perl/Class-Load dev-perl/Config-INI >=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.342.10 dev-perl/Moose dev-perl/Moose-Autobox dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-MetaProvides-FromFile-1.11060208.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-MetaProvides-FromFile/
+|| ( Artistic GPL-2 )
+In the event nothing else works, pull in hand-crafted metadata from a specified file.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

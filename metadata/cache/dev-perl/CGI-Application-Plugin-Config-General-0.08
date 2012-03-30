@@ -1,0 +1,22 @@
+dev-perl/CGI-Application dev-perl/Config-General-Match
+dev-perl/CGI-Application dev-perl/Config-General-Match
+0
+mirror://cpan/authors/id/M/MG/MGRAHAM/CGI-Application-Plugin-Config-General-0.08.tar.gz
+
+http://search.cpan.org/dist/CGI-Application-Plugin-Config-General/
+|| ( Artistic GPL-2 )
+Add Config::General Support to CGI::Application
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

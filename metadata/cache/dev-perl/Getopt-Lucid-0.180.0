@@ -1,0 +1,22 @@
+>=dev-perl/Exception-Class-1.23 >=virtual/perl-Storable-2.16 >=dev-perl/Exception-Class-TryCatch-1.100.0 test? ( >=virtual/perl-Test-Simple-0.62 ) dev-lang/perl[-build]
+>=dev-perl/Exception-Class-1.23 >=virtual/perl-Storable-2.16 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DAGOLDEN/Getopt-Lucid-0.18.tar.gz
+
+http://search.cpan.org/dist/Getopt-Lucid/
+|| ( Artistic GPL-2 )
+Clear, readable syntax for command line processing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

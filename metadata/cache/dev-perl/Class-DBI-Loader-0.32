@@ -1,0 +1,22 @@
+>=dev-perl/Class-DBI-0.89 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect
+>=dev-perl/Class-DBI-0.89 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect
+0
+mirror://cpan/authors/id/D/DM/DMAKI/Class-DBI-Loader-0.32.tar.gz
+
+http://search.cpan.org/dist/Class-DBI-Loader/
+|| ( Artistic GPL-2 )
+Dynamic definition of Class::DBI sub classes.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+
+|| ( ~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2 ~dev-lang/perl-5.10.1 ) !perl-core/IPC-SysV
+0
+
+
+
+
+Virtual for perl-core/IPC-SysV
+~x86 ~amd64
+
+
+
+
+
+
+
+-
+
+
+
+
+

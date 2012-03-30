@@ -1,0 +1,82 @@
+# Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
+# Depend on Not-Yet-Available Module::Build 0.390.0
+=dev-perl/Catalyst-Plugin-Singleton-0.200.0
+
+# Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
+# Old virtuals only for 5.10.x 5.8.x
+=virtual/perl-Exporter-5.580.0
+=virtual/perl-Math-Complex-1.350.0
+=virtual/perl-B-Debug-1.110.0
+=virtual/perl-B-Lint-1.110.0
+=virtual/perl-constant-1.170.0
+=virtual/perl-CPANPLUS-Dist-Build-0.360.0
+=virtual/perl-Pod-Plainer-1.10.0
+=virtual/perl-Unicode-Collate-0.520.0
+=virtual/perl-Socket-1.820.0
+
+# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
+# Packages only available in 5.14.x
+=virtual/perl-i18n-langtags-0.350.100_rc
+=virtual/perl-i18n-langtags-0.350.100_rc-r1
+=virtual/perl-ExtUtils-MakeMaker-6.570.500_rc
+# =virtual/perl-File-Path-2.80.100_rc # 5.12.{0-4} also
+# =virtual/perl-IO-1.250.400_rc # 5.12.{0-4} also
+# =virtual/perl-Test-1.250.200_rc # 5.12.{0-4} also
+=virtual/perl-Time-HiRes-1.972.101_rc
+=virtual/perl-Time-Piece-1.200.100_rc
+=virtual/perl-Exporter-5.640.300_rc
+=virtual/perl-Socket-1.940.0
+
+# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
+# Packages only available in 5.14.0 and 5.14.1
+=virtual/perl-Data-Dumper-2.130.20_rc
+
+# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
+# Packages only available in 5.14.1
+=virtual/perl-Module-CoreList-2.490.100_rc
+
+# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
+# Packages only available in 5.14.2
+=virtual/perl-Encode-2.420.100_rc
+=virtual/perl-CPAN-1.960.1_rc
+=virtual/perl-Module-CoreList-2.490.200_rc
+
+# Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
+# Experimental Ebuilds for Perl-Core stuff
+perl-core/B-Debug
+virtual/perl-B-Debug
+perl-core/B-Lint
+virtual/perl-B-Lint
+perl-core/CPANPLUS-Dist-Build
+virtual/perl-CPANPLUS-Dist-Build
+perl-core/Devel-DProf
+virtual/perl-Devel-DProf
+perl-core/SelfLoader
+virtual/perl-SelfLoader
+perl-core/Dumpvalue
+virtual/perl-Dumpvalue
+perl-core/Filter-Simple
+virtual/perl-Filter-Simple
+perl-core/Devel-SelfStubber
+virtual/perl-Devel-SelfStubber
+perl-core/if
+virtual/perl-if
+perl-core/IPC-SysV
+virtual/perl-IPC-SysV
+perl-core/NEXT
+virtual/perl-NEXT
+perl-core/Pod-LaTeX
+virtual/perl-Pod-LaTeX
+perl-core/Pod-Plainer
+virtual/perl-Pod-Plainer
+perl-core/Unicode-Collate
+virtual/perl-Unicode-Collate
+perl-core/Unicode-Normalize
+virtual/perl-Unicode-Normalize
+perl-core/Math-Complex
+virtual/perl-Math-Complex
+
+# Torsten Veller <tove@gentoo.org> (09 Jan 2011)
+# Change version scheme. Latest version looks like a downgrade
+>=virtual/perl-CPANPLUS-0.9001
+>=perl-core/CPANPLUS-0.9001

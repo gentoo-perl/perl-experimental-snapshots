@@ -1,0 +1,22 @@
+dev-perl/Exception-Class dev-lang/perl[-build]
+dev-perl/Exception-Class dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DAGOLDEN/Exception-Class-TryCatch-1.11.tar.gz
+
+http://search.cpan.org/dist/Exception-Class-TryCatch/
+|| ( Artistic GPL-2 )
+Syntactic try/catch sugar for use with Exception::Class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

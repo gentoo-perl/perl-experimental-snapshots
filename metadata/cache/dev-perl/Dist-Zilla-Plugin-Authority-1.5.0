@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=dev-perl/Dist-Zilla-4.102.345 >=dev-perl/Dist-Zilla-4.102.345 >=dev-perl/Dist-Zilla-4.102.345 dev-perl/File-HomeDir virtual/perl-File-Spec >=dev-perl/Moose-1.30.0 >=dev-perl/Moose-1.10.0 >=dev-perl/PPI-1.206 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-4.102.345 >=dev-perl/Dist-Zilla-4.102.345 >=dev-perl/Dist-Zilla-4.102.345 dev-perl/File-HomeDir virtual/perl-File-Spec >=dev-perl/Moose-1.30.0 >=dev-perl/Moose-1.10.0 >=dev-perl/PPI-1.206 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AP/APOCAL/Dist-Zilla-Plugin-Authority-1.005.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-Authority/
+|| ( Artistic GPL-2 )
+Add the $AUTHORITY variable and metadata to your distribution
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

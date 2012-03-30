@@ -1,0 +1,22 @@
+dev-perl/Cache-Memcached net-misc/memcached dev-lang/perl[-build]
+dev-perl/Cache-Memcached net-misc/memcached dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/E/EL/ELIZABETH/Cache-Memcached-Managed-0.19.tar.gz
+
+http://search.cpan.org/dist/Cache-Memcached-Managed/
+|| ( Artistic GPL-2 )
+provide API for managing cached information
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

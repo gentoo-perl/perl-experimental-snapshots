@@ -1,0 +1,22 @@
+dev-perl/Pod-Coverage dev-perl/Pod-Eventual dev-lang/perl[-build]
+dev-perl/Pod-Coverage dev-perl/Pod-Eventual dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Pod-Coverage-TrustPod-0.092832.tar.gz
+
+http://search.cpan.org/dist/Pod-Coverage-TrustPod/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+allow a module's pod to contain Pod::Coverage hints
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

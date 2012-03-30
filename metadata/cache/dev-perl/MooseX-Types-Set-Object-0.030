@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.50 dev-perl/Set-Object dev-perl/MooseX-Types test? ( dev-perl/Test-use-ok dev-perl/Test-Exception ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.50 dev-perl/Set-Object dev-perl/MooseX-Types dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/MooseX-Types-Set-Object-0.03.tar.gz
+
+http://search.cpan.org/dist/MooseX-Types-Set-Object/
+|| ( Artistic GPL-2 )
+Set::Object type with coercions and stuff.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

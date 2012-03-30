@@ -1,0 +1,22 @@
+virtual/perl-Filter dev-lang/perl[-build]
+virtual/perl-Filter dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AG/AGENT/CGI-Cookie-XS-0.16.tar.gz
+
+http://search.cpan.org/dist/CGI-Cookie-XS/
+|| ( Artistic GPL-2 )
+HTTP Cookie parser in pure C
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

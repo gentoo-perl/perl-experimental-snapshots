@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.700.100 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.700.100 >=dev-perl/Params-Validate-0.76 >=dev-perl/YAML-Syck-0.67 virtual/perl-Module-Pluggable >=dev-perl/libwww-perl-2.33.0 >=dev-perl/Data-Serializer-0.360.0 >=dev-perl/Class-Inspector-1.13 dev-perl/URI-Find >=dev-perl/MRO-Compat-0.10 json? ( >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.2.2 ) data-taxi? ( dev-perl/Data-Taxi ) config-general? ( dev-perl/config-general ) php? ( dev-perl/PHP-Serialization ) freezethaw? ( dev-perl/FreezeThaw ) xml? ( dev-perl/XML-Simple ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Action-REST-0.81.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Action-REST/
+|| ( Artistic GPL-2 )
+Automated REST Method Dispatching
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+json data-taxi config-general php freezethaw xml
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+dev-perl/Carp-Clan-Share dev-perl/Config-Any dev-perl/Clone >=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Merge-Simple dev-perl/List-MoreUtils dev-perl/Moose dev-perl/MooseX-AttributeHelpers dev-perl/Path-Class dev-perl/Sub-Install test? ( dev-perl/Test-Most ) dev-lang/perl[-build]
+dev-perl/Carp-Clan-Share dev-perl/Config-Any dev-perl/Clone >=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Merge-Simple dev-perl/List-MoreUtils dev-perl/Moose dev-perl/MooseX-AttributeHelpers dev-perl/Path-Class dev-perl/Sub-Install dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RK/RKRIMEN/Config-JFDI-0.064.tar.gz
+
+http://search.cpan.org/dist/Config-JFDI/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Just * Do it: A Catalyst::Plugin::ConfigLoader-style layer over Config::Any
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

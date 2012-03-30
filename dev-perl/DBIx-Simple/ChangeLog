@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/DBIx-Simple
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBIx-Simple-1.350 (08 Jan 2011)
+
+  08 Jan 2011; Torsten Veller <tove@gentoo.org> +DBIx-Simple-1.350.ebuild:
+  Version bump

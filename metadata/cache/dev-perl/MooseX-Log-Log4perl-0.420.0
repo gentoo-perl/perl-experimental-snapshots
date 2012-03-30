@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.65 >=dev-perl/Log-Log4perl-1.13 dev-perl/IO-stringy virtual/perl-Test-Simple dev-lang/perl[-build]
+>=dev-perl/Moose-0.65 >=dev-perl/Log-Log4perl-1.13 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LA/LAMMEL/MooseX-Log-Log4perl-0.42.tar.gz
+
+http://search.cpan.org/dist/MooseX-Log-Log4perl/
+|| ( Artistic GPL-2 )
+A Logging Role for Moose based on Log::Log4perl
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,165 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using egencache *
+
+dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
+dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built
+dev-perl/CGI-Application:recommended - Install recommended support for PSGI with dev-perl/CGI-PSGI
+dev-perl/CGI-Application-Plugin-Authentication:recommended - Install recommended extras
+dev-perl/Catalyst-Action-REST:config-general - Config::General (text/x-config-general) support
+dev-perl/Catalyst-Action-REST:data-taxi - Data::Taxi (text/x-data-taxi) support
+dev-perl/Catalyst-Action-REST:freezethaw - FreezeThaw (application/x-freezethaw) support
+dev-perl/Catalyst-Action-REST:json - JSON (application/json) support
+dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms with dev-perl/Catalyst-View-TT
+dev-perl/Catalyst-Model-DBIC-Schema:caching - Caching support
+dev-perl/Catalyst-Model-DBIC-Schema:catalyst_helper - Catalyst::Helper support
+dev-perl/Catalyst-Model-DBIC-Schema:replication - Replication support
+dev-perl/Color-Calc:colorobject - Install Graphics::ColorObject
+dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
+dev-perl/DBIx-Class-EncodedColumn:blowfish - Support for Crypt::Eksblowfish
+dev-perl/DBIx-Class-EncodedColumn:gpg - Support for OpenPGP Encryption
+dev-perl/DBIx-Class-EncodedColumn:md5 - Support for Digest::MD5.
+dev-perl/DBIx-Class-EncodedColumn:sha - Support for Digest::SHA.
+dev-perl/DBIx-Class-Validation:recommended - Install recommended package Data::FormValidator
+dev-perl/Data-Pond:xsmodule - Pull dependencies required for building XS Version of the Module.
+dev-perl/Devel-Cover:recommended - Install packages recommended by Upstream for maximum utility
+dev-perl/Dist-Zilla-Plugin-MetaProvides:class - Install recommended ::Class to detect MooseX::Declares 'class'
+dev-perl/Dist-Zilla-Plugin-MetaProvides:fromfile - Install recommended ::FromFile library for hand-crated metadata
+dev-perl/Dist-Zilla-Plugin-MetaProvides:metanoindex - Install support libraries for meta_no_index feature
+dev-perl/Dist-Zilla-Plugin-MetaProvides:package - Install recommended ::Package for detecting class perl packages
+dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:metanoindex - Install support libraries for meta_no_index feature
+dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:metanoindex - Install support libraries for meta_no_index feature
+dev-perl/File-ChangeNotify:inotify - Pull in dev-perl/Linux-Inotify2 for linux Inotify Support
+dev-perl/Handel:catalystframework - Catalyst Support
+dev-perl/MojoMojo:amazonboxes - Amazon boxes
+dev-perl/MojoMojo:createdb - Create new Database automatically
+dev-perl/MojoMojo:docbook - DocBook formatter
+dev-perl/MojoMojo:emoticons - Emoticons
+dev-perl/MojoMojo:markdown - Markdown formatter
+dev-perl/MojoMojo:podformatter - POD formatterr
+dev-perl/MojoMojo:recaptcha - reCAPTCHA for anonymous edits
+dev-perl/MojoMojo:rssformatter - RSS Formatter
+dev-perl/MojoMojo:syntaxhighlight - Syntax Highlightert
+dev-perl/MojoMojo:transclusion - Transclusion support
+dev-perl/MooseX-Storage:file - Support for virtual/perl-IO
+dev-perl/MooseX-Storage:json - Support for storing as JSON viadev-perl/JSON-Any
+dev-perl/MooseX-Storage:storable - Support for virtual/perl-Storable
+dev-perl/MooseX-Storage:yaml - Support for storing as YAML via dev-perl/Best
+dev-perl/Object-ID:object_uuid - Unique object identifier using UUIDs
+dev-perl/Parse-BACKPAN-Packages:big-net-test - Permit connecting to the internet and BACKPAN to run a test that downloads 1MB of data or more
+dev-perl/Starman:recommended - Install recommended dependencies
+dev-perl/Task-Kensho:async - Asynchronous Programming
+dev-perl/Task-Kensho:basic-toolchain - Basic Toolchain
+dev-perl/Task-Kensho:cli - Useful Command-line Tools
+dev-perl/Task-Kensho:config - Config Modules
+dev-perl/Task-Kensho:crawl - Web Crawling
+dev-perl/Task-Kensho:date - Date Modules
+dev-perl/Task-Kensho:db - Database Development
+dev-perl/Task-Kensho:email - Email Tools
+dev-perl/Task-Kensho:exceptions - Exception Handling
+dev-perl/Task-Kensho:logging - Logging Tools
+dev-perl/Task-Kensho:module-devel - Module Development
+dev-perl/Task-Kensho:oop - Object Oriented Programming
+dev-perl/Task-Kensho:scalability - Scalarbility Tools
+dev-perl/Task-Kensho:scripting - Script Hackery
+dev-perl/Task-Kensho:spreadsheet - Excel/CSV Spreadsheet Tools
+dev-perl/Task-Kensho:testing - Testing
+dev-perl/Task-Kensho:webdev - Web Development
+dev-perl/Task-Kensho:xml - XML Processing
+dev-perl/Task-Kensho-Async:POE - Install POE
+dev-perl/Task-Kensho-CLI:ack - Install sys-apps/ack
+dev-perl/Task-Kensho-CLI:corelist - Install virtual/perl-Module-CoreList
+dev-perl/Task-Kensho-CLI:nopaste - Install dev-perl/App-Nopaste
+dev-perl/Task-Kensho-CLI:perlbrew - Install dev-perl/App-perlbrew
+dev-perl/Task-Kensho-CLI:repl - Install dev-perl/Devel-REPL
+dev-perl/Task-Kensho-Config:config_any - Install dev-perl/Config-Any
+dev-perl/Task-Kensho-Config:config_general - Install dev-perl/config-general
+dev-perl/Task-Kensho-DBDev:dbixclass - Install dev-perl/DBIx-Class
+dev-perl/Task-Kensho-DBDev:perl-dbi - Install dev-perl/DBI
+dev-perl/Task-Kensho-DBDev:schemaloader - Install dev-perl/DBIx-Class-Schema-Loader
+dev-perl/Task-Kensho-DBDev:sqlite - Install dev-perl/DBI-SQLite
+dev-perl/Task-Kensho-DBDev:sqlt - Install dev-perl/SQL-Translator
+dev-perl/Task-Kensho-Dates:datetime - Install dev-perl/DateTime
+dev-perl/Task-Kensho-Dates:datetimetiny - Install dev-perl/DateTime-Tiny
+dev-perl/Task-Kensho-Dates:datetiny - Install dev-perl/Date-Tiny
+dev-perl/Task-Kensho-Dates:timeparsedate - Install dev-perl/Time-modules which provides Time::ParseDate
+dev-perl/Task-Kensho-Dates:timetiny - Install dev-perl/Time-Tiny
+dev-perl/Task-Kensho-Email:emailmimekit - Install dev-perl/Email-MIME-Kit
+dev-perl/Task-Kensho-Email:emailsender - Install dev-perl/Email-Sender
+dev-perl/Task-Kensho-Email:emailsimple - Install dev-perl/Email-Simple
+dev-perl/Task-Kensho-Email:emailvalid - Install dev-perl/Email-Valid
+dev-perl/Task-Kensho-ExcelCSV:csv-xs - Install dev-perl/Text-CSV_XS
+dev-perl/Task-Kensho-ExcelCSV:parseexcelsimple - Install dev-perl/Spreadsheet-ParseExcel-Simple
+dev-perl/Task-Kensho-ExcelCSV:writeexcelsimple - Install dev-perl/Spreadsheet-WriteExcel-Simple
+dev-perl/Task-Kensho-Exceptions:autodie - Install dev-perl/autodie
+dev-perl/Task-Kensho-Exceptions:trycatch - Install dev-perl/TryCatch
+dev-perl/Task-Kensho-Exceptions:trytiny - Install dev-perl/Try-Tiny
+dev-perl/Task-Kensho-Hackery:ioall - Install dev-perl/IO-All
+dev-perl/Task-Kensho-Hackery:progressbarsimple - Install dev-perl/Term-ProgressBar-Simple
+dev-perl/Task-Kensho-Hackery:smartcomments - Install dev-perl/Smart-Comments
+dev-perl/Task-Kensho-Logging:log4perl - Install dev-perl/Log-Log4perl
+dev-perl/Task-Kensho-Logging:logcontextual - Install dev-perl/Log-Contextual
+dev-perl/Task-Kensho-Logging:logdispatch - Install dev-perl/log-dispatch
+dev-perl/Task-Kensho-ModuleDev:carpalways - Install dev-perl/Carp-Always
+dev-perl/Task-Kensho-ModuleDev:cpanuploader - Install dev-perl/CAPN-Uploader
+dev-perl/Task-Kensho-ModuleDev:dzil - Install dev-perl/Dist-Zilla
+dev-perl/Task-Kensho-ModuleDev:modernperl - Install dev-perl/Modern-Perl
+dev-perl/Task-Kensho-ModuleDev:moduleinstall - Install dev-perl/Module-Install
+dev-perl/Task-Kensho-ModuleDev:nytprof - Install dev-perl/Devel-NYTProf
+dev-perl/Task-Kensho-ModuleDev:perlcritic - Install dev-perl/Perl-Critic
+dev-perl/Task-Kensho-ModuleDev:perltidy - Install dev-perl/perltidy
+dev-perl/Task-Kensho-ModuleDev:perlversion - Install dev-perl/Perl-Version
+dev-perl/Task-Kensho-ModuleDev:podreadme - Install dev-perl/Pod-Readme
+dev-perl/Task-Kensho-ModuleDev:softwarelicense - Install dev-perl/Software-License
+dev-perl/Task-Kensho-OOP:moose - Install Moose and friends via dev-perl/Task-Moose
+dev-perl/Task-Kensho-Scalability:chi - Install dev-perl/CHI
+dev-perl/Task-Kensho-Testing:develcover - Install dev-perl/Devel-Cover
+dev-perl/Task-Kensho-Testing:testexception - Install dev-perl/Test-Exception
+dev-perl/Task-Kensho-Testing:testmemorycycle - Install dev-perl/Test-Memory-Cycle
+dev-perl/Task-Kensho-Testing:testmost - Install dev-perl/Test-Most
+dev-perl/Task-Kensho-Testing:testpod - Install dev-perl/Test-Pod
+dev-perl/Task-Kensho-Testing:testpodcoverage - Install dev-perl/Test-Pod-Coverage
+dev-perl/Task-Kensho-Testing:testsimple - Install Test::Simple/Test::More via virtual/perl-Test-Simple
+dev-perl/Task-Kensho-Toolchain:cpanm - Install dev-perl/App-cpanminus
+dev-perl/Task-Kensho-Toolchain:locallib - Install dev-perl/local-lib
+dev-perl/Task-Kensho-Toolchain:version - Install version.pm via virutal/perl-version
+dev-perl/Task-Kensho-WebCrawling:httplite - Install dev-perl/HTTP-Lite
+dev-perl/Task-Kensho-WebCrawling:lwp - Install LWP::* from dev-perl/libwww-perl
+dev-perl/Task-Kensho-WebCrawling:wwwmech - Install dev-perl/WWW-Mechanize
+dev-perl/Task-Kensho-WebCrawling:wwwmechtreebuilder - Install dev-perl/WWW-Mechanize-TreeBuilder
+dev-perl/Task-Kensho-WebDev:catalyst - Install Catalyst and friends via dev-perl/Task-Catalyst
+dev-perl/Task-Kensho-WebDev:cgi-formbuilder-perlconfig - Install dev-perl/CGI-FormBuilder-Source-Perl
+dev-perl/Task-Kensho-WebDev:mimetypes - Install dev-perl/MIME-Types
+dev-perl/Task-Kensho-WebDev:tt - Install Template Toolkit ( dev-perl/Template-Toolkit)
+dev-perl/Task-Kensho-WebDev:xmlatom - Install dev-perl/XML-Atom
+dev-perl/Task-Kensho-WebDev:xmlrss - Install dev-perl/XML-RSS
+dev-perl/Task-Kensho-XML:libxml - Install dev-perl/XML-LibXML
+dev-perl/Task-Kensho-XML:libxslt - Install dev-perl/XML-LibXSLT
+dev-perl/Task-Kensho-XML:sax - Install dev-perl/XML-SAX
+dev-perl/Task-Kensho-XML:saxwriter - Install dev-perl/XML-SAX-Writer
+dev-perl/Task-Kensho-XML:xmlgeneratorperldata - Install dev-perl/XML-Generator-PerlData
+dev-perl/Task-Moose:async - Install libraries for working with Moose Asynchronously
+dev-perl/Task-Moose:cli - Install Moose libraries that assist with Command Line Integration
+dev-perl/Task-Moose:declare - Install packages that provide Devel::Declare based declarative syntax.
+dev-perl/Task-Moose:instancetype - Install packages that provide Instance types for Moose.
+dev-perl/Task-Moose:logging - Install Moose logging libraries
+dev-perl/Task-Moose:other - Install other tools that are helpful with working with Moose
+dev-perl/Task-Moose:strict - Install packages that can make Moose stricter
+dev-perl/Task-Moose:traits - Install packages that facilitate working with Moose Roles/Types
+dev-perl/Task-Moose:types - Install various Moose Type extensions
+dev-perl/Task-Moose:utilroles - Install various utility roles for Moose
+dev-perl/Task-Moose:utils - Install utilities for working with Moose
+dev-perl/Test-YAML-Valid:yaml-syck - YAML::Syck support
+dev-perl/Test-YAML-Valid:yaml-tiny - YAML::Tiny support
+dev-perl/Test-YAML-Valid:yaml-xs - YAML::XS support
+dev-perl/VCI:bazaar - Add support of the Bazaar VCS
+dev-perl/VCI:git - Add support for the Git VCS
+dev-perl/VCI:mercurial - Add support for the Mercurial VCS
+dev-perl/autodie:system - Support for autodying system() via dev-perl/IPC-System-Simple
+perl-core/CPAN:interesting - Install non-essential but interesting packages to help with diagnostics
+perl-core/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
+perl-core/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.
+perl-core/CPANPLUS:selfupgrade - Pull more dependencies by emulating a "selfupgrade" scenario
+perl-core/CPANPLUS:signature - Install support for Module::Signature based SIGNATURE files
+perl-core/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache for CPANPLUS
+perl-core/CPANPLUS:storable - Install support for the "Storable" backend

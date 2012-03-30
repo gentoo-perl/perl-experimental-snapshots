@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-Digest-MD5 dev-lang/perl[-build]
+virtual/perl-Digest-MD5 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RH/RHANDOM/Template-Alloy-1.016.tar.gz
+
+http://search.cpan.org/dist/Template-Alloy/
+|| ( Artistic GPL-2 )
+TT2/3, HT, HTE, Tmpl, and Velocity Engine
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

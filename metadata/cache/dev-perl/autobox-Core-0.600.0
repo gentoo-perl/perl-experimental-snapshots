@@ -1,0 +1,22 @@
+>=dev-perl/autobox-0.110.0
+>=dev-perl/autobox-0.110.0
+0
+mirror://cpan/authors/id/S/SW/SWALTERS/autobox-Core-0.6.tar.gz
+
+http://search.cpan.org/dist/autobox-Core/
+|| ( Artistic GPL-2 )
+Methods for core built-in functions in primitive types
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

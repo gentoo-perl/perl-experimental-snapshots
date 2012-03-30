@@ -1,0 +1,22 @@
+virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MIYAGAWA/WWW-Shorten-Simple-0.01.tar.gz
+
+http://search.cpan.org/dist/WWW-Shorten-Simple/
+|| ( Artistic GPL-2 )
+Factory wrapper around WWW::Shorten to avoid imports
+~amd64 ~x86
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,26 @@
+# ChangeLog for dev-perl/Devel-Autoflush
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-Autoflush-0.50.0 (11 Feb 2012)
+
+  11 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Devel-Autoflush-0.50.ebuild, +Devel-Autoflush-0.50.0.ebuild:
+  AddZero
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  Devel-Autoflush-0.50.ebuild:
+  Fix dep on MB
+
+*Devel-Autoflush-0.50 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  -Devel-Autoflush-0.05.ebuild, +Devel-Autoflush-0.50.ebuild:
+  new version scheme
+
+*Devel-Autoflush-0.05 (23 Sep 2009)
+
+  23 Sep 2009; Michele Beltrame <m@cattlegrid.info>
+  +Devel-Autoflush-0.05.ebuild, +metadata.xml:
+  Init
+

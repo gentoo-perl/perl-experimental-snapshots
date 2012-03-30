@@ -1,0 +1,22 @@
+dev-perl/BerkeleyDB-Manager >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Class-Data-Inheritable dev-perl/MRO-Compat dev-perl/namespace-clean
+dev-perl/BerkeleyDB-Manager >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Class-Data-Inheritable dev-perl/MRO-Compat dev-perl/namespace-clean dev-perl/File-Remove dev-perl/Test-WWW-Mechanize-Catalyst dev-perl/Test-use-ok
+0
+mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-BerkeleyDB-0.04.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-BerkeleyDB/
+|| ( Artistic GPL-2 )
+store sessions in a berkeleydb
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

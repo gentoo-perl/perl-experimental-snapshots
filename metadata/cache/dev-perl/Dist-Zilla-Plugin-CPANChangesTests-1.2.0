@@ -1,0 +1,22 @@
+dev-perl/Dist-Zilla dev-perl/Moose dev-perl/CPAN-Changes >=dev-lang/perl-5.6.0 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.96 dev-lang/perl[-build]
+dev-perl/Dist-Zilla dev-perl/Moose dev-perl/CPAN-Changes >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RW/RWSTAUNER/Dist-Zilla-Plugin-CPANChangesTests-1.002.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-CPANChangesTests/
+|| ( Artistic GPL-2 )
+Add release tests using Test::CPAN::Changes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

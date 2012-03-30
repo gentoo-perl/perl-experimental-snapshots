@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Dist-Zilla-2.100.922 >=dev-perl/Dist-Zilla-2.100.860 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed >=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.120.0 >=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971 dev-perl/Dist-Zilla-Plugin-Repository >=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330 >=dev-perl/Dist-Zilla-2.100.960 >=dev-perl/Dist-Zilla-Plugin-Git-1.93.250 >=dev-perl/Dist-Zilla-2.101.40 dev-perl/Moose dev-perl/Moose-Autobox >=dev-perl/Pod-Elemental-0.92.970 dev-perl/Pod-Elemental-Transformer-List >=dev-perl/Pod-Weaver-3.100.310 >=dev-perl/Pod-Weaver-3.92.990 >=virtual/perl-ExtUtils-MakeMaker-6.56 >=virtual/perl-Test-Simple-0.96 dev-lang/perl[-build]
+DESCRIPTION=BeLike::RJBS when you build your dists
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-PluginBundle-RJBS/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Dist-Zilla-2.100.922 >=dev-perl/Dist-Zilla-2.100.860 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed >=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.120.0 >=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971 dev-perl/Dist-Zilla-Plugin-Repository >=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330 >=dev-perl/Dist-Zilla-2.100.960 >=dev-perl/Dist-Zilla-Plugin-Git-1.93.250 >=dev-perl/Dist-Zilla-2.101.40 dev-perl/Moose dev-perl/Moose-Autobox >=dev-perl/Pod-Elemental-0.92.970 dev-perl/Pod-Elemental-Transformer-List >=dev-perl/Pod-Weaver-3.100.310 >=dev-perl/Pod-Weaver-3.92.990 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Dist-Zilla-PluginBundle-RJBS-1.007.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=d375d2ebbdc57ea758b59c9b69514e91

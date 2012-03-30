@@ -1,0 +1,22 @@
+>=dev-perl/DBI-1.21 dev-lang/perl[-build]
+>=dev-perl/DBI-1.21 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JU/JUERD/DBIx-Simple-1.35.tar.gz
+
+http://search.cpan.org/dist/DBIx-Simple/
+|| ( Artistic GPL-2 )
+Easy-to-use OO interface to DBI
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

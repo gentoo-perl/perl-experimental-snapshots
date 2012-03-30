@@ -1,0 +1,22 @@
+>=dev-perl/Parse-RecDescent-1.94 >=dev-perl/Pod-Strip-1.0.0 virtual/perl-Module-Build virtual/perl-Test-Simple >=dev-perl/Test-Deep-0.087 dev-perl/Test-NoWarnings dev-perl/Test-Pod dev-perl/Test-Pod-Coverage dev-perl/UNIVERSAL-require dev-lang/perl[-build]
+>=dev-perl/Parse-RecDescent-1.94 >=dev-perl/Pod-Strip-1.0.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DO/DOMM/Module-ExtractUse-0.23.tar.gz
+
+http://search.cpan.org/dist/Module-ExtractUse/
+|| ( Artistic GPL-2 )
+Find out what modules are used
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

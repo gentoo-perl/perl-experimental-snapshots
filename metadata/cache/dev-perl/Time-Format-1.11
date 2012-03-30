@@ -1,0 +1,22 @@
+virtual/perl-Time-Local virtual/perl-Module-Build dev-lang/perl[-build]
+virtual/perl-Time-Local dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RO/ROODE/Time-Format-1.11.tar.gz
+
+http://search.cpan.org/dist/Time-Format/
+as-is
+Easy-to-use date/time formatting
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

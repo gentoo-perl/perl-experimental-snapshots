@@ -1,0 +1,22 @@
+>=dev-lang/perl-5.8.1 dev-perl/Module-Install >=dev-perl/HTML-Tree-3.23 dev-perl/Class-Accessor dev-perl/Class-Accessor-Chained dev-perl/Class-Data-Accessor dev-perl/HTML-Scrubber dev-perl/Module-Pluggable-Fast dev-perl/Email-Valid dev-perl/Date-Calc dev-perl/Test-NoWarnings
+>=dev-lang/perl-5.8.1 dev-perl/Module-Install >=dev-perl/HTML-Tree-3.23 dev-perl/Class-Accessor dev-perl/Class-Accessor-Chained dev-perl/Class-Data-Accessor dev-perl/HTML-Scrubber dev-perl/Module-Pluggable-Fast dev-perl/Email-Valid dev-perl/Date-Calc dev-perl/Test-NoWarnings
+0
+mirror://cpan/authors/id/C/CF/CFRANKS/HTML-Widget-1.11.tar.gz
+
+http://search.cpan.org/dist/HTML-Widget/
+|| ( Artistic GPL-2 )
+HTML Widget And Validation Framework
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

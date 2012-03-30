@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/Bit-Vector dev-perl/DateManip dev-perl/File-Slurp dev-perl/HTML-Parser >=dev-perl/HTML-Tree-0.51 dev-perl/libwww-perl dev-perl/URI dev-perl/User dev-lang/perl[-build]
+DESCRIPTION=Virtual base class for WWW searches
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/WWW-Search/
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=dev-perl/Bit-Vector dev-perl/DateManip dev-perl/File-Slurp dev-perl/HTML-Parser >=dev-perl/HTML-Tree-0.51 dev-perl/libwww-perl dev-perl/URI dev-perl/User dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MT/MTHURN/WWW-Search-2.508.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=ed4dd7025ce0f7476428c7312e16adeb

@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-perl/Class-Accessor dev-perl/HTML-Tree
+virtual/perl-Module-Build dev-perl/Class-Accessor dev-perl/HTML-Tree
+0
+mirror://cpan/authors/id/E/ES/ESSKAR/HTML-Prototype-1.47.tar.gz
+
+http://search.cpan.org/dist/HTML-Prototype/
+|| ( Artistic GPL-2 )
+Generate HTML and Javascript for the Prototype library
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 dev-perl/Dist-Zilla dev-perl/Dist-Zilla virtual/perl-Encode virtual/perl-IO dev-perl/Moose dev-perl/Moose-Autobox virtual/perl-podlators test? ( dev-lang/perl virtual/perl-File-Temp virtual/perl-Test-Simple dev-lang/perl dev-lang/perl ) dev-lang/perl[-build]
+dev-perl/Dist-Zilla dev-perl/Dist-Zilla virtual/perl-Encode virtual/perl-IO dev-perl/Moose dev-perl/Moose-Autobox virtual/perl-podlators dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FA/FAYLAND/Dist-Zilla-Plugin-ReadmeFromPod-0.16.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-ReadmeFromPod/
+|| ( Artistic GPL-2 )
+Automatically convert POD to a README for Dist::Zilla
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

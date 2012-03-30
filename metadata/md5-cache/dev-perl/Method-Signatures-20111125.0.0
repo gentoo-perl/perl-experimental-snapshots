@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Module-Build-0.26 >=virtual/perl-Module-Build-0.26 >=virtual/perl-Test-Simple-0.82 >=dev-perl/Test-Exception-0.290.0 >=virtual/perl-Test-Simple-0.82 >=dev-perl/Test-Warn-0.10 >=dev-perl/Any-Moose-0.11 >=dev-perl/Const-Fast-0.6.0 >=dev-perl/Data-Alias-1.80.0 >=dev-perl/Devel-BeginLift-0.1.1 >=dev-perl/Devel-Declare-0.6.2 >=dev-perl/Devel-Declare-0.6.2 >=dev-perl/Devel-Pragma-0.400.0 >=dev-perl/Mouse-0.640.0 >=dev-perl/PPI-1.203 >=dev-perl/Sub-Name-0.03 >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+DESCRIPTION=method and function declarations with signatures and no source filter
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Method-Signatures/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Any-Moose-0.11 >=dev-perl/Const-Fast-0.6.0 >=dev-perl/Data-Alias-1.80.0 >=dev-perl/Devel-BeginLift-0.1.1 >=dev-perl/Devel-Declare-0.6.2 >=dev-perl/Devel-Declare-0.6.2 >=dev-perl/Devel-Pragma-0.400.0 >=dev-perl/Mouse-0.640.0 >=dev-perl/PPI-1.203 >=dev-perl/Sub-Name-0.03 >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BA/BAREFOOT/Method-Signatures-20111125.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=c07a168f91738656b6c1bcd62cd23b66

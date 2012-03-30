@@ -1,0 +1,22 @@
+dev-perl/Test-WWW-Mechanize-Catalyst dev-perl/IO-stringy dev-perl/Test-use-ok >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/MRO-Compat dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/MRO-Compat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Unicode-0.92.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Unicode/
+|| ( Artistic GPL-2 )
+Unicode aware Catalyst
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

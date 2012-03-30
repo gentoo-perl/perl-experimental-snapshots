@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.63 >=dev-perl/MooseX-Types-0.08 >=dev-perl/Devel-PartialDump-0.100.0 >=dev-perl/Sub-Exporter-0.982 test? ( >=dev-perl/Test-Exception-0.27 ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.63 >=dev-perl/MooseX-Types-0.08 >=dev-perl/Devel-PartialDump-0.100.0 >=dev-perl/Sub-Exporter-0.982 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JJ/JJNAPIORK/MooseX-Types-Structured-0.21.tar.gz
+
+http://search.cpan.org/dist/MooseX-Types-Structured/
+|| ( Artistic GPL-2 )
+Structured Type Constraints for Moose
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

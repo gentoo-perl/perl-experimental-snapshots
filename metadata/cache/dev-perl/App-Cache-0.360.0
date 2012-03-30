@@ -1,0 +1,22 @@
+dev-perl/File-Find-Rule dev-perl/File-HomeDir virtual/perl-Storable dev-perl/libwww-perl dev-perl/Class-Accessor-Chained dev-perl/Path-Class test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/File-Find-Rule dev-perl/File-HomeDir virtual/perl-Storable dev-perl/libwww-perl dev-perl/Class-Accessor-Chained dev-perl/Path-Class dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LB/LBROCARD/App-Cache-0.36.tar.gz
+
+http://search.cpan.org/dist/App-Cache/
+|| ( Artistic GPL-2 )
+Easy application-level caching
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

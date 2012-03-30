@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Devel-StackTrace >=dev-perl/MRO-Compat-0.10
+>=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Devel-StackTrace >=dev-perl/MRO-Compat-0.10
+0
+mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Plugin-StackTrace-0.10.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-StackTrace/
+|| ( Artistic GPL-2 )
+Display a stack trace on the debug screen
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

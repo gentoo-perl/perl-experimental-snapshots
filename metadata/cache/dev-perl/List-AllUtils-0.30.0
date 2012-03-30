@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 virtual/perl-Exporter >=dev-perl/List-MoreUtils-0.280.0 virtual/perl-Scalar-List-Utils dev-lang/perl dev-lang/perl test? ( >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+virtual/perl-Exporter >=dev-perl/List-MoreUtils-0.280.0 virtual/perl-Scalar-List-Utils dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/List-AllUtils-0.03.tar.gz
+
+http://search.cpan.org/dist/List-AllUtils/
+|| ( Artistic GPL-2 )
+Combines List::Util and List::MoreUtils in one bite-sized package
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

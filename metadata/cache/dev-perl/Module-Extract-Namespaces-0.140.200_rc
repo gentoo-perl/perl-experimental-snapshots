@@ -1,0 +1,22 @@
+dev-perl/PPI test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/PPI dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BD/BDFOY/Module-Extract-Namespaces-0.14_02.tar.gz
+
+http://search.cpan.org/dist/Module-Extract-Namespaces/
+|| ( Artistic GPL-2 )
+extract the package declarations from a module
+
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

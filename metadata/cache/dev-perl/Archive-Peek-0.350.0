@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Archive-Tar dev-perl/Archive-Zip dev-perl/Moose dev-perl/MooseX-Types-Path-Class virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Archive-Tar dev-perl/Archive-Zip dev-perl/Moose dev-perl/MooseX-Types-Path-Class virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LB/LBROCARD/Archive-Peek-0.35.tar.gz
+
+http://search.cpan.org/dist/Archive-Peek/
+|| ( Artistic GPL-2 )
+Peek into archives without extracting them
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

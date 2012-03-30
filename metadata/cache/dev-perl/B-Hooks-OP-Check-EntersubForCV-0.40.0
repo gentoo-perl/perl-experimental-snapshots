@@ -1,0 +1,22 @@
+virtual/perl-parent dev-perl/B-Utils dev-perl/B-Hooks-OP-Check dev-perl/extutils-depends dev-lang/perl[-build]
+virtual/perl-parent dev-perl/B-Utils dev-perl/B-Hooks-OP-Check dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/B-Hooks-OP-Check-EntersubForCV-0.04.tar.gz
+
+http://search.cpan.org/dist/B-Hooks-OP-Check-EntersubForCV/
+|| ( Artistic GPL-2 )
+Invoke callbacks on construction of entersub OPs for certain CVs
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

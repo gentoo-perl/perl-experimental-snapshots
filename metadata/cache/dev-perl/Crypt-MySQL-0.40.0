@@ -1,0 +1,22 @@
+dev-perl/Digest-SHA1 virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/Digest-SHA1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/I/IK/IKEBE/Crypt-MySQL-0.04.tar.gz
+
+http://search.cpan.org/dist/Crypt-MySQL/
+|| ( Artistic GPL-2 )
+emulate MySQL PASSWORD() function
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

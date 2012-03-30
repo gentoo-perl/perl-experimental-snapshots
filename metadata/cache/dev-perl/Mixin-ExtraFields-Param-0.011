@@ -1,0 +1,22 @@
+>=dev-perl/Mixin-ExtraFields-0.002 >=dev-perl/Sub-Exporter-0.9 dev-lang/perl[-build]
+>=dev-perl/Mixin-ExtraFields-0.002 >=dev-perl/Sub-Exporter-0.9 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Mixin-ExtraFields-Param-0.011.tar.gz
+
+http://search.cpan.org/dist/Mixin-ExtraFields-Param/
+|| ( Artistic GPL-2 )
+make your class provide a familiar "param" method
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

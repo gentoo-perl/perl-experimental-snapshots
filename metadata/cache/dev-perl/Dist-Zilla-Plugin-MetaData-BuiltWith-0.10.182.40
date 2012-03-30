@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-4.101.540 >=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10 dev-perl/Hash-Merge-Simple dev-perl/Moose dev-perl/Moose-Autobox dev-perl/namespace-autoclean >=virtual/perl-Test-Simple-0.88 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-4.101.540 >=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10 dev-perl/Hash-Merge-Simple dev-perl/Moose dev-perl/Moose-Autobox dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-MetaData-BuiltWith-0.01018204.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-MetaData-BuiltWith/
+|| ( Artistic GPL-2 )
+Report what versions of things your distribution was built against
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

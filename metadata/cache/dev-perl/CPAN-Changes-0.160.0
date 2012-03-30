@@ -1,0 +1,22 @@
+virtual/perl-Text-Tabs+Wrap virtual/perl-version >=dev-lang/perl-5.10.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+virtual/perl-Text-Tabs+Wrap virtual/perl-version >=dev-lang/perl-5.10.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BR/BRICAS/CPAN-Changes-0.16.tar.gz
+
+http://search.cpan.org/dist/CPAN-Changes/
+|| ( Artistic GPL-2 )
+Read and write Changes files
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

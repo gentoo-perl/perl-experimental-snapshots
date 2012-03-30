@@ -1,0 +1,22 @@
+dev-perl/File-Find-Rule dev-lang/perl[-build]
+dev-perl/File-Find-Rule dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/File-Find-Rule-VCS-1.07.tar.gz
+
+http://search.cpan.org/dist/File-Find-Rule-VCS/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Exclude files/directories for Version Control Systems
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

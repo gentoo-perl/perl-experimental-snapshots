@@ -1,0 +1,22 @@
+>=dev-perl/MKDoc-XML-0.72
+>=dev-perl/MKDoc-XML-0.72
+0
+mirror://cpan/authors/id/B/BP/BPOSTLE/Petal-2.19.tar.gz
+
+http://search.cpan.org/dist/Petal/
+|| ( Artistic GPL-2 )
+Perl Template Attribute Language - TAL for Perl!
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

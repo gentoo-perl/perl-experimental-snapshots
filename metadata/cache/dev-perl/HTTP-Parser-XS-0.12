@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KA/KAZUHO/HTTP-Parser-XS-0.12.tar.gz
+
+http://search.cpan.org/dist/HTTP-Parser-XS/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+a fast, primitive HTTP request parser
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

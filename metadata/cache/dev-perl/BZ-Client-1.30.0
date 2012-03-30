@@ -1,0 +1,22 @@
+>=dev-lang/perl-5.10 dev-perl/libwww-perl dev-perl/URI dev-perl/XML-Writer dev-lang/perl[-build]
+>=dev-lang/perl-5.10 dev-perl/libwww-perl dev-perl/URI dev-perl/XML-Writer dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JW/JWIED/BZ-Client-1.03.tar.gz
+
+http://search.cpan.org/dist/BZ-Client/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Client for the Bugzilla web services API
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

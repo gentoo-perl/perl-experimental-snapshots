@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.35 dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TO/TODDR/IO-Stty-0.03.tar.gz
+
+http://search.cpan.org/dist/IO-Stty/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Change and print terminal line settings
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

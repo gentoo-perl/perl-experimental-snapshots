@@ -1,0 +1,22 @@
+dev-perl/Algorithm-Diff dev-lang/perl[-build]
+dev-perl/Algorithm-Diff dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JS/JSMITH/Algorithm-Merge-0.08.tar.gz
+
+http://search.cpan.org/dist/Algorithm-Merge/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Three-way merge and diff
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

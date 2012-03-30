@@ -1,0 +1,22 @@
+>=dev-perl/Catalyst-Plugin-Session-0.60.0
+>=dev-perl/Catalyst-Plugin-Session-0.60.0
+0
+mirror://cpan/authors/id/L/LB/LBR/Catalyst-Plugin-Session-Store-Cache-0.01.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-Cache/
+|| ( Artistic GPL-2 )
+Store sessions using a Catalyst::Plugin::Cache
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

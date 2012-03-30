@@ -1,0 +1,22 @@
+>=dev-perl/Template-Toolkit-2.14
+>=dev-perl/Template-Toolkit-2.14
+0
+mirror://cpan/authors/id/D/DC/DCARDWELL/Template-Provider-DBIC-0.01.tar.gz
+
+http://search.cpan.org/dist/Template-Provider-DBIC/
+|| ( Artistic GPL-2 )
+Load templates using DBIx::Class.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

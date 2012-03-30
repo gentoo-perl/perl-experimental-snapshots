@@ -1,0 +1,22 @@
+>=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05 test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DM/DMAKI/DateTime-Format-Pg-0.16006.tar.gz
+
+http://search.cpan.org/dist/DateTime-Format-Pg/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Parse and format PostgreSQL dates and times
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

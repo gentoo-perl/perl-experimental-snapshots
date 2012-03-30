@@ -1,0 +1,22 @@
+media-libs/libvorbis media-libs/libogg dev-lang/perl[-build]
+media-libs/libvorbis media-libs/libogg dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DANIEL/Ogg-Vorbis-Decoder-0.9.tar.gz
+
+http://search.cpan.org/dist/Ogg-Vorbis-Decoder/
+|| ( Artistic GPL-2 )
+An object-oriented Ogg Vorbis to decoder
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

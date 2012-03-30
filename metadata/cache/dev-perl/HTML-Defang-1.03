@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KU/KURIANJA/HTML-Defang-1.03.tar.gz
+
+http://search.cpan.org/dist/HTML-Defang/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Cleans HTML as well as CSS of scripting and other executable contents, and neutralises XSS attacks.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

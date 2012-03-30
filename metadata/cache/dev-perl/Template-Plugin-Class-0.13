@@ -1,0 +1,22 @@
+dev-perl/Template-Toolkit
+dev-perl/Template-Toolkit
+0
+mirror://cpan/authors/id/R/RC/RCLAMP/Template-Plugin-Class-0.13.tar.gz
+
+http://search.cpan.org/dist/Template-Plugin-Class/
+|| ( Artistic GPL-2 )
+Allow calling of class methods on arbitrary classes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

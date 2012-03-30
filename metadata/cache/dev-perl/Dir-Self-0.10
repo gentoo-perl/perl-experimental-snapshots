@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MAUKE/Dir-Self-0.10.tar.gz
+
+http://search.cpan.org/dist/Dir-Self/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A __DIR__ constant for the directory your source file is in
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+dev-perl/CPAN-DistnameInfo dev-perl/File-Slurp virtual/perl-File-Path virtual/perl-File-Temp virtual/perl-IO-Zlib virtual/perl-IO dev-perl/libwww-perl virtual/perl-version >=virtual/perl-Test-Simple-0.70 dev-lang/perl[-build]
+dev-perl/CPAN-DistnameInfo dev-perl/File-Slurp virtual/perl-File-Path virtual/perl-File-Temp virtual/perl-IO-Zlib virtual/perl-IO dev-perl/libwww-perl virtual/perl-version >=virtual/perl-Test-Simple-0.70 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BA/BARBIE/Parse-CPAN-Distributions-0.05.tar.gz
+
+http://search.cpan.org/dist/Parse-CPAN-Distributions/
+|| ( Artistic GPL-2 )
+Provides an index for current CPAN distributions
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

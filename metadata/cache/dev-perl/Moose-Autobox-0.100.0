@@ -1,0 +1,22 @@
+test? ( >=dev-perl/Test-Exception-0.21 virtual/perl-Test-Simple ) >=dev-perl/autobox-2.230.0 >=dev-perl/Moose-0.32 >=dev-perl/Perl6-Junction-1.400.0 dev-lang/perl[-build]
+>=dev-perl/autobox-2.230.0 >=dev-perl/Moose-0.32 >=dev-perl/Perl6-Junction-1.400.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Moose-Autobox-0.10.tar.gz
+
+http://search.cpan.org/dist/Moose-Autobox/
+|| ( Artistic GPL-2 )
+Autoboxed wrappers for Native Perl datatypes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

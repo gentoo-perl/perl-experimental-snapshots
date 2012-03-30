@@ -1,0 +1,22 @@
+>=dev-perl/DBIx-Class-0.08100 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.08100 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FR/FREW/DBIx-Class-Tree-0.03002.tar.gz
+
+http://search.cpan.org/dist/DBIx-Class-Tree/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Manipulate and anaylze tree structured data.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

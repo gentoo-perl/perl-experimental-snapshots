@@ -1,0 +1,22 @@
+>=dev-perl/Dist-Zilla-3.101.390 dev-perl/Moose virtual/perl-File-Temp dev-perl/Test-Differences dev-perl/Test-Exception dev-perl/Test-MockObject >=virtual/perl-Test-Simple-0.88 dev-perl/Test-Warn >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+>=dev-perl/Dist-Zilla-3.101.390 dev-perl/Moose dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DANIELP/Dist-Zilla-Plugin-ReportVersions-Tiny-1.03.tar.gz
+
+http://search.cpan.org/dist/Dist-Zilla-Plugin-ReportVersions-Tiny/
+|| ( Artistic GPL-2 )
+reports dependency versions during testing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

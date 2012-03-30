@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/libwww-perl-5.805 >=dev-perl/URI-1.35 >=dev-lang/perl-5.5.0 >=virtual/perl-ExtUtils-MakeMaker-6.42 test? ( >=virtual/perl-Test-Simple-0.42 ) dev-lang/perl[-build]
+DESCRIPTION=Does your process have access to the web
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/LWP-Online/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/libwww-perl-5.805 >=dev-perl/URI-1.35 >=dev-lang/perl-5.5.0 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/LWP-Online-1.08.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=4c8abf2f2d072878ead7f4a26ffa8753

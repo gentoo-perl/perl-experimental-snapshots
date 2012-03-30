@@ -1,0 +1,22 @@
+media-libs/libofa virtual/perl-IO-Compress dev-perl/extutils-pkgconfig virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+media-libs/libofa virtual/perl-IO-Compress dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEPE/Audio-Ofa-1.01.tar.gz
+
+http://search.cpan.org/dist/Audio-Ofa/
+|| ( GPL-2 GPL-3 )
+Perl interface to libofa, an Acoustig Fingerprinting library
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

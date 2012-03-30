@@ -1,0 +1,22 @@
+virtual/perl-PodParser dev-lang/perl[-build]
+virtual/perl-PodParser dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RM/RMBARKER/Pod-Plainer-1.03.tar.gz
+
+http://search.cpan.org/dist/Pod-Plainer/
+|| ( Artistic GPL-2 )
+Perl extension for converting Pod to old-style Pod
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

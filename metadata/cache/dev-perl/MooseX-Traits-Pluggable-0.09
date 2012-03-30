@@ -1,0 +1,22 @@
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.84 ) dev-perl/Moose virtual/perl-Scalar-List-Utils dev-perl/namespace-autoclean dev-perl/List-MoreUtils test? ( dev-perl/Test-Exception virtual/perl-Test-Simple ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.84 ) dev-perl/Moose virtual/perl-Scalar-List-Utils dev-perl/namespace-autoclean dev-perl/List-MoreUtils dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RK/RKITOVER/MooseX-Traits-Pluggable-0.09.tar.gz
+
+http://search.cpan.org/dist/MooseX-Traits-Pluggable/
+|| ( Artistic GPL-2 )
+An extension to MooseX::Traits
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

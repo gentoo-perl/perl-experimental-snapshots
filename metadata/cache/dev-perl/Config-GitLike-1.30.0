@@ -1,0 +1,22 @@
+dev-perl/Any-Moose virtual/perl-Test-Simple dev-perl/Test-Exception virtual/perl-File-Spec virtual/perl-File-Temp dev-lang/perl[-build]
+dev-perl/Any-Moose dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SP/SPANG/Config-GitLike-1.03.tar.gz
+
+http://search.cpan.org/dist/Config-GitLike/
+|| ( Artistic GPL-2 )
+git-compatible config file parsing
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

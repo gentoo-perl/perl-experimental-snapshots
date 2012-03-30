@@ -1,0 +1,22 @@
+virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Z/ZE/ZEFRAM/Data-Integer-0.003.tar.gz
+
+http://search.cpan.org/dist/Data-Integer/
+|| ( Artistic GPL-2 )
+details of the native integer data type
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

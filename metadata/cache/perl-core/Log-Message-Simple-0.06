@@ -1,0 +1,22 @@
+virtual/perl-Log-Message dev-lang/perl[-build]
+virtual/perl-Log-Message dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Log-Message-Simple-0.06.tar.gz
+
+http://search.cpan.org/dist/Log-Message-Simple/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Simplified interface to Log::Message
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-Encode dev-perl/Mixin-Linewise >=dev-perl/Moose-0.90 >=dev-perl/Moose-Autobox-0.100.0 dev-perl/MooseX-Types >=dev-perl/Pod-Eventual-0.4.0 dev-perl/String-RewritePrefix dev-perl/String-Truncate dev-perl/Sub-Exporter dev-perl/Sub-Exporter-ForMethods dev-perl/Test-Deep dev-perl/Test-Differences dev-perl/namespace-autoclean virtual/perl-Test-Simple >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-lang/perl[-build]
+virtual/perl-Encode dev-perl/Mixin-Linewise >=dev-perl/Moose-0.90 >=dev-perl/Moose-Autobox-0.100.0 dev-perl/MooseX-Types >=dev-perl/Pod-Eventual-0.4.0 dev-perl/String-RewritePrefix dev-perl/String-Truncate dev-perl/Sub-Exporter dev-perl/Sub-Exporter-ForMethods dev-perl/Test-Deep dev-perl/Test-Differences dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Pod-Elemental-0.102360.tar.gz
+
+http://search.cpan.org/dist/Pod-Elemental/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+work with nestable Pod elements
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,47 @@
+# ChangeLog for dev-perl/Git-Repository
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Git-Repository-1.250.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.250.0.ebuild:
+  Version Bump
+
+*Git-Repository-1.220.0 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.220.0.ebuild:
+  Version Bump
+
+*Git-Repository-1.210.0 (15 Jul 2011)
+
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.210.0.ebuild:
+  Version Bump
+
+*Git-Repository-1.200.0 (09 Jun 2011)
+
+  09 Jun 2011; Torsten Veller <tove@gentoo.org> +Git-Repository-1.200.0.ebuild:
+  Version bump
+
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Git-Repository-1.170.0.ebuild:
+  Fixdep System::Command
+
+*Git-Repository-1.180.0 (20 Apr 2011)
+
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.180.0.ebuild:
+  Bump
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  Git-Repository-1.170.0.ebuild:
+  QA - Add dep on ModuleBuild
+
+*Git-Repository-1.170.0 (06 Mar 2011)
+
+  06 Mar 2011; Torsten Veller <tove@gentoo.org> +Git-Repository-1.170.0.ebuild,
+  +metadata.xml:
+  Initial commit for Git-CPAN-Patch
+

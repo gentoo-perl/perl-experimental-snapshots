@@ -1,0 +1,22 @@
+|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes >=virtual/perl-Module-Build-0.35 virtual/perl-File-Path virtual/perl-File-Temp test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DROLSKY/File-ChangeNotify-0.12.tar.gz
+
+http://search.cpan.org/dist/File-ChangeNotify/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Watch for changes to files, cross-platform style.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

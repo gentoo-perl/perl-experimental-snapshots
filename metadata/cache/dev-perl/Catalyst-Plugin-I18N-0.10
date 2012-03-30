@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime >=virtual/perl-Locale-Maketext-Simple-0.19 >=virtual/perl-i18n-langtags-0.35 dev-perl/locale-maketext-lexicon >=dev-perl/MRO-Compat-0.10
+dev-perl/Catalyst-Runtime >=virtual/perl-Locale-Maketext-Simple-0.19 >=virtual/perl-i18n-langtags-0.35 dev-perl/locale-maketext-lexicon >=dev-perl/MRO-Compat-0.10
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-I18N-0.10.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-I18N/
+|| ( Artistic GPL-2 )
+I18N for Catalyst
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

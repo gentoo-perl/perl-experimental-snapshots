@@ -1,0 +1,22 @@
+>=dev-perl/CGI-Application-3.0.0 >=dev-perl/FCGI-0.60 dev-lang/perl[-build]
+>=dev-perl/CGI-Application-3.0.0 >=dev-perl/FCGI-0.60 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NA/NAOYA/CGI-Application-FastCGI-0.02.tar.gz
+
+http://search.cpan.org/dist/CGI-Application-FastCGI/
+|| ( Artistic GPL-2 )
+For using CGI::Application under FastCGI
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-Module-Build
+virtual/perl-Module-Build
+0
+mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Plugin-Singleton-0.02.tar.gz
+
+http://www.cpan.org/modules/by-authors/id/M/MR/MRAMBERG/Catalyst-Plugin-Singleton-0.20.0.readme
+|| ( Artistic GPL-2 )
+Singleton to context
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

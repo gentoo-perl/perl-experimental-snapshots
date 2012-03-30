@@ -1,0 +1,22 @@
+dev-perl/Term-ProgressBar-Quiet dev-lang/perl[-build]
+dev-perl/Term-ProgressBar-Quiet dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/E/EV/EVDB/Term-ProgressBar-Simple-0.03.tar.gz
+
+http://search.cpan.org/dist/Term-ProgressBar-Simple/
+|| ( Artistic GPL-2 )
+simpler progress bars
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

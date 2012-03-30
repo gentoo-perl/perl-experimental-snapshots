@@ -1,0 +1,22 @@
+dev-perl/libwww-perl virtual/perl-Memoize
+dev-perl/libwww-perl virtual/perl-Memoize
+0
+mirror://cpan/authors/id/C/CL/CLACO/Finance-Currency-Convert-WebserviceX-0.07001.tar.gz
+
+http://search.cpan.org/dist/Finance-Currency-Convert-WebserviceX/
+|| ( Artistic GPL-2 )
+Lightweight currency conversion using WebserviceX.NET.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

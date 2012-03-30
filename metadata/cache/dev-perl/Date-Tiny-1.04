@@ -1,0 +1,22 @@
+>=dev-lang/perl-5.004 dev-lang/perl[-build]
+>=dev-lang/perl-5.004 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AD/ADAMK/Date-Tiny-1.04.tar.gz
+
+http://search.cpan.org/dist/Date-Tiny/
+|| ( Artistic GPL-2 )
+A date object with as little code as possible
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+dev-perl/Class-Accessor dev-perl/libwww-perl
+dev-perl/Class-Accessor dev-perl/libwww-perl
+0
+mirror://cpan/authors/id/M/MR/MRAMBERG/HTTP-Request-AsCGI-1.0.tar.gz
+
+http://search.cpan.org/dist/HTTP-Request-AsCGI/
+|| ( Artistic GPL-2 )
+Setup a CGI enviroment from a HTTP::Request
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

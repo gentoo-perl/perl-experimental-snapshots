@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RU/RURBAN/B-Debug-1.16.tar.gz
+
+http://search.cpan.org/dist/B-Debug/
+|| ( Artistic GPL-2 )
+Walk Perl syntax tree, printing debug info about ops
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

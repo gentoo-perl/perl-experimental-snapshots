@@ -1,0 +1,22 @@
+dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/libwww-perl-5.539 dev-perl/Params-Classify !<dev-perl/Math-BigInt-1.60 !<dev-perl/Math-BigRat-0.04 virtual/perl-parent virtual/perl-Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/libwww-perl-5.539 dev-perl/Params-Classify !<dev-perl/Math-BigInt-1.60 !<dev-perl/Math-BigRat-0.04 virtual/perl-parent dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Z/ZE/ZEFRAM/Data-Entropy-0.006.tar.gz
+
+http://search.cpan.org/dist/Data-Entropy/
+|| ( Artistic GPL-2 )
+entropy (randomness) management
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

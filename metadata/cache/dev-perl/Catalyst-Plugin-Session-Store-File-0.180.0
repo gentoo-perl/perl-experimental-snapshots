@@ -1,0 +1,22 @@
+
+
+0
+mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-File-0.18.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-File/
+|| ( Artistic GPL-2 )
+File storage backend for session data
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+

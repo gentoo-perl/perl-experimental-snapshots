@@ -1,0 +1,22 @@
+>=dev-perl/Regexp-RegGrp-1.1.1_rc test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=dev-perl/Regexp-RegGrp-1.1.1_rc dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NE/NEVESENIN/HTML-Packer-1.001_001.tar.gz
+
+http://search.cpan.org/dist/HTML-Packer/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Another HTML code cleaner
+
+base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

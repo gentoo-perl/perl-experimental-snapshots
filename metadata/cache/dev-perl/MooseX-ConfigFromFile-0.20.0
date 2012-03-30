@@ -1,0 +1,22 @@
+>=dev-perl/Moose-0.35 >=dev-perl/MooseX-Types-Path-Class-0.04 dev-lang/perl[-build]
+>=dev-perl/Moose-0.35 >=dev-perl/MooseX-Types-Path-Class-0.04 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BL/BLBLACK/MooseX-ConfigFromFile-0.02.tar.gz
+
+http://search.cpan.org/dist/MooseX-ConfigFromFile/
+|| ( Artistic GPL-2 )
+An abstract Moose role for setting attributes from a configfile
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

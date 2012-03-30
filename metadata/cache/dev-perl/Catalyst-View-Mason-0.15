@@ -1,0 +1,22 @@
+dev-perl/Catalyst-Runtime dev-perl/HTML-Mason dev-lang/perl[-build]
+dev-perl/Catalyst-Runtime dev-perl/HTML-Mason dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/Catalyst-View-Mason-0.15.tar.gz
+
+http://search.cpan.org/dist/Catalyst-View-Mason/
+|| ( Artistic GPL-2 )
+Mason View Class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

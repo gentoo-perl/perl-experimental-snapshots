@@ -1,0 +1,22 @@
+dev-perl/MRO-Compat >=dev-perl/Sub-Exporter-0.979 dev-lang/perl[-build]
+dev-perl/MRO-Compat >=dev-perl/Sub-Exporter-0.979 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RJ/RJBS/Data-Section-0.100770.tar.gz
+
+http://search.cpan.org/dist/Data-Section/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+read multiple hunks of data out of your DATA section
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+test? ( virtual/perl-Test-Simple ) dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Manual-5.9000.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Manual/
+|| ( Artistic GPL-2 )
+The Catalyst developer's manual
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

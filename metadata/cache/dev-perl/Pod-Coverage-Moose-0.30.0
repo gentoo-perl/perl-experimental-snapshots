@@ -1,0 +1,22 @@
+dev-lang/perl virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage dev-perl/Moose >=dev-perl/Moose-0.240 dev-perl/Perl6-Junction dev-perl/Pod-Coverage >=dev-perl/namespace-clean-0.050 dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/Moose-0.240 dev-perl/Perl6-Junction dev-perl/Pod-Coverage >=dev-perl/namespace-clean-0.050 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MM/MMCLERIC/Pod-Coverage-Moose-0.03.tar.gz
+
+http://search.cpan.org/dist/Pod-Coverage-Moose/
+|| ( Artistic GPL-2 )
+Pod::Coverage extension for Moose
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

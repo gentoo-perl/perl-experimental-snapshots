@@ -1,0 +1,22 @@
+virtual/perl-Scalar-List-Utils dev-perl/Sub-Exporter test? ( virtual/perl-Test-Simple dev-perl/Test-Most dev-perl/Test-Lazy ) dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils dev-perl/Sub-Exporter dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RO/ROKR/Path-Abstract-0.096.tar.gz
+
+http://search.cpan.org/dist/Path-Abstract/
+|| ( Artistic GPL-2 )
+A fast and featureful class for UNIX-style path manipulation
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+3
+
+compile configure install prepare test unpack
+
+
+
+
+
