@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm prepare pretend setup test
+DEPEND=berkdb? ( sys-libs/db ) gdbm? ( >=sys-libs/gdbm-1.8.3 ) app-arch/bzip2 sys-libs/zlib !prefix? ( elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs ) )
+DESCRIPTION=Larry Wall's Practical Extraction and Report Language
+EAPI=4
+HOMEPAGE=http://www.perl.org/
+IUSE=berkdb build debug doc gdbm ithreads
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~ppc-aix ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+PDEPEND=>=app-admin/perl-cleaner-2.5
+RDEPEND=berkdb? ( sys-libs/db ) gdbm? ( >=sys-libs/gdbm-1.8.3 ) app-arch/bzip2 sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://cpan/src/perl-5.14.2.tar.bz2 mirror://cpan/authors/id/F/FL/FLORA/perl-5.14.2.tar.bz2 mirror://gentoo/perl-5.14.2-1.tar.bz2 http://dev.gentoo.org/~tove/distfiles/dev-lang/perl/perl-5.14.2-1.tar.bz2
+_eclasses_=alternatives	7a734a903498a04a0722152a124aa3a5	eutils	0f008baa9552301d379ae5df233e9713	flag-o-matic	66cb710a2aa184a5687fe1289d7973ab	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=5c66b12fb808111dff247fab5df94b11
