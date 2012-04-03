@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=virtual/perl-CPANPLUS-0.840.0 >=virtual/perl-ExtUtils-Install-1.42 virtual/perl-File-Spec >=virtual/perl-IPC-Cmd-0.420 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Build-0.32 >=virtual/perl-Module-Load-0.160.0 >=virtual/perl-Module-Load-Conditional-0.300 >=virtual/perl-Module-Pluggable-3.800.0 >=virtual/perl-Params-Check-0.26 >=virtual/perl-Test-Harness-3.16 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/CPANPLUS-Dist-Build-0.62.tar.gz
-_eclasses_=alternatives	7a734a903498a04a0722152a124aa3a5	base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	0f008baa9552301d379ae5df233e9713	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=alternatives	7a734a903498a04a0722152a124aa3a5	base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=3f95ded7e6912f97c57a3028e0194aee
