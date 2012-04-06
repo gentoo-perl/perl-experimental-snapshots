@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# HTML::TreeBuilder::XPath 0.14 ( 0.140.0 )
 	echo \>=dev-perl/HTML-TreeBuilder-XPath-0.140.0
 	# XML::LibXML 1.7 ( 1.700.0 )
-	echo \>=dev-perl/XML-LibXML-1.70
+	echo \>=dev-perl/XML-LibXML-1.700.0
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }

@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# File::Spec
 	echo virtual/perl-File-Spec
 	# HTML::TreeBuilder 3.23 ( 3.230.0 )
-	echo \>=dev-perl/HTML-Tree-3.23
+	echo \>=dev-perl/HTML-Tree-3.230.0
 	# Locale::Maketext 1.09 ( 1.90.0 )
 	echo \>=virtual/perl-locale-maketext-1.09
 	# Moose 2.0007 ( 2.0.700 )
@@ -57,7 +57,7 @@ perl_meta_runtime() {
 	# aliased
 	echo dev-perl/aliased
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.090
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 }
 perl_meta_test() {
 	# Test::Differences

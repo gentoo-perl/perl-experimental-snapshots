@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-perl/Plack virtual/perl-Test-Simple dev-perl/Test-WWW-Mechanize dev-perl/Try-Tiny dev-lang/perl[-build]
+dev-perl/Plack virtual/perl-Test-Simple dev-perl/Test-WWW-Mechanize dev-perl/Try-Tiny dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/L/LB/LBROCARD/Test-WWW-Mechanize-PSGI-0.35.tar.gz
+
+http://search.cpan.org/dist/Test-WWW-Mechanize-PSGI/
+|| ( Artistic GPL-2 )
+Test PSGI programs using WWW::Mechanize
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

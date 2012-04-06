@@ -49,7 +49,7 @@ perl_meta_build() {
 	# Test::Warn 0.21 ( 0.210.0 )
 	echo \>=dev-perl/Test-Warn-0.21
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.090
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 }
 perl_meta_runtime() {
 	# Carp::Clan
@@ -65,7 +65,7 @@ perl_meta_runtime() {
 	# DBIx::Class 0.08127 ( 0.81.270 )
 	echo \>=dev-perl/DBIx-Class-0.81.270
 	# Data::Dump 1.06 ( 1.60.0 )
-	echo \>=dev-perl/Data-Dump-1.06
+	echo \>=dev-perl/Data-Dump-1.60.0
 	# Digest::MD5 2.36 ( 2.360.0 )
 	echo \>=virtual/perl-Digest-MD5-2.36
 	# Exporter 5.63 ( 5.630.0 )

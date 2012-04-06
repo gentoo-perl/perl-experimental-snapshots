@@ -107,7 +107,7 @@ perl_meta_runtime() {
 	# Time::HiRes
 	echo virtual/perl-Time-HiRes
 	# Tree::Simple 1.15 ( 1.150.0 )
-	echo \>=dev-perl/Tree-Simple-1.15
+	echo \>=dev-perl/Tree-Simple-1.150.0
 	# Tree::Simple::Visitor::FindByPath
 	echo dev-perl/Tree-Simple-VisitorFactory
 	# Try::Tiny
@@ -115,7 +115,7 @@ perl_meta_runtime() {
 	# URI 1.35 ( 1.350.0 )
 	echo \>=dev-perl/URI-1.35
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.090
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# namespace::clean 0.13 ( 0.130.0 )
 	echo \>=dev-perl/namespace-clean-0.130
 	# perl v5.8.3 ( 5.8.3 )

@@ -1,0 +1,22 @@
+selfupgrade? ( sqlite_backend? ( dev-perl/DBIx-Simple dev-perl/DBD-SQLite ) storable? ( virtual/perl-Storable ) signature? ( app-crypt/gnupg >=dev-perl/Module-Signature-0.06 ) md5? ( virtual/perl-Digest-SHA ) cpantest? ( >=dev-perl/Test-Reporter-1.34 >=virtual/perl-Parse-CPAN-Meta-1.420 ) >=virtual/perl-File-Fetch-0.16 >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.360.0 >=virtual/perl-Locale-Maketext-Simple-0.10.0 >=virtual/perl-Log-Message-0.01 >=virtual/perl-Module-Load-0.100.0 >=virtual/perl-Module-Load-Conditional-0.380 >=virtual/perl-version-0.77 >=virtual/perl-Params-Check-0.22 >=virtual/perl-Package-Constants-0.10.0 >=virtual/perl-Term-UI-0.18 >=virtual/perl-Test-Harness-2.62 >=virtual/perl-Test-Simple-0.47 >=virtual/perl-Archive-Extract-0.160.0 >=virtual/perl-Archive-Tar-1.23 >=virtual/perl-IO-Zlib-1.40.0 >=virtual/perl-Object-Accessor-0.34 >=virtual/perl-Module-CoreList-2.22 >=virtual/perl-Module-Pluggable-2.400.0 >=virtual/perl-Module-Loaded-0.10.0 >=virtual/perl-Parse-CPAN-Meta-1.420 >=virtual/perl-ExtUtils-Install-1.42 ) dev-lang/perl[-build]
+selfupgrade? ( sqlite_backend? ( dev-perl/DBIx-Simple dev-perl/DBD-SQLite ) storable? ( virtual/perl-Storable ) signature? ( app-crypt/gnupg >=dev-perl/Module-Signature-0.06 ) md5? ( virtual/perl-Digest-SHA ) cpantest? ( >=dev-perl/Test-Reporter-1.34 >=virtual/perl-Parse-CPAN-Meta-1.420 ) >=virtual/perl-File-Fetch-0.16 >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.360.0 >=virtual/perl-Locale-Maketext-Simple-0.10.0 >=virtual/perl-Log-Message-0.01 >=virtual/perl-Module-Load-0.100.0 >=virtual/perl-Module-Load-Conditional-0.380 >=virtual/perl-version-0.77 >=virtual/perl-Params-Check-0.22 >=virtual/perl-Package-Constants-0.10.0 >=virtual/perl-Term-UI-0.18 >=virtual/perl-Test-Harness-2.62 >=virtual/perl-Test-Simple-0.47 >=virtual/perl-Archive-Extract-0.160.0 >=virtual/perl-Archive-Tar-1.23 >=virtual/perl-IO-Zlib-1.40.0 >=virtual/perl-Object-Accessor-0.34 >=virtual/perl-Module-CoreList-2.22 >=virtual/perl-Module-Pluggable-2.400.0 >=virtual/perl-Module-Loaded-0.10.0 >=virtual/perl-Parse-CPAN-Meta-1.420 >=virtual/perl-ExtUtils-Install-1.42 ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/CPANPLUS-0.9123.tar.gz
+
+http://search.cpan.org/dist/CPANPLUS/
+|| ( Artistic GPL-2 )
+Ameliorated interface to the CPAN
+~amd64 ~x86
+alternatives base eutils multilib perl-module toolchain-funcs user
+cpantest md5 signature storable sqlite_backend selfupgrade
+cpantest? ( selfupgrade ) md5? ( selfupgrade ) signature? ( selfupgrade ) storable? ( selfupgrade ) sqlite_backend? ( selfupgrade )
+
+
+4
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+
