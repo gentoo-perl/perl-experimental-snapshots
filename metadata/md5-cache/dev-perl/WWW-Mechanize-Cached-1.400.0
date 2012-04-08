@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.31 >=virtual/perl-Module-Build-0.36.01 dev-perl/Devel-SimpleTrace dev-lang/perl virtual/perl-File-Spec dev-perl/Find-Lib dev-perl/HTTP-Message >=virtual/perl-Module-Build-0.36.01 dev-perl/Path-Class virtual/perl-Test-Simple virtual/perl-constant dev-lang/perl dev-perl/Cache-Cache dev-perl/Data-Dump dev-perl/Moose >=virtual/perl-Storable-2.210.0 dev-perl/WWW-Mechanize dev-lang/perl[-build]
+DESCRIPTION=Cache response to be polite
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/WWW-Mechanize-Cached/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-perl/Cache-Cache dev-perl/Data-Dump dev-perl/Moose >=virtual/perl-Storable-2.210.0 dev-perl/WWW-Mechanize dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/O/OA/OALDERS/WWW-Mechanize-Cached-1.40.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=9e92322eafa0d070253ef4519c986384

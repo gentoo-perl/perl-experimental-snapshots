@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DM/DMUEY/File-Path-Tiny-0.3.tar.gz
+
+http://search.cpan.org/dist/File-Path-Tiny/
+|| ( Artistic GPL-2 )
+recursive versions of mkdir() and rmdir() without as much overhead as File::Path
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
