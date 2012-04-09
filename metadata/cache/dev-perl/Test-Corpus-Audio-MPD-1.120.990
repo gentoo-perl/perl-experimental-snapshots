@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 virtual/perl-Exporter dev-lang/perl dev-perl/File-ShareDir-PathClass virtual/perl-File-Temp dev-perl/Path-Class dev-perl/Readonly >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl test? ( >=virtual/perl-Test-Simple-0.88 ) media-sound/mpd dev-lang/perl[-build]
+virtual/perl-Exporter dev-lang/perl dev-perl/File-ShareDir-PathClass virtual/perl-File-Temp dev-perl/Path-Class dev-perl/Readonly >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl media-sound/mpd dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/J/JQ/JQUELIN/Test-Corpus-Audio-MPD-1.120990.tar.gz
+
+http://search.cpan.org/dist/Test-Corpus-Audio-MPD/
+|| ( Artistic GPL-2 )
+automate launching of fake mdp for testing purposes
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
