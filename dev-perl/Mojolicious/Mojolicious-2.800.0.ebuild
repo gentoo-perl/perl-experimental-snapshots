@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=DMUEY
-MODULE_VERSION=0.2
+MODULE_AUTHOR=SRI
+MODULE_VERSION=2.80
 inherit perl-module
 
-DESCRIPTION='recursive versions of mkdir() and rmdir() without as much overhead as File::Path'
-LICENSE="|| ( Artistic GPL-2 )"
+DESCRIPTION='Real-time web framework'
+LICENSE=" Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -20,8 +20,8 @@ perl_meta_build() {
 	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# Test::More
-	echo virtual/perl-Test-Simple
+	# perl 5.010001 ( 5.10.1 )
+	echo \>=dev-lang/perl-5.10.1
 }
 DEPEND="
 	$(perl_meta_configure)
