@@ -1,0 +1,22 @@
+virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.03 dev-lang/perl[-build]
+virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.03 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BA/BARBIE/Test-CPAN-Meta-YAML-0.18.tar.gz
+
+http://search.cpan.org/dist/Test-CPAN-Meta-YAML/
+Artistic-2
+A test module to validate a CPAN META.yml file.
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

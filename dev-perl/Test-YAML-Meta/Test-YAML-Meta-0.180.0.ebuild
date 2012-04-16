@@ -1,20 +1,19 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=BARBIE
-MODULE_VERSION="0.17"
+MODULE_VERSION=0.18
 inherit perl-module
 
-DESCRIPTION="A test module to validate a CPAN META.yml file.
-"
+DESCRIPTION="Validation of the META.yml file in a distribution"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 COMMON_DEPEND="
-	>=virtual/perl-Parse-CPAN-Meta-0.02
 	>=virtual/perl-Test-Simple-0.70
+	>=dev-perl/Test-CPAN-Meta-YAML-0.100.0
 "
 DEPEND="
 	${COMMON_DEPEND}
