@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Catalyst-Runtime-5.300.0 >=dev-perl/FormValidator-Simple-0.280.0 dev-perl/Catalyst-Plugin-FormValidator dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DH/DHOSS/Catalyst-Plugin-FormValidator-Simple-0.15.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74379b03cd9f51efd43d1bb8d290bddc	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	4e234f0a75d16eabe69191b391892d7b	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=771095b09bf22ca0d03635911f2989b2

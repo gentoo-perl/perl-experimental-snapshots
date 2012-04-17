@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-Storage-0.27.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74379b03cd9f51efd43d1bb8d290bddc	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	4e234f0a75d16eabe69191b391892d7b	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=34146624a1c867aa9f87d3071120268b
