@@ -1,7 +1,7 @@
 virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.10.1 dev-lang/perl[-build]
 >=dev-lang/perl-5.10.1 dev-lang/perl[-build]
 0
-mirror://cpan/authors/id/S/SR/SRI/Mojolicious-2.80.tar.gz
+mirror://cpan/authors/id/S/SR/SRI/Mojolicious-2.85.tar.gz
 
 http://search.cpan.org/dist/Mojolicious/
 Artistic-2
