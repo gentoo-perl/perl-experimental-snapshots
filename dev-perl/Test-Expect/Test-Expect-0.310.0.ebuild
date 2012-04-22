@@ -1,21 +1,23 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="3"
-MODULE_AUTHOR=BARBIE
-MODULE_VERSION=0.17
+EAPI=3
+MODULE_AUTHOR=LBROCARD
+MODULE_VERSION="0.31"
 inherit perl-module
 
-DESCRIPTION="Validate a META.yml file within a CPAN distribution."
+DESCRIPTION="Automated driving and testing of terminal-based programs"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=virtual/perl-Test-Simple-0.70
-	>=dev-perl/Test-YAML-Valid-0.30.0
+	dev-perl/Class-Accessor
+	dev-perl/Expect-Simple
+	virtual/perl-Test-Simple
 "
 DEPEND="
+	virtual/perl-Module-Build
 	${COMMON_DEPEND}
 "
 RDEPEND="

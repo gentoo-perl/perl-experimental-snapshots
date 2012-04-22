@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/JSON-Any-1.14 >=dev-perl/Test-Differences-0.47 test? ( >=dev-perl/Test-Tester-0.103 ) dev-lang/perl[-build]
+DEPEND=>=dev-perl/JSON-Any-1.20 >=dev-perl/Test-Differences-0.47 virtual/perl-Module-Build test? ( >=dev-perl/Test-Tester-0.107 ) dev-lang/perl[-build]
 DESCRIPTION=Test JSON data
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/Test-JSON/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/JSON-Any-1.14 >=dev-perl/Test-Differences-0.47 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/JSON-Any-1.20 >=dev-perl/Test-Differences-0.47 dev-lang/perl[-build]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/O/OV/OVID/Test-JSON-0.06.tar.gz
+SRC_URI=mirror://cpan/authors/id/O/OV/OVID/Test-JSON-0.11.tar.gz
 _eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74d9118e657da5b1db0c36f5dea88e57	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=2c5d4680388ff1ba30270b6acc5283db
+_md5_=c63c3cd610257fcf92545dc98f7fae46

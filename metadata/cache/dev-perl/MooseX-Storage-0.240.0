@@ -1,4 +1,4 @@
->=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) test? ( dev-perl/Test-Deep dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.42 >=dev-perl/Test-TempDir-0.02 json? ( >=dev-perl/Test-JSON-0.06 ) ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) test? ( dev-perl/Test-Deep dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.42 >=dev-perl/Test-TempDir-0.20.0 json? ( >=dev-perl/Test-JSON-0.60.0 ) ) dev-lang/perl[-build]
 >=dev-perl/Moose-0.87 dev-perl/String-RewritePrefix json? ( >=dev-perl/JSON-Any-1.15 ) yaml? ( dev-perl/yaml ) storable? ( virtual/perl-Storable ) file? ( >=virtual/perl-IO-0.1 ) dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-Storage-0.24.tar.gz

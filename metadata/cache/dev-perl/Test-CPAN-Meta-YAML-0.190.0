@@ -1,5 +1,5 @@
-virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.03 dev-lang/perl[-build]
-virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.03 dev-lang/perl[-build]
+virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.30.0 dev-lang/perl[-build]
+virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=dev-perl/Test-YAML-Valid-0.30.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BA/BARBIE/Test-CPAN-Meta-YAML-0.19.tar.gz
 
