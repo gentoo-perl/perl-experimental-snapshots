@@ -1,12 +1,12 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.126 2010/07/15 11:44:48 tove Exp $
-#
-# Author: Seemant Kulleen <seemant@gentoo.org>
+# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.132 2012/04/15 20:15:39 vapier Exp $
 
 # @ECLASS: perl-module.eclass
 # @MAINTAINER:
 # perl@gentoo.org
+# @AUTHOR:
+# Seemant Kulleen <seemant@gentoo.org>
 # @BLURB: eclass for perl modules
 # @DESCRIPTION:
 # The perl-module eclass is designed to allow easier installation of perl
@@ -132,6 +132,10 @@ perl-module_src_prep() {
 				|| die "Unable to build!"
 	elif [[ -f Makefile.PL ]] ; then
 		einfo "Using ExtUtils::MakeMaker"
+		if [[ -f Build && ${PERL_NO_BUILD_WARNING} != "true" ]] ; then
+			ewarn "Using ExtUtils::MakeMaker but found a ./Build script!"
+			ewarn "Shit happens NOW!"
+		fi
 		set -- \
 			PREFIX=${EPREFIX}/usr \
 			INSTALLDIRS=vendor \
@@ -160,7 +164,7 @@ perl-module_src_compile() {
 		local mymake_local=("${mymake[@]}")
 	fi
 
-	if [[ -f Build ]] ; then
+	if [[ ( ${PREFER_BUILDPL} == yes || ! -f Makefile ) && -f Build ]] ; then
 		./Build build \
 			|| die "Compilation failed"
 	elif [[ -f Makefile ]] ; then
@@ -199,8 +203,8 @@ perl-module_src_test() {
 	debug-print-function $FUNCNAME "$@"
 	if has 'do' ${SRC_TEST} || has 'parallel' ${SRC_TEST} ; then
 		if has "${TEST_VERBOSE:-0}" 0 && has 'parallel' ${SRC_TEST} ; then
-			export HARNESS_OPTIONS=j$(echo -j1 ${MAKEOPTS} | sed -r "s/.*(-j\s*|--jobs=)([0-9]+).*/\2/" )
-			einfo "Test::Harness Jobs=${HARNESS_OPTIONS}"
+			export HARNESS_OPTIONS=j$(makeopts_jobs)
+			einfo "Test::Harness Jobs=$(makeopts_jobs)"
 		fi
 		${perlinfo_done} || perl_set_version
 		if [[ -f Build ]] ; then
@@ -281,11 +285,24 @@ perlinfo() {
 	perl_set_version
 }
 
+perl_check_module_version() {
+	local REAL_PV
+	local gpmv="$(type -p gentoo-perlmod-version.pl)"
+	[[ -n ${MODULE_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
+	REAL_PV=$( ${gpmv} --oneshot "${MODULE_VERSION}" )
+	if [[ ${REAL_PV} != ${PV} ]] ; then
+		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
+		eqawarn "           The ebuild version should be ${REAL_PV}"
+	fi
+}
+
 perl_set_version() {
 	debug-print-function $FUNCNAME "$@"
 	debug-print "$FUNCNAME: perlinfo_done=${perlinfo_done}"
 	${perlinfo_done} && return 0
 	perlinfo_done=true
+
+	perl_check_module_version
 
 	local f version install{{site,vendor}{arch,lib},archlib}
 	eval "$(perl -V:{version,install{{site,vendor}{arch,lib},archlib}} )"

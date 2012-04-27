@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Class-Load-0.06 dev-perl/Data-Clone dev-perl/DateTime dev-perl/DateTime-Format-Strptime dev-perl/Email-Valid dev-perl/File-ShareDir virtual/perl-File-Spec >=dev-perl/HTML-Tree-3.230.0 >=virtual/perl-locale-maketext-1.09 >=dev-perl/Moose-2.0.700 >=dev-perl/MooseX-Getopt-0.160.0 >=dev-perl/MooseX-Types-0.200.0 dev-perl/MooseX-Types-Common >=dev-perl/MooseX-Types-LoadableClass-0.6.0 dev-perl/Sub-Exporter dev-perl/Sub-Name dev-perl/Try-Tiny dev-perl/aliased >=dev-perl/namespace-autoclean-0.90.0 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/G/GS/GSHANK/HTML-FormHandler-0.40005.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74d9118e657da5b1db0c36f5dea88e57	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	6fe1cd4aa1f59779516207b8fbdc314e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74d9118e657da5b1db0c36f5dea88e57	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=fd22c54b1d970cebd902ff63dc7eb6ff
