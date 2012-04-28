@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-perl/Catalyst-Runtime-5.0.0 dev-perl/DBI dev-perl/DBIx-Connector dev-perl/MRO-Compat dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.0.0 dev-perl/DBI dev-perl/DBIx-Connector dev-perl/MRO-Compat dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/A/AL/ALEXP/Catalyst-Model-DBI-0.30.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Model-DBI/
+|| ( Artistic GPL-2 )
+DBI Model Class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

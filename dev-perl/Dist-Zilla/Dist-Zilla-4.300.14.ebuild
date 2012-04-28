@@ -156,7 +156,7 @@ perl_meta_runtime() {
 	# Test::Deep
 	echo dev-perl/Test-Deep
 	# Text::Glob 0.08 ( 0.80.0 )
-	echo \>=dev-perl/Text-Glob-0.08
+	echo \>=dev-perl/Text-Glob-0.80.0
 	# Text::Template
 	echo dev-perl/text-template
 	# Try::Tiny
