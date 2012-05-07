@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 virtual/perl-Scalar-List-Utils >=dev-perl/Number-Compare-0.20.0 dev-perl/Path-Class virtual/perl-Scalar-List-Utils dev-perl/Text-Glob dev-perl/Try-Tiny >=dev-lang/perl-5.10.0 dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl test? ( virtual/perl-Exporter dev-lang/perl virtual/perl-File-Temp dev-perl/File-pushd dev-perl/Path-Class dev-perl/Test-Deep >=virtual/perl-Test-Simple-0.920.0 dev-perl/autodie ) dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils >=dev-perl/Number-Compare-0.20.0 dev-perl/Path-Class virtual/perl-Scalar-List-Utils dev-perl/Text-Glob dev-perl/Try-Tiny >=dev-lang/perl-5.10.0 dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DAGOLDEN/Path-Class-Rule-0.011.tar.gz
+
+http://search.cpan.org/dist/Path-Class-Rule/
+Apache-2.0
+File finder using Path::Class
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
