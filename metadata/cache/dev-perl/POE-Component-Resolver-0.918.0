@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=dev-perl/POE-1.311.0 >=virtual/perl-Scalar-List-Utils-1.23 >=dev-perl/Socket-GetAddrInfo-0.190.0 >=virtual/perl-Storable-2.18 >=virtual/perl-Test-Simple-0.96 >=virtual/perl-Time-HiRes-1.97.11 dev-lang/perl[-build]
+>=dev-perl/POE-1.311.0 >=virtual/perl-Scalar-List-Utils-1.23 >=dev-perl/Socket-GetAddrInfo-0.190.0 >=virtual/perl-Storable-2.18 >=virtual/perl-Test-Simple-0.96 >=virtual/perl-Time-HiRes-1.97.11 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RC/RCAPUTO/POE-Component-Resolver-0.918.tar.gz
+
+http://search.cpan.org/dist/POE-Component-Resolver/
+|| ( Artistic GPL-2 )
+A non-blocking getaddrinfo() resolver
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

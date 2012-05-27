@@ -1,0 +1,22 @@
+>=dev-perl/B-Hooks-OP-Check-0.180.0 >=dev-perl/B-Hooks-OP-PPAddr-0.30.0 >=dev-perl/B-Hooks-Parser-0.70.0 >=dev-perl/B-Hooks-EndOfScope-0.80.0 dev-lang/perl[-build]
+>=dev-perl/B-Hooks-OP-Check-0.180.0 >=dev-perl/B-Hooks-OP-PPAddr-0.30.0 >=dev-perl/B-Hooks-Parser-0.70.0 >=dev-perl/B-Hooks-EndOfScope-0.80.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/signatures-0.06.tar.gz
+
+http://search.cpan.org/dist/signatures/
+|| ( Artistic GPL-2 )
+Subroutine signatures with no source filter
+~amd64 ~x86
+base eutils multilib perl-module toolchain-funcs user
+test
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

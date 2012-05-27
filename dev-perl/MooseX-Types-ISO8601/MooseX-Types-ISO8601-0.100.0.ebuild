@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# DateTime 0.41 ( 0.410.0 )
 	echo \>=dev-perl/DateTime-0.41
 	# DateTime::Format::Duration 1.03 ( 1.30.0 )
-	echo \>=dev-perl/DateTime-Format-Duration-1.30
+	echo \>=dev-perl/DateTime-Format-Duration-1.30.0
 	# List::MoreUtils
 	echo dev-perl/List-MoreUtils
 	# Moose 0.79 ( 0.790.0 )
@@ -43,7 +43,7 @@ perl_meta_runtime() {
 	# aliased
 	echo dev-perl/aliased
 	# namespace::autoclean 0.05 ( 0.50.0 )
-	echo \>=dev-perl/namespace-autoclean-0.050
+	echo \>=dev-perl/namespace-autoclean-0.50.0
 }
 DEPEND="
 	$(perl_meta_configure)

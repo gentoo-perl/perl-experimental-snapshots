@@ -29,7 +29,7 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Any::Moose 0.11 ( 0.110.0 )
-	echo \>=dev-perl/Any-Moose-0.11
+	echo \>=dev-perl/Any-Moose-0.110.0
 	# Const::Fast 0.006 ( 0.6.0 )
 	echo \>=dev-perl/Const-Fast-0.6.0
 	# Data::Alias 1.08 ( 1.80.0 )
@@ -47,7 +47,7 @@ perl_meta_runtime() {
 	# PPI 1.203 ( 1.203.0 )
 	echo \>=dev-perl/PPI-1.203
 	# Sub::Name 0.03 ( 0.30.0 )
-	echo \>=dev-perl/Sub-Name-0.03
+	echo \>=dev-perl/Sub-Name-0.30.0
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }
