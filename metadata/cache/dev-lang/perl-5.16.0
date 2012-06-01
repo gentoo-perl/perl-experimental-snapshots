@@ -1,7 +1,7 @@
 berkdb? ( sys-libs/db ) gdbm? ( >=sys-libs/gdbm-1.8.3 ) app-arch/bzip2 sys-libs/zlib !prefix? ( elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs ) )
 berkdb? ( sys-libs/db ) gdbm? ( >=sys-libs/gdbm-1.8.3 ) app-arch/bzip2 sys-libs/zlib
 0
-mirror://cpan/src/perl-5.16.0.tar.bz2 mirror://cpan/authors/id/R/RJ/RJBS/perl-5.16.0.tar.bz2 mirror://gentoo/perl-5.16.0-2.tar.bz2 http://dev.gentoo.org/~tove/distfiles/dev-lang/perl/perl-5.16.0-2.tar.bz2
+mirror://cpan/src/perl-5.16.0.tar.bz2 mirror://cpan/authors/id/R/RJ/RJBS/perl-5.16.0.tar.bz2 mirror://gentoo/perl-5.16.0-3.tar.bz2 http://dev.gentoo.org/~tove/distfiles/dev-lang/perl/perl-5.16.0-3.tar.bz2
 
 http://www.perl.org/
 || ( Artistic GPL-1 GPL-2 GPL-3 )

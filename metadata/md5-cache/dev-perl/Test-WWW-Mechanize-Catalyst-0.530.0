@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
 RDEPEND=>=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.54 >=dev-perl/Moose-0.67 >=dev-perl/namespace-clean-0.09 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session dev-perl/Test-Exception dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Test-WWW-Mechanize-Catalyst-0.53.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	39af24987a4a7a34dccf2ef9cc6af3f7	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=37fce227214f2b0a2c2a806430cc1cdd
