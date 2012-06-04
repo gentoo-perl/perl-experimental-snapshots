@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
 RDEPEND=virtual/perl-Encode dev-perl/Mixin-Linewise dev-perl/Moose >=dev-perl/Moose-Autobox-0.100.0 >=dev-perl/Moose-0.900 dev-perl/Moose dev-perl/MooseX-Types >=dev-perl/Pod-Eventual-0.4.0 dev-perl/String-RewritePrefix dev-perl/String-Truncate dev-perl/Sub-Exporter dev-perl/Sub-Exporter-ForMethods dev-perl/Test-Deep dev-perl/Test-Differences dev-perl/namespace-autoclean dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Pod-Elemental-0.102361.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5782800349f728f725f9378105c6a2ab	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=33e619153e3b4ad3cf42094504f1e9e8

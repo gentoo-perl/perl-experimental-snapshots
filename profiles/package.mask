@@ -3,10 +3,6 @@
 =dev-lang/perl-5.16*
 
 # Kent Fredric <kentfredric@gmail.com> (14 Nov 2011)
-# Depend on Not-Yet-Available Module::Build 0.390.0
-=dev-perl/Catalyst-Plugin-Singleton-0.200.0
-
-# Kent Fredric <kentfredric@gmail.com> (14 Nov 2011)
 # Old virtuals only for 5.10.x 5.8.x
 =virtual/perl-Exporter-5.580.0
 =virtual/perl-Math-Complex-1.350.0
@@ -79,8 +75,3 @@ perl-core/Unicode-Normalize
 virtual/perl-Unicode-Normalize
 perl-core/Math-Complex
 virtual/perl-Math-Complex
-
-# Torsten Veller <tove@gentoo.org> (09 Jan 2011)
-# Change version scheme. Latest version looks like a downgrade
->=virtual/perl-CPANPLUS-0.9001
->=perl-core/CPANPLUS-0.9001

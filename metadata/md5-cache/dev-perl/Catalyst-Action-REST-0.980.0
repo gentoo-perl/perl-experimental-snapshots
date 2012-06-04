@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Catalyst-Runtime-5.800.300 >=dev-perl/Class-Inspector-1.13 dev-perl/config-general >=dev-perl/Data-Serializer-0.360.0 dev-perl/Data-Taxi dev-perl/FreezeThaw dev-perl/HTML-Parser >=dev-perl/JSON-2.12 >=dev-perl/JSON-XS-2.222.200 >=dev-perl/libwww-perl-2.33.0 >=dev-perl/MRO-Compat-0.100.0 virtual/perl-Module-Pluggable >=dev-perl/Moose-1.30.0 dev-perl/PHP-Serialization >=dev-perl/Params-Validate-0.76 dev-perl/URI-Find dev-perl/XML-Simple >=dev-perl/YAML-Syck-0.67 dev-perl/namespace-autoclean >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Action-REST-0.98.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5782800349f728f725f9378105c6a2ab	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=9f110129cfd30ffee403027da131e076
