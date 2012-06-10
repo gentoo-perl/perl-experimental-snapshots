@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Parse-CPAN-Distributions/
 || ( Artistic GPL-2 )
 Provides an index for current CPAN distributions
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

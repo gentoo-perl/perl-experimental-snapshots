@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Log-Log4perl/
 || ( Artistic GPL-2 )
 DEPRECATED (see Log::Log4perl::Catalyst)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

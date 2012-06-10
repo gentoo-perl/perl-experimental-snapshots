@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Method-Signatures/
 || ( Artistic GPL-2 )
 Method declarations with type constraints and no source filter
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

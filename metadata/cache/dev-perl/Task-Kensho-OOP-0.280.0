@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho-OOP/
 || ( Artistic GPL-2 )
 A glimpse at an Enlightened Perl (OOP modules)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +moose
 
 

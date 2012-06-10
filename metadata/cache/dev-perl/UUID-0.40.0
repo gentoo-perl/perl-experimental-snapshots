@@ -7,7 +7,7 @@ http://search.cpan.org/dist/UUID/
 Artistic
 Perl extension for using UUID interfaces as defined in e2fsprogs
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

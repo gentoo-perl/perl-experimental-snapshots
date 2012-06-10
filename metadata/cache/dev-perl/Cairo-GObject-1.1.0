@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Cairo-GObject/
 LGPL-2.1
 Integrate Cairo into the Glib type system
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

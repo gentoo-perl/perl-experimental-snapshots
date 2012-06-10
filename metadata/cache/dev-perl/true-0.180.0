@@ -7,7 +7,7 @@ http://search.cpan.org/dist/true/
 || ( Artistic GPL-2 )
 automatically return a true value when a file is required
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Types-VariantTable/
 || ( Artistic GPL-2 )
 Type constraint based variant table
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

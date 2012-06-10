@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Pod-Weaver-Plugin-Encoding/
 || ( Artistic GPL-2 )
 Add an encoding command to your POD
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

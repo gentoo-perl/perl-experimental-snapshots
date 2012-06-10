@@ -7,7 +7,7 @@ http://search.cpan.org/dist/mocked/
 || ( Artistic GPL-2 )
 use mocked libraries in unit tests
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

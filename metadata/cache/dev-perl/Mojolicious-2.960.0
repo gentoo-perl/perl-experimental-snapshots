@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Mojolicious/
 Artistic-2
 Real-time web framework
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

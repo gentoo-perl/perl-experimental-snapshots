@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-View-Download/
 || ( Artistic GPL-2 )
 Takes a nested array and outputs CSV formatted content.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

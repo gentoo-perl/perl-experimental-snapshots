@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-Params-Demoronize/
 || ( Artistic GPL-2 )
 Convert common UTF-8 and Windows-1252 characters to their ASCII equivalents
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

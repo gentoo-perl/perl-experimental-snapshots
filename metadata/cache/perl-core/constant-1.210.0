@@ -7,7 +7,7 @@ http://search.cpan.org/dist/constant/
 || ( Artistic GPL-2 )
 Perl pragma to declare constants
 ~amd64 ~x86
-alternatives base eutils multilib perl-module toolchain-funcs user
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

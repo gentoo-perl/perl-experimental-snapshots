@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DBIx-Connector/
 || ( Artistic GPL-2 )
 Fast, safe DBI connection and transaction management
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

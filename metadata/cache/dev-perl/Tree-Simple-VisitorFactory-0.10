@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Tree-Simple-VisitorFactory/
 || ( Artistic GPL-2 )
 A factory object for dispensing Visitor objects
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

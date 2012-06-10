@@ -7,7 +7,7 @@ http://search.cpan.org/dist/FindBin-libs/
 || ( Artistic GPL-2 )
 FindBin::libs - locate and a 'use lib' or export directories based on .
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

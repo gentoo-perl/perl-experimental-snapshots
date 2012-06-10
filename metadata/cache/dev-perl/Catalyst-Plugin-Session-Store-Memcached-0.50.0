@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-Memcached/
 || ( Artistic GPL-2 )
 Memcached storage backend for
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# JSON
 	echo dev-perl/JSON
 	# List::MoreUtils 0.13 ( 0.130.0 )
-	echo \>=dev-perl/List-MoreUtils-0.13
+	echo \>=dev-perl/List-MoreUtils-0.130.0
 	# Log::Any 0.08 ( 0.80.0 )
 	echo \>=dev-perl/Log-Any-0.80.0
 	# Moose 0.66 ( 0.660.0 )

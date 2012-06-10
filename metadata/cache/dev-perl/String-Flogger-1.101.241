@@ -1,5 +1,5 @@
->=virtual/perl-ExtUtils-MakeMaker-6.31 test? ( >=virtual/perl-Test-Simple-0.96 ) >=dev-perl/JSON-2 dev-perl/Params-Util dev-perl/Sub-Exporter dev-lang/perl[-build]
->=dev-perl/JSON-2 dev-perl/Params-Util dev-perl/Sub-Exporter dev-lang/perl[-build]
+>=virtual/perl-ExtUtils-MakeMaker-6.31 test? ( >=virtual/perl-Test-Simple-0.96 ) >=dev-perl/JSON-2.0.0 dev-perl/Params-Util dev-perl/Sub-Exporter dev-lang/perl[-build]
+>=dev-perl/JSON-2.0.0 dev-perl/Params-Util dev-perl/Sub-Exporter dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/R/RJ/RJBS/String-Flogger-1.101241.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/String-Flogger/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 string munging for loggers
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

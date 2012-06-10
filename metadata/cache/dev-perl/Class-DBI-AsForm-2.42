@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Class-DBI-AsForm/
 || ( Artistic GPL-2 )
 Produce HTML form elements for database columns
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

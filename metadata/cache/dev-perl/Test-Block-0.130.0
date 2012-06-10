@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-Block/
 || ( Artistic GPL-2 )
 DEPRECIATED: Specify fine granularity test plans
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

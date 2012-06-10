@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CatalystX-Profile/
 || ( Artistic GPL-2 )
 Profile your Catalyst application with Devel::NYTProf
 ~x86 ~amd64
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

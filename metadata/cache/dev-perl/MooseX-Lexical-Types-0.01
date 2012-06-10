@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Lexical-Types/
 || ( Artistic GPL-2 )
 automatically validate lexicals against Moose type constraints
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

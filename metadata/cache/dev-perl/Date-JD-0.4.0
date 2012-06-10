@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Date-JD/
 || ( Artistic GPL-2 )
 conversion between flavours of Julian Date
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

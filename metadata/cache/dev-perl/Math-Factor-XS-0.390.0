@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Math-Factor-XS/
 || ( Artistic GPL-2 )
 Factorize numbers and calculate matching multiplications
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Child/
 || ( Artistic GPL-2 )
 Object oriented simple interface to fork()
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

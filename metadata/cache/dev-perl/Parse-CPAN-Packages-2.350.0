@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Parse-CPAN-Packages/
 || ( Artistic GPL-2 )
 Parse 02packages.details.txt.gz
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Hash-FieldHash/
 || ( Artistic GPL-2 )
 A lightweight field hash implementation
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

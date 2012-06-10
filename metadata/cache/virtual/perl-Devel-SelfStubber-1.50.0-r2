@@ -1,0 +1,22 @@
+
+|| ( ( >=dev-lang/perl-5.13.8 !perl-core/Devel-SelfStubber ) ~perl-core/Devel-SelfStubber-1.50.0 )
+0
+
+
+
+
+Virtual for perl-core/Devel-SelfStubber
+~x86 ~amd64
+
+
+
+
+
+
+
+-
+
+
+
+
+

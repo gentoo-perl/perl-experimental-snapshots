@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Pod-Perldoc/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Look up Perl documentation in Pod format
 
-alternatives base eutils multilib perl-module toolchain-funcs user
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

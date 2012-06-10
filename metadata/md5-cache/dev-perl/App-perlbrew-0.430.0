@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.620.0 >=virtual/perl-ExtUtils-MakeMaker-6.620.0 virtual/perl-File-Temp dev-perl/IO-All dev-perl/Path-Class dev-perl/Test-Exception virtual/perl-Test-Simple dev-perl/Test-Output >=virtual/perl-Test-Simple-0.980.0 dev-perl/Test-Spec >=dev-perl/CPAN-Perl-Releases-0.580.0 >=dev-perl/Capture-Tiny-0.180.0 >=dev-perl/Devel-PatchPerl-0.700.0 >=dev-perl/File-Path-Tiny-0.300.0 >=dev-perl/local-lib-1.8.0 >=dev-lang/perl-5.8.0 dev-lang/perl[-build]
+DESCRIPTION=Manage perl installations in your $HOME
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/App-perlbrew/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-perl/CPAN-Perl-Releases-0.580.0 >=dev-perl/Capture-Tiny-0.180.0 >=dev-perl/Devel-PatchPerl-0.700.0 >=dev-perl/File-Path-Tiny-0.300.0 >=dev-perl/local-lib-1.8.0 >=dev-lang/perl-5.8.0 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GU/GUGOD/App-perlbrew-0.43.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=53d22cce2867c53f447eb2aa1cb01f4d

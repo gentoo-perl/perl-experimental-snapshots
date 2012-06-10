@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Archive-Peek/
 || ( Artistic GPL-2 )
 Peek into archives without extracting them
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

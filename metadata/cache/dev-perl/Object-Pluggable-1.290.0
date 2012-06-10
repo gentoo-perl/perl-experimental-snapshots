@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Object-Pluggable/
 || ( Artistic GPL-2 )
 A base class for creating plugin-enabled objects
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

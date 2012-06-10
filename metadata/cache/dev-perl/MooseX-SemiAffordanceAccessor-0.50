@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-SemiAffordanceAccessor/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Name your accessors foo() and set_foo()
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Ogg-Vorbis-Decoder/
 || ( Artistic GPL-2 )
 An object-oriented Ogg Vorbis to decoder
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

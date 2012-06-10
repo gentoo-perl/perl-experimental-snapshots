@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Math-Combinatorics/
 || ( Artistic GPL-2 )
 Perform combinations and permutations on lists
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

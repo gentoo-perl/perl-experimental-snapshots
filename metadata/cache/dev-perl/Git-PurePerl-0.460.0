@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Git-PurePerl/
 || ( Artistic GPL-2 )
 A Pure Perl interface to Git repositories
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

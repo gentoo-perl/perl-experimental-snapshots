@@ -7,7 +7,7 @@ http://search.cpan.org/dist/signatures/
 || ( Artistic GPL-2 )
 subroutine signatures with no source filter
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

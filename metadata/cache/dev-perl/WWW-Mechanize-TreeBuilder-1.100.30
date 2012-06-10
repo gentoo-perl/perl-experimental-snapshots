@@ -7,7 +7,7 @@ http://search.cpan.org/dist/WWW-Mechanize-TreeBuilder/
 as-is
 This module combines WWW::Mechanize and HTML::TreeBuilder.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

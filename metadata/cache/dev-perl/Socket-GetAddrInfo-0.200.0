@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Socket-GetAddrInfo/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 RFC 2553's getaddrinfo and getnameinfo functions
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

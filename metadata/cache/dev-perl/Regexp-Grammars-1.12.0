@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Regexp-Grammars/
 || ( Artistic GPL-2 )
 Add grammatical parsing features to Perl 5.10 regexes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

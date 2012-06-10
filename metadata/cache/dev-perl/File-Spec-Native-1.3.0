@@ -7,7 +7,7 @@ http://search.cpan.org/dist/File-Spec-Native/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Use native OS implementation of File::Spec from a subclass
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DateTime-Format-DB2/
 || ( Artistic GPL-2 )
 Parse and format DB2 dates and times
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

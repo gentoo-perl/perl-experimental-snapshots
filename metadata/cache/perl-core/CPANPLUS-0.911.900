@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CPANPLUS/
 || ( Artistic GPL-2 )
 Ameliorated interface to the CPAN
 ~amd64 ~x86
-alternatives base eutils multilib perl-module toolchain-funcs user
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
 cpantest md5 signature storable sqlite_backend selfupgrade
 cpantest? ( selfupgrade ) md5? ( selfupgrade ) signature? ( selfupgrade ) storable? ( selfupgrade ) sqlite_backend? ( selfupgrade )
 

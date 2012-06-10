@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Log-Trace/
 GPL-2
 Provides a unified approach to tracing
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

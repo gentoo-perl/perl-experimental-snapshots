@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Module-Build-0.400.0 virtual/perl-File-Spec dev-perl/Test-Deep virtual/perl-Test-Simple dev-perl/Test-NoWarnings >=dev-perl/Test-Warn-0.11 >=dev-perl/Archive-Any-0.60.0 >=virtual/perl-Archive-Tar-1.48 >=dev-perl/Array-Diff-0.40.0 >=dev-perl/CPAN-DistnameInfo-0.60.0 >=dev-perl/Class-Accessor-0.190.0 virtual/perl-ExtUtils-Manifest dev-perl/File-Find-Rule dev-perl/File-Slurp dev-perl/File-chdir >=dev-perl/IO-Capture-0.50.0 dev-perl/libwww-perl dev-perl/List-MoreUtils >=dev-perl/Module-ExtractUse-0.180.0 >=virtual/perl-Module-Pluggable-2.960.0 dev-perl/Module-Signature >=virtual/perl-Pod-Simple-2.20.0 dev-perl/Readonly dev-perl/set-scalar >=dev-perl/Software-License-0.3.0 dev-perl/Test-CPAN-Meta-YAML >=dev-perl/Text-CSV_XS-0.450.0 dev-perl/yaml >=dev-lang/perl-5.6.0 >=virtual/perl-version-0.73 dev-lang/perl[-build]
+DESCRIPTION=Generate Kwalitee ratings for a distribution
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Module-CPANTS-Analyse/
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Archive-Any-0.60.0 >=virtual/perl-Archive-Tar-1.48 >=dev-perl/Array-Diff-0.40.0 >=dev-perl/CPAN-DistnameInfo-0.60.0 >=dev-perl/Class-Accessor-0.190.0 virtual/perl-ExtUtils-Manifest dev-perl/File-Find-Rule dev-perl/File-Slurp dev-perl/File-chdir >=dev-perl/IO-Capture-0.50.0 dev-perl/libwww-perl dev-perl/List-MoreUtils >=dev-perl/Module-ExtractUse-0.180.0 >=virtual/perl-Module-Pluggable-2.960.0 dev-perl/Module-Signature >=virtual/perl-Pod-Simple-2.20.0 dev-perl/Readonly dev-perl/set-scalar >=dev-perl/Software-License-0.3.0 dev-perl/Test-CPAN-Meta-YAML >=dev-perl/Text-CSV_XS-0.450.0 dev-perl/yaml >=dev-lang/perl-5.6.0 >=virtual/perl-version-0.73 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAXIM/Module-CPANTS-Analyse-0.86.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=bef6c522be02bc1141334b0a35a0ffe7

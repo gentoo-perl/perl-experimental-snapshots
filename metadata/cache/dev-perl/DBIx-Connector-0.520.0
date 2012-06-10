@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.30.00 >=virtual/perl-Module-Build-0.30.00 >=dev-perl/Test-MockModule-0.50.0 >=virtual/perl-Test-Simple-0.88 >=dev-perl/DBI-1.605 >=dev-lang/perl-5.6.2 dev-lang/perl[-build]
+>=dev-perl/DBI-1.605 >=dev-lang/perl-5.6.2 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DW/DWHEELER/DBIx-Connector-0.52.tar.gz
+
+http://search.cpan.org/dist/DBIx-Connector/
+|| ( Artistic GPL-2 )
+Fast, safe DBI connection and transaction management
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

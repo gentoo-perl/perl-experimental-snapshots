@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Types-URI/
 || ( Artistic GPL-2 )
 URI related types and coercions for Moose
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

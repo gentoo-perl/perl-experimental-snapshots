@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Model-EVDB/
 || ( Artistic GPL-2 )
 EVDB model class for Catalyst
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

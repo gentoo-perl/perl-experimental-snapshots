@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/Socket
+KEYWORDS=~x86 ~amd64
+RDEPEND=|| ( ( >=dev-lang/perl-5.13.10 <=dev-lang/perl-5.15.2 !perl-core/Socket ) ~perl-core/Socket-1.940.0 )
+SLOT=0
+_md5_=1b704f936bb06ec71416b294a8f45053

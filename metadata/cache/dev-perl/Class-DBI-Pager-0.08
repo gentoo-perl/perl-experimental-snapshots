@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Class-DBI-Pager/
 || ( Artistic GPL-2 )
 Pager utility for Class::DBI
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

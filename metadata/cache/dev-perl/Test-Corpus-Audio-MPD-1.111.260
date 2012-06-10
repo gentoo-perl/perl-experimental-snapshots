@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-Corpus-Audio-MPD/
 || ( Artistic GPL-2 )
 automate launching of fake mpd for testing purposes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

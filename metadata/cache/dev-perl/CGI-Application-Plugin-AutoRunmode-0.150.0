@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CGI-Application-Plugin-AutoRunmode/
 || ( Artistic GPL-2 )
 CGI::App plugin to automatically register runmodes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-Message/
 || ( Artistic GPL-2 )
 The great new Catalyst::Plugin::Message!
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

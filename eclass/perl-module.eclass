@@ -12,7 +12,7 @@
 # The perl-module eclass is designed to allow easier installation of perl
 # modules, and their incorporation into the Gentoo Linux system.
 
-inherit eutils base
+inherit eutils base multiprocessing
 [[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 PERL_EXPF="src_unpack src_compile src_test src_install"
@@ -285,12 +285,46 @@ perlinfo() {
 	perl_set_version
 }
 
+has perl_diagnostics ${EBUILD_DEATH_HOOKS} || EBUILD_DEATH_HOOKS+=" perl_diagnostics"
+
+perl_diagnostics() {
+	local d
+	d=${T}/perl-diagnostics.log
+	[[ -e ${d} ]] && return
+	: > $d
+
+	{
+		echo "perl: $(type -p perl)"
+		echo
+		echo "ENV values:"
+		env | grep -E '^(PERL|HOME=|MANPATH|PATH|TEST|GENTOO_PERL)'
+		echo
+		echo "perl -V:"
+		perl -V 2>&1
+		echo
+		if type -p perl-info 2>/dev/null ; then
+			echo "perl-info output:"
+			echo
+			perl-info
+			echo
+		fi
+		echo "Corelist Versions:"
+		perl -MModule::CoreList -e 'for $mod ( Module::CoreList->find_modules(qr/^/) ) { eval "require $mod; print q[$mod : ] . \$${mod}::VERSION . qq[\n]; 1" or print qq{\e[31mNA: $mod\e[0m\n};}'
+	} >> $d
+
+	eerror
+	eerror "-- Gentoo Perl Team specific bug reporting request --"
+	eerror "Please attach the contents of the following file with your bug report:"
+	eerror " $d"
+	eerror
+}
+
 perl_check_module_version() {
 	local REAL_PV
 	local gpmv="$(type -p gentoo-perlmod-version.pl)"
 	[[ -n ${MODULE_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
 	REAL_PV=$( ${gpmv} --oneshot "${MODULE_VERSION}" )
-	if [[ ${REAL_PV} != ${PV} ]] ; then
+	if [[ -n ${REAL_PV} && ${REAL_PV} != ${PV} ]] ; then
 		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
 		eqawarn "           The ebuild version should be ${REAL_PV}"
 	fi

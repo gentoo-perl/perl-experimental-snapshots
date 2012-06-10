@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Plack-Test-ExternalServer/
 || ( Artistic GPL-2 )
 Run HTTP tests on external live servers
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

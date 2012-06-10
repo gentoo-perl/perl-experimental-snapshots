@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DBIx-Class-EncodedColumn/
 || ( Artistic GPL-2 )
 Automatic digest columns.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +md5 +sha +blowfish +gpg
 
 

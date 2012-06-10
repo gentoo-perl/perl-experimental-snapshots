@@ -7,7 +7,7 @@ http://search.cpan.org/dist/IO-Socket-IP/
 || ( Artistic GPL-2 )
 A drop-in replacement for IO::Socket::INET supporting both IPv4 and IPv6
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

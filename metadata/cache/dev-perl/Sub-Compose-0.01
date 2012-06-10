@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Sub-Compose/
 || ( Artistic GPL-2 )
 takes any number of subroutine references and creates a new subroutine reference from them
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

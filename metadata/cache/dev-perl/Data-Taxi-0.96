@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Data-Taxi/
 || ( Artistic GPL-2 )
 Taint-aware, XML-ish data serialization
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

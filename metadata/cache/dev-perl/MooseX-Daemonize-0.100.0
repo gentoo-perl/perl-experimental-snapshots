@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Daemonize/
 || ( Artistic GPL-2 )
 Role for daemonizing your Moose based application
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

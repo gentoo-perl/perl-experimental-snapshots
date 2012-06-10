@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho-Logging/
 || ( Artistic GPL-2 )
 A Glimpse at an Enlightened Perl (Logging)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +logdispatch +log4perl +logcontextual
 
 

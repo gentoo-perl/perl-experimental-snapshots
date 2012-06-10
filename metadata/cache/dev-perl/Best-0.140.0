@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Best/
 MIT
 Fallbackable module loader
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

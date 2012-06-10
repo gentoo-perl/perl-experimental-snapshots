@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Amazon-S3/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 A portable client library for working with and managing Amazon S3 buckets and keys.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

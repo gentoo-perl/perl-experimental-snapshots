@@ -7,7 +7,7 @@ http://search.cpan.org/dist/App-cpanminus/
 || ( Artistic GPL-2 )
 get, unpack, build and install modules from CPAN
 
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 
 
 

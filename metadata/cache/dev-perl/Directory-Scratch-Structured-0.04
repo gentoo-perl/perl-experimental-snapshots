@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Directory-Scratch-Structured/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 creates temporary files and directories from a structured description
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Text-vFile-asData-0.05 >=dev-perl/File-Slurp-9999.04 >=virtual/perl-MIME-Base64-3.07 test? ( >=virtual/perl-Test-Simple-0.1 ) dev-lang/perl[-build]
+DESCRIPTION=Edit or create a single vCard (RFC 2426)
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/Text-vCard/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Text-vFile-asData-0.05 >=dev-perl/File-Slurp-9999.04 >=virtual/perl-MIME-Base64-3.07 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LL/LLAP/Text-vCard-2.07.tar.gz
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=f812480170b25f5c395fe9e2623f9d46

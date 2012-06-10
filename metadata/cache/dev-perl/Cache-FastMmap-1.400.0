@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Cache-FastMmap/
 || ( Artistic GPL-2 )
 Uses an mmap'ed file to act as a shared memory interprocess cache
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

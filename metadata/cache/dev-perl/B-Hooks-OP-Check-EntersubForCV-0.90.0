@@ -7,7 +7,7 @@ http://search.cpan.org/dist/B-Hooks-OP-Check-EntersubForCV/
 || ( Artistic GPL-2 )
 Invoke callbacks on construction of entersub OPs for certain CVs
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

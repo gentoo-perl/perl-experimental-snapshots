@@ -7,7 +7,7 @@ http://search.cpan.org/dist/aliased/
 || ( Artistic GPL-2 )
 Use shorter versions of class names
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

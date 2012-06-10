@@ -7,7 +7,7 @@ http://search.cpan.org/dist/HTML-Defang/
 || ( Artistic GPL-2 )
 Cleans HTML as well as CSS of scripting and other executable contents, and neutralises XSS attacks.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

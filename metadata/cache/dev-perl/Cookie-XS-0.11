@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Cookie-XS/
 || ( Artistic GPL-2 )
 (DEPRECATED) HTTP Cookie parser in C (Please use CGI::Cookie::XS instead)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

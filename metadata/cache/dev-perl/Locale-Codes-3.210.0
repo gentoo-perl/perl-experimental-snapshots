@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Locale-Codes/
 || ( Artistic GPL-2 )
 a distribution of modules to handle locale codes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

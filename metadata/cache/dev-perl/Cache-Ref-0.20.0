@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Cache-Ref/
 || ( Artistic GPL-2 )
 Memory only cache of live references
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

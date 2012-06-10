@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Engine-HTTP-Prefork/
 || ( Artistic GPL-2 )
 High-performance pre-forking Catalyst engine.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

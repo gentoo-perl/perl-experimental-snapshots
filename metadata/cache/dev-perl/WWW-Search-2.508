@@ -7,7 +7,7 @@ http://search.cpan.org/dist/WWW-Search/
 as-is
 Virtual base class for WWW searches
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

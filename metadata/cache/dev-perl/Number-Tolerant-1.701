@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Number-Tolerant/
 || ( Artistic GPL-2 )
 tolerance ranges for inexact numbers
 ~amd64 ~x86
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 
 
 

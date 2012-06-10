@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-MetaProvides-Class/
 || ( Artistic GPL-2 )
 Scans Dist::Zilla's .pm files and tries to identify classes using Class::Discover
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +metanoindex
 
 

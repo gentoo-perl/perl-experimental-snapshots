@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Class-DBI-FromForm/
 || ( Artistic GPL-2 )
 Update Class::DBI data using Data::FormValidator or HTML Widget
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

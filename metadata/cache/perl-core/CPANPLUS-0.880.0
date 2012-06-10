@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CPANPLUS/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 API & CLI access to the CPAN mirrors
 ~amd64 ~x86
-alternatives base eutils multilib perl-module toolchain-funcs user versionator
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user versionator
 
 
 

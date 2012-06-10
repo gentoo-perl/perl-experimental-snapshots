@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Text-Diff-Parser/
 || ( Artistic GPL-2 )
 Parse patch files containing unified and standard diffs
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

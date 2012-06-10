@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-Repository/
 || ( Artistic GPL-2 )
 Automatically sets repository URL from svn/svk/Git checkout for Dist::Zilla
 ~amd64 ~x86
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 
 
 

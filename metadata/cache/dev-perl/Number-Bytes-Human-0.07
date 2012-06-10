@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Number-Bytes-Human/
 || ( Artistic GPL-2 )
 Convert byte count to human readable format.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

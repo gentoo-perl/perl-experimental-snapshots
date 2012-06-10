@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Data-TreeDumper/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Improved replacement for Data::Dumper. Powerful filtering capability
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

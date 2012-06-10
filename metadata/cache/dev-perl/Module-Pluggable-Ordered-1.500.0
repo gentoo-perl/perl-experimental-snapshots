@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Module-Pluggable-Ordered/
 || ( Artistic GPL-2 )
 Call module plugins in a specified order
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

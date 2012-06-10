@@ -1,5 +1,5 @@
-virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=virtual/perl-File-Path-2.0 virtual/perl-File-Spec >=dev-perl/JSON-2.0 virtual/perl-Test-Simple dev-lang/perl[-build]
->=virtual/perl-File-Path-2.0 virtual/perl-File-Spec >=dev-perl/JSON-2.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=virtual/perl-File-Path-2.0 virtual/perl-File-Spec >=dev-perl/JSON-2.0.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+>=virtual/perl-File-Path-2.0 virtual/perl-File-Spec >=dev-perl/JSON-2.0.0 virtual/perl-Test-Simple dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/V/VI/VIY/HTML-Template-Pro-0.9509.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/HTML-Template-Pro/
 || ( Artistic GPL-2 LGPL-2 LGPL-3 )
 Perl/XS module to use HTML Templates from CGI scripts
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

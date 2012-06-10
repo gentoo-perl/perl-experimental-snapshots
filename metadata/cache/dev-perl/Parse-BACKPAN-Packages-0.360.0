@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Parse-BACKPAN-Packages/
 || ( Artistic GPL-2 )
 Provide an index of BACKPAN
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test -big-net-test
 
 

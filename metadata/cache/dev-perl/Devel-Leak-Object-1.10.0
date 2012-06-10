@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Devel-Leak-Object/
 || ( Artistic GPL-2 )
 Detect leaks of objects
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

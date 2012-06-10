@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Controller-HTML-FormFu/
 || ( Artistic GPL-2 )
 Catalyst controller for HTML::FormFu framework
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

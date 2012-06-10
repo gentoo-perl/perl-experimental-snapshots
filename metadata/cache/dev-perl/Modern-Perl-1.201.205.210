@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Modern-Perl/
 || ( Artistic GPL-2 )
 enable all of the features of Modern Perl with one import
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

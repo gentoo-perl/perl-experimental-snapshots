@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Module-Install-AuthorTests/
 || ( Artistic GPL-2 )
 designate tests only run by module authors
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

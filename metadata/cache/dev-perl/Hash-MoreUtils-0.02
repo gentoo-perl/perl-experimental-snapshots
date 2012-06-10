@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Hash-MoreUtils/
 || ( Artistic GPL-2 )
 Provide the stuff missing in Hash::Util
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/HTML-Packer/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Another HTML code cleaner
 
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 test
 
 

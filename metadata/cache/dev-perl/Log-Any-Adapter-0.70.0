@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Log-Any-Adapter/
 || ( Artistic GPL-2 )
 Tell Log::Any where to send its logs
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

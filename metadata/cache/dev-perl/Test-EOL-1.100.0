@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-EOL/
 || ( Artistic GPL-2 )
 Check the correct line endings in your project
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

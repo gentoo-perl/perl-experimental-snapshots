@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Archive-Extract/
 || ( Artistic GPL-2 )
 Generic archive extracting mechanism
 ~amd64 ~x86
-alternatives base eutils multilib perl-module toolchain-funcs user
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

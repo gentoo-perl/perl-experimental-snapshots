@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-ConfigLoader/
 || ( Artistic GPL-2 )
 Load config files of various types
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

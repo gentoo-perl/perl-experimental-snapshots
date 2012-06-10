@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CGI-Cache/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Perl extension to help cache output of time-intensive CGI scripts
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

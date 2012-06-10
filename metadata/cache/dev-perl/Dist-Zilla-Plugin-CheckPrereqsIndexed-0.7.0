@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-CheckPrereqsIndexed/
 || ( Artistic GPL-2 )
 prevent a release if you have prereqs not found on CPAN
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

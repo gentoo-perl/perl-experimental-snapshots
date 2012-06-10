@@ -7,7 +7,7 @@ http://search.cpan.org/dist/App-Asciio/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 gtk2-perl application to draw ASCII diagrams
 ~x86 ~amd64
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

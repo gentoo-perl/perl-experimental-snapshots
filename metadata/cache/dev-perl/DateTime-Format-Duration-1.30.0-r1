@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DateTime-Format-Duration/
 || ( Artistic GPL-2 )
 Format and parse DateTime::Durations
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

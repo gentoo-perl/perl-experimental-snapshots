@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CatalystX-SimpleLogin/
 || ( Artistic GPL-2 )
 Provide a simple Login controller which can be reused
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

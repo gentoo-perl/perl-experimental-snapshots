@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Types-Set-Object/
 || ( Artistic GPL-2 )
 Set::Object type with coercions and stuff.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

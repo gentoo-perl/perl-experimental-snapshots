@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Syntax-Highlight-Engine-Kate/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 a port to Perl of the syntax highlight engine of the Kate texteditor.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

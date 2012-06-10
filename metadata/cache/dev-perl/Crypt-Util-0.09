@@ -1,5 +1,5 @@
->=dev-perl/Mouse-0.04 dev-perl/Sub-Exporter dev-perl/Data-GUID dev-perl/namespace-clean dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA
->=dev-perl/Mouse-0.04 dev-perl/Sub-Exporter dev-perl/Data-GUID dev-perl/namespace-clean dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA
+>=dev-perl/Mouse-0.40.0 dev-perl/Sub-Exporter dev-perl/Data-GUID dev-perl/namespace-clean dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA
+>=dev-perl/Mouse-0.40.0 dev-perl/Sub-Exporter dev-perl/Data-GUID dev-perl/namespace-clean dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/Crypt-Util-0.09.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Crypt-Util/
 || ( Artistic GPL-2 )
 A lightweight Crypt/Digest convenience API
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

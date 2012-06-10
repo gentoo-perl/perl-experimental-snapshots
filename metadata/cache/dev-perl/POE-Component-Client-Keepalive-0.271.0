@@ -7,7 +7,7 @@ http://search.cpan.org/dist/POE-Component-Client-Keepalive/
 || ( Artistic GPL-2 )
 manage connections, with keep-alive
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

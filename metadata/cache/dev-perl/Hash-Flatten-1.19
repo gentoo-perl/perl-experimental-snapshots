@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Hash-Flatten/
 GPL-2
 flatten/unflatten complex data hashes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -1,5 +1,5 @@
->=virtual/perl-PodParser-1.320.0 dev-perl/Class-Accessor dev-perl/Class-Data-Inheritable virtual/perl-File-Spec virtual/perl-MIME-Base64 dev-perl/Template-Toolkit dev-perl/Readonly dev-perl/URI >=dev-perl/JSON-2.04 dev-lang/perl[-build]
->=virtual/perl-PodParser-1.320.0 dev-perl/Class-Accessor dev-perl/Class-Data-Inheritable virtual/perl-File-Spec virtual/perl-MIME-Base64 dev-perl/Template-Toolkit dev-perl/Readonly dev-perl/URI >=dev-perl/JSON-2.04 dev-lang/perl[-build]
+>=virtual/perl-PodParser-1.320.0 dev-perl/Class-Accessor dev-perl/Class-Data-Inheritable virtual/perl-File-Spec virtual/perl-MIME-Base64 dev-perl/Template-Toolkit dev-perl/Readonly dev-perl/URI >=dev-perl/JSON-2.40.0 dev-lang/perl[-build]
+>=virtual/perl-PodParser-1.320.0 dev-perl/Class-Accessor dev-perl/Class-Data-Inheritable virtual/perl-File-Spec virtual/perl-MIME-Base64 dev-perl/Template-Toolkit dev-perl/Readonly dev-perl/URI >=dev-perl/JSON-2.40.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/L/LY/LYOKATO/Pod-ProjectDocs-0.40.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Pod-ProjectDocs/
 || ( Artistic GPL-2 )
 generates CPAN like pod pages
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

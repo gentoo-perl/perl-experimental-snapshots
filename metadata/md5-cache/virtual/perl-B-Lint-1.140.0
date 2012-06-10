@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for B::Lint
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( >=dev-lang/perl-5.15.9 =perl-core/B-Lint-1.140.0* )
+SLOT=0
+_md5_=62f9a057dc35a980d386f0131f911d20

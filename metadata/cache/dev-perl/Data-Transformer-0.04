@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Data-Transformer/
 || ( Artistic GPL-2 )
 Traverse a data structure, altering it in place
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

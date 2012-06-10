@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-Without-Module/
 || ( Artistic GPL-2 )
 Test fallback behaviour in absence of modules
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

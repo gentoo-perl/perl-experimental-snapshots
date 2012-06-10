@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DBIx-Class-Schema-Loader/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Dynamic definition of DBIx::Class sub classes.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 sqlite mysql postgres test
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Log-Log4perl/
 || ( Artistic GPL-2 )
 Log::Log4perl logging for Catalyst
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

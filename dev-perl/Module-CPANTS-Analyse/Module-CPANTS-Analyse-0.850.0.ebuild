@@ -12,15 +12,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Class-Accessor-0.19
+	>=dev-perl/Class-Accessor-0.190.0
 	>=dev-perl/Archive-Any-0.60.0
 	>=virtual/perl-Archive-Tar-1.30
 	>=dev-perl/CPAN-DistnameInfo-0.60.0
 	>=virtual/perl-Pod-Simple-2.02
 	>=dev-perl/YAML-Syck-0.95
 	>=dev-perl/Module-ExtractUse-0.180.0
-	>=virtual/perl-Module-Pluggable-2.96
-	>=dev-perl/IO-Capture-0.05
+	>=virtual/perl-Module-Pluggable-2.960.0
+	>=dev-perl/IO-Capture-0.50.0
 	>=dev-perl/Array-Diff-0.40.0
 	>=dev-perl/Test-YAML-Meta-0.110.0
 	>=virtual/perl-version-0.73
@@ -29,7 +29,7 @@ COMMON_DEPEND="
 	dev-perl/Readonly
 	>=dev-perl/Software-License-0.3.0
 	dev-perl/File-Slurp
-	>=dev-perl/Text-CSV_XS-0.45
+	>=dev-perl/Text-CSV_XS-0.450.0
 	dev-perl/libwww-perl
 "
 DEPEND="

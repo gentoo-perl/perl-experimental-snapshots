@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Term-Prompt/
 || ( Artistic GPL-2 )
 Perl extension for prompting a user for information
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

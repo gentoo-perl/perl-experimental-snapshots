@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# POE 1.311 ( 1.311.0 )
 	echo \>=dev-perl/POE-1.311.0
 	# Scalar::Util 1.23 ( 1.230.0 )
-	echo \>=virtual/perl-Scalar-List-Utils-1.23
+	echo \>=virtual/perl-Scalar-List-Utils-1.230.0
 	# Socket::GetAddrInfo 0.19 ( 0.190.0 )
 	echo \>=dev-perl/Socket-GetAddrInfo-0.190.0
 	# Storable 2.18 ( 2.180.0 )

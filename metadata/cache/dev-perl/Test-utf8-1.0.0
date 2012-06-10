@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-utf8/
 || ( Artistic GPL-2 )
 handy utf8 tests
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

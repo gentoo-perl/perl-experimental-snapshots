@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Business-Tax-VAT-Validation/
 GPL-3
 A class for european VAT numbers validation.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

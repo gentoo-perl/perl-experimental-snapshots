@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-Kwalitee/
 || ( Artistic GPL-2 )
 test the Kwalitee of a distribution before you release it
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

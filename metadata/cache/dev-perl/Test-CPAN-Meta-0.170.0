@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-CPAN-Meta/
 || ( Artistic GPL-2 )
 A test module to validate a CPAN META.yml file.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

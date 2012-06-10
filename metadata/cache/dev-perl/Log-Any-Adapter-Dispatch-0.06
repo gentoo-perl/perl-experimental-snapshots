@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Log-Any-Adapter-Dispatch/
 || ( Artistic GPL-2 )
 Adapter to use Log::Dispatch with Log::Any
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

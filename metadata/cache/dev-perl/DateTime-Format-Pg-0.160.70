@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DateTime-Format-Pg/
 || ( Artistic GPL-2 )
 Parse and format PostgreSQL dates and times
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

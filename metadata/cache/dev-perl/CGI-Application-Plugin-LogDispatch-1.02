@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CGI-Application-Plugin-LogDispatch/
 || ( Artistic GPL-2 )
 Add Log::Dispatch support to CGI::Application
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

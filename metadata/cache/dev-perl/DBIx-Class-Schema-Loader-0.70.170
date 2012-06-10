@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DBIx-Class-Schema-Loader/
 || ( Artistic GPL-2 )
 Create a DBIx::Class::Schema based on a database
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

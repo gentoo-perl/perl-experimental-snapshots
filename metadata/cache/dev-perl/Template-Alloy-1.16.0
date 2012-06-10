@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Template-Alloy/
 || ( Artistic GPL-2 )
 TT2/3, HT, HTE, Tmpl, and Velocity Engine
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

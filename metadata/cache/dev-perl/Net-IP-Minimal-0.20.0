@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Net-IP-Minimal/
 || ( Artistic GPL-2 )
 Minimal functions from Net::IP
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

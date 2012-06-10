@@ -7,7 +7,7 @@ http://search.cpan.org/dist/pip/
 || ( Artistic GPL-2 )
 The Perl Installation Program, for scripted and third-party distribution installation.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

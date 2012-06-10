@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho-CLI/
 || ( Artistic GPL-2 )
 A glimpse at an Enlightened Perl (CLI Tools)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +ack +nopaste +repl +corelist +perlbrew
 
 

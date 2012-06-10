@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Config-General-Match/
 || ( Artistic GPL-2 )
 Add <Location> and <LocationMatch> style matching toi Config::General
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

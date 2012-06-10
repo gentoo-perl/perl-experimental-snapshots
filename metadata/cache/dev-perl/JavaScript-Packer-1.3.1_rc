@@ -7,7 +7,7 @@ http://search.cpan.org/dist/JavaScript-Packer/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Perl version of Dean Edwards' Packer.js
 
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 test
 
 

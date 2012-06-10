@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CGI-Application-Plugin-Redirect/
 || ( Artistic GPL-2 )
 Easy external redirects in CGI::Application
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

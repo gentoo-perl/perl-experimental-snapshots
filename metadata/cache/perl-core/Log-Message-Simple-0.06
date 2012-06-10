@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Log-Message-Simple/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Simplified interface to Log::Message
 ~amd64 ~x86
-alternatives base eutils multilib perl-module toolchain-funcs user
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

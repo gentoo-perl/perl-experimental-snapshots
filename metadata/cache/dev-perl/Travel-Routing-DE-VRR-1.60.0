@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Travel-Routing-DE-VRR/
 WTFPL-2
 Inofficial interface to the efa.vrr.de German itinerary service
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

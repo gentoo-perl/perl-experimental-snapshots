@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-MetaProvides/
 || ( Artistic GPL-2 )
 Generating and Populating provides in your META.yml
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test +fromfile +package +class +metanoindex
 
 fromfile? ( dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile ) package? ( dev-perl/Dist-Zilla-Plugin-MetaProvides-Package metanoindex? ( >=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.110.444.40 ) ) class? ( dev-perl/Dist-Zilla-Plugin-MetaProvides-Class metanoindex? ( >=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.110.444.60 ) )

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Async/
 || ( Artistic GPL-2 )
 The Orphanange of Asynchronous Love Children
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Pod-Strip/
 || ( Artistic GPL-2 )
 Remove POD from Perl code
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Config-INI/
 || ( Artistic GPL-2 )
 simple .ini-file format
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=>=virtual/perl-File-Spec-0.84 >=dev-perl/HTML-Parser-3.450.0 >=dev-perl/HTML-Tagset-3.200.0 >=dev-perl/Lingua-Stem-0.810.0 >=virtual/perl-Memoize-1.01 >=dev-perl/Memoize-ExpireLRU-0.550.0 >=virtual/perl-Storable-2.10 >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AC/ACOBURN/Lingua-EN-Tagger-0.18.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5782800349f728f725f9378105c6a2ab	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=374d4f42f4583aba09e2504b26bdd080

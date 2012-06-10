@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Algorithm-Diff-XS/
 || ( Artistic GPL-2 )
 Algorithm::Diff with XS core loop
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

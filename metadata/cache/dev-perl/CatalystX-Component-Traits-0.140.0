@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CatalystX-Component-Traits/
 || ( Artistic GPL-2 )
 Automatic Trait Loading and Resolution for Catalyst Components
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

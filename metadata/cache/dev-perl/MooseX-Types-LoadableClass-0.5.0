@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Types-LoadableClass/
 || ( Artistic GPL-2 )
 ClassName type constraint with coercion toload the class.
 ~amd64 ~x86
-base eutils multilib perl-declaredeps perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-declaredeps perl-module toolchain-funcs user
 test
 
 

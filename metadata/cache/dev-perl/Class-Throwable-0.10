@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Class-Throwable/
 || ( Artistic GPL-2 )
 A minimal lightweight exception class
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

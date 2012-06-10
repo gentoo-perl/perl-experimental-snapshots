@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho/
 || ( Artistic GPL-2 )
 A Glimpse at an Enlightened Perl
 ~x86 ~amd64
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +basic-toolchain +testing oop async webdev db crawl module-devel date config cli scripting xml +exceptions spreadsheet email scalability
 
 

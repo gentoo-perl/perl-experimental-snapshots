@@ -7,7 +7,7 @@ http://search.cpan.org/dist/URI-FromHash/
 || ( Artistic GPL-2 )
 Build a URI from a set of named parameters
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

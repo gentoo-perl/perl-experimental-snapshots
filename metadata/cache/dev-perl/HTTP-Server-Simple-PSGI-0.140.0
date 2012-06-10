@@ -7,7 +7,7 @@ http://search.cpan.org/dist/HTTP-Server-Simple-PSGI/
 || ( Artistic GPL-2 )
 PSGI handler for HTTP::Server::Simple
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Const-Fast/
 || ( Artistic GPL-2 )
 Facility for creating read-only scalars, arrays, and hashes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

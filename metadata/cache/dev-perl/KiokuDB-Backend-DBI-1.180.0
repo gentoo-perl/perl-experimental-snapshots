@@ -7,7 +7,7 @@ http://search.cpan.org/dist/KiokuDB-Backend-DBI/
 || ( Artistic GPL-2 )
 DBI backend for KiokuDB
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
-DEPEND=>=dev-perl/CGI-FormBuilder-3.02 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Class-Accessor-0.25 >=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Class-Inspector-1.13
+DEPEND=>=dev-perl/CGI-FormBuilder-3.02 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Class-Accessor-0.250.0 >=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Class-Inspector-1.13
 DESCRIPTION=Catalyst FormBuilder Base Controller
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Controller-FormBuilder/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/CGI-FormBuilder-3.02 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Class-Accessor-0.25 >=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Class-Inspector-1.13
+RDEPEND=>=dev-perl/CGI-FormBuilder-3.02 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Class-Accessor-0.250.0 >=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Class-Inspector-1.13
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JC/JCAMACHO/Catalyst-Controller-FormBuilder-0.04.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5782800349f728f725f9378105c6a2ab	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=a53bac39af245cbca1f1bf433e10dd71
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=3c46b4af8ad22c453dc3cd3f2800e481

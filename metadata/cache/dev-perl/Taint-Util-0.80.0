@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Taint-Util/
 || ( Artistic GPL-2 )
 Test for and flip the taint flag without regex matches or eval
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

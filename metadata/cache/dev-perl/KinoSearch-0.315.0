@@ -7,7 +7,7 @@ http://search.cpan.org/dist/KinoSearch/
 || ( Artistic GPL-2 )
 Search engine library.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

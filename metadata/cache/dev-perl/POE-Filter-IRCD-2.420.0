@@ -7,7 +7,7 @@ http://search.cpan.org/dist/POE-Filter-IRCD/
 || ( Artistic GPL-2 )
 A POE-based parser for the IRC protocol.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

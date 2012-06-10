@@ -7,7 +7,7 @@ http://search.cpan.org/dist/FindBin-Real/
 || ( Artistic GPL-2 )
 Locate directory of original perl script
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

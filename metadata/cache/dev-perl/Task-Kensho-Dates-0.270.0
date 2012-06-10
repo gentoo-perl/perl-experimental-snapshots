@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho-Dates/
 || ( Artistic GPL-2 )
 A glimpse at an Enlightened Perl (Date handling)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +datetime +datetiny +timetiny +datetimetiny +timeparsedate
 
 

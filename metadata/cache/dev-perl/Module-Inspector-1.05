@@ -1,5 +1,5 @@
-dev-perl/File-Find-Rule dev-perl/File-Find-Rule-VCS dev-perl/File-Find-Rule-Perl dev-perl/Module-Manifest dev-perl/Module-Math-Depends >=dev-perl/PPI-1.118 dev-perl/Module-Extract dev-perl/YAML-Tiny dev-lang/perl[-build]
-dev-perl/File-Find-Rule dev-perl/File-Find-Rule-VCS dev-perl/File-Find-Rule-Perl dev-perl/Module-Manifest dev-perl/Module-Math-Depends >=dev-perl/PPI-1.118 dev-perl/Module-Extract dev-perl/YAML-Tiny dev-lang/perl[-build]
+dev-perl/File-Find-Rule dev-perl/File-Find-Rule-VCS dev-perl/File-Find-Rule-Perl dev-perl/Module-Manifest dev-perl/Module-Math-Depends >=dev-perl/PPI-1.118.0 dev-perl/Module-Extract dev-perl/YAML-Tiny dev-lang/perl[-build]
+dev-perl/File-Find-Rule dev-perl/File-Find-Rule-VCS dev-perl/File-Find-Rule-Perl dev-perl/Module-Manifest dev-perl/Module-Math-Depends >=dev-perl/PPI-1.118.0 dev-perl/Module-Extract dev-perl/YAML-Tiny dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/A/AD/ADAMK/Module-Inspector-1.05.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Module-Inspector/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 An integrated API for inspecting Perl distributions
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

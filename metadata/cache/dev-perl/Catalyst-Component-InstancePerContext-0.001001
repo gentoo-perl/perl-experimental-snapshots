@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Component-InstancePerContext/
 || ( Artistic GPL-2 )
 Return a new instance a component on each request
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

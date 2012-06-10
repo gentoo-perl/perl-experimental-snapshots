@@ -1,0 +1,22 @@
+
+|| ( ( >=dev-lang/perl-5.16.0 !perl-core/Socket ) ~perl-core/Socket-2.1.0 )
+0
+
+
+
+
+Virtual for perl-core/Socket
+~x86 ~amd64
+
+
+
+
+
+
+
+-
+
+
+
+
+

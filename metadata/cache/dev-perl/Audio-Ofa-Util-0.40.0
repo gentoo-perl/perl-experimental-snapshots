@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Audio-Ofa-Util/
 || ( GPL-2 GPL-3 )
 Retrieve audio fingerprints and metadata for unknown audio files
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

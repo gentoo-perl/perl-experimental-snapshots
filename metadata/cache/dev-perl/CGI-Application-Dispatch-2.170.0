@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CGI-Application-Dispatch/
 || ( Artistic GPL-2 )
 Framework for building reusable web-applications
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

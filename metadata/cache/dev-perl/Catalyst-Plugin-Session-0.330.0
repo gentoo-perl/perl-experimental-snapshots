@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-Session/
 || ( Artistic GPL-2 )
 Session plugin ties together server side storage and client side state required to maintain session
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

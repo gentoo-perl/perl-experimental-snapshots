@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Data-Random-String/
 || ( Artistic GPL-2 )
 Perl extension for creating random strings
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

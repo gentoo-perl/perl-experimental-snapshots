@@ -1,5 +1,5 @@
-dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences ) dev-lang/perl[-build]
-dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203 dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203.0 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences ) dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/A/AS/ASH/Parse-Method-Signatures-1.003012.tar.gz
 
@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Parse-Method-Signatures/
 || ( Artistic GPL-2 )
 Perl6 like method signature parser
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

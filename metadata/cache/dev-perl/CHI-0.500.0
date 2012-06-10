@@ -7,7 +7,7 @@ http://search.cpan.org/dist/CHI/
 || ( Artistic GPL-2 )
 Unified cache handling interface
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

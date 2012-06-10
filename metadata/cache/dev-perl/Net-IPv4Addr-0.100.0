@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Net-IPv4Addr/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Perl extension for manipulating IPv4 addresses.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

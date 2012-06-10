@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Authentication-Store-DBIx-Class/
 || ( Artistic GPL-2 )
 Authentication and authorization against a DBIx::Class schema
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

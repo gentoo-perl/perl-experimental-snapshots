@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-PluginBundle-RJBS/
 || ( Artistic GPL-2 )
 BeLike::RJBS when you build your dists
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

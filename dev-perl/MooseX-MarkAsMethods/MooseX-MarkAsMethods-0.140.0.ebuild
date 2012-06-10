@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# B::Hooks::EndOfScope
 	echo dev-perl/B-Hooks-EndOfScope
 	# Moose 0.94 ( 0.940.0 )
-	echo \>=dev-perl/Moose-0.94
+	echo \>=dev-perl/Moose-0.940
 	# Moose::Exporter
 	echo dev-perl/Moose
 	# Moose::Role
@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# Moose::Util::MetaRole
 	echo dev-perl/Moose
 	# namespace::autoclean 0.12 ( 0.120.0 )
-	echo \>=dev-perl/namespace-autoclean-0.120
+	echo \>=dev-perl/namespace-autoclean-0.120.0
 	# perl 5.006 ( 5.6.0 )
 	echo \>=dev-lang/perl-5.6.0
 	# strict

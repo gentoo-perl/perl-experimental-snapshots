@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Types-Authen-Passphrase/
 || ( Artistic GPL-2 )
 Authen::Passphrase type constraint and coercions
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

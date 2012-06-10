@@ -7,7 +7,7 @@ http://search.cpan.org/dist/B-Hooks-OP-PPAddr/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Hook into opcode execution
 
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

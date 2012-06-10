@@ -7,7 +7,7 @@ http://search.cpan.org/dist/autobox-dump/
 || ( Artistic GPL-2 )
 human/perl readable strings from the results of an EXPR
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

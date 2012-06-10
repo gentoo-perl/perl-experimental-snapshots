@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-StackTrace/
 || ( Artistic GPL-2 )
 Display a stack trace on the debug screen
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

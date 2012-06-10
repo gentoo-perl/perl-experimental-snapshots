@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Task-Kensho-WebDev/
 || ( Artistic GPL-2 )
 A glimpse at an Enlightened Perl (web development)
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 +catalyst +tt +cgi-formbuilder-perlconfig +xmlrss +xmlatom +mimetypes
 
 

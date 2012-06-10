@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Data-Accessor-0.30.0 >=dev-perl/Class-Data-Inheritable-0.40.0 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Date-Calc-5.400.0 >=dev-perl/DateTime-Format-Strptime-1.70.0 >=dev-perl/Email-Valid-0.150 >=dev-perl/Email-Valid-Loose-0.40.0 >=dev-perl/List-MoreUtils-0.16 dev-perl/MailTools virtual/perl-Scalar-List-Utils >=dev-perl/Tie-IxHash-1.21 >=dev-perl/UNIVERSAL-require-0.100.0 >=dev-perl/yaml-0.39 dev-lang/perl[-build]
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 >=dev-perl/Class-Accessor-0.220.0 >=dev-perl/Class-Data-Accessor-0.30.0 >=dev-perl/Class-Data-Inheritable-0.40.0 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Date-Calc-5.400.0 >=dev-perl/DateTime-Format-Strptime-1.70.0 >=dev-perl/Email-Valid-0.150 >=dev-perl/Email-Valid-Loose-0.40.0 >=dev-perl/List-MoreUtils-0.16 dev-perl/MailTools virtual/perl-Scalar-List-Utils >=dev-perl/Tie-IxHash-1.21 >=dev-perl/UNIVERSAL-require-0.100.0 >=dev-perl/yaml-0.39 dev-lang/perl[-build]
 DESCRIPTION=validation with simple chains of constraints
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/FormValidator-Simple/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Data-Accessor-0.30.0 >=dev-perl/Class-Data-Inheritable-0.40.0 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Date-Calc-5.400.0 >=dev-perl/DateTime-Format-Strptime-1.70.0 >=dev-perl/Email-Valid-0.150 >=dev-perl/Email-Valid-Loose-0.40.0 >=dev-perl/List-MoreUtils-0.16 dev-perl/MailTools virtual/perl-Scalar-List-Utils >=dev-perl/Tie-IxHash-1.21 >=dev-perl/UNIVERSAL-require-0.100.0 >=dev-perl/yaml-0.39 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Class-Accessor-0.220.0 >=dev-perl/Class-Data-Accessor-0.30.0 >=dev-perl/Class-Data-Inheritable-0.40.0 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Date-Calc-5.400.0 >=dev-perl/DateTime-Format-Strptime-1.70.0 >=dev-perl/Email-Valid-0.150 >=dev-perl/Email-Valid-Loose-0.40.0 >=dev-perl/List-MoreUtils-0.16 dev-perl/MailTools virtual/perl-Scalar-List-Utils >=dev-perl/Tie-IxHash-1.21 >=dev-perl/UNIVERSAL-require-0.100.0 >=dev-perl/yaml-0.39 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/L/LY/LYOKATO/FormValidator-Simple-0.29.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	multilib	5782800349f728f725f9378105c6a2ab	perl-module	b1a49c4d68ad59d869426b377cb577bd	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=8c16aace52e4aeb891e42ce3d8d2c1b5
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	e9ac199862f908195424dc48ca2de8f6	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	940fa431b6227157c9a420dadef4970b	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=ed73c7341c0510d2ff2c16abe332ad39

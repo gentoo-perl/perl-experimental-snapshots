@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DBIx-Class-TimeStamp/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 DBIx::Class extension to update and create date and time based fields
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

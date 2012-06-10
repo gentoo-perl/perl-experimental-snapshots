@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Mojolicious-Plugin-Authentication/
 Artistic-2
 A plugin to make authentication a bit easier
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

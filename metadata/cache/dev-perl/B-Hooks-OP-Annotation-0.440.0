@@ -7,7 +7,7 @@ http://search.cpan.org/dist/B-Hooks-OP-Annotation/
 || ( Artistic GPL-2 )
 annotate and delegate hooked OPs
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

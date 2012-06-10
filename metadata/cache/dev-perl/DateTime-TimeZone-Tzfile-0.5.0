@@ -7,7 +7,7 @@ http://search.cpan.org/dist/DateTime-TimeZone-Tzfile/
 || ( Artistic GPL-2 )
 tzfile (zoneinfo) timezone files
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-Setenv/
 || ( Artistic GPL-2 )
 Allows you to set up the environment from Catalyst's config file
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

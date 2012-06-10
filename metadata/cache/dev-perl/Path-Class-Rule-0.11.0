@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Path-Class-Rule/
 Apache-2.0
 File finder using Path::Class
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

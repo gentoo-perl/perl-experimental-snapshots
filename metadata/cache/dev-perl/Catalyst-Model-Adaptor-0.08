@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Model-Adaptor/
 || ( Artistic GPL-2 )
 helper for the incredibly lazy
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

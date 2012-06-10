@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Role-Restricted/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Restrict which sub are exported by a role
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Pod-Eventual/
 || ( Artistic GPL-2 )
 read a POD document as a series of trivial events
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

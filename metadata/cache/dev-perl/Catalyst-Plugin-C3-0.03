@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-C3/
 || ( Artistic GPL-2 )
 Catalyst Plugin to subvert NEXT to use Class::C3
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

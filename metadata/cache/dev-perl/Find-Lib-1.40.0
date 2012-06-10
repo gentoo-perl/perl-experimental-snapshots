@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Find-Lib/
 || ( Artistic GPL-2 )
 Helper to smartly find libs to use in the filesystem tree
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

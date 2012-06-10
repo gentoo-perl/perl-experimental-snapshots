@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Config-GitLike/
 || ( Artistic GPL-2 )
 git-compatible config file parsing
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

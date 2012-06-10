@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Test-Regression/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 A two-phase Test library. One: Generate outputs. Two: Compare them
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

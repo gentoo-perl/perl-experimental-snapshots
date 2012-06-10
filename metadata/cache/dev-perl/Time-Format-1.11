@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Time-Format/
 as-is
 Easy-to-use date/time formatting
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

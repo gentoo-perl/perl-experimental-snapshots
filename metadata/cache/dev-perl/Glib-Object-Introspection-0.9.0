@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Glib-Object-Introspection/
 || ( LGPL-2.1 LGPL-3 )
 Dynamically create Perl language bindings
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

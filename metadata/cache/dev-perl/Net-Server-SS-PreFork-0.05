@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Net-Server-SS-PreFork/
 || ( Artistic GPL-2 )
 a hot-deployable variant of Net::Server::PreFork
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

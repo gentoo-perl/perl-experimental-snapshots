@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-RelatedClassRoles/
 || ( Artistic GPL-2 )
 Apply roles to a class related to yours
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

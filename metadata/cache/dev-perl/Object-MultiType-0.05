@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Object-MultiType/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Perl Objects as Hash, Array, Scalar, Code and Glob at the same time
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

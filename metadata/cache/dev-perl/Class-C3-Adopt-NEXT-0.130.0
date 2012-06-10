@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Class-C3-Adopt-NEXT/
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 Drop-in relacement for NEXT which uses Class::C3
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

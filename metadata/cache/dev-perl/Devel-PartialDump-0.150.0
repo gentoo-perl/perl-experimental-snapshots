@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Devel-PartialDump/
 || ( Artistic GPL-2 )
 Partial dumping of data structures, optimized for argument printing.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

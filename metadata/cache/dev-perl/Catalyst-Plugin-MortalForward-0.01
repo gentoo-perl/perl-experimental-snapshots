@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-Plugin-MortalForward/
 || ( Artistic GPL-2 )
 Make forward() to throw exception
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

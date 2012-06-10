@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-Singleton/
 || ( Artistic GPL-2 )
 turn your Moose class into a singleton
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

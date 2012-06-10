@@ -7,7 +7,7 @@ http://search.cpan.org/dist/String-Random/
 || ( Artistic GPL-2 )
 Perl module to generate random strings based on a pattern
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

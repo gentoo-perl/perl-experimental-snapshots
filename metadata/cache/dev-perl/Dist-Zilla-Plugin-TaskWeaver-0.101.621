@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-TaskWeaver/
 || ( Artistic GPL-2 )
 a PodWeaver plugin used to build Task distributions
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Gtk3/
 LGPL-2.1
 Perl interface to the 3.x series of the gtk+ toolkit
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user virtualx
+base eutils multilib multiprocessing perl-module toolchain-funcs user virtualx
 test
 
 

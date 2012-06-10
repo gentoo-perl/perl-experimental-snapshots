@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Catalyst-View-ContentNegotiation-XHTML/
 || ( Artistic GPL-2 )
 Adjusts the response Content-Type header to application/xhtml+xml if the browser accepts it.
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Dist-Zilla-Plugin-CPANChangesTests/
 || ( Artistic GPL-2 )
 Add release tests using Test::CPAN::Changes
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 

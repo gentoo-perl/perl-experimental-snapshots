@@ -7,7 +7,7 @@ http://search.cpan.org/dist/MooseX-AttributeShortcuts/
 LGPL-2.1
 Shorthand for common attribute options
 ~amd64 ~x86
-base eutils multilib perl-module toolchain-funcs user
+base eutils multilib multiprocessing perl-module toolchain-funcs user
 test
 
 
