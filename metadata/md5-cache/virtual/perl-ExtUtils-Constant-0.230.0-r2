@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/ExtUtils-Constant
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( ( =dev-lang/perl-5.14* !perl-core/ExtUtils-Constant ) ~perl-core/ExtUtils-Constant-0.230.0 )
-SLOT=0
-_md5_=b2412adf8d48c35037e8523ec288ba22
