@@ -2,6 +2,20 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-Schema-Loader-0.70.20.ebuild,
+  DBIx-Class-Schema-Loader-0.70.60.ebuild,
+  DBIx-Class-Schema-Loader-0.70.70.ebuild,
+  DBIx-Class-Schema-Loader-0.70.100.ebuild,
+  DBIx-Class-Schema-Loader-0.70.140.ebuild:
+  Normalise dep on namespace-autoclean
+
+*DBIx-Class-Schema-Loader-0.70.250 (23 Jun 2012)
+
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-Schema-Loader-0.70.250.ebuild:
+  Version Bump
+
 *DBIx-Class-Schema-Loader-0.70.240 (26 May 2012)
 
   26 May 2012; Kent Fredric <kentfredric@gmail.com>

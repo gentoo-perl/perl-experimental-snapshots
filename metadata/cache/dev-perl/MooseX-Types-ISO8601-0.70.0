@@ -1,5 +1,5 @@
->=dev-perl/namespace-autoclean-0.05 >=dev-perl/DateTime-0.41 dev-perl/List-MoreUtils dev-perl/Try-Tiny >=dev-perl/MooseX-Types-DateTime-0.03 >=dev-perl/DateTime-Format-Duration-1.30.0 >=dev-perl/Moose-0.79 >=dev-perl/MooseX-Types-0.10 dev-perl/Test-Exception >=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
->=dev-perl/namespace-autoclean-0.05 >=dev-perl/DateTime-0.41 dev-perl/List-MoreUtils dev-perl/Try-Tiny >=dev-perl/MooseX-Types-DateTime-0.03 >=dev-perl/DateTime-Format-Duration-1.30.0 >=dev-perl/Moose-0.79 >=dev-perl/MooseX-Types-0.10 dev-lang/perl[-build]
+>=dev-perl/namespace-autoclean-0.50.0 >=dev-perl/DateTime-0.41 dev-perl/List-MoreUtils dev-perl/Try-Tiny >=dev-perl/MooseX-Types-DateTime-0.03 >=dev-perl/DateTime-Format-Duration-1.30.0 >=dev-perl/Moose-0.79 >=dev-perl/MooseX-Types-0.10 dev-perl/Test-Exception >=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
+>=dev-perl/namespace-autoclean-0.50.0 >=dev-perl/DateTime-0.41 dev-perl/List-MoreUtils dev-perl/Try-Tiny >=dev-perl/MooseX-Types-DateTime-0.03 >=dev-perl/DateTime-Format-Duration-1.30.0 >=dev-perl/Moose-0.79 >=dev-perl/MooseX-Types-0.10 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-Types-ISO8601-0.07.tar.gz
 
