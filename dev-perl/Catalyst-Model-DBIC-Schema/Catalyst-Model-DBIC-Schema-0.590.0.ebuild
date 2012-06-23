@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -63,7 +63,7 @@ perl_meta_runtime() {
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.90
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# namespace::clean
 	echo dev-perl/namespace-clean
 	# perl v5.8.1 ( 5.8.1 )

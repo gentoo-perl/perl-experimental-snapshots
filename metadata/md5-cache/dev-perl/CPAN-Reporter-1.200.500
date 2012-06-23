@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/perl-CPAN-1.930.100 virtual/perl-CPAN dev-perl/Capture-Tiny >=dev-perl/Config-Tiny-2.80.0 >=dev-perl/Devel-Autoflush-0.40.0 virtual/perl-Exporter >=virtual/perl-ExtUtils-MakeMaker-6.36 dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl >=dev-perl/File-HomeDir-0.580.0 virtual/perl-File-Path >=virtual/perl-File-Spec-3.19 >=virtual/perl-File-Temp-0.160.0 virtual/perl-IO >=virtual/perl-IPC-Cmd-0.460.0 virtual/perl-Parse-CPAN-Meta dev-perl/Probe-Perl >=dev-perl/Test-Reporter-1.540.0 >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.2005.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	7b605062b7d609ee1d0b225de9eccbe2	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	e575dd4d4682fc3539829c52d8382856	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	e575dd4d4682fc3539829c52d8382856	user	a0c068b0a2e1b2a724349c81e600d712
 _md5_=5ae755c04f8fe55a6802c27bc5b19948
