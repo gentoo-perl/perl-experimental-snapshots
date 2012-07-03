@@ -114,11 +114,15 @@ dev-perl/Task-Kensho-ModuleDev:softwarelicense - Install dev-perl/Software-Licen
 dev-perl/Task-Kensho-OOP:moose - Install Moose and friends via dev-perl/Task-Moose
 dev-perl/Task-Kensho-Scalability:chi - Install dev-perl/CHI
 dev-perl/Task-Kensho-Testing:develcover - Install dev-perl/Devel-Cover
+dev-perl/Task-Kensho-Testing:testdeep - Install dev-perl/Test-Deep
 dev-perl/Task-Kensho-Testing:testexception - Install dev-perl/Test-Exception
+dev-perl/Task-Kensho-Testing:testfatal - Install dev-perl/Test-Fatal
 dev-perl/Task-Kensho-Testing:testmemorycycle - Install dev-perl/Test-Memory-Cycle
 dev-perl/Task-Kensho-Testing:testmost - Install dev-perl/Test-Most
+dev-perl/Task-Kensho-Testing:testnowarnings - Install dev-perl/Test-NoWarnings
 dev-perl/Task-Kensho-Testing:testpod - Install dev-perl/Test-Pod
 dev-perl/Task-Kensho-Testing:testpodcoverage - Install dev-perl/Test-Pod-Coverage
+dev-perl/Task-Kensho-Testing:testrequires - Install dev-perl/Test-Requires
 dev-perl/Task-Kensho-Testing:testsimple - Install Test::Simple/Test::More via virtual/perl-Test-Simple
 dev-perl/Task-Kensho-Toolchain:cpanm - Install dev-perl/App-cpanminus
 dev-perl/Task-Kensho-Toolchain:locallib - Install dev-perl/local-lib
@@ -130,7 +134,8 @@ dev-perl/Task-Kensho-WebCrawling:wwwmechtreebuilder - Install dev-perl/WWW-Mecha
 dev-perl/Task-Kensho-WebDev:catalyst - Install Catalyst and friends via dev-perl/Task-Catalyst
 dev-perl/Task-Kensho-WebDev:cgi-formbuilder-perlconfig - Install dev-perl/CGI-FormBuilder-Source-Perl
 dev-perl/Task-Kensho-WebDev:mimetypes - Install dev-perl/MIME-Types
-dev-perl/Task-Kensho-WebDev:tt - Install Template Toolkit ( dev-perl/Template-Toolkit)
+dev-perl/Task-Kensho-WebDev:plack - Install dev-perl/Plack
+dev-perl/Task-Kensho-WebDev:tt - Install Template Toolkit ( dev-perl/Template-Toolkit )
 dev-perl/Task-Kensho-WebDev:xmlatom - Install dev-perl/XML-Atom
 dev-perl/Task-Kensho-WebDev:xmlrss - Install dev-perl/XML-RSS
 dev-perl/Task-Kensho-XML:libxml - Install dev-perl/XML-LibXML
