@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Class::Accessor::Fast
 	echo dev-perl/Class-Accessor
 	# Data::UUID 0.11 ( 0.110.0 )
-	echo \>=dev-perl/Data-UUID-0.110
+	echo \>=dev-perl/Data-UUID-0.110.0
 	# String::Escape
 	echo dev-perl/String-Escape
 	# URI::Escape

@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=TEMPIRE
-MODULE_VERSION=2.98
+MODULE_VERSION=3.10
 inherit perl-module
 
 DESCRIPTION='Real-time web framework'
