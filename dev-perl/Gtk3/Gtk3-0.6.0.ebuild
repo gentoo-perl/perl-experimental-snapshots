@@ -17,7 +17,7 @@ extra_depend() {
 }
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.300.0
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 }
 perl_meta_runtime() {
 	# Cairo::GObject 1.000 ( 1.0.0 )

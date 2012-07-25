@@ -39,7 +39,7 @@ perl_meta_runtime() {
 	# WWW::Mechanize 1.54 ( 1.540.0 )
 	echo \>=dev-perl/WWW-Mechanize-1.540.0
 	# namespace::clean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-clean-0.090
+	echo \>=dev-perl/namespace-clean-0.90.0
 	# perl v5.8.4 ( 5.8.4 )
 	echo \>=dev-lang/perl-5.8.4
 }
