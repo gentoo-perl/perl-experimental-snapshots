@@ -1,5 +1,5 @@
-dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/HTTP-Lite-2.2 >=virtual/perl-IO-1.03 dev-perl/Params-Classify virtual/perl-parent !<virtual/perl-Math-BigInt-1.60 !<virtual/perl-Math-BigRat-0.04 !<perl-core/Math-BigRat-0.04 virtual/perl-Module-Build dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=virtual/perl-IO-1.03 virtual/perl-Module-Build virtual/perl-Test-Simple dev-lang/perl[-build]
-dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/HTTP-Lite-2.2 >=virtual/perl-IO-1.03 dev-perl/Params-Classify virtual/perl-parent !<virtual/perl-Math-BigInt-1.60 !<virtual/perl-Math-BigRat-0.04 !<perl-core/Math-BigRat-0.04 dev-lang/perl[-build]
+dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/HTTP-Lite-2.200.0 >=virtual/perl-IO-1.03 dev-perl/Params-Classify virtual/perl-parent !<virtual/perl-Math-BigInt-1.60 !<virtual/perl-Math-BigRat-0.04 !<perl-core/Math-BigRat-0.04 virtual/perl-Module-Build dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=virtual/perl-IO-1.03 virtual/perl-Module-Build virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-perl/Crypt-Rijndael >=dev-perl/Data-Float-0.8.0 >=dev-perl/HTTP-Lite-2.200.0 >=virtual/perl-IO-1.03 dev-perl/Params-Classify virtual/perl-parent !<virtual/perl-Math-BigInt-1.60 !<virtual/perl-Math-BigRat-0.04 !<perl-core/Math-BigRat-0.04 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/Z/ZE/ZEFRAM/Data-Entropy-0.007.tar.gz
 

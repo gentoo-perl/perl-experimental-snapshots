@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.30 >=virtual/perl-Test-Simple-0.47 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+DESCRIPTION=Mapping Perl releases on CPAN to the location of the tarballs
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/CPAN-Perl-Releases/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/CPAN-Perl-Releases-0.62.tar.gz
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	87012e8fbee401b74b7e2bcbcd654141	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=904ca1d86b487a20500f7d7e623f248e

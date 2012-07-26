@@ -2,26 +2,26 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=TEMPIRE
-MODULE_VERSION=3.10
+MODULE_AUTHOR=NEILB
+MODULE_VERSION=2.4
 inherit perl-module
 
-DESCRIPTION='Real-time web framework'
-LICENSE=" Artistic-2"
+DESCRIPTION='Lightweight HTTP implementation'
+LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker
-	echo virtual/perl-ExtUtils-MakeMaker
+	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
 }
 perl_meta_build() {
-	# ExtUtils::MakeMaker
-	echo virtual/perl-ExtUtils-MakeMaker
+	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
 }
 perl_meta_runtime() {
-	# perl 5.010001 ( 5.10.1 )
-	echo \>=dev-lang/perl-5.10.1
+	# perl 5.005 ( 5.5.0 )
+	echo \>=dev-lang/perl-5.5.0
 }
 DEPEND="
 	$(perl_meta_configure)
