@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=SRI
-MODULE_VERSION=2.96
+MODULE_AUTHOR=KARMAN
+MODULE_VERSION=0.14
 inherit perl-module
 
-DESCRIPTION='Real-time web framework'
-LICENSE=" Artistic-2"
+DESCRIPTION='test Net::LDAP code'
+LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -20,8 +20,20 @@ perl_meta_build() {
 	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# perl 5.010001 ( 5.10.1 )
-	echo \>=dev-lang/perl-5.10.1
+	# Data::Dump
+	echo dev-perl/Data-Dump
+	# IO::Select
+	echo virtual/perl-IO
+	# IO::Socket
+	echo virtual/perl-IO
+	# Net::LDAP
+	echo dev-perl/perl-ldap
+	# Net::LDAP::Server 0.3 ( 0.300.0 )
+	echo \>=dev-perl/Net-LDAP-Server-0.300.0
+	# Test::More
+	echo virtual/perl-Test-Simple
+	# perl 5.008003 ( 5.8.3 )
+	echo \>=dev-lang/perl-5.8.3
 }
 DEPEND="
 	$(perl_meta_configure)

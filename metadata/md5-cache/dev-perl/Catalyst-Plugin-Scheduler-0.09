@@ -7,5 +7,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-Module-Build dev-perl/Catalyst-Runtime dev-perl/DateTime-Event-Cron dev-perl/set-scalar dev-perl/yaml dev-perl/MRO-Compat
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AG/AGRUNDMA/Catalyst-Plugin-Scheduler-0.09.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d4dd74ca3e6ed58454bba41af9a8829f	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=71b5c5d40414a0ae9ce7c7c3f0922f05

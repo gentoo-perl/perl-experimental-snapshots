@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=virtual/perl-Getopt-Long-2.34 dev-perl/HTML-Parser >=dev-perl/HTML-LinkList-0.150.100 >=dev-perl/HTML-SimpleParse-0.1 virtual/perl-PodParser dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RU/RUBYKAT/HTML-GenToc-3.20.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d4dd74ca3e6ed58454bba41af9a8829f	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=60a417a66e72c204a085e84c1ab2a34f

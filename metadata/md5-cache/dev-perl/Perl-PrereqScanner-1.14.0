@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.30 >=virtual/perl-CPAN-Meta-Requirements-2.120.630 dev-lang/perl virtual/perl-File-Spec dev-lang/perl virtual/perl-Getopt-Long dev-perl/List-MoreUtils virtual/perl-Scalar-List-Utils dev-perl/Moose dev-perl/Moose >=dev-perl/PPI-1.215.0 dev-perl/Params-Util >=dev-perl/String-RewritePrefix-0.5.0 dev-perl/namespace-autoclean >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl test? ( virtual/perl-File-Temp dev-perl/PPI >=virtual/perl-Test-Simple-0.96 dev-perl/Try-Tiny ) dev-lang/perl[-build]
+DESCRIPTION=a tool to scan your Perl code for its prerequisites
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Perl-PrereqScanner/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=virtual/perl-CPAN-Meta-Requirements-2.120.630 dev-lang/perl virtual/perl-File-Spec dev-lang/perl virtual/perl-Getopt-Long dev-perl/List-MoreUtils virtual/perl-Scalar-List-Utils dev-perl/Moose dev-perl/Moose >=dev-perl/PPI-1.215.0 dev-perl/Params-Util >=dev-perl/String-RewritePrefix-0.5.0 dev-perl/namespace-autoclean >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Perl-PrereqScanner-1.014.tar.gz
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=376d00549f4bfec717307e226f8f5ef0

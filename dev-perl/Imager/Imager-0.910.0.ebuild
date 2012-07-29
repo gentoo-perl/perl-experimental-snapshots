@@ -2,30 +2,30 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=SBECK
-MODULE_VERSION=3.21
+MODULE_AUTHOR=TONYC
+MODULE_VERSION=0.91
 inherit perl-module
 
-DESCRIPTION='a distribution of modules to handle locale codes'
+DESCRIPTION='Perl extension for Generating 24 bit Images'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	# ExtUtils::MakeMaker
+	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_build() {
-	# Test::More
-	echo virtual/perl-Test-Simple
+	# ExtUtils::MakeMaker
+	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# Carp
-	# echo virtual/perl-Carp
-	# Exporter
-	echo virtual/perl-Exporter
-	# perl 5.002 ( 5.2.0 )
-	echo \>=dev-lang/perl-5.2.0
+	# Scalar::Util 1 ( 1.0.0 )
+	echo \>=virtual/perl-Scalar-List-Utils-1.0.0
+	# Test::More 0.47 ( 0.470.0 )
+	echo \>=virtual/perl-Test-Simple-0.47
+	# XSLoader
+	echo virtual/perl-XSLoader
 }
 DEPEND="
 	$(perl_meta_configure)
