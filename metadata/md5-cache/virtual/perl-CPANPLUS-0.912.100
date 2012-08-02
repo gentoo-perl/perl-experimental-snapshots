@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for CPANPLUS
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/CPANPLUS-0.912.100 )
+SLOT=0
+_md5_=4eb0b7971c9d0ea9d79332cf677d1b77

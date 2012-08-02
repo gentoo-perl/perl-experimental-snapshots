@@ -15,11 +15,11 @@ perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.300.0
 	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.360.100
+	echo \>=virtual/perl-Module-Build-0.36.01
 }
 perl_meta_build() {
 	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.360.100
+	echo \>=virtual/perl-Module-Build-0.36.01
 }
 perl_meta_runtime() {
 	# Encode

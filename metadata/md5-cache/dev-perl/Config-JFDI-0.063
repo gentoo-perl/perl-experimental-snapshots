@@ -7,5 +7,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-perl/Carp-Clan-Share dev-perl/Config-Any dev-perl/Clone >=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Merge-Simple dev-perl/List-MoreUtils dev-perl/Moose dev-perl/MooseX-AttributeHelpers dev-perl/Path-Class dev-perl/Sub-Install
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RK/RKRIMEN/Config-JFDI-0.063.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	327b713e2d6949c42cd96bc4898fd280	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=bed3f0708be46eb16363aff316388412
