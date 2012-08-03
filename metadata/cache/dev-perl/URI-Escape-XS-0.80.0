@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DA/DANKOGAI/URI-Escape-XS-0.08.tar.gz
+
+http://search.cpan.org/dist/URI-Escape-XS/
+|| ( Artistic GPL-2 )
+Drop-In replacement for URI::Escape
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-perl/URI recommended? ( dev-perl/URI-Escape-XS ) dev-lang/perl[-build]
+dev-perl/URI recommended? ( dev-perl/URI-Escape-XS ) dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PH/PHRED/Any-URI-Escape-0.01.tar.gz
+
+http://search.cpan.org/dist/Any-URI-Escape/
+|| ( Artistic GPL-2 )
+Load URI::Escape::XS preferentially over URI::Escape
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
++recommended
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
