@@ -89,7 +89,7 @@ perl_meta_runtime() {
 	# Config::JFDI
 	echo dev-perl/Config-JFDI
 	# Crypt::CBC 2.12 ( 2.120.0 )
-	echo \>=dev-perl/crypt-cbc-2.12
+	echo \>=dev-perl/crypt-cbc-2.120.0
 	# DBD::SQLite 1.27 ( 1.270.0 )
 	echo \>=dev-perl/DBD-SQLite-1.27
 	# DBIx::Class 0.08 ( 0.80.0 )
@@ -183,7 +183,7 @@ perl_meta_runtime() {
 	# XML::Feed
 	echo dev-perl/XML-Feed
 	# XML::LibXML 1.66 ( 1.660.0 )
-	echo \>=dev-perl/XML-LibXML-1.66
+	echo \>=dev-perl/XML-LibXML-1.660.0
 	# XML::LibXSLT 1.66 ( 1.660.0 )
 	echo \>=dev-perl/XML-LibXSLT-1.660.0
 	# YAML 0.36 ( 0.360.0 )
