@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.10.1 dev-lang/perl[-build]
+>=dev-lang/perl-5.10.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SR/SRI/Mojolicious-3.28.tar.gz
+
+http://search.cpan.org/dist/Mojolicious/
+Artistic-2
+Real-time web framework
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

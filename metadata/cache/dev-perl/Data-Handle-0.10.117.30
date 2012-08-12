@@ -1,0 +1,22 @@
+virtual/perl-IO dev-perl/Package-Stash virtual/perl-Scalar-List-Utils virtual/perl-Term-ANSIColor virtual/perl-parent virtual/perl-File-Temp virtual/perl-IO >=virtual/perl-Module-Build-0.36.01 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.96 dev-lang/perl[-build]
+virtual/perl-IO dev-perl/Package-Stash virtual/perl-Scalar-List-Utils virtual/perl-Term-ANSIColor virtual/perl-parent dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KE/KENTNL/Data-Handle-0.01011703.tar.gz
+
+http://search.cpan.org/dist/Data-Handle/
+|| ( Artistic GPL-2 )
+A Very simple interface to the __DATA__ file handle.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
