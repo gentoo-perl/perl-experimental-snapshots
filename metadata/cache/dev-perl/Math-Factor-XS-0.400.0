@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.400.0 virtual/perl-ExtUtils-CBuilder virtual/perl-Test-Simple virtual/perl-Exporter dev-perl/List-MoreUtils dev-perl/Params-Validate virtual/perl-Scalar-List-Utils virtual/perl-XSLoader dev-perl/boolean dev-lang/perl[-build]
+virtual/perl-Exporter dev-perl/List-MoreUtils dev-perl/Params-Validate virtual/perl-Scalar-List-Utils virtual/perl-XSLoader dev-perl/boolean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/K/KR/KRYDE/Math-Factor-XS-0.40.tar.gz
+
+http://search.cpan.org/dist/Math-Factor-XS/
+|| ( Artistic GPL-2 )
+Factorize numbers and calculate matching multiplications
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+

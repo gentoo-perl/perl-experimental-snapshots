@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-ExtUtils-MakeMaker >=virtual/perl-Test-Harness-2.62 virtual/perl-ExtUtils-CBuilder virtual/perl-File-Temp virtual/perl-Test-Simple virtual/perl-Data-Dumper virtual/perl-IO-Compress virtual/perl-IO-Zlib virtual/perl-Archive-Tar virtual/perl-Module-Build virtual/perl-File-Spec virtual/perl-Digest-SHA dev-perl/File-HomeDir dev-perl/Archive-Zip virtual/perl-libnet dev-perl/TermReadKey dev-perl/Term-ReadLine-Perl dev-perl/yaml virtual/perl-Parse-CPAN-Meta dev-perl/Text-Glob virtual/perl-CPAN dev-perl/File-Which dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AN/ANDK/Bundle-CPAN-1.859.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	b8eb29e3c9c4e94c65da9ebec37902a9	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	b8eb29e3c9c4e94c65da9ebec37902a9	multilib	564d80d2026ae9f1910d8da4ea211e91	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=371b02e4faee5a1f48eb6e987356ae08

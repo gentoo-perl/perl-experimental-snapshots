@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-lang/perl virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RU/RURBAN/B-Debug-1.18.tar.gz
+
+http://search.cpan.org/dist/B-Debug/
+|| ( Artistic GPL-2 )
+print debug info about ops
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+
