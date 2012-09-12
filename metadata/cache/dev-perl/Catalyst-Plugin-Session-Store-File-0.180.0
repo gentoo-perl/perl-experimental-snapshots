@@ -1,5 +1,5 @@
-
-
+>=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Cache-Cache-1.02 >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/MRO-Compat-0.10
+>=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Cache-Cache-1.02 >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/MRO-Compat-0.10
 0
 mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-File-0.18.tar.gz
 

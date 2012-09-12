@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.710.10
-	>=dev-perl/MooseX-ChainedAccessors-0.20.0
+	>=dev-perl/MooseX-Attribute-Chained-1.0.1
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
 	>=dev-perl/HTML-FormFu-0.90.0
