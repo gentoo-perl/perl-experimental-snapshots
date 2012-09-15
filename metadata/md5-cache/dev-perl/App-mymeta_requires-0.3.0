@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RDEPEND=virtual/perl-CPAN-Meta virtual/perl-CPAN-Meta-Requirements dev-perl/Class-Load dev-lang/perl dev-perl/Getopt-Lucid dev-perl/Log-Dispatchouli dev-perl/Object-Tiny virtual/perl-PodParser >=dev-perl/autodie-2.0.0 >=dev-lang/perl-5.10.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/App-mymeta_requires-0.003.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	f98a70ed99fbfc479df6694dc8af82ac	multilib	c2b85b5c63a44798c1e442147ac14c5c	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	f98a70ed99fbfc479df6694dc8af82ac	multilib	c2b85b5c63a44798c1e442147ac14c5c	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	61cd277748582356321532a7b07d62fd	toolchain-funcs	6dbd628eeb45b01b517c4d2bd5c3a44e	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=c3b8adadec6cb85a68b1ed9fc49a51f0
