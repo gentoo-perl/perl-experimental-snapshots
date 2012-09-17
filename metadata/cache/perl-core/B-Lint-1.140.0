@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Module-Pluggable virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Module-Pluggable virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/F/FL/FLORA/B-Lint-1.14.tar.gz
+
+http://search.cpan.org/dist/B-Lint/
+|| ( Artistic GPL-2 )
+Perl lint
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

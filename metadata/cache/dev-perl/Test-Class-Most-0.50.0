@@ -1,5 +1,5 @@
->=dev-perl/Test-Class-0.33 >=dev-perl/Test-Most-0.21 >=virtual/perl-Module-Build-0.36 dev-lang/perl[-build]
->=dev-perl/Test-Class-0.33 >=dev-perl/Test-Most-0.21 dev-lang/perl[-build]
+>=dev-perl/Test-Class-0.330.0 >=dev-perl/Test-Most-0.21 >=virtual/perl-Module-Build-0.36 dev-lang/perl[-build]
+>=dev-perl/Test-Class-0.330.0 >=dev-perl/Test-Most-0.21 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/O/OV/OVID/Test-Class-Most-0.05.tar.gz
 
