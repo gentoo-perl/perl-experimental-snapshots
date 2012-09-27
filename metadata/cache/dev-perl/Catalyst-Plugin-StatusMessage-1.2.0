@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.8 dev-perl/Sub-Name dev-perl/strictures dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/H/HK/HKCLARK/Catalyst-Plugin-StatusMessage-1.002000.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-StatusMessage/
+|| ( Artistic GPL-2 )
+Handle passing of status (success and error) messages between screens of a web application.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+test
+
+
+
+4
+
+compile configure install prepare test unpack
+
+
+
+
+
