@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-perl/HTML-Tiny-0.904.0 dev-perl/libwww-perl virtual/perl-Test-Simple dev-lang/perl[-build]
+DESCRIPTION=A Perl implementation of the reCAPTCHA API
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Captcha-reCAPTCHA/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/HTML-Tiny-0.904.0 dev-perl/libwww-perl virtual/perl-Test-Simple dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHRED/Captcha-reCAPTCHA-0.97.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	9aa8a023e062fca0ba79362d9d0cc488	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=dc946b8bcee5cd86300b6c2b4dad7861

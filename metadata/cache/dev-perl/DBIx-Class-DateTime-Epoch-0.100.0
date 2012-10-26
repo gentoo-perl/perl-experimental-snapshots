@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.590.0 dev-perl/DBICx-TestDatabase dev-perl/DateTime-Format-SQLite >=virtual/perl-ExtUtils-MakeMaker-6.590.0 virtual/perl-Test-Simple >=dev-perl/DBIx-Class-0.81.30 >=dev-perl/DBIx-Class-TimeStamp-0.70.0 dev-perl/DateTime >=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.81.30 >=dev-perl/DBIx-Class-TimeStamp-0.70.0 dev-perl/DateTime >=dev-lang/perl-5.6.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BR/BRICAS/DBIx-Class-DateTime-Epoch-0.10.tar.gz
+
+http://search.cpan.org/dist/DBIx-Class-DateTime-Epoch/
+|| ( Artistic GPL-2 )
+Automatic inflation/deflation of epoch-based columns to/from DateTime objects
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.36 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/Catalyst-Runtime-5.900.170 dev-perl/Moose dev-perl/MooseX-RelatedClassRoles dev-perl/namespace-autoclean dev-lang/perl[-build]
+>=dev-perl/Catalyst-Runtime-5.900.170 dev-perl/Moose dev-perl/MooseX-RelatedClassRoles dev-perl/namespace-autoclean dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-UploadProgress-0.06.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Plugin-UploadProgress/
+|| ( Artistic GPL-2 )
+Realtime file upload information
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

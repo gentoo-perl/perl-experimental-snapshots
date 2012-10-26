@@ -1,5 +1,5 @@
->=virtual/perl-Encode-2.21 >=dev-perl/Catalyst-Runtime-5.800.0 >=dev-perl/libwww-perl-5.828 >=dev-perl/URI-1.36 dev-perl/Try-Tiny test? ( >=virtual/perl-Test-Simple-0.88 dev-perl/IO-stringy >=dev-perl/libwww-perl-6.0.0 dev-perl/HTTP-Message ) dev-lang/perl[-build]
->=virtual/perl-Encode-2.21 >=dev-perl/Catalyst-Runtime-5.800.0 >=dev-perl/libwww-perl-5.828 >=dev-perl/URI-1.36 dev-perl/Try-Tiny dev-lang/perl[-build]
+>=virtual/perl-Encode-2.21 >=dev-perl/Catalyst-Runtime-5.800.0 >=dev-perl/libwww-perl-5.828 >=dev-perl/URI-1.360.0 dev-perl/Try-Tiny test? ( >=virtual/perl-Test-Simple-0.88 dev-perl/IO-stringy >=dev-perl/libwww-perl-6.0.0 dev-perl/HTTP-Message ) dev-lang/perl[-build]
+>=virtual/perl-Encode-2.21 >=dev-perl/Catalyst-Runtime-5.800.0 >=dev-perl/libwww-perl-5.828 >=dev-perl/URI-1.360.0 dev-perl/Try-Tiny dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Unicode-Encoding-1.2.tar.gz
 
