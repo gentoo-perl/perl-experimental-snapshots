@@ -1,5 +1,5 @@
-virtual/perl-Scalar-List-Utils >=dev-perl/Package-Stash-0.230 virtual/perl-Scalar-List-Utils virtual/perl-Test-Harness >=dev-perl/Test-Deep-0.103 virtual/perl-Test-Simple dev-perl/Test-Trap dev-perl/Tie-IxHash virtual/perl-ExtUtils-MakeMaker dev-lang/perl[-build]
-virtual/perl-Scalar-List-Utils >=dev-perl/Package-Stash-0.230 virtual/perl-Scalar-List-Utils virtual/perl-Test-Harness >=dev-perl/Test-Deep-0.103 virtual/perl-Test-Simple dev-perl/Test-Trap dev-perl/Tie-IxHash dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils >=dev-perl/Package-Stash-0.230.0 virtual/perl-Scalar-List-Utils virtual/perl-Test-Harness >=dev-perl/Test-Deep-0.103 virtual/perl-Test-Simple dev-perl/Test-Trap dev-perl/Tie-IxHash virtual/perl-ExtUtils-MakeMaker dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils >=dev-perl/Package-Stash-0.230.0 virtual/perl-Scalar-List-Utils virtual/perl-Test-Harness >=dev-perl/Test-Deep-0.103 virtual/perl-Test-Simple dev-perl/Test-Trap dev-perl/Tie-IxHash dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/P/PH/PHILIP/Test-Spec-0.39.tar.gz
 

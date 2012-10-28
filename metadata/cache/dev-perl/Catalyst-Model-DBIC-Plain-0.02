@@ -1,5 +1,5 @@
-dev-perl/Catalyst-Runtime >=dev-perl/DBIx-Class-0.01
-dev-perl/Catalyst-Runtime >=dev-perl/DBIx-Class-0.01
+dev-perl/Catalyst-Runtime >=dev-perl/DBIx-Class-0.10.0
+dev-perl/Catalyst-Runtime >=dev-perl/DBIx-Class-0.10.0
 0
 mirror://cpan/authors/id/G/GA/GABB/Catalyst-Model-DBIC-Plain-0.02.tar.gz
 

@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.590.0 >=virtual/perl-ExtUtils-MakeMaker-6.590.0 virtual/perl-Term-ANSIColor >=dev-perl/Test-Differences-0.610.0 >=virtual/perl-Test-Simple-0.88 dev-lang/perl virtual/perl-Data-Dumper dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+dev-lang/perl virtual/perl-Data-Dumper dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SZ/SZABGAB/Syntax-Highlight-Engine-Kate-0.07.tar.gz
+
+http://search.cpan.org/dist/Syntax-Highlight-Engine-Kate/
+|| ( Artistic GPL-2 )
+a port to Perl of the syntax highlight engine of the Kate texteditor.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TO/TODDR/Exporter-5.67.tar.gz
+
+http://search.cpan.org/dist/Exporter/
+|| ( Artistic GPL-2 )
+Implements default import method for modules
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

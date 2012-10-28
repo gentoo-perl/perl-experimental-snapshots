@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/DBIx-Class-0.08114 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-1.12 dev-perl/MooseX-Types >=dev-perl/namespace-autoclean-0.90.0 dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash dev-perl/Try-Tiny catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 >=dev-perl/MooseX-NonMoose-0.150.0 ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) test? ( >=virtual/perl-Test-Simple-0.94 dev-perl/Test-Exception ) dev-lang/perl[-build]
+DEPEND=>=dev-perl/DBIx-Class-0.81.140 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-1.12 dev-perl/MooseX-Types >=dev-perl/namespace-autoclean-0.90.0 dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash dev-perl/Try-Tiny catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 >=dev-perl/MooseX-NonMoose-0.150.0 ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) test? ( >=virtual/perl-Test-Simple-0.94 dev-perl/Test-Exception ) dev-lang/perl[-build]
 DESCRIPTION=DBIx::Class::Schema Model Class
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Model-DBIC-Schema/
 IUSE=catalyst_helper caching replication test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/DBIx-Class-0.08114 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-1.12 dev-perl/MooseX-Types >=dev-perl/namespace-autoclean-0.90.0 dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash dev-perl/Try-Tiny catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 >=dev-perl/MooseX-NonMoose-0.150.0 ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) dev-lang/perl[-build]
+RDEPEND=>=dev-perl/DBIx-Class-0.81.140 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-1.12 dev-perl/MooseX-Types >=dev-perl/namespace-autoclean-0.90.0 dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash dev-perl/Try-Tiny catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 >=dev-perl/MooseX-NonMoose-0.150.0 ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/Catalyst-Model-DBIC-Schema-0.49.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	9aa8a023e062fca0ba79362d9d0cc488	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=1c9ed6b760b6fb34b3312fccfc0d66ed
+_md5_=98f425b543888895e34d592901e508d6

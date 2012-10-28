@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 dev-lang/perl[-build]
->=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/M/MS/MSTROUT/DBIx-Class-EncodedColumn-0.00004.tar.gz
 

@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker dev-perl/CPAN-DistnameInfo dev-lang/perl virtual/perl-File-Path dev-perl/File-Slurp virtual/perl-File-Temp virtual/perl-IO virtual/perl-IO-Zlib dev-perl/libwww-perl >=dev-lang/perl-5.6.0 virtual/perl-version test? ( >=virtual/perl-Test-Simple-0.70 ) dev-lang/perl[-build]
+dev-perl/CPAN-DistnameInfo dev-lang/perl virtual/perl-File-Path dev-perl/File-Slurp virtual/perl-File-Temp virtual/perl-IO virtual/perl-IO-Zlib dev-perl/libwww-perl >=dev-lang/perl-5.6.0 virtual/perl-version dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BA/BARBIE/Parse-CPAN-Distributions-0.07.tar.gz
+
+http://search.cpan.org/dist/Parse-CPAN-Distributions/
+Artistic-2
+Provides an index for current CPAN distributions
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+test
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

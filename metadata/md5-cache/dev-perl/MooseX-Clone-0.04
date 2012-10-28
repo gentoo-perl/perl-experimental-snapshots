@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.08 test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+DEPEND=>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.80.0 test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
 DESCRIPTION=Fine grained cloning support for Moose objects.
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/MooseX-Clone/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.08 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/N/NU/NUFFIN/MooseX-Clone-0.04.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	9aa8a023e062fca0ba79362d9d0cc488	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=c4071406266d7c7bc8cd5274b423a17f
+_md5_=4e0d9b86c0da6b64ce6001d6673f596a

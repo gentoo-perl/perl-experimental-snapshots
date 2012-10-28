@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.04001 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect >=dev-perl/UNIVERSAL-require-0.10
->=dev-perl/DBIx-Class-0.04001 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect >=dev-perl/UNIVERSAL-require-0.10
+>=dev-perl/DBIx-Class-0.40.10 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect >=dev-perl/UNIVERSAL-require-0.10
+>=dev-perl/DBIx-Class-0.40.10 >=dev-perl/DBI-1.30 dev-perl/Lingua-EN-Inflect >=dev-perl/UNIVERSAL-require-0.10
 0
 mirror://cpan/authors/id/B/BL/BLBLACK/DBIx-Class-Loader-0.21.tar.gz
 

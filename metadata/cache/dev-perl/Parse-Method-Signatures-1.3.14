@@ -1,5 +1,5 @@
->=dev-perl/List-MoreUtils-0.20 dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.170.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100 >=dev-perl/PPI-1.203.0 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences dev-perl/MooseX-Types-Structured ) dev-lang/perl[-build]
->=dev-perl/List-MoreUtils-0.20 dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.170.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100 >=dev-perl/PPI-1.203.0 dev-lang/perl[-build]
+>=dev-perl/List-MoreUtils-0.20 dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.170.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100.0 >=dev-perl/PPI-1.203.0 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences dev-perl/MooseX-Types-Structured ) dev-lang/perl[-build]
+>=dev-perl/List-MoreUtils-0.20 dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.170.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100.0 >=dev-perl/PPI-1.203.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/I/IL/ILMARI/Parse-Method-Signatures-1.003014.tar.gz
 

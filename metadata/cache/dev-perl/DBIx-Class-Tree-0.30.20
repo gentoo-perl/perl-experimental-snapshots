@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.08100 dev-lang/perl[-build]
->=dev-perl/DBIx-Class-0.08100 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.81.0 dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.81.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FR/FREW/DBIx-Class-Tree-0.03002.tar.gz
 

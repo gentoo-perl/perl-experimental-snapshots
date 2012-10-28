@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.92 dev-perl/Sub-Exporter dev-perl/Data-GUID >=dev-perl/namespace-clean-0.08 dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
->=dev-perl/Moose-0.92 dev-perl/Sub-Exporter dev-perl/Data-GUID >=dev-perl/namespace-clean-0.08 dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA dev-lang/perl[-build]
+>=dev-perl/Moose-0.92 dev-perl/Sub-Exporter dev-perl/Data-GUID >=dev-perl/namespace-clean-0.80.0 dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.92 dev-perl/Sub-Exporter dev-perl/Data-GUID >=dev-perl/namespace-clean-0.80.0 dev-perl/crypt-cbc dev-perl/Crypt-Rijndael virtual/perl-Digest-SHA dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/Crypt-Util-0.11.tar.gz
 

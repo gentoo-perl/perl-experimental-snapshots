@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.590.0 dev-perl/DateTime-Format-SQLite >=virtual/perl-ExtUtils-MakeMaker-6.590.0 dev-perl/SQL-Translator dev-perl/DBD-SQLite >=dev-perl/DBIx-Class-0.81.80 >=dev-perl/HTML-FormFu-0.90.100 dev-perl/List-MoreUtils dev-perl/Task-Weaken dev-perl/YAML-Syck >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+dev-perl/DBD-SQLite >=dev-perl/DBIx-Class-0.81.80 >=dev-perl/HTML-FormFu-0.90.100 dev-perl/List-MoreUtils dev-perl/Task-Weaken dev-perl/YAML-Syck >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/C/CF/CFRANKS/HTML-FormFu-Model-DBIC-0.09010.tar.gz
+
+http://search.cpan.org/dist/HTML-FormFu-Model-DBIC/
+|| ( Artistic GPL-2 )
+Integrate HTML::FormFu with DBIx::Class
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

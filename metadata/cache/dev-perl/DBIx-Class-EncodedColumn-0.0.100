@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) virtual/perl-Test-Simple dev-perl/DBD-SQLite dev-perl/Dir-Self virtual/perl-Digest-SHA virtual/perl-File-Spec dev-lang/perl[-build]
->=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) virtual/perl-Test-Simple dev-perl/DBD-SQLite dev-perl/Dir-Self virtual/perl-Digest-SHA virtual/perl-File-Spec dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/W/WR/WREIS/DBIx-Class-EncodedColumn-0.00010.tar.gz
 

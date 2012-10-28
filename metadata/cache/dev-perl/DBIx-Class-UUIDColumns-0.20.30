@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.07005 dev-perl/Data-UUID
->=dev-perl/DBIx-Class-0.07005 dev-perl/Data-UUID
+>=dev-perl/DBIx-Class-0.70.50 dev-perl/Data-UUID
+>=dev-perl/DBIx-Class-0.70.50 dev-perl/Data-UUID
 0
 mirror://cpan/authors/id/C/CL/CLACO/DBIx-Class-UUIDColumns-0.02003.tar.gz
 

@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Lingua-EN-Inflect-Phrase-0.02
 	>=dev-perl/Class-Accessor-Grouped-0.100.20
 	>=dev-perl/Class-C3-Componentised-1.0.500
-	>=dev-perl/DBIx-Class-0.08114
+	>=dev-perl/DBIx-Class-0.81.140
 	>=dev-perl/File-Slurp-9999.13
 	dev-perl/Class-Inspector
 	dev-perl/Class-Load
@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Moose-1.12
 	>=dev-perl/MooseX-NonMoose-0.150.0
 	>=dev-perl/namespace-autoclean-0.90.0
-	>=dev-perl/namespace-clean-0.200
+	>=dev-perl/namespace-clean-0.200.0
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard
 	>=dev-perl/DBI-1.56

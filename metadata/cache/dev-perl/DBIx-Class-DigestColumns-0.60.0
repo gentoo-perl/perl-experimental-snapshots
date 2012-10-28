@@ -1,5 +1,5 @@
->=dev-perl/DBIx-Class-0.06002 virtual/perl-Digest-SHA virtual/perl-Module-Build dev-lang/perl[-build]
->=dev-perl/DBIx-Class-0.06002 virtual/perl-Digest-SHA dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 virtual/perl-Digest-SHA virtual/perl-Module-Build dev-lang/perl[-build]
+>=dev-perl/DBIx-Class-0.60.20 virtual/perl-Digest-SHA dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/G/GR/GRODITI/DBIx-Class-DigestColumns-0.06000.tar.gz
 

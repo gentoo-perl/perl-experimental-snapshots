@@ -1,5 +1,5 @@
-dev-perl/Test-use-ok >=dev-perl/Moose-0.50 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.08 dev-lang/perl[-build]
-dev-perl/Test-use-ok >=dev-perl/Moose-0.50 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.08 dev-lang/perl[-build]
+dev-perl/Test-use-ok >=dev-perl/Moose-0.50 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
+dev-perl/Test-use-ok >=dev-perl/Moose-0.50 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/MooseX-Types-URI-0.02.tar.gz
 

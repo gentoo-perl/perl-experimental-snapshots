@@ -1,5 +1,5 @@
-dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203.0 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences ) dev-lang/perl[-build]
-dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.10 >=dev-perl/PPI-1.203.0 dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100.0 >=dev-perl/PPI-1.203.0 test? ( dev-perl/aliased virtual/perl-Test-Simple dev-perl/Test-Exception dev-perl/Test-Differences ) dev-lang/perl[-build]
+dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.17 dev-perl/MooseX-Types-Structured >=dev-perl/namespace-clean-0.100.0 >=dev-perl/PPI-1.203.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/Parse-Method-Signatures-1.003013.tar.gz
 

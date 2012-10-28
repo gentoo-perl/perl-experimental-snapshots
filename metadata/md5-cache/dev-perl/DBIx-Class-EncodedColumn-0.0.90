@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) virtual/perl-Test-Simple dev-perl/DBD-SQLite dev-perl/Dir-Self virtual/perl-Digest-SHA virtual/perl-File-Spec dev-lang/perl[-build]
+DEPEND=>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) virtual/perl-Test-Simple dev-perl/DBD-SQLite dev-perl/Dir-Self virtual/perl-Digest-SHA virtual/perl-File-Spec dev-lang/perl[-build]
 DESCRIPTION=Automatic digest columns
 EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/DBIx-Class-EncodedColumn/
 IUSE=+md5 +sha +blowfish +gpg
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
-RDEPEND=>=dev-perl/DBIx-Class-0.06002 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) dev-lang/perl[-build]
+RDEPEND=>=dev-perl/DBIx-Class-0.60.20 >=dev-perl/Sub-Name-0.04 md5? ( virtual/perl-digest-base virtual/perl-Digest-MD5 ) sha? ( virtual/perl-digest-base virtual/perl-Digest-SHA ) blowfish? ( dev-perl/Crypt-Eksblowfish ) gpg? ( dev-perl/Crypt-OpenPGP dev-perl/Crypt-CAST5_PP ) dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/G/GR/GRODITI/DBIx-Class-EncodedColumn-0.00009.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	9aa8a023e062fca0ba79362d9d0cc488	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=a5228f95a1353bb757b4d98b1b2575d8
+_md5_=804771a5161efa8699836ace8948d84a
