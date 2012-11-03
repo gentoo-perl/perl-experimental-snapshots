@@ -5,7 +5,7 @@ mirror://cpan/authors/id/M/MS/MSTROUT/Catalyst-Plugin-Compress-Zlib-0.06.tar.gz
 
 http://search.cpan.org/dist/Catalyst-Plugin-Compress-Zlib/
 || ( Artistic GPL-2 )
-Zlib Compression for Catalyst
+DEPRECATED: Zlib Compression for Catalyst
 ~amd64 ~x86
 base eutils multilib multiprocessing perl-module toolchain-funcs user
 
