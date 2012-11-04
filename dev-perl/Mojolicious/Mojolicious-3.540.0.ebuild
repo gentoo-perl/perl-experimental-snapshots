@@ -1,28 +1,31 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
-MODULE_AUTHOR=EGILES
-MODULE_VERSION=0.18
+EAPI=5
+MODULE_AUTHOR=SRI
+MODULE_VERSION=3.54
 inherit perl-module
 
-DESCRIPTION='Check whether Perl module files compile correctly'
-LICENSE=" || ( Artistic GPL-2 )"
+DESCRIPTION='Real-time web framework'
+LICENSE=" Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	# ExtUtils::MakeMaker
+	echo virtual/perl-ExtUtils-MakeMaker
+}
+perl_meta_build() {
+	# ExtUtils::MakeMaker
+	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# UNIVERSAL::require
-	echo dev-perl/UNIVERSAL-require
-	# perl v5.6.0 ( 5.6.0 )
-	echo \>=dev-lang/perl-5.6.0
+	# perl 5.010001 ( 5.10.1 )
+	echo \>=dev-lang/perl-5.10.1
 }
 DEPEND="
 	$(perl_meta_configure)
+	$(perl_meta_build)
 	$(perl_meta_runtime)
 "
 RDEPEND="

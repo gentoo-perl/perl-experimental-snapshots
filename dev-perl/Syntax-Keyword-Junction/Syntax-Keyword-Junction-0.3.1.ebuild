@@ -1,25 +1,27 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
-MODULE_AUTHOR=EGILES
-MODULE_VERSION=0.17
+EAPI=5
+MODULE_AUTHOR=FREW
+MODULE_VERSION=0.003001
 inherit perl-module
 
-DESCRIPTION='Check whether Perl module files compile correctly'
+DESCRIPTION='Perl6 style Junction operators in Perl5'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# Module::Build 0.340201 ( 0.340.201 )
-	echo \>=virtual/perl-Module-Build-0.34.02.01
+	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 }
 perl_meta_runtime() {
-	# UNIVERSAL::require
-	echo dev-perl/UNIVERSAL-require
-	# perl v5.6.0 ( 5.6.0 )
-	echo \>=dev-lang/perl-5.6.0
+	# Sub::Exporter::Progressive 0.001006 ( 0.1.6 )
+	echo \>=dev-perl/Sub-Exporter-Progressive-0.1.6
+	# Test::More
+	echo virtual/perl-Test-Simple
+	# syntax
+	echo dev-perl/syntax
 }
 DEPEND="
 	$(perl_meta_configure)

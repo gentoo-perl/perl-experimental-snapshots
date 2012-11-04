@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.36 >=virtual/perl-ExtUtils-MakeMaker-6.36 virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/Z/ZA/ZARQUON/Catalyst-Manual-5.9005.tar.gz
+
+http://search.cpan.org/dist/Catalyst-Manual/
+|| ( Artistic GPL-2 )
+The Catalyst developer's manual
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

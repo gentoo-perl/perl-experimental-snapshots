@@ -1,28 +1,31 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
-MODULE_AUTHOR=EGILES
-MODULE_VERSION=0.20
+EAPI=5
+MODULE_AUTHOR=BINGOS
+MODULE_VERSION=0.84
 inherit perl-module
 
-DESCRIPTION='Check whether Perl module files compile correctly'
+DESCRIPTION='Mapping Perl releases on CPAN to the location of the tarballs'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
+}
+perl_meta_build() {
+	# Test::More 0.47 ( 0.470.0 )
+	echo \>=virtual/perl-Test-Simple-0.47
 }
 perl_meta_runtime() {
-	# UNIVERSAL::require
-	echo dev-perl/UNIVERSAL-require
 	# perl v5.6.0 ( 5.6.0 )
 	echo \>=dev-lang/perl-5.6.0
 }
 DEPEND="
 	$(perl_meta_configure)
+	$(perl_meta_build)
 	$(perl_meta_runtime)
 "
 RDEPEND="
