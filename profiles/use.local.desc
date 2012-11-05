@@ -2,6 +2,7 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
+dev-perl/Acme-LAUTER-DEUTSCHER:nettest - Enable network-only tests
 dev-perl/Any-URI-Escape:recommended - Install URL-Escape-XS for faster URI Escaping.
 dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
 dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built

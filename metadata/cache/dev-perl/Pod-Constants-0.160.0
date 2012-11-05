@@ -1,0 +1,22 @@
+>=virtual/perl-PodParser-1.130.0 >=virtual/perl-Test-Simple-0.18 dev-lang/perl[-build]
+>=virtual/perl-PodParser-1.130.0 >=virtual/perl-Test-Simple-0.18 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SA/SAMV/Pod-Constants-0.16.tar.gz
+
+http://search.cpan.org/dist/Pod-Constants/
+|| ( Artistic GPL-2 )
+Include constants from POD
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
