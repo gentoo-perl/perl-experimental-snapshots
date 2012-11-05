@@ -1,0 +1,22 @@
+dev-perl/Cache-FastMmap virtual/perl-File-Temp virtual/perl-Test-Simple dev-perl/Class-Accessor >=dev-perl/Module-Install-0.770.0 virtual/perl-Module-Load dev-perl/Params-Validate >=dev-lang/perl-5.8.0 virtual/perl-version dev-lang/perl[-build]
+dev-perl/Class-Accessor >=dev-perl/Module-Install-0.770.0 virtual/perl-Module-Load dev-perl/Params-Validate >=dev-lang/perl-5.8.0 virtual/perl-version dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/G/GU/GUGU/Algorithm-FloodControl-2.001000.tar.gz
+
+http://search.cpan.org/dist/Algorithm-FloodControl/
+|| ( Artistic GPL-2 )
+Limit event processing to count/time ratio.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
