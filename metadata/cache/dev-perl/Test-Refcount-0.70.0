@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.00 virtual/perl-Test-Simple virtual/perl-Test-Simple dev-lang/perl virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/Test-Refcount-0.07.tar.gz
+
+http://search.cpan.org/dist/Test-Refcount/
+|| ( Artistic GPL-2 )
+assert reference counts on objects
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

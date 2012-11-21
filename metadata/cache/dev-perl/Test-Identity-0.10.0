@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.36.00 virtual/perl-Test-Simple virtual/perl-Test-Simple virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/Test-Identity-0.01.tar.gz
+
+http://search.cpan.org/dist/Test-Identity/
+|| ( Artistic GPL-2 )
+assert the referential identity of a reference
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

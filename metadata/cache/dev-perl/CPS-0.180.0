@@ -1,0 +1,22 @@
+virtual/perl-Module-Build dev-perl/Test-Fatal dev-perl/Test-Identity virtual/perl-Test-Simple dev-perl/Test-Refcount dev-perl/Future dev-lang/perl[-build]
+dev-perl/Future dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/CPS-0.18.tar.gz
+
+http://search.cpan.org/dist/CPS/
+|| ( Artistic GPL-2 )
+manage flow of control in Continuation-Passing Style
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
