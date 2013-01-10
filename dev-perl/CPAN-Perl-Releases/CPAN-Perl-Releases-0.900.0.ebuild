@@ -2,36 +2,26 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
-MODULE_AUTHOR=SADAHIRO
-MODULE_VERSION=0.91
+MODULE_AUTHOR=BINGOS
+MODULE_VERSION=0.90
 inherit perl-module
 
-DESCRIPTION='Unicode Collation Algorithm'
+DESCRIPTION='Mapping Perl releases on CPAN to the location of the tarballs'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker
-	echo virtual/perl-ExtUtils-MakeMaker
+	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 }
 perl_meta_build() {
-	# ExtUtils::MakeMaker
-	echo virtual/perl-ExtUtils-MakeMaker
+	# Test::More 0.47 ( 0.470.0 )
+	echo \>=virtual/perl-Test-Simple-0.47
 }
 perl_meta_runtime() {
-	# Carp
-	echo dev-lang/perl
-	# DynaLoader
-	echo dev-lang/perl
-	# File::Spec
-	echo virtual/perl-File-Spec
-	# constant
-	echo virtual/perl-constant
-	# strict
-	echo dev-lang/perl
-	# warnings
-	echo dev-lang/perl
+	# perl v5.6.0 ( 5.6.0 )
+	echo \>=dev-lang/perl-5.6.0
 }
 DEPEND="
 	$(perl_meta_configure)
