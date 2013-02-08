@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.90 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
->=dev-perl/Moose-0.90 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
+>=dev-perl/Moose-0.900.0 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
+>=dev-perl/Moose-0.900.0 >=virtual/perl-IPC-Cmd-0.42 dev-perl/IPC-Run dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/E/ED/EDENC/MooseX-Role-Cmd-0.10.tar.gz
 

@@ -1,5 +1,5 @@
->=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.80.0 virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
->=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.74 >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
+>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.740.0 >=dev-perl/namespace-clean-0.80.0 virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+>=dev-perl/Data-Visitor-0.24 dev-perl/Hash-Util-FieldHash-Compat >=dev-perl/Moose-0.740.0 >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/MooseX-Clone-0.05.tar.gz
 

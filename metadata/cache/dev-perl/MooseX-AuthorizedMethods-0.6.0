@@ -1,5 +1,5 @@
->=dev-perl/Moose-1.21 dev-perl/aliased dev-lang/perl[-build]
->=dev-perl/Moose-1.21 dev-perl/aliased dev-lang/perl[-build]
+>=dev-perl/Moose-1.210.0 dev-perl/aliased dev-lang/perl[-build]
+>=dev-perl/Moose-1.210.0 dev-perl/aliased dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/D/DR/DRUOSO/MooseX-AuthorizedMethods-0.006.tar.gz
 

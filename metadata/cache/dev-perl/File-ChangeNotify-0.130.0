@@ -1,5 +1,5 @@
-|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes inotify? ( >=dev-perl/Linux-Inotify2-1.2 ) >=virtual/perl-Module-Build-0.35 virtual/perl-File-Path virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
-|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes inotify? ( >=dev-perl/Linux-Inotify2-1.2 ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes inotify? ( >=dev-perl/Linux-Inotify2-1.2 ) >=virtual/perl-Module-Build-0.35 virtual/perl-File-Path virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) virtual/perl-Module-Pluggable dev-perl/Moose >=dev-perl/MooseX-Params-Validate-0.80 dev-perl/MooseX-SemiAffordanceAccessor virtual/perl-File-Spec virtual/perl-Time-HiRes inotify? ( >=dev-perl/Linux-Inotify2-1.2 ) dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/D/DR/DROLSKY/File-ChangeNotify-0.13.tar.gz
 

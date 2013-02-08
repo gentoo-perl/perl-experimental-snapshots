@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.90 >=dev-perl/POE-1.004 >=virtual/perl-ExtUtils-MakeMaker-6.31 test? ( >=virtual/perl-Test-Simple-0.90 dev-perl/Test-Fatal ) dev-lang/perl[-build]
->=dev-perl/Moose-0.90 >=dev-perl/POE-1.004 dev-lang/perl[-build]
+>=dev-perl/Moose-0.900.0 >=dev-perl/POE-1.004 >=virtual/perl-ExtUtils-MakeMaker-6.31 test? ( >=virtual/perl-Test-Simple-0.90 dev-perl/Test-Fatal ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.900.0 >=dev-perl/POE-1.004 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/G/GE/GETTY/MooseX-POE-0.212.tar.gz
 

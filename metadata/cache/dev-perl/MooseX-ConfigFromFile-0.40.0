@@ -1,5 +1,5 @@
->=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.42 >=dev-perl/Moose-0.350 >=dev-perl/MooseX-Types-Path-Class-0.40.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-lang/perl[-build]
->=dev-perl/Moose-0.350 >=dev-perl/MooseX-Types-Path-Class-0.40.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-lang/perl[-build]
+>=virtual/perl-ExtUtils-MakeMaker-6.42 >=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.42 >=dev-perl/Moose-0.350.0 >=dev-perl/MooseX-Types-Path-Class-0.40.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-lang/perl[-build]
+>=dev-perl/Moose-0.350.0 >=dev-perl/MooseX-Types-Path-Class-0.40.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-ConfigFromFile-0.04.tar.gz
 

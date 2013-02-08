@@ -1,5 +1,5 @@
->=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.540.0 >=dev-perl/Moose-0.67 >=dev-perl/namespace-clean-0.90.0 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session dev-perl/Test-Exception
->=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.540.0 >=dev-perl/Moose-0.67 >=dev-perl/namespace-clean-0.90.0 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session dev-perl/Test-Exception
+>=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.540.0 >=dev-perl/Moose-0.670.0 >=dev-perl/namespace-clean-0.90.0 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session dev-perl/Test-Exception
+>=dev-perl/Catalyst-Runtime-5.0.0 >=dev-perl/libwww-perl-5.816 >=dev-perl/Test-WWW-Mechanize-1.14 >=dev-perl/WWW-Mechanize-1.540.0 >=dev-perl/Moose-0.670.0 >=dev-perl/namespace-clean-0.90.0 dev-perl/Catalyst-Plugin-Session-State-Cookie dev-perl/Catalyst-Plugin-Session dev-perl/Test-Exception
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/Test-WWW-Mechanize-Catalyst-0.52.tar.gz
 

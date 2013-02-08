@@ -1,5 +1,5 @@
-|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.93 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.90 dev-perl/namespace-clean test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
-|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.93 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.90 dev-perl/namespace-clean dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.930.0 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.900.0 dev-perl/namespace-clean test? ( dev-perl/Test-use-ok ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.930.0 ) >=dev-perl/Data-Visitor-0.21 >=dev-perl/Moose-0.900.0 dev-perl/namespace-clean dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/MooseX-Blessed-Reconstruct-0.03.tar.gz
 

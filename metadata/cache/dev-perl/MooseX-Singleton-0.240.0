@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.94 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/Test-Exception dev-lang/perl[-build]
->=dev-perl/Moose-0.94 dev-lang/perl[-build]
+>=dev-perl/Moose-0.940.0 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/Test-Exception dev-lang/perl[-build]
+>=dev-perl/Moose-0.940.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-Singleton-0.24.tar.gz
 

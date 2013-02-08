@@ -1,4 +1,4 @@
->=dev-perl/Any-Moose-0.12 >=dev-perl/Log-Log4perl-1.13 dev-perl/IO-stringy virtual/perl-Test-Simple >=dev-perl/Moose-0.65 dev-lang/perl[-build]
+>=dev-perl/Any-Moose-0.12 >=dev-perl/Log-Log4perl-1.13 dev-perl/IO-stringy virtual/perl-Test-Simple >=dev-perl/Moose-0.650.0 dev-lang/perl[-build]
 >=dev-perl/Any-Moose-0.12 >=dev-perl/Log-Log4perl-1.13 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/L/LA/LAMMEL/MooseX-Log-Log4perl-0.43.tar.gz

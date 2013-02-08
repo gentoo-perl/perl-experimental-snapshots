@@ -1,5 +1,5 @@
-dev-perl/Test-Exception virtual/perl-Module-Build dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.18 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
-dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.18 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
+dev-perl/Test-Exception virtual/perl-Module-Build dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.180.0 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
+dev-perl/Excel-Template dev-perl/Template-Toolkit dev-perl/IO-String >=dev-perl/Moose-0.180.0 >=dev-perl/MooseX-Param-0.10 dev-perl/Test-Deep dev-perl/Spreadsheet-ParseExcel dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/S/ST/STEVAN/Excel-Template-Plus-0.05.tar.gz
 

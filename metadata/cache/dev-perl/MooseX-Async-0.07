@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.56 >=dev-perl/MooseX-AttributeHelpers-0.13 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
->=dev-perl/Moose-0.56 >=dev-perl/MooseX-AttributeHelpers-0.13 dev-lang/perl[-build]
+>=dev-perl/Moose-0.560.0 >=dev-perl/MooseX-AttributeHelpers-0.13 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
+>=dev-perl/Moose-0.560.0 >=dev-perl/MooseX-AttributeHelpers-0.13 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/P/PE/PERIGRIN/MooseX-Async-0.07.tar.gz
 

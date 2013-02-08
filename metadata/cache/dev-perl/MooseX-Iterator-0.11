@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.86 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
->=dev-perl/Moose-0.86 dev-lang/perl[-build]
+>=dev-perl/Moose-0.860.0 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
+>=dev-perl/Moose-0.860.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/R/RL/RLB/MooseX-Iterator-0.11.tar.gz
 

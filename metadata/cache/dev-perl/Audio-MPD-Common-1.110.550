@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.92 dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly >=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
->=dev-perl/Moose-0.92 dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-lang/perl[-build]
+>=dev-perl/Moose-0.920.0 dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly >=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Temp >=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Test-Simple-0.88 dev-lang/perl[-build]
+>=dev-perl/Moose-0.920.0 dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/J/JQ/JQUELIN/Audio-MPD-Common-1.110550.tar.gz
 

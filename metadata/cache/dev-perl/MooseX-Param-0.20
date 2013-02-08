@@ -1,5 +1,5 @@
-virtual/perl-Module-Build >=dev-perl/Test-Exception-0.21 >=dev-perl/Moose-0.32 dev-lang/perl[-build]
->=dev-perl/Moose-0.32 dev-lang/perl[-build]
+virtual/perl-Module-Build >=dev-perl/Test-Exception-0.21 >=dev-perl/Moose-0.320.0 dev-lang/perl[-build]
+>=dev-perl/Moose-0.320.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/S/ST/STEVAN/MooseX-Param-0.02.tar.gz
 

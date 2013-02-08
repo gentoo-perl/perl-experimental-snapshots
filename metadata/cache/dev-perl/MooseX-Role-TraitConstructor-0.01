@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.40 virtual/perl-Scalar-List-Utils test? ( dev-perl/Test-use-ok dev-perl/Test-Exception ) dev-lang/perl[-build]
->=dev-perl/Moose-0.40 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+>=dev-perl/Moose-0.400.0 virtual/perl-Scalar-List-Utils test? ( dev-perl/Test-use-ok dev-perl/Test-Exception ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.400.0 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/MooseX-Role-TraitConstructor-0.01.tar.gz
 

@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.24 >=dev-perl/namespace-clean-0.50.0 dev-perl/Pod-Coverage dev-perl/Perl6-Junction || ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage dev-lang/perl[-build]
->=dev-perl/Moose-0.24 >=dev-perl/namespace-clean-0.50.0 dev-perl/Pod-Coverage dev-perl/Perl6-Junction || ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.240.0 >=dev-perl/namespace-clean-0.50.0 dev-perl/Pod-Coverage dev-perl/Perl6-Junction || ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage dev-lang/perl[-build]
+>=dev-perl/Moose-0.240.0 >=dev-perl/namespace-clean-0.50.0 dev-perl/Pod-Coverage dev-perl/Perl6-Junction || ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/D/DR/DROLSKY/Pod-Coverage-Moose-0.02.tar.gz
 

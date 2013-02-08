@@ -1,5 +1,5 @@
->=dev-perl/KiokuDB-0.90.0 >=dev-perl/Moose-0.63 dev-perl/MooseX-Role-Parameterized dev-perl/MooseX-Types-Authen-Passphrase dev-perl/Sub-Exporter dev-perl/Test-use-ok dev-perl/namespace-clean dev-lang/perl[-build]
->=dev-perl/KiokuDB-0.90.0 >=dev-perl/Moose-0.63 dev-perl/MooseX-Role-Parameterized dev-perl/MooseX-Types-Authen-Passphrase dev-perl/Sub-Exporter dev-perl/Test-use-ok dev-perl/namespace-clean dev-lang/perl[-build]
+>=dev-perl/KiokuDB-0.90.0 >=dev-perl/Moose-0.630.0 dev-perl/MooseX-Role-Parameterized dev-perl/MooseX-Types-Authen-Passphrase dev-perl/Sub-Exporter dev-perl/Test-use-ok dev-perl/namespace-clean dev-lang/perl[-build]
+>=dev-perl/KiokuDB-0.90.0 >=dev-perl/Moose-0.630.0 dev-perl/MooseX-Role-Parameterized dev-perl/MooseX-Types-Authen-Passphrase dev-perl/Sub-Exporter dev-perl/Test-use-ok dev-perl/namespace-clean dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/KiokuX-User-0.02.tar.gz
 

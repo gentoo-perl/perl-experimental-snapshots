@@ -1,5 +1,5 @@
->=dev-perl/Config-Any-0.13 >=dev-perl/Moose-0.35 >=dev-perl/MooseX-ConfigFromFile-0.02 test? ( >=virtual/perl-Test-Simple-0.42 ) dev-lang/perl[-build]
->=dev-perl/Config-Any-0.13 >=dev-perl/Moose-0.35 >=dev-perl/MooseX-ConfigFromFile-0.02 dev-lang/perl[-build]
+>=dev-perl/Config-Any-0.13 >=dev-perl/Moose-0.350.0 >=dev-perl/MooseX-ConfigFromFile-0.02 test? ( >=virtual/perl-Test-Simple-0.42 ) dev-lang/perl[-build]
+>=dev-perl/Config-Any-0.13 >=dev-perl/Moose-0.350.0 >=dev-perl/MooseX-ConfigFromFile-0.02 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/MooseX-SimpleConfig-0.07.tar.gz
 

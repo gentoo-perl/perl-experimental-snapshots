@@ -1,5 +1,5 @@
-dev-perl/JSON-Any dev-perl/libwww-perl >=dev-perl/Moose-0.70 dev-perl/URI dev-perl/Test-Exception virtual/perl-Test-Simple dev-perl/mocked dev-lang/perl[-build]
-dev-perl/JSON-Any dev-perl/libwww-perl >=dev-perl/Moose-0.70 dev-perl/URI dev-lang/perl[-build]
+dev-perl/JSON-Any dev-perl/libwww-perl >=dev-perl/Moose-0.700.0 dev-perl/URI dev-perl/Test-Exception virtual/perl-Test-Simple dev-perl/mocked dev-lang/perl[-build]
+dev-perl/JSON-Any dev-perl/libwww-perl >=dev-perl/Moose-0.700.0 dev-perl/URI dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/K/KO/KONOBI/Net-API-RPX-0.01.tar.gz
 

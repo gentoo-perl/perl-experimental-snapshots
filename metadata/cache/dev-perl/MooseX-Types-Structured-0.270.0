@@ -1,5 +1,5 @@
->=dev-perl/Devel-PartialDump-0.130.0 >=dev-perl/Moose-1.08 >=dev-perl/MooseX-Types-0.220.0 virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.982 >=virtual/perl-ExtUtils-MakeMaker-6.56 test? ( dev-perl/DateTime dev-perl/MooseX-Types-DateTime dev-perl/MooseX-Types dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.94 ) dev-lang/perl[-build]
->=dev-perl/Devel-PartialDump-0.130.0 >=dev-perl/Moose-1.08 >=dev-perl/MooseX-Types-0.220.0 virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.982 dev-lang/perl[-build]
+>=dev-perl/Devel-PartialDump-0.130.0 >=dev-perl/Moose-1.80.0 >=dev-perl/MooseX-Types-0.220.0 virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.982 >=virtual/perl-ExtUtils-MakeMaker-6.56 test? ( dev-perl/DateTime dev-perl/MooseX-Types-DateTime dev-perl/MooseX-Types dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.94 ) dev-lang/perl[-build]
+>=dev-perl/Devel-PartialDump-0.130.0 >=dev-perl/Moose-1.80.0 >=dev-perl/MooseX-Types-0.220.0 virtual/perl-Scalar-List-Utils >=dev-perl/Sub-Exporter-0.982 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/J/JJ/JJNAPIORK/MooseX-Types-Structured-0.27.tar.gz
 

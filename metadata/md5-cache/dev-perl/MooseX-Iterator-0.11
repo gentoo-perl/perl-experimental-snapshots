@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/Moose-0.86 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
+DEPEND=>=dev-perl/Moose-0.860.0 >=virtual/perl-Test-Simple-0.42 dev-lang/perl[-build]
 DESCRIPTION=Iterate over collections
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/MooseX-Iterator/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/Moose-0.86 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Moose-0.860.0 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RL/RLB/MooseX-Iterator-0.11.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	ded93e450747134a079e647d888aa80b	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=6ae33beeb9067206ab66bbf18d370ec3
+_md5_=ca16d123e6a47bd93c3e33ba17908adc

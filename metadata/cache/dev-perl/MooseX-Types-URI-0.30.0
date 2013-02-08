@@ -1,5 +1,5 @@
-virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-perl/Moose-0.500 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/Test-use-ok dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
->=dev-perl/Moose-0.500 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/Test-use-ok dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=dev-perl/Moose-0.500.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/Test-use-ok dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
+>=dev-perl/Moose-0.500.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Class dev-perl/Test-use-ok dev-perl/URI dev-perl/URI-FromHash >=dev-perl/namespace-clean-0.80.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/MooseX-Types-URI-0.03.tar.gz
 

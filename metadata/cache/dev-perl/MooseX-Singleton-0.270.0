@@ -1,5 +1,5 @@
->=dev-perl/Moose-1.10 virtual/perl-Scalar-List-Utils >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.88 dev-perl/Test-Requires dev-lang/perl[-build]
->=dev-perl/Moose-1.10 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
+>=dev-perl/Moose-1.100.0 virtual/perl-Scalar-List-Utils >=virtual/perl-ExtUtils-MakeMaker-6.56 dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.88 dev-perl/Test-Requires dev-lang/perl[-build]
+>=dev-perl/Moose-1.100.0 virtual/perl-Scalar-List-Utils dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-Singleton-0.27.tar.gz
 

@@ -1,5 +1,5 @@
->=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 >=dev-perl/Moose-0.920 dev-perl/Moose dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-perl/String-Formatter dev-lang/perl >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
->=dev-perl/Moose-0.920 dev-perl/Moose dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-perl/String-Formatter dev-lang/perl >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+>=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 >=dev-perl/Moose-0.920.0 dev-perl/Moose dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-perl/String-Formatter dev-lang/perl >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.920.0 dev-perl/Moose dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types dev-perl/Readonly dev-perl/String-Formatter dev-lang/perl >=dev-lang/perl-5.8.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/J/JQ/JQUELIN/Audio-MPD-Common-1.120881.tar.gz
 

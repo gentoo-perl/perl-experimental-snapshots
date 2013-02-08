@@ -1,5 +1,5 @@
->=dev-perl/Moose-0.84 dev-perl/namespace-clean test? ( dev-perl/Test-Exception virtual/perl-Test-Simple ) dev-lang/perl[-build]
->=dev-perl/Moose-0.84 dev-perl/namespace-clean dev-lang/perl[-build]
+>=dev-perl/Moose-0.840.0 dev-perl/namespace-clean test? ( dev-perl/Test-Exception virtual/perl-Test-Simple ) dev-lang/perl[-build]
+>=dev-perl/Moose-0.840.0 dev-perl/namespace-clean dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/MooseX-Emulate-Class-Accessor-Fast-0.00902.tar.gz
 

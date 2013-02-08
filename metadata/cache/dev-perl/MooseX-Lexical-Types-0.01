@@ -1,5 +1,5 @@
-|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean test? ( dev-perl/Test-Exception ) dev-lang/perl[-build]
-|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean test? ( dev-perl/Test-Exception ) dev-lang/perl[-build]
+|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP ) dev-perl/Lexical-Types dev-perl/Moose >=dev-perl/MooseX-Types-0.09 dev-perl/Variable-Magic dev-perl/namespace-autoclean dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/MooseX-Lexical-Types-0.01.tar.gz
 
