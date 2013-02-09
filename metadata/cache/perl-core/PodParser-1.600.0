@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 dev-lang/perl[-build]
+virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MAREKR/Pod-Parser-1.60.tar.gz
+
+http://search.cpan.org/dist/Pod-Parser/
+|| ( Artistic GPL-2 )
+Modules for parsing/translating POD format documents
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

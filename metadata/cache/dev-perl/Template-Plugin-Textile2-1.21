@@ -1,5 +1,5 @@
-virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.15 >=dev-perl/Text-Textile-2.03
-virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.15 >=dev-perl/Text-Textile-2.03
+virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.150.0 >=dev-perl/Text-Textile-2.03
+virtual/perl-Module-Build >=dev-perl/Template-Toolkit-2.150.0 >=dev-perl/Text-Textile-2.03
 0
 mirror://cpan/authors/id/A/AR/ARTHAS/Template-Plugin-Textile2-1.21.tar.gz
 

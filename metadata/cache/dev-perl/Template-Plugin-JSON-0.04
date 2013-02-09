@@ -1,5 +1,5 @@
->=dev-perl/Template-Toolkit-2.20 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
->=dev-perl/Template-Toolkit-2.20 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
+>=dev-perl/Template-Toolkit-2.200.0 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
+>=dev-perl/Template-Toolkit-2.200.0 dev-perl/Mouse dev-perl/Test-use-ok dev-perl/JSON
 0
 mirror://cpan/authors/id/N/NU/NUFFIN/Template-Plugin-JSON-0.04.tar.gz
 

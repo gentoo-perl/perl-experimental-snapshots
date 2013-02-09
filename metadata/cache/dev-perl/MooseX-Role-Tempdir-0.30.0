@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.400.0 virtual/perl-Test-Simple >=dev-perl/MooseX-Role-Parameterized-1.0.0 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+>=dev-perl/MooseX-Role-Parameterized-1.0.0 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/I/IA/IAMB/MooseX-Role-Tempdir-0.03.tar.gz
+
+http://search.cpan.org/dist/MooseX-Role-Tempdir/
+|| ( Artistic GPL-2 )
+Moose role to provide temporary directories
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

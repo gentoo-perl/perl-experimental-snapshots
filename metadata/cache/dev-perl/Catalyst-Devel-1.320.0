@@ -1,5 +1,5 @@
 test? ( >=virtual/perl-Test-Simple-0.94 >=dev-perl/Test-Fatal-0.3.0 ) dev-lang/perl[-build]
-dev-perl/Moose dev-perl/MooseX-Emulate-Class-Accessor-Fast dev-perl/File-ShareDir dev-perl/namespace-clean dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.150 >=dev-perl/Catalyst-Action-RenderView-0.100.0 >=dev-perl/Catalyst-Plugin-Static-Simple-0.280.0 >=dev-perl/Catalyst-Plugin-ConfigLoader-0.300.0 >=dev-perl/config-general-2.42 >=dev-perl/File-ChangeNotify-0.70.0 dev-perl/File-Copy-Recursive >=dev-perl/Module-Install-0.91 >=dev-perl/Path-Class-0.90.0 >=dev-perl/Template-Toolkit-2.14 dev-lang/perl[-build]
+dev-perl/Moose dev-perl/MooseX-Emulate-Class-Accessor-Fast dev-perl/File-ShareDir dev-perl/namespace-clean dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.150 >=dev-perl/Catalyst-Action-RenderView-0.100.0 >=dev-perl/Catalyst-Plugin-Static-Simple-0.280.0 >=dev-perl/Catalyst-Plugin-ConfigLoader-0.300.0 >=dev-perl/config-general-2.42 >=dev-perl/File-ChangeNotify-0.70.0 dev-perl/File-Copy-Recursive >=dev-perl/Module-Install-0.91 >=dev-perl/Path-Class-0.90.0 >=dev-perl/Template-Toolkit-2.140.0 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Devel-1.32.tar.gz
 

@@ -1,4 +1,4 @@
-dev-perl/Moose virtual/perl-Scalar-List-Utils >=dev-perl/namespace-clean-0.200.0 dev-perl/Sub-Exporter test? ( dev-perl/Test-use-ok >=dev-perl/Test-Warn-0.21 ) dev-lang/perl[-build]
+dev-perl/Moose virtual/perl-Scalar-List-Utils >=dev-perl/namespace-clean-0.200.0 dev-perl/Sub-Exporter test? ( dev-perl/Test-use-ok >=dev-perl/Test-Warn-0.210.0 ) dev-lang/perl[-build]
 dev-perl/Moose virtual/perl-Scalar-List-Utils >=dev-perl/namespace-clean-0.200.0 dev-perl/Sub-Exporter dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/F/FL/FLORA/Devel-PartialDump-0.15.tar.gz

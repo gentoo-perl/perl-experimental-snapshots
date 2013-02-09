@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for PodParser
+KEYWORDS=~amd64 ~x86
+RDEPEND=~perl-core/PodParser-1.600.0
+SLOT=0
+_md5_=78366d030ed6e18ad6365e85f18d88a9

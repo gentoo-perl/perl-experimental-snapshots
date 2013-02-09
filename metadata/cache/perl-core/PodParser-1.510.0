@@ -1,0 +1,22 @@
+dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MAREKR/Pod-Parser-1.51.tar.gz http://dev.gentoo.org/~tove/distfiles/perl-core/PodParser/Pod-Parser-1.54-patch.tar.bz2
+
+http://search.cpan.org/dist/Pod-Parser/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+Base class for creating POD filters and translators
+~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-fbsd ~x86-fbsd ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+4
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

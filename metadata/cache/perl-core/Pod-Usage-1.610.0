@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-lang/perl >=virtual/perl-PodParser-1.600.0 >=virtual/perl-Test-Simple-0.600.0 dev-lang/perl[-build]
+virtual/perl-File-Spec dev-lang/perl >=virtual/perl-PodParser-1.600.0 >=virtual/perl-Test-Simple-0.600.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MA/MAREKR/Pod-Usage-1.61.tar.gz
+
+http://search.cpan.org/dist/Pod-Usage/
+|| ( Artistic GPL-2 )
+Pod::Usage extracts POD documentation and shows usage information
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

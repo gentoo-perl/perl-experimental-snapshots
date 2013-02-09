@@ -1,5 +1,5 @@
->=dev-perl/Template-Toolkit-2.14
->=dev-perl/Template-Toolkit-2.14
+>=dev-perl/Template-Toolkit-2.140.0
+>=dev-perl/Template-Toolkit-2.140.0
 0
 mirror://cpan/authors/id/D/DC/DCARDWELL/Template-Provider-DBIC-0.01.tar.gz
 
