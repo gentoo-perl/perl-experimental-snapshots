@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.380.0 >=dev-perl/HTTP-Daemon-1.250.0 >=dev-perl/libwww-perl-2.0.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+>=dev-perl/HTTP-Daemon-1.250.0 >=dev-perl/libwww-perl-2.0.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BO/BOOK/HTTP-Proxy-0.26.tar.gz
+
+http://search.cpan.org/dist/HTTP-Proxy/
+|| ( Artistic GPL-2 )
+A pure Perl HTTP proxy
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

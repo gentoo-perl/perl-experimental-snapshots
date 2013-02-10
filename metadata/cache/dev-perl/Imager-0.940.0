@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=virtual/perl-Scalar-List-Utils-1.0.0 >=virtual/perl-Test-Simple-0.47 virtual/perl-XSLoader dev-lang/perl[-build]
+>=virtual/perl-Scalar-List-Utils-1.0.0 >=virtual/perl-Test-Simple-0.47 virtual/perl-XSLoader dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/T/TO/TONYC/Imager-0.94.tar.gz
+
+http://search.cpan.org/dist/Imager/
+|| ( Artistic GPL-2 )
+Perl extension for Generating 24 bit Images
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

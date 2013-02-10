@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=dev-perl/Devel-Declare-0.3.1 dev-lang/perl[-build]
+>=dev-perl/Devel-Declare-0.3.1 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/R/RH/RHESA/Method-Signatures-Simple-1.07.tar.gz
+
+http://search.cpan.org/dist/Method-Signatures-Simple/
+|| ( Artistic GPL-2 )
+Basic method declarations with signatures, without source filters
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
