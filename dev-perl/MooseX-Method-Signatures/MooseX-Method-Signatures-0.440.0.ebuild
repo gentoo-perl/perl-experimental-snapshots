@@ -1,9 +1,9 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=ETHER
-MODULE_VERSION=0.43
+MODULE_VERSION=0.44
 inherit perl-module
 
 DESCRIPTION='Method declarations with type constraints and no source filter'
@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# B::Hooks::EndOfScope 0.10 ( 0.100.0 )
 	echo \>=dev-perl/B-Hooks-EndOfScope-0.100.0
 	# Carp
-	# echo virtual/perl-Carp
+	echo dev-lang/perl
 	# Context::Preserve
 	echo dev-perl/Context-Preserve
 	# Devel::Declare 0.005011 ( 0.5.11 )
@@ -74,6 +74,8 @@ perl_meta_runtime() {
 	echo dev-perl/aliased
 	# namespace::autoclean
 	echo dev-perl/namespace-autoclean
+	# perl 5.006 ( 5.6.0 )
+	echo \>=dev-lang/perl-5.6.0
 	# strict
 	echo dev-lang/perl
 	# warnings

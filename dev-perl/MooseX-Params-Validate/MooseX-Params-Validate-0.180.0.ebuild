@@ -1,12 +1,12 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
-MODULE_AUTHOR=ETHER
-MODULE_VERSION=0.08
+EAPI=5
+MODULE_AUTHOR=DROLSKY
+MODULE_VERSION=0.18
 inherit perl-module
 
-DESCRIPTION='Required attributes which fail only when trying to use them'
+DESCRIPTION='an extension of Params::Validate using Moose'\''s types'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
@@ -17,34 +17,32 @@ perl_meta_configure() {
 }
 perl_meta_runtime() {
 	# Carp
-	# echo virtual/perl-Carp
-	# Moose 0.94 ( 0.940.0 )
-	echo \>=dev-perl/Moose-0.940.0
-	# Moose::Exporter
+	echo dev-lang/perl
+	# Devel::Caller
+	echo dev-perl/Devel-Caller
+	# Moose 0.58 ( 0.580.0 )
+	echo \>=dev-perl/Moose-0.580.0
+	# Moose::Util::TypeConstraints
 	echo dev-perl/Moose
-	# Moose::Role
-	echo dev-perl/Moose
-	# MooseX::Types::Moose
-	echo dev-perl/MooseX-Types
-	# aliased 0.30 ( 0.300.0 )
-	echo \>=dev-perl/aliased-0.300.0
-	# namespace::autoclean
-	echo dev-perl/namespace-autoclean
+	# Params::Validate 0.88 ( 0.880.0 )
+	echo \>=dev-perl/Params-Validate-0.880.0
+	# Scalar::Util
+	echo virtual/perl-Scalar-List-Utils
+	# Sub::Exporter
+	echo dev-perl/Sub-Exporter
+	# strict
+	echo dev-lang/perl
+	# warnings
+	echo dev-lang/perl
 }
 perl_meta_test() {
-	# File::Find
-	echo dev-lang/perl
-	# File::Temp
-	echo virtual/perl-File-Temp
-	# Test::CheckDeps 0.002 ( 0.2.0 )
-	echo \>=dev-perl/Test-CheckDeps-0.2.0
+	# Moose::Role
+	echo dev-perl/Moose
 	# Test::Fatal
 	echo dev-perl/Test-Fatal
 	# Test::More 0.88 ( 0.880.0 )
 	echo \>=virtual/perl-Test-Simple-0.88
-	# strict
-	echo dev-lang/perl
-	# warnings
+	# overload
 	echo dev-lang/perl
 }
 DEPEND="
