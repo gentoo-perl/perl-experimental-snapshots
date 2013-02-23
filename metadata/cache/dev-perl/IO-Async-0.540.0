@@ -1,0 +1,22 @@
+virtual/perl-Module-Build virtual/perl-File-Temp dev-perl/Test-Fatal dev-perl/Test-Identity virtual/perl-Test-Simple dev-perl/Test-Refcount dev-perl/CPS >=virtual/perl-Exporter-5.570.0 dev-lang/perl >=dev-perl/Future-0.50.0 virtual/perl-IO >=virtual/perl-Socket-1.950.0 virtual/perl-Storable virtual/perl-Time-HiRes >=dev-lang/perl-5.10.0 dev-lang/perl[-build]
+dev-perl/CPS >=virtual/perl-Exporter-5.570.0 dev-lang/perl >=dev-perl/Future-0.50.0 virtual/perl-IO >=virtual/perl-Socket-1.950.0 virtual/perl-Storable virtual/perl-Time-HiRes >=dev-lang/perl-5.10.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/P/PE/PEVANS/IO-Async-0.54.tar.gz
+
+http://search.cpan.org/dist/IO-Async/
+|| ( Artistic GPL-2 )
+Asynchronous event-driven programming
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

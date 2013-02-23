@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/I/IV/IVAN/Business-CreditCard-0.32.tar.gz
+
+http://search.cpan.org/dist/Business-CreditCard/
+|| ( Artistic GPL-2 )
+Validate/generate credit card checksums/names
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

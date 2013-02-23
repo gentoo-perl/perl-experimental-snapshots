@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+>=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Net-IP-Minimal-0.06.tar.gz
+
+http://search.cpan.org/dist/Net-IP-Minimal/
+|| ( Artistic GPL-2 )
+Minimal functions from Net::IP
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
