@@ -1,0 +1,22 @@
+virtual/perl-Module-Build virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/S/SA/SAPER/constant-1.25.tar.gz
+
+http://search.cpan.org/dist/constant/
+|| ( Artistic GPL-2 )
+Perl pragma to declare constants
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

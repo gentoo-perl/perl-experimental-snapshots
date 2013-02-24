@@ -1,0 +1,22 @@
+virtual/perl-Module-Build virtual/perl-Class-ISA dev-perl/Devel-StackTrace virtual/perl-Scalar-List-Utils dev-perl/String-Util dev-perl/TermReadKey dev-perl/Text-TabularDisplay dev-perl/Tie-IxHash >=dev-lang/perl-5.3.0 dev-lang/perl[-build]
+virtual/perl-Class-ISA dev-perl/Devel-StackTrace virtual/perl-Scalar-List-Utils dev-perl/String-Util dev-perl/TermReadKey dev-perl/Text-TabularDisplay dev-perl/Tie-IxHash >=dev-lang/perl-5.3.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MIKO/Debug-ShowStuff-1.14.tar.gz
+
+http://search.cpan.org/dist/Debug-ShowStuff/
+|| ( Artistic GPL-2 )
+A debugging routine collection for displaying the values of variables with a minimum of coding.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

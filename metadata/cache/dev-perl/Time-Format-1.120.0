@@ -1,12 +1,12 @@
->=virtual/perl-Module-Build-0.400.0 >=virtual/perl-Test-Simple-0.400.0 >=virtual/perl-Time-Local-1.07 dev-lang/perl[-build]
->=virtual/perl-Time-Local-1.07 dev-lang/perl[-build]
+<dev-perl/DateManip-6.0.0 >=virtual/perl-Module-Build-0.400.0 >=virtual/perl-Test-Simple-0.400.0 >=virtual/perl-Time-Local-1.07 dev-lang/perl[-build]
+<dev-perl/DateManip-6.0.0 >=virtual/perl-Time-Local-1.07 dev-lang/perl[-build]
 0
 mirror://cpan/authors/id/R/RO/ROODE/Time-Format-1.12.tar.gz
 
 http://search.cpan.org/dist/Time-Format/
 as-is
 Easy-to-use date/time formatting.
-
+~x86 ~amd64
 base eutils multilib multiprocessing perl-module toolchain-funcs user
 
 

@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Pod-Perldoc
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/Pod-Perldoc-3.170.0 )
-SLOT=0
-_md5_=1f5ce0ab603f0751930606b1be2e1723

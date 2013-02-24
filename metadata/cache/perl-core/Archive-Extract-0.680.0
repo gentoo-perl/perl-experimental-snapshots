@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-lang/perl virtual/perl-File-Path >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.640 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Load-Conditional-0.040 >=virtual/perl-Params-Check-0.07 virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl virtual/perl-File-Path >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.640 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Load-Conditional-0.040 >=virtual/perl-Params-Check-0.07 virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Archive-Extract-0.68.tar.gz
+
+http://search.cpan.org/dist/Archive-Extract/
+|| ( Artistic GPL-2 )
+Generic archive extracting mechanism
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

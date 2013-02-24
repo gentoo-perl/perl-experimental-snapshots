@@ -1,0 +1,22 @@
+virtual/perl-Module-Build >=dev-lang/perl-5.3.0 dev-lang/perl[-build]
+>=dev-lang/perl-5.3.0 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MI/MIKO/String-Util-1.21.tar.gz
+
+http://search.cpan.org/dist/String-Util/
+|| ( Artistic GPL-2 )
+String::Util -- String processing utilities
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

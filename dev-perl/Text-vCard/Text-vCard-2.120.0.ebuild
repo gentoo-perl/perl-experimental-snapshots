@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# File::Slurp 9999.04 ( 9999.40.0 )
 	echo \>=dev-perl/File-Slurp-9999.04
 	# MIME::Base64 3.07 ( 3.70.0 )
-	echo \>=virtual/perl-MIME-Base64-3.70.0
+	echo \>=virtual/perl-MIME-Base64-3.07
 	# MIME::QuotedPrint 3.07 ( 3.70.0 )
 	echo \>=virtual/perl-MIME-Base64-3.07
 	# Text::vFile::asData 0.07 ( 0.70.0 )

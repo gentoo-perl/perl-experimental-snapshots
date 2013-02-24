@@ -1,0 +1,22 @@
+>=virtual/perl-Module-Build-0.400.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/O/OV/OVID/aliased-0.31.tar.gz
+
+http://search.cpan.org/dist/aliased/
+|| ( Artistic GPL-2 )
+Use shorter versions of class names.
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+

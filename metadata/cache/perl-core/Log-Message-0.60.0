@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec virtual/perl-Locale-Maketext-Simple virtual/perl-Module-Load virtual/perl-Params-Check virtual/perl-Test-Simple dev-lang/perl[-build]
+virtual/perl-File-Spec virtual/perl-Locale-Maketext-Simple virtual/perl-Module-Load virtual/perl-Params-Check virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Log-Message-0.06.tar.gz
+
+http://search.cpan.org/dist/Log-Message/
+|| ( Artistic GPL-2 )
+Powerful and flexible message logging mechanism
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+

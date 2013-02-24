@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=virtual/perl-Params-Check-0.340.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+>=virtual/perl-Params-Check-0.340.0 virtual/perl-Test-Simple dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/B/BI/BINGOS/Object-Accessor-0.46.tar.gz
+
+http://search.cpan.org/dist/Object-Accessor/
+|| ( Artistic GPL-2 )
+Per object accessors
+~amd64 ~x86
+alternatives base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install postinst postrm prepare test unpack
+
+
+
+
+
