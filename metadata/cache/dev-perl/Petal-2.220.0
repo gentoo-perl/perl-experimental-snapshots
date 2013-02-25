@@ -1,0 +1,22 @@
+virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 dev-lang/perl[-build]
+virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/N/NI/NINE/Petal-2.22.tar.gz
+
+http://search.cpan.org/dist/Petal/
+|| ( Artistic GPL-2 )
+Perl Template Attribute Language - TAL for Perl!
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
