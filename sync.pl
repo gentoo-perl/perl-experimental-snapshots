@@ -47,6 +47,7 @@ BEGIN {
   lsub metadata_dir            => sub { dir( $_[0]->metadata_dir_path ) };
   lsub metadata_dir_path       => sub { '/usr/portage/metadata' };
   lsub repo_name               => sub { 'perl-experimental-snapshots' };
+  lsub source_repo_name        => sub { 'perl-experimental' };
   lsub rsynced_dir             => sub { $_[0]->do_rsync_dir; $_[0]->wd_repo };
   lsub stderr                  => sub { \*STDERR };
   lsub tempdir                 => sub { dir( $_[0]->tempdir_object->name )->absolute };
@@ -75,7 +76,7 @@ BEGIN {
     );
     return join qq{\n},
       ( sprintf 'Automated Snapshot Generated at %s.', $data{ts} ), '',
-      ( sprintf 'Snapshot at Commit on <%s>:', $self->repo_name ), '',
+      ( sprintf 'Snapshot at Commit on <%s>:', $self->source_repo_name ), '',
       @message, '',
       'PORTDIR SYNC CONTEXT:', '',
       ( sprintf '%-30s : %s', '/metadata/timestamp',     $data{timestamp} ),
