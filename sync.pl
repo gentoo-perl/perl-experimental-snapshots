@@ -14,7 +14,7 @@ my $sync = Syncer->new(
 
 $sync->notice_prelude;
 $sync->do_fix_reponame;
-$sync->do_fix_metadata_cache;
+#$sync->do_fix_metadata_cache;
 $sync->do_egencache;
 $sync->do_gitcommit;
 $sync->notice( $sync->formatted_message );
