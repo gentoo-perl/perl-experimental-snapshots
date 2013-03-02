@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.34.0201 >=dev-perl/Test-Compile-0.110.0 >=virtual/perl-Test-Simple-0.90 >=dev-perl/App-Cache-0.370.0 virtual/perl-Archive-Extract >=dev-perl/CLASS-1.0.0 >=dev-perl/CPAN-DistnameInfo-0.90.0 >=dev-perl/DBD-SQLite-1.250.0 >=dev-perl/DBIx-Class-0.81.90 dev-perl/libwww-perl >=dev-perl/Mouse-0.640.0 >=dev-perl/Path-Class-0.170.0 >=dev-perl/URI-1.540.0 dev-perl/autodie virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+DEPEND=>=virtual/perl-Module-Build-0.34.0201 >=dev-perl/Test-Compile-0.110.0 >=virtual/perl-Test-Simple-0.90 >=dev-perl/App-Cache-0.370.0 virtual/perl-Archive-Extract >=dev-perl/CLASS-1.0.0 >=dev-perl/CPAN-DistnameInfo-0.90.0 >=dev-perl/DBD-SQLite-1.250.0 >=dev-perl/DBIx-Class-0.81.90 dev-perl/libwww-perl >=dev-perl/Mouse-0.640.0 >=dev-perl/Path-Class-0.170.0 >=dev-perl/URI-1.540.0 virtual/perl-autodie virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
 DESCRIPTION=An interface to the BackPAN index
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/BackPAN-Index/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/App-Cache-0.370.0 virtual/perl-Archive-Extract >=dev-perl/CLASS-1.0.0 >=dev-perl/CPAN-DistnameInfo-0.90.0 >=dev-perl/DBD-SQLite-1.250.0 >=dev-perl/DBIx-Class-0.81.90 dev-perl/libwww-perl >=dev-perl/Mouse-0.640.0 >=dev-perl/Path-Class-0.170.0 >=dev-perl/URI-1.540.0 dev-perl/autodie virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/App-Cache-0.370.0 virtual/perl-Archive-Extract >=dev-perl/CLASS-1.0.0 >=dev-perl/CPAN-DistnameInfo-0.90.0 >=dev-perl/DBD-SQLite-1.250.0 >=dev-perl/DBIx-Class-0.81.90 dev-perl/libwww-perl >=dev-perl/Mouse-0.640.0 >=dev-perl/Path-Class-0.170.0 >=dev-perl/URI-1.540.0 virtual/perl-autodie virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MS/MSCHWERN/BackPAN-Index-0.42.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	2824df7f5dc9f47aee293af8a6b517ed	multilib	ded93e450747134a079e647d888aa80b	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=9f0ee58a391b818a8f77c35921491985
+_md5_=2a9b9049d08852b2ce652afd82edd818

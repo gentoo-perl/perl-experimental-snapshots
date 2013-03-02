@@ -161,7 +161,6 @@ dev-perl/Test-YAML-Valid:yaml-xs - YAML::XS support
 dev-perl/VCI:bazaar - Add support of the Bazaar VCS
 dev-perl/VCI:git - Add support for the Git VCS
 dev-perl/VCI:mercurial - Add support for the Mercurial VCS
-dev-perl/autodie:system - Support for autodying system() via dev-perl/IPC-System-Simple
 perl-core/CPAN:interesting - Install non-essential but interesting packages to help with diagnostics
 perl-core/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
 perl-core/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.

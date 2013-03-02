@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.30 dev-lang/perl dev-perl/Data-Clone dev-lang/perl virtual/perl-File-Spec virtual/perl-Scalar-List-Utils >=dev-perl/Number-Compare-0.20.0 virtual/perl-Scalar-List-Utils dev-perl/Text-Glob dev-perl/Try-Tiny dev-perl/namespace-clean >=dev-lang/perl-5.12.0 dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl test? ( virtual/perl-Exporter virtual/perl-ExtUtils-MakeMaker dev-lang/perl virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/File-pushd dev-perl/Path-Tiny dev-perl/Test-Deep >=dev-perl/Test-Filename-0.30.0 >=virtual/perl-Test-Simple-0.92 dev-perl/autodie ) dev-lang/perl[-build]
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.30 dev-lang/perl dev-perl/Data-Clone dev-lang/perl virtual/perl-File-Spec virtual/perl-Scalar-List-Utils >=dev-perl/Number-Compare-0.20.0 virtual/perl-Scalar-List-Utils dev-perl/Text-Glob dev-perl/Try-Tiny dev-perl/namespace-clean >=dev-lang/perl-5.12.0 dev-lang/perl dev-lang/perl dev-lang/perl dev-lang/perl test? ( virtual/perl-Exporter virtual/perl-ExtUtils-MakeMaker dev-lang/perl virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/File-pushd dev-perl/Path-Tiny dev-perl/Test-Deep >=dev-perl/Test-Filename-0.30.0 >=virtual/perl-Test-Simple-0.92 virtual/perl-autodie ) dev-lang/perl[-build]
 DESCRIPTION=Iterative, recursive file finder
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Path-Iterator-Rule/
@@ -10,4 +10,4 @@ RDEPEND=dev-lang/perl dev-perl/Data-Clone dev-lang/perl virtual/perl-File-Spec v
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Path-Iterator-Rule-1.000.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	2824df7f5dc9f47aee293af8a6b517ed	multilib	ded93e450747134a079e647d888aa80b	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=77ea3560ece8f7ea2bba47bac10df3f4
+_md5_=fc95ac43be9c764e7f2c23adaec5e881

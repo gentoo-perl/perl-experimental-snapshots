@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.300.0 >=dev-perl/Dist-Zilla-2.100.950 dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/File-pushd >=dev-perl/Moose-0.990.0 >=dev-perl/autodie-2.0.0 >=dev-perl/namespace-autoclean-0.90.0 >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-perl/Capture-Tiny virtual/perl-File-Spec dev-perl/Dist-Zilla dev-lang/perl virtual/perl-File-Temp dev-perl/Path-Class virtual/perl-Test-Harness >=virtual/perl-Test-Simple-0.88 dev-perl/Try-Tiny ) dev-lang/perl[-build]
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.300.0 >=dev-perl/Dist-Zilla-2.100.950 dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/File-pushd >=dev-perl/Moose-0.990.0 >=virtual/perl-autodie-2.0.0 >=dev-perl/namespace-autoclean-0.90.0 >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-perl/Capture-Tiny virtual/perl-File-Spec dev-perl/Dist-Zilla dev-lang/perl virtual/perl-File-Temp dev-perl/Path-Class virtual/perl-Test-Harness >=virtual/perl-Test-Simple-0.88 dev-perl/Try-Tiny ) dev-lang/perl[-build]
 DESCRIPTION=Ensure Changes has content before releasing
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-CheckChangesHasContent/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=>=dev-perl/Dist-Zilla-2.100.950 dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/File-pushd >=dev-perl/Moose-0.990.0 >=dev-perl/autodie-2.0.0 >=dev-perl/namespace-autoclean-0.90.0 >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Dist-Zilla-2.100.950 dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/Dist-Zilla dev-perl/File-pushd >=dev-perl/Moose-0.990.0 >=virtual/perl-autodie-2.0.0 >=dev-perl/namespace-autoclean-0.90.0 >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Dist-Zilla-Plugin-CheckChangesHasContent-0.005.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	2824df7f5dc9f47aee293af8a6b517ed	multilib	ded93e450747134a079e647d888aa80b	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=a29688f53967c416b23e8913a89c5e2a
+_md5_=bedd7ee2485cb6f6b208bb88e070bc50

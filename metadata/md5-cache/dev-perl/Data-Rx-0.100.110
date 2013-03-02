@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable >=virtual/perl-ExtUtils-MakeMaker-6.31 dev-lang/perl[-build]
+DEPEND=virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple virtual/perl-autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable >=virtual/perl-ExtUtils-MakeMaker-6.31 dev-lang/perl[-build]
 DESCRIPTION=perl implementation of Rx schema system
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Data-Rx/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple dev-perl/autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable dev-lang/perl[-build]
+RDEPEND=virtual/perl-Scalar-List-Utils >=virtual/perl-Module-Pluggable-3.7 dev-perl/File-Find-Rule >=virtual/perl-ExtUtils-MakeMaker-6.11 >=dev-perl/Number-Tolerant-1.701 virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple virtual/perl-autodie >=dev-perl/JSON-2 virtual/perl-Module-Pluggable dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Data-Rx-0.100110.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	2824df7f5dc9f47aee293af8a6b517ed	multilib	ded93e450747134a079e647d888aa80b	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-declaredeps	87c691b608a33d632378d5be51c25e5e	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=87aab4ed7d04145a82d479a9677cc25c
+_md5_=abc593d8eb6a395c7020adfe3187220b
