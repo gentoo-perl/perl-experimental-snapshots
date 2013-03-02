@@ -1,0 +1,22 @@
+>=virtual/perl-ExtUtils-MakeMaker-6.30 >=virtual/perl-File-Temp-0.200.0 >=virtual/perl-Test-Simple-0.96 dev-perl/Any-URI-Escape dev-lang/perl virtual/perl-Data-Dumper >=dev-perl/ElasticSearch-SearchBuilder-0.180.0 virtual/perl-Encode virtual/perl-Exporter virtual/perl-File-Path virtual/perl-File-Spec >=virtual/perl-File-Temp-0.220.0 dev-perl/HTTP-Lite dev-perl/HTTP-Message virtual/perl-HTTP-Tiny virtual/perl-IO virtual/perl-IO virtual/perl-IO-Compress dev-perl/JSON dev-perl/libwww-perl dev-perl/libwww-perl virtual/perl-Scalar-List-Utils dev-lang/perl >=virtual/perl-Scalar-List-Utils-1.70.0 dev-perl/Task-Weaken dev-perl/URI dev-perl/yaml virtual/perl-constant dev-lang/perl virtual/perl-parent dev-lang/perl dev-lang/perl test? ( dev-perl/ElasticSearch-SearchBuilder dev-perl/Test-Differences dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.96 ) dev-lang/perl[-build]
+dev-perl/Any-URI-Escape dev-lang/perl virtual/perl-Data-Dumper >=dev-perl/ElasticSearch-SearchBuilder-0.180.0 virtual/perl-Encode virtual/perl-Exporter virtual/perl-File-Path virtual/perl-File-Spec >=virtual/perl-File-Temp-0.220.0 dev-perl/HTTP-Lite dev-perl/HTTP-Message virtual/perl-HTTP-Tiny virtual/perl-IO virtual/perl-IO virtual/perl-IO-Compress dev-perl/JSON dev-perl/libwww-perl dev-perl/libwww-perl virtual/perl-Scalar-List-Utils dev-lang/perl >=virtual/perl-Scalar-List-Utils-1.70.0 dev-perl/Task-Weaken dev-perl/URI dev-perl/yaml virtual/perl-constant dev-lang/perl virtual/perl-parent dev-lang/perl dev-lang/perl dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/D/DR/DRTECH/ElasticSearch-0.64.tar.gz
+
+http://search.cpan.org/dist/ElasticSearch/
+|| ( Artistic GPL-2 )
+An API for communicating with ElasticSearch
+~amd64 ~x86
+base eutils multilib multiprocessing perl-module toolchain-funcs user
+test
+
+
+
+5
+
+compile configure install prepare test unpack
+
+
+
+
+
