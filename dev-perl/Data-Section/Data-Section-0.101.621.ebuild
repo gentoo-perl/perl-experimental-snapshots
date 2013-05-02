@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 comment() { echo '';}
 COMMON_DEPEND="
-	>=dev-perl/MRO-Compat-0.09 $(comment 0.90.0)
-	>=dev-perl/Sub-Exporter-0.979 $(comment 0.979.0)
+	>=dev-perl/MRO-Compat-0.90.0
+	>=dev-perl/Sub-Exporter-0.979.0
 "
 DEPEND="
 	$(comment CDEP)

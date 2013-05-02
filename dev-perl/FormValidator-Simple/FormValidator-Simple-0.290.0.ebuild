@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# Class::Data::Inheritable 0.04 ( 0.40.0 )
 	echo \>=dev-perl/Class-Data-Inheritable-0.40.0
 	# Class::Inspector 1.13 ( 1.130.0 )
-	echo \>=dev-perl/Class-Inspector-1.13
+	echo \>=dev-perl/Class-Inspector-1.130.0
 	# Date::Calc 5.4 ( 5.400.0 )
 	echo \>=dev-perl/Date-Calc-5.400.0
 	# DateTime::Format::Strptime 1.07 ( 1.70.0 )
@@ -43,7 +43,7 @@ perl_meta_runtime() {
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Tie::IxHash 1.21 ( 1.210.0 )
-	echo \>=dev-perl/Tie-IxHash-1.21
+	echo \>=dev-perl/Tie-IxHash-1.210.0
 	# UNIVERSAL::require 0.1 ( 0.100.0 )
 	echo \>=dev-perl/UNIVERSAL-require-0.100.0
 	# YAML 0.39 ( 0.390.0 )

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-IO virtual/perl-Test-Simple >=virtual/perl-Test-Simple-0.70 >=virtual/perl-Parse-CPAN-Meta-0.20 virtual/perl-Test-Simple >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+DESCRIPTION=Validate your CPAN META.yml files
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Test-CPAN-Meta/
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=virtual/perl-Parse-CPAN-Meta-0.20 virtual/perl-Test-Simple >=dev-lang/perl-5.6.0 dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BA/BARBIE/Test-CPAN-Meta-0.23.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	384ae111f3649d456ed1754e3e1c4f6e	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=ea59bb04b1d1f88e3aa4e97c531db2d6

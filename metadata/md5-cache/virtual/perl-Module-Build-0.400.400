@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Module-Build
+KEYWORDS=~amd64 ~x86
+RDEPEND=~perl-core/Module-Build-0.400.400
+SLOT=0
+_md5_=77ad5c18a478165c97876e589086f0c3
