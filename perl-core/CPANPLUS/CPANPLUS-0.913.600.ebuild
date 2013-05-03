@@ -24,7 +24,7 @@ REQUIRED_USE="
 
 perl_feature_cpantest() {
 	# Test::Reporter 1.34
-	echo \>=dev-perl/Test-Reporter-1.34
+	echo \>=dev-perl/Test-Reporter-1.340.0
 	# Parse::CPAN::Meta 1.4200
 	echo \>=virtual/perl-Parse-CPAN-Meta-1.420
 }
@@ -36,7 +36,7 @@ perl_feature_signature() {
 	# gpg
 	echo app-crypt/gnupg
 	# Module::Signature 0.06
-	echo \>=dev-perl/Module-Signature-0.06
+	echo \>=dev-perl/Module-Signature-0.60.0
 }
 perl_feature_storable() {
 	# Storable

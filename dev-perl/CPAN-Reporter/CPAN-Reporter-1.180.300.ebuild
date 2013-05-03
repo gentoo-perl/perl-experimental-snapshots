@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/File-Copy-Recursive-0.35
 	>=dev-perl/File-HomeDir-0.58
 	virtual/perl-File-Path
-	>=dev-perl/File-pushd-0.32
+	>=dev-perl/File-pushd-0.320.0
 	>=virtual/perl-File-Spec-3.19
 	>=virtual/perl-File-Temp-0.16
 	>=dev-perl/IO-CaptureOutput-1.30.0
@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Probe-Perl
 	>=dev-perl/Tee-0.13
 	>=virtual/perl-Test-Simple-0.62
-	>=dev-perl/Test-Reporter-1.54
+	>=dev-perl/Test-Reporter-1.540.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build

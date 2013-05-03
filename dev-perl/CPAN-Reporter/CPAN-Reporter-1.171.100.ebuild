@@ -21,7 +21,7 @@ RDEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.36
 	>=dev-perl/File-Copy-Recursive-0.35
 	>=dev-perl/File-HomeDir-0.58
-	>=dev-perl/File-pushd-0.32
+	>=dev-perl/File-pushd-0.320.0
 	>=dev-perl/IO-CaptureOutput-1.30.0
 	dev-perl/Probe-Perl
 	>=dev-perl/Tee-0.13
@@ -29,6 +29,6 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
 	test? ( >=virtual/perl-Test-Simple-0.62
-		>=dev-perl/Test-Reporter-1.54 )"
+		>=dev-perl/Test-Reporter-1.540.0 )"
 
 SRC_TEST="do"
