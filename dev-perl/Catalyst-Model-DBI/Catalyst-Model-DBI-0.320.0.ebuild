@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
-MODULE_AUTHOR=CHOCOLATE
-MODULE_VERSION=2.77
+MODULE_AUTHOR=ALEXP
+MODULE_VERSION=0.32
 inherit perl-module
 
-DESCRIPTION='call methods on native types'
-LICENSE=" || ( Artistic GPL-2 )"
+DESCRIPTION='Helper for DBI Models'
+LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -20,8 +20,14 @@ perl_meta_build() {
 	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# Scope::Guard 0.20 ( 0.200.0 )
-	echo \>=dev-perl/Scope-Guard-0.200.0
+	# Catalyst 5.00 ( 5.0.0 )
+	echo \>=dev-perl/Catalyst-Runtime-5.0.0
+	# DBI
+	echo dev-perl/DBI
+	# DBIx::Connector
+	echo dev-perl/DBIx-Connector
+	# MRO::Compat
+	echo dev-perl/MRO-Compat
 }
 DEPEND="
 	$(perl_meta_configure)
@@ -31,4 +37,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
