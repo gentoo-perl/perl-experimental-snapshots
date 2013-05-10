@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
-MODULE_AUTHOR=JBERGER
-MODULE_VERSION=3.86
+MODULE_AUTHOR=BDFOY
+MODULE_VERSION=1.01
 inherit perl-module
 
-DESCRIPTION='Real-time web framework'
-LICENSE=" Artistic-2"
+DESCRIPTION='extract the package declarations from a module'
+LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -20,8 +20,10 @@ perl_meta_build() {
 	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# perl 5.010001 ( 5.10.1 )
-	echo \>=dev-lang/perl-5.10.1
+	# PPI
+	echo dev-perl/PPI
+	# Test::More
+	echo virtual/perl-Test-Simple
 }
 DEPEND="
 	$(perl_meta_configure)
@@ -31,4 +33,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
