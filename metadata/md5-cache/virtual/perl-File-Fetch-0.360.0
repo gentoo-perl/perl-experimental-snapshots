@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for File-Fetch
-KEYWORDS=~amd64 ~x86
-RDEPEND=~perl-core/File-Fetch-0.360.0
-SLOT=0
-_md5_=556908ac33b5bbe3994b97632bc72cdf
