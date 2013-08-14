@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Carp
+KEYWORDS=~amd64 ~x86
+RDEPEND==dev-lang/perl-5.18* !perl-core/Carp
+SLOT=0
+_md5_=7a12998a62663c11dfedb297682449d6
