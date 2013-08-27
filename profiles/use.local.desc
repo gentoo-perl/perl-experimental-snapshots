@@ -2,8 +2,6 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
-dev-lang/perl:ithreads - Enable Perl threads, has some compatibility problems
-dev-lang/perl:perlsuid - Enable Perl SUID install. Has some risks associated.
 dev-perl/Acme-LAUTER-DEUTSCHER:nettest - Enable network-only tests
 dev-perl/Any-URI-Escape:recommended - Install URL-Escape-XS for faster URI Escaping.
 dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
@@ -18,7 +16,6 @@ dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms
 dev-perl/Catalyst-Model-DBIC-Schema:caching - Caching support
 dev-perl/Catalyst-Model-DBIC-Schema:catalyst_helper - Catalyst::Helper support
 dev-perl/Catalyst-Model-DBIC-Schema:replication - Replication support
-dev-perl/Color-Calc:colorobject - Install Graphics::ColorObject
 dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
 dev-perl/DBIx-Class-EncodedColumn:blowfish - Support for Crypt::Eksblowfish
 dev-perl/DBIx-Class-EncodedColumn:gpg - Support for OpenPGP Encryption
