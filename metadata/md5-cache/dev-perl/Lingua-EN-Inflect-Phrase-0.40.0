@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/Lingua-EN-Inflect-1.891.0 >=dev-perl/Lingua-EN-Inflect-Number-1.100.0 >=dev-perl/Lingua-EN-Tagger-0.150.0 dev-lang/perl[-build]
+DEPEND=>=dev-perl/Lingua-EN-Inflect-1.891.0 >=dev-perl/Lingua-EN-Inflect-Number-1.100.0 >=dev-perl/Lingua-EN-Tagger-0.150.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 DESCRIPTION=Inflect short English Phrases
 EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/Lingua-EN-Inflect-Phrase/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
-RDEPEND=>=dev-perl/Lingua-EN-Inflect-1.891.0 >=dev-perl/Lingua-EN-Inflect-Number-1.100.0 >=dev-perl/Lingua-EN-Tagger-0.150.0 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Lingua-EN-Inflect-1.891.0 >=dev-perl/Lingua-EN-Inflect-Number-1.100.0 >=dev-perl/Lingua-EN-Tagger-0.150.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/Lingua-EN-Inflect-Phrase-0.04.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	63afaaed8aa819fdcb814c7cd39495a2	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=a25296e613000d00748cc39007da68ac

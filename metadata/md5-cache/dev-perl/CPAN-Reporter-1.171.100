@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/Config-Tiny-2.08 >=virtual/perl-CPAN-1.930.100 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/File-Copy-Recursive-0.35 >=dev-perl/File-HomeDir-0.58 >=dev-perl/File-pushd-0.320.0 >=dev-perl/IO-CaptureOutput-1.30.0 dev-perl/Probe-Perl >=dev-perl/Tee-0.13 virtual/perl-Module-Build test? ( >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-Reporter-1.540.0 ) dev-lang/perl[-build]
+DEPEND=>=dev-perl/Config-Tiny-2.08 >=virtual/perl-CPAN-1.930.100 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/File-Copy-Recursive-0.35 >=dev-perl/File-HomeDir-0.58 >=dev-perl/File-pushd-0.320.0 >=dev-perl/IO-CaptureOutput-1.30.0 dev-perl/Probe-Perl >=dev-perl/Tee-0.13 virtual/perl-Module-Build test? ( >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-Reporter-1.540.0 ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 DESCRIPTION=Adds CPAN Testers reporting to CPAN.pm
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/CPAN-Reporter/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
-RDEPEND=>=dev-perl/Config-Tiny-2.08 >=virtual/perl-CPAN-1.930.100 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/File-Copy-Recursive-0.35 >=dev-perl/File-HomeDir-0.58 >=dev-perl/File-pushd-0.320.0 >=dev-perl/IO-CaptureOutput-1.30.0 dev-perl/Probe-Perl >=dev-perl/Tee-0.13 dev-lang/perl[-build]
+RDEPEND=>=dev-perl/Config-Tiny-2.08 >=virtual/perl-CPAN-1.930.100 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/File-Copy-Recursive-0.35 >=dev-perl/File-HomeDir-0.58 >=dev-perl/File-pushd-0.320.0 >=dev-perl/IO-CaptureOutput-1.30.0 dev-perl/Probe-Perl >=dev-perl/Tee-0.13 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.1711.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	63afaaed8aa819fdcb814c7cd39495a2	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	8918d078b5935be2bccf9ef568a019aa	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	a2130e6fc4aa4c6a24b265ca0cbcc2b6	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=ed4efad3699c9e964b460a71fe57e82e
