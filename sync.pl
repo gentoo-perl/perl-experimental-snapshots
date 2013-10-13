@@ -10,6 +10,7 @@ my $sync = Syncer->new(
   repo_name        => 'perl-experimental-snapshots',
   tempdir_template => 'perl-experimental-snapshot.XXXXXX',
   wd_repo_path     => '/graft/repositories/perl-experimental-snapshot/',
+  wd_repo_config   => '/graft/repositories/perl-experimental-snapshot-scripts/repos.conf'
 );
 
 $sync->notice_prelude;
@@ -24,6 +25,7 @@ BEGIN {
   package Syncer;
   use Moo;
   use File::pushd;
+  use Path::Tiny qw(path);
 
   sub lsub($&) {
     my ( $name, $code ) = @_;
@@ -56,6 +58,7 @@ BEGIN {
   lsub timestamp               => sub { scalar gmtime };
   lsub wd_repo                 => sub { dir( $_[0]->wd_repo_path ) };
   lsub wd_repo_path            => sub { '/graft/repositories/perl-experimental-snapshot/' };
+  lsub wd_repo_config          => sub { '/graft/repositories/perl-experimental-snapshot-scripts/repos.conf' };
 
   lsub rsync_exclude => sub {
     [
@@ -141,7 +144,7 @@ BEGIN {
     my $exit = system(
       'egencache', '--update', '--update-use-local-desc',
       '--repo=perl-experimental-snapshots',
-      '--portdir-overlay=' . $self->rsynced_dir,
+      '--repositories-configuration=' . path( $self->wd_repo_config )->slurp,
       '--jobs=2', '--load-average=3',
     );
     if ( $exit != 0 ) {
