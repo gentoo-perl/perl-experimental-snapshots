@@ -28,7 +28,6 @@ dev-perl/Dist-Zilla-Plugin-MetaProvides:fromfile - Install recommended ::FromFil
 dev-perl/Dist-Zilla-Plugin-MetaProvides:metanoindex - Install support libraries for meta_no_index feature
 dev-perl/Dist-Zilla-Plugin-MetaProvides:package - Install recommended ::Package for detecting class perl packages
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:metanoindex - Install support libraries for meta_no_index feature
-dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:metanoindex - Install support libraries for meta_no_index feature
 dev-perl/File-ChangeNotify:inotify - Pull in dev-perl/Linux-Inotify2 for linux Inotify Support
 dev-perl/Handel:catalystframework - Catalyst Support
 dev-perl/MojoMojo:amazonboxes - Amazon boxes

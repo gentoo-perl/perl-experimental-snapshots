@@ -1,9 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=RJBS
-MODULE_VERSION=0.101622
+MODULE_VERSION=0.101626
 inherit perl-module
 
 DESCRIPTION='a PodWeaver plugin used to build Task distributions'
@@ -44,12 +44,16 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-Test-Simple-0.88
 }
 perl_meta_test() {
+	# File::Find
+	# echo dev-lang/perl
+	# File::Temp
+	echo virtual/perl-File-Temp
 	# Test::More 0.96 ( 0.960.0 )
 	echo \>=virtual/perl-Test-Simple-0.96
 	# strict
-	echo dev-lang/perl
+	# echo dev-lang/perl
 	# warnings
-	echo dev-lang/perl
+	# echo dev-lang/perl
 }
 DEPEND="
 	$(perl_meta_configure)
@@ -59,4 +63,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
