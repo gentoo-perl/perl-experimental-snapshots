@@ -158,8 +158,7 @@ BEGIN {
     $self->notice('Entering Git Dir');
     my $wd = pushd( $self->rsynced_dir->stringify );
     $self->notice('Adding changes to Git Index');
-    system( 'git', 'add', '.' );
-    system( 'git', 'add', '-u', '.' );
+    system( 'git', 'add', '-A', '.' );
 
     $self->notice('Committing Changes');
 
