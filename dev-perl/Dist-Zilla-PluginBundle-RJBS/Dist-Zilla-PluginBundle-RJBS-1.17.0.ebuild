@@ -1,9 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=RJBS
-MODULE_VERSION=1.012
+MODULE_VERSION=1.017
 inherit perl-module
 
 DESCRIPTION='BeLike::RJBS when you build your dists'
@@ -16,8 +16,8 @@ perl_meta_configure() {
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.300.0
 }
 perl_meta_runtime() {
-	# Dist::Zilla 2.100922 ( 2.100.922 )
-	echo \>=dev-perl/Dist-Zilla-2.100.922
+	# Dist::Zilla 4.300036 ( 4.300.36 )
+	echo \>=dev-perl/Dist-Zilla-4.300.36
 	# Dist::Zilla::Plugin::AutoPrereq 1.100130 ( 1.100.130 )
 	echo \>=dev-perl/Dist-Zilla-1.100.130
 	# Dist::Zilla::Plugin::CheckExtraTests
@@ -57,15 +57,17 @@ perl_meta_runtime() {
 	# Pod::Weaver::Config::Assembler
 	echo dev-perl/Pod-Weaver
 	# strict
-	echo dev-lang/perl
+	# echo dev-lang/perl
 	# warnings
-	echo dev-lang/perl
+	# echo dev-lang/perl
 }
 perl_meta_test() {
-	# File::Find
-	echo dev-lang/perl
-	# File::Temp
-	echo virtual/perl-File-Temp
+	# File::Spec
+	echo virtual/perl-File-Spec
+	# IO::Handle
+	echo virtual/perl-IO
+	# IPC::Open3
+	# echo dev-lang/perl
 	# Test::More 0.96 ( 0.960.0 )
 	echo \>=virtual/perl-Test-Simple-0.96
 }
@@ -77,4 +79,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"

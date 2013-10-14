@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=PEVANS
-MODULE_VERSION=0.12
+MODULE_VERSION=0.19
 inherit perl-module
 
 DESCRIPTION='represent an operation awaiting completion'
@@ -20,8 +20,6 @@ perl_meta_build() {
 	echo \>=virtual/perl-Test-Simple-0.88
 	# Test::Refcount
 	echo dev-perl/Test-Refcount
-	# Test::Warn
-	echo dev-perl/Test-Warn
 }
 DEPEND="
 	virtual/perl-Module-Build
@@ -30,4 +28,4 @@ DEPEND="
 RDEPEND="
 
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"

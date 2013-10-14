@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Module-Build-0.400.300 virtual/perl-File-Spec virtual/perl-File-Spec virtual/perl-File-Temp virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DESCRIPTION=FindBin::libs - locate and a 'use lib' or export directories based on .
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/FindBin-libs/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-File-Spec virtual/perl-File-Spec virtual/perl-File-Temp virtual/perl-Scalar-List-Utils virtual/perl-Test-Simple || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LE/LEMBARK/FindBin-libs-1.8.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	89580da5ec17ad687fcde876c542b91e	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=045d0ec912cdcdeb133485c80d116368
