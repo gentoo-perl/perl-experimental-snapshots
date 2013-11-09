@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Locale-Maketext-Simple
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* =dev-lang/perl-5.14* ~dev-lang/perl-5.12.4 ~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2 ~perl-core/Locale-Maketext-Simple-0.210.0 )
-SLOT=0
-_md5_=27d5fdbea9af4aef9245395edbbf465a

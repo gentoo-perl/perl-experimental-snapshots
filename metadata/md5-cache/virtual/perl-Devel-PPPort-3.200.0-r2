@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Devel-PPPort
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* ~perl-core/Devel-PPPort-3.200.0 )
-SLOT=0
-_md5_=1f47275000d56cc6523aba650f4ea697

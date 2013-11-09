@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Pod-Escapes
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* =dev-lang/perl-5.14* ~dev-lang/perl-5.12.4 ~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2 ~dev-lang/perl-5.10.1 ~perl-core/Pod-Escapes-1.40.0 )
-SLOT=0
-_md5_=9ccde67ed28bdde585932830a5b1a22d

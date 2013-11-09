@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Math-BigInt-FastCalc
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* ~perl-core/Math-BigInt-FastCalc-0.300.0 )
-SLOT=0
-_md5_=797dbf6b5fb0851d9b9c26d741a0b612

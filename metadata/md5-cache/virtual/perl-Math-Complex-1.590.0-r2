@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Math-Complex
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* ~perl-core/Math-Complex-1.590.0 )
-SLOT=0
-_md5_=2180311496eb4063678d712cdf2314b8
