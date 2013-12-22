@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/DBIx-Class-0.81.140 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/Moose-0.900.0 dev-perl/MooseX-Types dev-perl/namespace-autoclean dev-perl/Carp-Clan dev-perl/List-MoreUtils dev-perl/Tie-IxHash catalyst_helper? ( >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 ) caching? ( dev-perl/DBIx-Class-Cursor-Cached ) replication? ( dev-perl/MooseX-AttributeHelpers dev-perl/Hash-Merge ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/Catalyst-Model-DBIC-Schema-0.41.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	4878e7f88afc0ba0866ac112190b0fd4	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	89580da5ec17ad687fcde876c542b91e	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	a82a329b538368791f5a6113c60e557e	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=66b61c0f4df8de09ca117d62a39a1845
