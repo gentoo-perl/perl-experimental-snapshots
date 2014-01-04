@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND=dev-perl/Bit-Vector dev-perl/DateManip dev-perl/File-Slurp dev-perl/HTML-Parser >=dev-perl/HTML-Tree-0.510.0 dev-perl/libwww-perl dev-perl/URI dev-perl/User || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MT/MTHURN/WWW-Search-2.508.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	a82a329b538368791f5a6113c60e557e	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	d04e3933e3ec7e338a0561a6b0ae66b1	multilib	892e597faee02a5b94eb02ab512e7622	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=a47975d7fb0c9c41f23e4fd87132fda7
