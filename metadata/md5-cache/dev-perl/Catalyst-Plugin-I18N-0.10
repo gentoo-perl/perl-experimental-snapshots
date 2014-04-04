@@ -7,5 +7,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-perl/Catalyst-Runtime >=virtual/perl-Locale-Maketext-Simple-0.19 >=virtual/perl-i18n-langtags-0.35 dev-perl/locale-maketext-lexicon >=dev-perl/MRO-Compat-0.100.0
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-I18N-0.10.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
 _md5_=3aa47780f17adf6b17e7389dae37dd31
