@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.400.300 >=virtual/perl-Module-Build-0.400.300 dev-perl/Data-Dump dev-perl/Moose dev-perl/MooseX-ClassAttribute dev-perl/MooseX-Has-Sugar dev-perl/MooseX-OneArgNew dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Tiny dev-perl/Readonly dev-perl/Role-HasMessage dev-perl/Role-Identifiable dev-perl/Role-Identifiable dev-perl/Throwable dev-perl/Sub-Exporter dev-perl/Throwable dev-perl/namespace-autoclean dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-lang/perl dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.980.0 dev-perl/Test-Output ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=virtual/perl-Module-Build-0.400.300 >=virtual/perl-Module-Build-0.400.300 dev-perl/Data-Dump dev-perl/Moose dev-perl/MooseX-ClassAttribute dev-perl/MooseX-Has-Sugar dev-perl/MooseX-OneArgNew dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Tiny dev-perl/Readonly dev-perl/Role-HasMessage dev-perl/Role-Identifiable dev-perl/Role-Identifiable dev-perl/Throwable dev-perl/Sub-Exporter dev-perl/Throwable dev-perl/namespace-autoclean dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-lang/perl dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.980.0 dev-perl/Test-Output ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Tools for working with Gentoo Overlays
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Gentoo-Overlay/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=dev-perl/Data-Dump dev-perl/Moose dev-perl/MooseX-ClassAttribute dev-perl/MooseX-Has-Sugar dev-perl/MooseX-OneArgNew dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Tiny dev-perl/Readonly dev-perl/Role-HasMessage dev-perl/Role-Identifiable dev-perl/Role-Identifiable dev-perl/Throwable dev-perl/Sub-Exporter dev-perl/Throwable dev-perl/namespace-autoclean dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=dev-perl/Data-Dump dev-perl/Moose dev-perl/MooseX-ClassAttribute dev-perl/MooseX-Has-Sugar dev-perl/MooseX-OneArgNew dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/MooseX-Types-Path-Tiny dev-perl/Readonly dev-perl/Role-HasMessage dev-perl/Role-Identifiable dev-perl/Role-Identifiable dev-perl/Throwable dev-perl/Sub-Exporter dev-perl/Throwable dev-perl/namespace-autoclean dev-lang/perl >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/Gentoo-Overlay-1.0.3.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=6487a3cad7db235d4b3bccbbda4bc27d

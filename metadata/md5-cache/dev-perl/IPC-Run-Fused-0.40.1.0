@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.400.300 >=virtual/perl-Module-Build-0.400.300 dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-lang/perl >=virtual/perl-Test-Simple-0.980.0 ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=virtual/perl-Module-Build-0.400.300 >=virtual/perl-Module-Build-0.400.300 dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-lang/perl >=virtual/perl-Test-Simple-0.980.0 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Capture Stdout/Stderr simultaneously as if it were one stream, painlessly.
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/IPC-Run-Fused/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/IPC-Run-Fused-0.04000100.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=eb5d69371fdaa41e94946fca91f3b1df

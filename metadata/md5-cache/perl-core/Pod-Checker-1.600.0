@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
-DEPEND=!<perl-core/PodParser-1.600.0 virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=!<perl-core/PodParser-1.600.0 virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Pod::Checker verifies POD documentation contents for compliance with the POD format specifications
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Pod-Checker/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Test-Simple-0.60 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MA/MAREKR/Pod-Checker-1.60.tar.gz
-_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=434828faac6cdb09a212184e8c3e2af0

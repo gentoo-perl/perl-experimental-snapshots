@@ -7,5 +7,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/CGI-FormBuilder-3.02 >=dev-perl/Catalyst-Runtime-5.700.0 >=dev-perl/Class-Accessor-0.250.0 >=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0 >=dev-perl/Tie-IxHash-1.210.0
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JC/JCAMACHO/Catalyst-Controller-FormBuilder-0.02.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=ca63392aeaf1c0bee40a5576a3ed586d

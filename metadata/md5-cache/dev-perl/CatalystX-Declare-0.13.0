@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Class-Inspector-1.240.0 >=dev-perl/Perl6-Junction-1.400.0 >=dev-perl/aliased-0.300.0 >=virtual/perl-parent-0.221 >=dev-perl/Data-Dump-1.14 >=dev-perl/Catalyst-Runtime-5.800.250 >=dev-perl/Catalyst-Controller-ActionRole-0.15 >=dev-perl/CLASS-1.0 >=dev-perl/Devel-Declare-0.5.11 >=dev-perl/Moose-0.890.0 >=dev-perl/MooseX-AttributeHelpers-0.21 >=dev-perl/MooseX-Declare-0.330.0 >=dev-perl/MooseX-MethodAttributes-0.160.0 >=dev-perl/MooseX-Role-Parameterized-0.130.0 >=dev-perl/MooseX-Types-0.200.0 >=dev-perl/MooseX-Method-Signatures-0.260 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JJ/JJNAPIORK/CatalystX-Declare-0.013.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=a27bd6cf55c147833f8ef4ca53b7fdf4

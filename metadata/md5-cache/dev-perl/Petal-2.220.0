@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Perl Template Attribute Language - TAL for Perl!
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Petal/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=virtual/perl-Digest-MD5 >=dev-perl/MKDoc-XML-0.72 >=virtual/perl-Scalar-List-Utils-1.70.0 >=virtual/perl-Test-Harness-2.00 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/N/NI/NINE/Petal-2.22.tar.gz
-_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	f0dd031876e8be535673b7b5155289e2	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
 _md5_=50c639ff39b22ea3d65b7165b747885c
