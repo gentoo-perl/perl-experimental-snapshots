@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=CHOCOLATE
-MODULE_VERSION=0.54
+MODULE_VERSION=0.60
 inherit perl-module
 
 DESCRIPTION='helper functions for developers of lexical pragmas'
@@ -12,10 +12,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# B::Hooks::OP::Annotation 0.43 ( 0.430.0 )
-	echo \>=dev-perl/B-Hooks-OP-Annotation-0.430.0
-	# B::Hooks::OP::Check 0.18 ( 0.180.0 )
-	echo \>=dev-perl/B-Hooks-OP-Check-0.180.0
+	# B::Hooks::OP::Annotation 0.44 ( 0.440.0 )
+	echo \>=dev-perl/B-Hooks-OP-Annotation-0.440.0
+	# B::Hooks::OP::Check 0.19 ( 0.190.0 )
+	echo \>=dev-perl/B-Hooks-OP-Check-0.190.0
 	# ExtUtils::Depends 0.302 ( 0.302.0 )
 	echo \>=dev-perl/extutils-depends-0.302.0
 	# ExtUtils::MakeMaker
@@ -26,12 +26,12 @@ perl_meta_build() {
 	echo virtual/perl-ExtUtils-MakeMaker
 }
 perl_meta_runtime() {
-	# B::Hooks::EndOfScope 0.09 ( 0.90.0 )
-	echo \>=dev-perl/B-Hooks-EndOfScope-0.90.0
-	# B::Hooks::OP::Annotation 0.43 ( 0.430.0 )
-	echo \>=dev-perl/B-Hooks-OP-Annotation-0.430.0
-	# B::Hooks::OP::Check 0.18 ( 0.180.0 )
-	echo \>=dev-perl/B-Hooks-OP-Check-0.180.0
+	# B::Hooks::OP::Annotation 0.44 ( 0.440.0 )
+	echo \>=dev-perl/B-Hooks-OP-Annotation-0.440.0
+	# B::Hooks::OP::Check 0.19 ( 0.190.0 )
+	echo \>=dev-perl/B-Hooks-OP-Check-0.190.0
+	# Lexical::SealRequireHints 0.007 ( 0.7.0 )
+	echo \>=dev-perl/Lexical-SealRequireHints-0.7.0
 }
 DEPEND="
 	$(perl_meta_configure)
@@ -41,4 +41,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
