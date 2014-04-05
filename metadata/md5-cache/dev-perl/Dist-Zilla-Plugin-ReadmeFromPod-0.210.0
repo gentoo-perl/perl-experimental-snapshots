@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.30 dev-perl/Dist-Zilla >=dev-perl/Dist-Zilla-5.0.0 dev-perl/Moose dev-perl/Moose-Autobox >=virtual/perl-Pod-Simple-3.230.0 virtual/perl-podlators test? ( virtual/perl-File-Spec virtual/perl-IO virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Automatically convert POD to a README for Dist::Zilla
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-ReadmeFromPod/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-perl/Dist-Zilla >=dev-perl/Dist-Zilla-5.0.0 dev-perl/Moose dev-perl/Moose-Autobox >=virtual/perl-Pod-Simple-3.230.0 virtual/perl-podlators dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FA/FAYLAND/Dist-Zilla-Plugin-ReadmeFromPod-0.21.tar.gz
+_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
+_md5_=ee3c699b044c52253d0717c789873a84

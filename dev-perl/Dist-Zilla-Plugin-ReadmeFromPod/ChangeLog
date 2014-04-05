@@ -1,6 +1,19 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-ReadmeFromPod
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  05 Apr 2014; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-ReadmeFromPod-0.110.0.ebuild,
+  -Dist-Zilla-Plugin-ReadmeFromPod-0.120.0.ebuild,
+  -Dist-Zilla-Plugin-ReadmeFromPod-0.140.0.ebuild,
+  -Dist-Zilla-Plugin-ReadmeFromPod-0.180.0.ebuild:
+  Remove deprecated CPAN versions and old EAPIs
+
+*Dist-Zilla-Plugin-ReadmeFromPod-0.210.0 (05 Apr 2014)
+
+  05 Apr 2014; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-ReadmeFromPod-0.210.0.ebuild:
+  Version Bump
 
   23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-Plugin-ReadmeFromPod-0.160.0.ebuild:
