@@ -1,32 +1,25 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=KENTNL
-MODULE_VERSION=1.14000000
+MODULE_VERSION=2.000000
 inherit perl-module
 
-DESCRIPTION='Generating and Populating 'provides' in your META.yml'
+DESCRIPTION='Generating and Populating '\''provides'\'' in your META.yml'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test +fromfile +package +class +metanoindex"
 perl_meta_configure() {
-	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.36.01
-}
-perl_meta_build() {
-	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.36.01
+	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 }
 perl_meta_runtime() {
-	echo "metanoindex? (
-		>=dev-perl/Dist-Zilla-4.200.4
-	)"
 	# Dist::Zilla::Role::MetaProvider
 	echo dev-perl/Dist-Zilla
-	# Dist::Zilla::Util::EmulatePhase 0.01000101 ( 0.10.1.10 )
-	echo \>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10
+	# Hash::Merge::Simple
+	echo dev-perl/Hash-Merge-Simple
 	# Moose
 	echo dev-perl/Moose
 	# Moose::Role
@@ -35,11 +28,15 @@ perl_meta_runtime() {
 	echo dev-perl/MooseX-Types
 	# MooseX::Types::Moose
 	echo dev-perl/MooseX-Types
+	# Readonly
+	echo dev-perl/Readonly
 	# namespace::autoclean
 	echo dev-perl/namespace-autoclean
-	# perl 5.006 ( 5.6.0 )
-	echo \>=dev-lang/perl-5.6.0
+	# perl 5.008 ( 5.8.0 )
+	echo \>=dev-lang/perl-5.8.0
 	# strict
+	echo dev-lang/perl
+	# utf8
 	echo dev-lang/perl
 	# warnings
 	echo dev-lang/perl
@@ -47,16 +44,22 @@ perl_meta_runtime() {
 perl_meta_test() {
 	# Dist::Zilla::Util::Test::KENTNL 0.01000004 ( 0.10.0.40 )
 	echo \>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.40
-	# File::Find
-	echo dev-lang/perl
-	# File::Temp
-	echo virtual/perl-File-Temp
+	# ExtUtils::MakeMaker
+	echo virtual/perl-ExtUtils-MakeMaker
+	# File::Spec::Functions
+	echo virtual/perl-File-Spec
+	# List::Util
+	echo virtual/perl-Scalar-List-Utils
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Test::Fatal
 	echo dev-perl/Test-Fatal
 	# Test::More 0.96 ( 0.960.0 )
 	echo \>=virtual/perl-Test-Simple-0.96
+	# lib
+	# echo virtual/perl-lib
+	# version
+	echo virtual/perl-version
 }
 PDEPEND="
 	fromfile? (
@@ -77,11 +80,10 @@ PDEPEND="
 "
 DEPEND="
 	$(perl_meta_configure)
-	$(perl_meta_build)
 	$(perl_meta_runtime)
 	test? ( $(perl_meta_test) )
 "
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
