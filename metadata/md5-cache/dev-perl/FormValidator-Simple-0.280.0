@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Class-Accessor-0.220.0 >=dev-perl/Class-Inspector-1.130.0 >=dev-perl/Class-Data-Inheritable-0.40.0 >=dev-perl/UNIVERSAL-require-0.10 dev-perl/MailTools >=dev-perl/Email-Valid-0.15 >=dev-perl/Email-Valid-Loose-0.40.0 >=dev-perl/Date-Calc-5.4 >=dev-perl/Tie-IxHash-1.210.0 >=dev-perl/yaml-0.390.0 >=dev-perl/List-MoreUtils-0.16 virtual/perl-Scalar-List-Utils >=dev-perl/DateTime-Format-Strptime-1.70.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/L/LY/LYOKATO/FormValidator-Simple-0.28.tar.gz
-_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
+_eclasses_=eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	4495f6885ab72b2cc94467e9a89fa641
 _md5_=5ad0e38fb1937d174951b8eeb3f34ec4

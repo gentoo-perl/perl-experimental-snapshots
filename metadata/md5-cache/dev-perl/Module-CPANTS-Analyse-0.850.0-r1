@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Class-Accessor-0.190.0 >=dev-perl/Archive-Any-0.60.0 >=virtual/perl-Archive-Tar-1.30 >=dev-perl/CPAN-DistnameInfo-0.60.0 >=virtual/perl-Pod-Simple-2.02 >=dev-perl/YAML-Syck-0.950.0 >=dev-perl/Module-ExtractUse-0.180.0 >=virtual/perl-Module-Pluggable-2.960.0 >=dev-perl/IO-Capture-0.50.0 >=dev-perl/Array-Diff-0.40.0 dev-perl/Test-CPAN-Meta-YAML >=virtual/perl-version-0.73 dev-perl/List-MoreUtils dev-perl/File-Find-Rule dev-perl/Readonly >=dev-perl/Software-License-0.3.0 dev-perl/File-Slurp >=dev-perl/Text-CSV_XS-0.450.0 dev-perl/libwww-perl || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/C/CH/CHORNY/Module-CPANTS-Analyse-0.85.tar.gz
-_eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
+_eclasses_=eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	4495f6885ab72b2cc94467e9a89fa641
 _md5_=8c348d43ee392a263bac32f96cf67443

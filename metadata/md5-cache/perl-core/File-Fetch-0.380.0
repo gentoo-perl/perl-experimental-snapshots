@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-lang/perl dev-lang/perl virtual/perl-File-Path >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.420 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Load-Conditional-0.040 >=virtual/perl-Params-Check-0.07 virtual/perl-Test-Simple dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/File-Fetch-0.38.tar.gz
-_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	60422068bae2b3406a8a40db45ab5b95
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	4495f6885ab72b2cc94467e9a89fa641
 _md5_=97a655332e538e5c61e78689306a073b
