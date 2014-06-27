@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.17 virtual/perl-Carp dev-perl/crypt-cbc dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl test? ( virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec virtual/perl-Scalar-List-Utils dev-perl/Test-Deep dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.96 dev-perl/Number-Tolerant virtual/perl-version ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Encrypted, expiring, compressed, serialized session data with integrity
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Session-Storage-Secure/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=virtual/perl-Carp dev-perl/crypt-cbc dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Session-Storage-Secure-0.010.tar.gz
+_eclasses_=eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	4495f6885ab72b2cc94467e9a89fa641
+_md5_=f758c321f7bbdfc9dfaed19a63009f09
