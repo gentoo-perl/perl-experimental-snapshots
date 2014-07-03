@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for I18N-LangTags
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.14* ~perl-core/i18n-langtags-0.350.100_rc )
-SLOT=0
-_md5_=227f950b7cf0e35eabd789292a7fc7dc

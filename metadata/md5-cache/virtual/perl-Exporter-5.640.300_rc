@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Exporter
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( ( =dev-lang/perl-5.14* !perl-core/Exporter ) ~perl-core/Exporter-5.640.300_rc )
-SLOT=0
-_md5_=b9ff91f177b03ea659d15120d173e469
