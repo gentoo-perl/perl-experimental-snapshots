@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Catalyst-Runtime-5.900.10 >=dev-perl/Catalyst-Action-RenderView-0.100.0 >=dev-perl/Catalyst-Plugin-ConfigLoader-0.300.0 >=dev-perl/Catalyst-Plugin-Static-Simple-0.280.0 >=dev-perl/config-general-2.420.0 >=dev-perl/File-ChangeNotify-0.70.0 dev-perl/File-Copy-Recursive dev-perl/File-ShareDir >=dev-perl/Module-Install-1.20.0 dev-perl/Moose dev-perl/MooseX-Emulate-Class-Accessor-Fast >=dev-perl/Path-Class-0.90.0 >=dev-perl/Template-Toolkit-2.140.0 dev-perl/namespace-autoclean dev-perl/namespace-clean dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
-_eclasses_=eutils	76fc3c462065bb4ca959f939e6793f94	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	unpacker	4495f6885ab72b2cc94467e9a89fa641
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=abfde7fe9b1c063dbd4b3ec0b8ca0527
