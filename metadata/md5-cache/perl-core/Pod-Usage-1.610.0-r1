@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Pod-Parser-1.600.0 >=virtual/perl-Test-Simple-0.600.0 dev-lang/perl:=[-build(-)]
+DESCRIPTION=Pod::Usage extracts POD documentation and shows usage information
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Pod-Usage/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-File-Spec dev-lang/perl >=virtual/perl-Pod-Parser-1.600.0 >=virtual/perl-Test-Simple-0.600.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MAREKR/Pod-Usage-1.61.tar.gz
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=c85eb12ed9a2e5402b1fd24b2066bab8

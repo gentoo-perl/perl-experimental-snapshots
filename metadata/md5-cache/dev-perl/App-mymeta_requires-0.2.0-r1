@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-Pod-Parser virtual/perl-Version-Requirements dev-perl/Getopt-Lucid virtual/perl-CPAN-Meta dev-perl/Class-Load dev-perl/Object-Tiny dev-perl/Log-Dispatchouli >=virtual/perl-ExtUtils-MakeMaker-6.300.0 test? ( dev-perl/Capture-Tiny dev-perl/File-pushd ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DESCRIPTION=Extract module requirements from MYMETA files
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/App-mymeta_requires/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=virtual/perl-Pod-Parser virtual/perl-Version-Requirements dev-perl/Getopt-Lucid virtual/perl-CPAN-Meta dev-perl/Class-Load dev-perl/Object-Tiny dev-perl/Log-Dispatchouli || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/App-mymeta_requires-0.002.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=c35cc913fa97359287a42b0f12de8e5e

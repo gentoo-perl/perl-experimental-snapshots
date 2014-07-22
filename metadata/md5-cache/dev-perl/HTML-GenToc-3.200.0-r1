@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Getopt-Long-2.34 dev-perl/HTML-Parser >=dev-perl/HTML-LinkList-0.150.100 >=dev-perl/HTML-SimpleParse-0.1 virtual/perl-Pod-Parser >=virtual/perl-Module-Build-0.36.01 virtual/perl-File-Temp virtual/perl-Test-Simple || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DESCRIPTION=Generate a Table of Contents for HTML documents.
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/HTML-GenToc/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=virtual/perl-Getopt-Long-2.34 dev-perl/HTML-Parser >=dev-perl/HTML-LinkList-0.150.100 >=dev-perl/HTML-SimpleParse-0.1 virtual/perl-Pod-Parser || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RU/RUBYKAT/HTML-GenToc-3.20.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=f7486b33c98cf70443a3f4a68bd95ac0
