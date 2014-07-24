@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Test-Warn-0.110.0 >=virtual/perl-Module-Build-0.36 dev-perl/Task-Weaken dev-perl/Test-Exception dev-perl/Test-MockObject dev-perl/Test-Regression dev-perl/Test-Taint dev-perl/Test-Without-Module virtual/perl-Test-Simple >=dev-perl/CGI-Application-4.0.0 >=virtual/perl-CGI-3.160 dev-perl/Digest-SHA1 dev-perl/UNIVERSAL-require virtual/perl-Attribute-Handlers dev-perl/Class-ISA virtual/perl-MIME-Base64 virtual/perl-Scalar-List-Utils recommended? ( >=dev-perl/Apache-Htpasswd-1.800.0 >=dev-perl/Color-Calc-0.120.0 dev-perl/CGI-Application-Plugin-Session virtual/perl-Digest-MD5 ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DESCRIPTION=Authentication framework for CGI::Application
+EAPI=3
+HOMEPAGE=http://search.cpan.org/dist/CGI-Application-Plugin-Authentication/
+IUSE=recommended
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/CGI-Application-4.0.0 >=virtual/perl-CGI-3.160 dev-perl/Digest-SHA1 dev-perl/UNIVERSAL-require virtual/perl-Attribute-Handlers dev-perl/Class-ISA virtual/perl-MIME-Base64 virtual/perl-Scalar-List-Utils recommended? ( >=dev-perl/Apache-Htpasswd-1.800.0 >=dev-perl/Color-Calc-0.120.0 dev-perl/CGI-Application-Plugin-Session virtual/perl-Digest-MD5 ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SI/SILASMONK/CGI-Application-Plugin-Authentication-0.18.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e861e6338d81a96800fda34a2309d2fb	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=055280d0ece7d58003baff52840c8842

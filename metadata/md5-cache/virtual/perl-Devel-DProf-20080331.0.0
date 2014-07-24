@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Devel-DProf
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( ~dev-lang/perl-5.10.1 ~dev-lang/perl-5.12.2 ~dev-lang/perl-5.12.3 ) !perl-core/Devel-DProf
-SLOT=0
-_md5_=9b8361fed03b7fa75078cb419d70fd60
