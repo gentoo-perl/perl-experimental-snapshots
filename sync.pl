@@ -6,16 +6,19 @@ use 5.12.1;
 
 my $sync = Syncer->new(
   clone_from_path  => '/var/paludis/repositories/perl-git',
-  git_author       => 'Kent Fredric <kentfredric@gmail.com>',
+  git_author       => 'Kent Fredric <kentfredric+portage-experimental-snapshots@gmail.com>',
   repo_name        => 'perl-experimental-snapshots',
   tempdir_template => 'perl-experimental-snapshot.XXXXXX',
   wd_repo_path     => '/graft/repositories/perl-experimental-snapshot/',
-  wd_repo_config   => '/graft/repositories/perl-experimental-snapshot-scripts/repos.conf'
+  wd_repo_config   => '/graft/repositories/perl-experimental-snapshot-scripts/repos.conf',
+  signing_key      => '0xB8829EF51DCF8183',
 );
 
 $sync->notice_prelude;
 $sync->do_fix_reponame;
+$sync->do_replace_layout;
 #$sync->do_fix_metadata_cache;
+$sync->do_regen_manifests;
 $sync->do_egencache;
 $sync->do_gitcommit;
 $sync->notice( $sync->formatted_message );
@@ -45,7 +48,7 @@ BEGIN {
   lsub file_timestamp_data     => sub { slurp( $_[0]->file_timestamp ) };
   lsub file_timestamp_x        => sub { $_[0]->metadata_dir->file('timestamp.x') };
   lsub file_timestamp_x_data   => sub { slurp( $_[0]->file_timestamp_x ) };
-  lsub git_author              => sub { 'Kent Fredric <kentfredric@gmail.com>' };
+  lsub git_author              => sub { 'Kent Fredric <kentfredric+perl-experimental-snapshots@gmail.com>' };
   lsub metadata_dir            => sub { dir( $_[0]->metadata_dir_path ) };
   lsub metadata_dir_path       => sub { '/usr/portage/metadata' };
   lsub repo_name               => sub { 'perl-experimental-snapshots' };
@@ -59,6 +62,9 @@ BEGIN {
   lsub wd_repo                 => sub { dir( $_[0]->wd_repo_path ) };
   lsub wd_repo_path            => sub { '/graft/repositories/perl-experimental-snapshot/' };
   lsub wd_repo_config          => sub { '/graft/repositories/perl-experimental-snapshot-scripts/repos.conf' };
+  lsub layout_conf             => sub { '/graft/repositories/perl-experimental-snapshot-scripts/layout.conf' };
+  lsub signing_key             => sub { '0xB8829EF51DCF8183' };
+
 
   lsub rsync_exclude => sub {
     [
@@ -162,8 +168,22 @@ BEGIN {
 
     $self->notice('Committing Changes');
 
-    system( 'git', 'commit', '-m', $message, '--author=' . $self->git_author );
+    system( 'git', 'commit', '-m', $message, '--author=' . $self->git_author, '--gpg-sign=' . $self->signing_key );
+  }
 
+  sub do_replace_layout {
+    my ( $self ) = @_;
+    $self->noticef( 'Replacing metadata/layout.conf with %s', $self->layout_conf );
+    path( $self->rsynced_dir )->child('metadata/layout.conf')->spew_raw(
+        path( $self->layout_conf )->slurp_raw
+    );
+  }
+
+  sub do_regen_manifests {
+      my ( $self ) = @_;
+      $self->noticef( 'Regenerating manifests in %s', $self->rsynced_dir );
+      my $wd = pushd( $self->rsynced_dir->stringify );
+      system( 'repoman', 'manifest' );
   }
 
   sub notice {
