@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=>=dev-perl/CPAN-Perl-Releases-1.80.0 >=dev-perl/Capture-Tiny-0.210.0 >=dev-perl/Devel-PatchPerl-0.840.0 >=dev-perl/local-lib-1.8.9 >=dev-lang/perl-5.8.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/G/GU/GUGOD/App-perlbrew-0.62.tar.gz
-_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	b9454097c8c849a7cbb363e3b0460bcf	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=87abc6c1040e1bfc05c50869350f195b
