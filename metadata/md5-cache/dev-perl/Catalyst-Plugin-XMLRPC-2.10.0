@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst prepare pretend test unpack
+DEPEND=>=dev-perl/Catalyst-Runtime-5.660.0 >=dev-perl/RPC-XML-0.690.0 dev-lang/perl:=[-build(-)]
+DESCRIPTION=DEPRECATED Dispatch XMLRPC methods with Catalyst
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-XMLRPC/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.660.0 >=dev-perl/RPC-XML-0.690.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Plugin-XMLRPC-2.01.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=cb02a301f5ba6146457b1c345147c9b6
