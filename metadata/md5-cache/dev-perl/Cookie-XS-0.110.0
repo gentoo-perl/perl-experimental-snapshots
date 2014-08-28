@@ -1,11 +1,12 @@
-DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
-DEPEND=>=dev-perl/CGI-Cookie-XS-0.15
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=>=dev-perl/CGI-Cookie-XS-0.15 virtual/perl-Test-Simple dev-lang/perl:=[-build(-)]
 DESCRIPTION=(DEPRECATED) HTTP Cookie parser in C (Please use CGI::Cookie::XS instead)
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Cookie-XS/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/CGI-Cookie-XS-0.15
+RDEPEND=>=dev-perl/CGI-Cookie-XS-0.15 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AG/AGENT/Cookie-XS-0.11.tar.gz
 _eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=243406517e8b462b2a53caf26604344a
+_md5_=8be8f611b01b3664641df085d676c180

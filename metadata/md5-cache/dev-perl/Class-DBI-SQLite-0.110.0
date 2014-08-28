@@ -1,11 +1,12 @@
-DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
-DEPEND=>=dev-perl/Class-DBI-0.85 >=dev-perl/Ima-DBI-0.27 >=dev-perl/DBD-SQLite-0.70.0
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Test-Simple-0.320.0 >=dev-perl/Class-DBI-0.850.0 >=dev-perl/Ima-DBI-0.270.0 >=dev-perl/DBD-SQLite-0.70.0 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Extension to Class::DBI for sqlite
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Class-DBI-SQLite/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/Class-DBI-0.85 >=dev-perl/Ima-DBI-0.27 >=dev-perl/DBD-SQLite-0.70.0
+RDEPEND=>=virtual/perl-Test-Simple-0.320.0 >=dev-perl/Class-DBI-0.850.0 >=dev-perl/Ima-DBI-0.270.0 >=dev-perl/DBD-SQLite-0.70.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/Class-DBI-SQLite-0.11.tar.gz
 _eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=8cd6a2d8becbbab1e263791ca19bb6fb
+_md5_=b7d7c3419cf5d2ee7a1dca6469e3431b

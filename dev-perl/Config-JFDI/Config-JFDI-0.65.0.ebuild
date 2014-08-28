@@ -1,10 +1,11 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=5
 
-MODULE_AUTHOR=RKRIMEN
+MODULE_AUTHOR=ROKR
+MODULE_VERSION=0.065
 inherit perl-module
 
 DESCRIPTION="Just * Do it: A Catalyst::Plugin::ConfigLoader-style layer over Config::Any"
@@ -15,20 +16,22 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Carp-Clan-Share
+	dev-perl/config-general
 	dev-perl/Config-Any
 	dev-perl/Clone
 	>=dev-perl/Data-Visitor-0.240.0
+	dev-perl/Getopt-Usaginator
 	dev-perl/Hash-Merge-Simple
 	dev-perl/List-MoreUtils
-	dev-perl/Moose
-	dev-perl/MooseX-AttributeHelpers
+	dev-perl/Any-Moose
 	dev-perl/Path-Class
 	dev-perl/Sub-Install
 "
 DEPEND="${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.31
 	test? (
 		dev-perl/Test-Most
 	)
 "
 
-SRC_TEST=do
+SRC_TEST="do parallel"
