@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=virtual/perl-Test-Simple-0.180.0 >=dev-perl/CGI-Untaint-0.70.0 >=dev-perl/Email-Valid-0.130.0 >=dev-perl/MailTools-1.400.0 dev-lang/perl:=[-build(-)]
+DESCRIPTION=validate an eamil address
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/CGI-Untaint-email/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=virtual/perl-Test-Simple-0.180.0 >=dev-perl/CGI-Untaint-0.70.0 >=dev-perl/Email-Valid-0.130.0 >=dev-perl/MailTools-1.400.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/CGI-Untaint-email-0.03.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=ff5bf1b5edea1c40a54f5d737c34429d

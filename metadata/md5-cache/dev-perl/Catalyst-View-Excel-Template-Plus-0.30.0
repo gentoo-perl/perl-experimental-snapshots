@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-Module-Build dev-perl/Test-Exception || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=dev-perl/Catalyst-Runtime >=dev-perl/Excel-Template-Plus-0.50 virtual/perl-Module-Build >=dev-perl/Test-Exception-0.210.0 virtual/perl-Test-Simple virtual/perl-parent dev-lang/perl:=[-build(-)]
 DESCRIPTION=A Catalyst View for Excel::Template::Plus
-EAPI=3
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-View-Excel-Template-Plus/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=dev-perl/Catalyst-Runtime >=dev-perl/Excel-Template-Plus-0.50 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=dev-perl/Catalyst-Runtime >=dev-perl/Excel-Template-Plus-0.50 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RB/RBO/Catalyst-View-Excel-Template-Plus-0.03.tar.gz
 _eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=fd5eb5612b8ca3efd01a7fcdf27cf825
+_md5_=100b10957995842afc6114075fa41e81
