@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
-MODULE_AUTHOR=PERLER
-MODULE_VERSION=0.09007
+EAPI=5
+MODULE_AUTHOR=CFRANKS
+MODULE_VERSION=0.09010
 inherit perl-module
 
 DESCRIPTION='HTML Form Creation, Rendering and Validation Framework'
@@ -12,16 +12,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
 	# CGI 3.37 ( 3.370.0 )
 	echo \>=virtual/perl-CGI-3.370
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# POSIX
 	echo dev-lang/perl
+	# Test::Exception
+	echo dev-perl/Test-Exception
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.92
 }
@@ -29,7 +31,7 @@ perl_meta_runtime() {
 	# Captcha::reCAPTCHA 0.93 ( 0.930.0 )
 	echo \>=dev-perl/Captcha-reCAPTCHA-0.930.0
 	# Carp
-	# echo dev-perl/Carp
+	echo dev-lang/perl
 	# Class::Accessor::Chained::Fast
 	echo dev-perl/Class-Accessor-Chained
 	# Class::MOP::Method
@@ -93,7 +95,7 @@ perl_meta_runtime() {
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Locale::Maketext
-	echo virtual/perl-locale-maketext
+	echo virtual/perl-Locale-Maketext
 	# Module::Pluggable
 	echo virtual/perl-Module-Pluggable
 	# Moose 1.00 ( 1.0.0 )
@@ -118,7 +120,7 @@ perl_meta_runtime() {
 	echo dev-perl/regexp-common
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
-	# Storablei
+	# Storable
 	echo virtual/perl-Storable
 	# Task::Weaken
 	echo dev-perl/Task-Weaken
