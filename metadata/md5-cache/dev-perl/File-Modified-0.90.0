@@ -1,9 +1,13 @@
-DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=digest? ( virtual/perl-Digest virtual/perl-Digest-MD5 ) test? ( >=virtual/perl-Test-Simple-0.880.0 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=checks intelligently if files have changed
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/File-Modified/
+IUSE=+digest test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=digest? ( virtual/perl-Digest virtual/perl-Digest-MD5 ) dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/C/CO/CORION/File-Modified-0.07.tar.gz
+SRC_URI=mirror://cpan/authors/id/N/NE/NEILB/File-Modified-0.09.tar.gz
 _eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=12735223d2b35dca7cb17e1436b70038
+_md5_=b6bad9ae21d10139b1061912ae381a6f
