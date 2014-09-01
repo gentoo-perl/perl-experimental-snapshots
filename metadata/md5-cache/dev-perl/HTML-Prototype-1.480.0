@@ -1,11 +1,12 @@
-DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
-DEPEND=virtual/perl-Module-Build dev-perl/Class-Accessor dev-perl/HTML-Tree
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/Class-Accessor dev-perl/HTML-Tree virtual/perl-Module-Build dev-lang/perl:=[-build(-)]
 DESCRIPTION=Generate HTML and Javascript for the Prototype library
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/HTML-Prototype/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=virtual/perl-Module-Build dev-perl/Class-Accessor dev-perl/HTML-Tree
+RDEPEND=dev-perl/Class-Accessor dev-perl/HTML-Tree dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/E/ES/ESSKAR/HTML-Prototype-1.47.tar.gz
+SRC_URI=mirror://cpan/authors/id/E/ES/ESSKAR/HTML-Prototype-1.48.tar.gz
 _eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=8c69d98b1754375097033c4839eb5f8f
+_md5_=8029fc659ecbcebf202b27b80ee72e5c
