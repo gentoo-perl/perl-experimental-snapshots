@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Dumpvalue
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.14* ~perl-core/Dumpvalue-1.160.0 )
-SLOT=0
-_md5_=564a6b5c8f267e727813c23299de4e33

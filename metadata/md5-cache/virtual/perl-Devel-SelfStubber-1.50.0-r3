@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/Devel-SelfStubber
+EAPI=5
+KEYWORDS=~x86 ~amd64
+RDEPEND=|| ( ( >=dev-lang/perl-5.13.8 !perl-core/Devel-SelfStubber ) ~perl-core/Devel-SelfStubber-1.50.0 )
+SLOT=0
+_md5_=ba505fe5bb8b18d28c0ad6c0637984bd

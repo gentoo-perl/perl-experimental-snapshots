@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Archive-Extract
+EAPI=5
+KEYWORDS=~amd64 ~x86
+RDEPEND=~perl-core/Archive-Extract-0.680.0
+SLOT=0
+_md5_=37e13447170c3ba961b8970780af220d

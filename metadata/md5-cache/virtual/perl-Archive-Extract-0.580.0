@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Archive-Extract
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/Archive-Extract-0.580.0 )
-SLOT=0
-_md5_=02347646a5777a5ab1ed2563f0f3e308

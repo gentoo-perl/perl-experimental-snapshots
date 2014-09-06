@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/if
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( ~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2 ~dev-lang/perl-5.10.1 ) !perl-core/if
-SLOT=0
-_md5_=7ddeada5616f8dc03460e2432f93e72b

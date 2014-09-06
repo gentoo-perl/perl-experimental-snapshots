@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for File-Fetch
+EAPI=5
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( =dev-lang/perl-5.16* =dev-lang/perl-5.14* ~perl-core/File-Fetch-0.320.0 )
+SLOT=0
+_md5_=358c8e8da91ebf9e327b7d97f81fbf91

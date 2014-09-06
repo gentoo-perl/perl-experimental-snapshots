@@ -1,5 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Devel-PPPort
-RDEPEND=~perl-core/Devel-PPPort-3.190.300_rc
-SLOT=0
-_md5_=a7cb32c1dc6542ccdc5e177ac4c186e2

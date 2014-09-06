@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for CPAN
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/CPAN-1.980.0 )
-SLOT=0
-_md5_=0590db417183622e1f27c609c0e70579

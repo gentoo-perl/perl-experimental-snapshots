@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for CPANPLUS::Dist::Build
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/CPANPLUS-Dist-Build-0.620.0 )
-SLOT=0
-_md5_=e1cca214780b0eea2fb65264de126460

@@ -1,5 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/ExtUtils-MakeMaker
-RDEPEND==dev-lang/perl-5.16* !perl-core/ExtUtils-MakeMaker
-SLOT=0
-_md5_=b8fd857db0eda421fa730f1d4ef74670
