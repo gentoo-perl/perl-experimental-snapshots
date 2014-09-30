@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/DBI-1.210.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=dev-perl/DBI-1.210.0 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Easy-to-use OO interface to DBI
-EAPI=3
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/DBIx-Simple/
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/DBI-1.210.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=>=dev-perl/DBI-1.210.0 dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/J/JU/JUERD/DBIx-Simple-1.32.tar.gz
+SRC_URI=mirror://cpan/authors/id/J/JU/JUERD/DBIx-Simple-1.35.tar.gz
 _eclasses_=eutils	32548a82e42dc26e3312581476d2f20c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=1c74db2aa71c1d32a8ab9e731badad7b
+_md5_=1a3a53411547f5dde2239ab4ede47fc5
