@@ -1,6 +1,7 @@
 DEFINED_PHASES=-
 DESCRIPTION=Virtual for Log-Message
+EAPI=5
 KEYWORDS=~amd64 ~x86
-RDEPEND=~perl-core/Log-Message-0.60.0
+RDEPEND=~dev-perl/Log-Message-0.60.0
 SLOT=0
-_md5_=24d92a1310d5bef2b368e2b459e0fdbc
+_md5_=99709a68f4160a27aee42dc6be9b8268

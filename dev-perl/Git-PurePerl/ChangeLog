@@ -1,6 +1,18 @@
 # ChangeLog for dev-perl/Git-PurePerl
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Git-PurePerl-0.480.0-r1 (30 Sep 2014)
+
+  30 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Git-PurePerl-0.480.0.ebuild, +Git-PurePerl-0.480.0-r1.ebuild:
+  EAPI5, fix dep on Archive-Extract
+
+  30 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Git-PurePerl-0.410.0.ebuild, -Git-PurePerl-0.430.0.ebuild,
+  -Git-PurePerl-0.450.0.ebuild, -Git-PurePerl-0.460.0.ebuild,
+  -Git-PurePerl-0.470.0.ebuild:
+  remove old versions
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
   Git-PurePerl-0.460.0.ebuild, Git-PurePerl-0.470.0.ebuild,

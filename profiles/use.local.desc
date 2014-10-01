@@ -8,6 +8,12 @@ dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
 dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built
 dev-perl/CGI-Application:recommended - Install recommended support for PSGI with dev-perl/CGI-PSGI
 dev-perl/CGI-Application-Plugin-Authentication:recommended - Install recommended extras
+dev-perl/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
+dev-perl/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.
+dev-perl/CPANPLUS:selfupgrade - Pull more dependencies by emulating a "selfupgrade" scenario
+dev-perl/CPANPLUS:signature - Install support for Module::Signature based SIGNATURE files
+dev-perl/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache for CPANPLUS
+dev-perl/CPANPLUS:storable - Install support for the "Storable" backend
 dev-perl/Catalyst-Action-REST:config-general - Config::General (text/x-config-general) support
 dev-perl/Catalyst-Action-REST:data-taxi - Data::Taxi (text/x-data-taxi) support
 dev-perl/Catalyst-Action-REST:freezethaw - FreezeThaw (application/x-freezethaw) support
@@ -161,9 +167,3 @@ dev-perl/Test-YAML-Valid:yaml-xs - YAML::XS support
 dev-perl/VCI:bazaar - Add support of the Bazaar VCS
 dev-perl/VCI:git - Add support for the Git VCS
 dev-perl/VCI:mercurial - Add support for the Mercurial VCS
-perl-core/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
-perl-core/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.
-perl-core/CPANPLUS:selfupgrade - Pull more dependencies by emulating a "selfupgrade" scenario
-perl-core/CPANPLUS:signature - Install support for Module::Signature based SIGNATURE files
-perl-core/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache for CPANPLUS
-perl-core/CPANPLUS:storable - Install support for the "Storable" backend
