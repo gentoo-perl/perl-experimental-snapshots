@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Object-Accessor
+EAPI=5
+KEYWORDS=~amd64 ~x86
+RDEPEND=~dev-perl/Object-Accessor-0.460.0
+SLOT=0
+_md5_=1e971f13f6090b60a6343b79370de6be

@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Pod-Checker
-KEYWORDS=~x86 ~amd64
-RDEPEND=~perl-core/Pod-Checker-1.600.0
-SLOT=0
-_md5_=479a925fad3bbc56e8d653f7c6299c8a

@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Unicode-Normalize
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.16* !perl-core/Unicode-Normalize )
-SLOT=0
-_md5_=3ca920746da04518c4c6484d03ac587a

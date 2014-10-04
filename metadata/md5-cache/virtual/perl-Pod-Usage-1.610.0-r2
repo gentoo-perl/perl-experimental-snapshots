@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Pod-Usage
+EAPI=5
+KEYWORDS=~x86 ~amd64
+RDEPEND=~perl-core/Pod-Usage-1.610.0
+SLOT=0
+_md5_=8df1f81cadf5ebafe2196277581ffdb4

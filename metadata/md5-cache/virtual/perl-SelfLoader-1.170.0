@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/SelfLoader
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( ~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2 ~dev-lang/perl-5.10.1 ) !perl-core/SelfLoader
-SLOT=0
-_md5_=21e1c2070ca288902d5ed8c1b16351a7
