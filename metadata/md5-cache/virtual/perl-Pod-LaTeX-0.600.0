@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Pod-LaTeX
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( >=dev-lang/perl-5.15.6 ~perl-core/Pod-LaTeX-0.600.0 )
-SLOT=0
-_md5_=b35e8bd9b18019b5d484b64002d731c6

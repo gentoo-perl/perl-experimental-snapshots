@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Log-Message-Simple
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.14* ~perl-core/Log-Message-Simple-0.80.0 )
-SLOT=0
-_md5_=0bfbc299a99b6ecfc0734345e55c659b

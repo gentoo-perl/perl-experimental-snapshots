@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Term-UI
-KEYWORDS=~amd64 ~x86
-RDEPEND=~perl-core/Term-UI-0.320.0
-SLOT=0
-_md5_=b991240cc8960fa00cba67f9c97bafdb

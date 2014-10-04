@@ -1,6 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Object-Accessor
-KEYWORDS=~amd64 ~x86
-RDEPEND=~perl-core/Object-Accessor-0.460.0
-SLOT=0
-_md5_=7847f1397701ad78e5e12f1cbff61f97

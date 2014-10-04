@@ -3,9 +3,14 @@
 # as these are no longer shipped with Perl. Virtuals
 # to be removed on November 01.
 virtual/perl-Archive-Extract
+virtual/perl-B-Lint
 virtual/perl-CPANPLUS-Dist-Build
 virtual/perl-CPANPLUS
 virtual/perl-Log-Message
+virtual/perl-Log-Message-Simple
+virtual/perl-Object-Accessor
+virtual/perl-Pod-LaTeX
+virtual/perl-Term-UI
 
 # Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
 # Deprecations due to Text-Block being deprecated upstream.
