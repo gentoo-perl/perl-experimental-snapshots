@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/App-Cache-0.370.0 dev-perl/Archive-Extract >=dev-perl/CLASS-1.0.0 >=dev-perl/CPAN-DistnameInfo-0.90.0 >=dev-perl/DBD-SQLite-1.250.0 >=dev-perl/DBIx-Class-0.81.90 dev-perl/libwww-perl >=dev-perl/Mouse-0.640.0 >=dev-perl/Path-Class-0.170.0 >=dev-perl/URI-1.540.0 virtual/perl-autodie virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MS/MSCHWERN/BackPAN-Index-0.42.tar.gz
-_eclasses_=eutils	32548a82e42dc26e3312581476d2f20c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	e37fb449214ef504f0282e3f41e7a735	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	32548a82e42dc26e3312581476d2f20c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=22fd4c85e35c70c7989cf16ba7e83032

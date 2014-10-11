@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker dev-lang/perl dev-lang/perl virtual/perl-File-Path >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.420 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Load-Conditional-0.040 >=virtual/perl-Params-Check-0.07 virtual/perl-Test-Simple dev-lang/perl:=[-build(-)]
+DESCRIPTION=Generic file fetching code
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/File-Fetch/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=dev-lang/perl dev-lang/perl virtual/perl-File-Path >=virtual/perl-File-Spec-0.82 >=virtual/perl-IPC-Cmd-0.420 virtual/perl-Locale-Maketext-Simple >=virtual/perl-Module-Load-Conditional-0.040 >=virtual/perl-Params-Check-0.07 virtual/perl-Test-Simple dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/File-Fetch-0.42.tar.gz
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	32548a82e42dc26e3312581476d2f20c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=176a192f3b66bc85f6540183ccd73113
