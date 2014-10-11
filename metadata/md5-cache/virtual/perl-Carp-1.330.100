@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Carp
-EAPI=5
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/Carp-1.330.100 ) !<perl-core/Carp-1.330.100 !>perl-core/Carp-1.330.100-r999
-SLOT=0
-_md5_=417c9962969398a4344a78b4f27954c0
