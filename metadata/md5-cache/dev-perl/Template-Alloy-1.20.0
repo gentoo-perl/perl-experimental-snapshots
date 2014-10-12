@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-Digest-MD5 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=virtual/perl-Digest-MD5 virtual/perl-ExtUtils-MakeMaker dev-lang/perl:=[-build(-)]
 DESCRIPTION=TT2/3, HT, HTE, Tmpl, and Velocity Engine
-EAPI=4
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Template-Alloy/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=virtual/perl-Digest-MD5 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=virtual/perl-Digest-MD5 dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RH/RHANDOM/Template-Alloy-1.016.tar.gz
+SRC_URI=mirror://cpan/authors/id/R/RH/RHANDOM/Template-Alloy-1.020.tar.gz
 _eclasses_=eutils	32548a82e42dc26e3312581476d2f20c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0f1760274637a138b99bb649202ea402	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=570bbcd52977a5ea1be013c18dda0b6c
+_md5_=64ae243b81f8e4700e22fb73ee9e77c4
