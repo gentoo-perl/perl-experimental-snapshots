@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-Test-Simple >=dev-perl/Dancer2-0.50.0 >=dev-perl/Emailesque-1.200.7 >=dev-lang/perl-5.6.0 dev-lang/perl:=[-build(-)]
+DESCRIPTION=Simple Emailesque support for Dancer2
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Dancer2-Plugin-Emailesque/
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic
+RDEPEND=>=dev-perl/Dancer2-0.50.0 >=dev-perl/Emailesque-1.200.7 >=dev-lang/perl-5.6.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/Dancer/Dancer2-Plugin-Emailesque-0.03.tar.gz
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=40d37940b0a8849f15caf4090f08236d
