@@ -4,9 +4,9 @@ DESCRIPTION=Basic method declarations with signatures, without source filters
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/Method-Signatures-Simple/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/Test-Pod-Coverage dev-perl/Devel-Declare || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RH/RHESA/Method-Signatures-Simple-0.06.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=05d2e10f6e3ebaac0034a44de9837fc7

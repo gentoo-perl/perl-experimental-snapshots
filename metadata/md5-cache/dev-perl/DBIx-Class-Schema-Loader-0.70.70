@@ -5,9 +5,9 @@ EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/DBIx-Class-Schema-Loader/
 IUSE=sqlite mysql postgres test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=dev-perl/Data-Dump-1.06 >=dev-perl/Lingua-EN-Inflect-Number-1.1 >=dev-perl/Lingua-EN-Inflect-Phrase-0.02 >=dev-perl/Class-Accessor-Grouped-0.100.20 >=dev-perl/Class-C3-Componentised-1.0.500 >=dev-perl/DBIx-Class-0.81.270 >=dev-perl/File-Slurp-9999.13 dev-perl/Class-Inspector dev-perl/Class-Load dev-perl/Class-Unload >=dev-perl/Moose-1.120.0 >=dev-perl/MooseX-NonMoose-0.150.0 >=dev-perl/namespace-autoclean-0.90.0 >=dev-perl/namespace-clean-0.200.0 >=dev-perl/Data-Dumper-Concise-1.200 dev-perl/Scope-Guard >=dev-perl/DBI-1.560.0 sqlite? ( >=dev-perl/DBD-SQLite-1.290.0 ) mysql? ( >=dev-perl/DBD-mysql-4.00.4 ) postgres? ( >=dev-perl/DBD-Pg-1.49 ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/DBIx-Class-Schema-Loader-0.07007.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=a4339b7c723b9f987444b45c4f5c33f9

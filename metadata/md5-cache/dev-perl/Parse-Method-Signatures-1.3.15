@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/List-MoreUtils-0.20 dev-perl/Moose >=dev-perl/MooseX-Traits-0.06 >=dev-perl/MooseX-Types-0.170.0 dev-perl/MooseX-Types dev-perl/MooseX-Types-Structured >=dev-perl/PPI-1.203.0 >=dev-perl/namespace-clean-0.100.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/I/IL/ILMARI/Parse-Method-Signatures-1.003015.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=aa20715b9e64694e03a28b7cee75c9b2

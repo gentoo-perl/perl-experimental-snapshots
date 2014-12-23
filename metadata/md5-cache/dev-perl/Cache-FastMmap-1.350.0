@@ -4,9 +4,9 @@ DESCRIPTION=Uses an mmap'ed file to act as a shared memory interprocess cache
 EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/Cache-FastMmap/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=virtual/perl-Storable || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RO/ROBM/Cache-FastMmap-1.35.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=424398c67c3b5b8a27b6adb59018a469

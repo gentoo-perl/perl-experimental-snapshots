@@ -4,9 +4,9 @@ DESCRIPTION=HTML::TreeBuilder and XPath compatible interface with libxml
 EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/HTML-TreeBuilder-LibXML/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/HTML-TreeBuilder-XPath dev-perl/XML-LibXML || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/HTML-TreeBuilder-LibXML-0.11.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=f1f964ed76bf7cc0d738db6e2ae1b0bc

@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-Module-Metadata dev-perl/Module-Runtime dev-perl/Moo dev-perl/Path-Class >=dev-perl/Path-ScanINC-0.2.0 dev-perl/Moo >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/Module-Data-0.006.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=9a3c0b1b0b3ba5c634a2939fd79c02c3

@@ -5,9 +5,9 @@ EAPI=2
 HOMEPAGE=http://search.cpan.org/dist/CPAN-Reporter/
 IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=dev-perl/Config-Tiny-2.08 >=virtual/perl-CPAN-1.930.100 >=dev-perl/Devel-Autoflush-0.40 >=virtual/perl-ExtUtils-MakeMaker-6.36 >=dev-perl/File-Copy-Recursive-0.35 >=dev-perl/File-HomeDir-0.58 >=dev-perl/File-pushd-0.320.0 >=dev-perl/IO-CaptureOutput-1.30.0 dev-perl/Probe-Perl >=dev-perl/Tee-0.13 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.1711.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=ed4efad3699c9e964b460a71fe57e82e

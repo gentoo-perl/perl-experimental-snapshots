@@ -5,9 +5,9 @@ EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/pip/
 IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=virtual/perl-File-Spec-0.80 >=virtual/perl-File-Temp-0.14 >=dev-perl/File-Which-1.08 >=dev-perl/File-pushd-0.320.0 virtual/perl-Getopt-Long >=virtual/perl-CPAN-1.760 >=dev-perl/CPAN-Inject-0.70.0 >=dev-perl/Params-Util-1.00 dev-perl/PAR-Dist dev-perl/URI dev-perl/libwww-perl virtual/perl-IO-Zlib virtual/perl-Archive-Tar dev-perl/Archive-Zip || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/pip-1.19.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=56ba304ba973b7d2edaae060234d9595

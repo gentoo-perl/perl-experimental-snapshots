@@ -5,9 +5,9 @@ EAPI=3
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Devel/
 IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/Moose dev-perl/MooseX-Emulate-Class-Accessor-Fast dev-perl/File-ShareDir dev-perl/namespace-clean dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.150 >=dev-perl/Catalyst-Action-RenderView-0.100.0 >=dev-perl/Catalyst-Plugin-Static-Simple-0.280.0 >=dev-perl/Catalyst-Plugin-ConfigLoader-0.300.0 >=dev-perl/config-general-2.42 >=dev-perl/File-ChangeNotify-0.70.0 dev-perl/File-Copy-Recursive >=dev-perl/Module-Install-0.91 >=dev-perl/Path-Class-0.90.0 >=dev-perl/Template-Toolkit-2.140.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Devel-1.31.tar.gz
-_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	ffe821257b3dc5809199816aa93a8a66	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	2acd4af7088013f8f8d422ebcb5ad893	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=f03a8d0ca2deea8aa53bbb1cfb20f240
