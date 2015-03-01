@@ -1,13 +1,12 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=XSAWYERX
-MODULE_VERSION=0.153000
+MODULE_VERSION=0.159001
 inherit perl-module
 
 DESCRIPTION='Lightweight yet powerful web application framework'
-LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
@@ -46,8 +45,6 @@ perl_meta_runtime() {
 	echo virtual/perl-File-Path
 	# File::ShareDir
 	echo dev-perl/File-ShareDir
-	# File::Spec
-	echo virtual/perl-File-Spec
 	# File::Temp 0.22 ( 0.220.0 )
 	echo \>=virtual/perl-File-Temp-0.220.0
 	# HTTP::Body
@@ -56,30 +53,32 @@ perl_meta_runtime() {
 	echo dev-perl/HTTP-Date
 	# HTTP::Headers
 	echo dev-perl/HTTP-Message
+	# HTTP::Tiny
+	echo virtual/perl-HTTP-Tiny
 	# Hash::Merge::Simple
 	echo dev-perl/Hash-Merge-Simple
 	# IO::File
 	echo virtual/perl-IO
+	# Import::Into
+	echo dev-perl/Import-Into
 	# JSON
 	echo dev-perl/JSON
-	# LWP::UserAgent
-	echo dev-perl/libwww-perl
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# MIME::Base64 3.13 ( 3.130.0 )
 	echo \>=virtual/perl-MIME-Base64-3.130.0
-	# MIME::Types
-	echo dev-perl/MIME-Types
 	# Module::Runtime
 	echo dev-perl/Module-Runtime
 	# Moo 1.003000 ( 1.3.0 )
 	echo \>=dev-perl/Moo-1.3.0
 	# MooX::Types::MooseLike 0.16 ( 0.160.0 )
 	echo \>=dev-perl/MooX-Types-MooseLike-0.160.0
-	# MooX::Types::MooseLike::Base
-	echo dev-perl/MooX-Types-MooseLike
 	# Plack 1.0029 ( 1.2.900 )
 	echo \>=dev-perl/Plack-1.2.900
+	# Plack::Middleware::FixMissingBodyInRedirect
+	echo dev-perl/Plack-Middleware-FixMissingBodyInRedirect
+	# Plack::Middleware::RemoveRedundantBody
+	echo dev-perl/Plack-Middleware-RemoveRedundantBody
 	# Pod::Simple::Search
 	echo virtual/perl-Pod-Simple
 	# Return::MultiLevel
@@ -96,6 +95,8 @@ perl_meta_runtime() {
 	echo dev-perl/Template-Tiny
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
+	# Try::Tiny
+	echo dev-perl/Try-Tiny
 	# URI
 	echo dev-perl/URI
 	# YAML
@@ -110,16 +111,20 @@ perl_meta_test() {
 	echo \>=dev-perl/Capture-Tiny-0.120.0
 	# ExtUtils::MakeMaker
 	echo virtual/perl-ExtUtils-MakeMaker
+	# File::Spec
+	echo virtual/perl-File-Spec
 	# File::Temp 0.22 ( 0.220.0 )
 	echo \>=virtual/perl-File-Temp-0.220.0
 	# HTTP::Body
 	echo dev-perl/HTTP-Body
+	# HTTP::Cookies
+	echo dev-perl/HTTP-Cookies
 	# HTTP::Request::Common
 	echo dev-perl/HTTP-Message
 	# IO::Handle
 	echo virtual/perl-IO
-	# LWP::Protocol::PSGI 0.06 ( 0.60.0 )
-	echo \>=dev-perl/LWP-Protocol-PSGI-0.60.0
+	# Plack::Response
+	echo dev-perl/Plack
 	# Test::Fatal
 	echo dev-perl/Test-Fatal
 	# Test::Memory::Cycle 1.04 ( 1.40.0 )
@@ -128,10 +133,6 @@ perl_meta_test() {
 	echo dev-perl/Test-MockTime
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
-	# Test::Script
-	echo dev-perl/Test-Script
-	# Test::TCP 1.13 ( 1.130.0 )
-	echo \>=dev-perl/Test-TCP-1.130.0
 	# YAML
 	echo dev-perl/yaml
 	# lib
@@ -148,4 +149,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do parallel"
