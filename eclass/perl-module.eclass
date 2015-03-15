@@ -20,7 +20,7 @@ PERL_EXPF="src_unpack src_compile src_test src_install"
 case "${EAPI:-0}" in
 	0|1)
 		eqawarn "$P: EAPI 0 and 1 are deprecated both in ::gentoo and ::perl-experimental"
-		perl_qafatal "eapi";
+		perl_qafatal "eapi" "EAPI 0 and 1 are deprecated";
 		PERL_EXPF+=" pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
 		;;
 	2|3|4|5)
@@ -131,6 +131,8 @@ perl-module_src_configure() {
 	[[ ${SRC_PREP} = yes ]] && return 0
 	SRC_PREP="yes"
 
+	perl_check_env
+
 	perl_set_version
 	perl_set_eprefix
 
@@ -150,14 +152,14 @@ perl-module_src_configure() {
 			if [[ ${DEPEND} != *dev-perl/Module-Build-Tiny* && ${PN} != Module-Build-Tiny ]]; then
 				eqawarn "QA Notice: The ebuild uses Module::Build::Tiny but doesn't depend on it."
 				eqawarn "           Add dev-perl/Module-Build-Tiny to DEPEND!"
-				perl_qafatal "modulebuildtiny"
+				perl_qafatal "modulebuildtiny" "Needs to depend on Module-Build-Tiny"
 			fi
 		else
 			einfo "Using Module::Build"
 			if [[ ${DEPEND} != *virtual/perl-Module-Build* && ${PN} != Module-Build ]] ; then
 				eqawarn "QA Notice: The ebuild uses Module::Build but doesn't depend on it."
 				eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
-				perl_qafatal "modulebuild"
+				perl_qafatal "modulebuild" "Needs to depend on Module-Build"
 			fi
 		fi
 		set -- \
@@ -392,7 +394,7 @@ perl-module_pkg_postinst() {
 	if [[ ${CATEGORY} != perl-core ]] ; then
 		eqawarn "perl-module.eclass: You are calling perl-module_pkg_postinst outside the perl-core category."
 		eqawarn "   This does not do anything; the call can be safely removed."
-		perl_qafatal "function"
+		perl_qafatal "function" "$FUNCNAME is private to perl-core"
 		return 0
 	fi
 	perl_link_duallife_scripts
@@ -420,7 +422,7 @@ perl-module_pkg_postrm() {
 	if [[ ${CATEGORY} != perl-core ]] ; then
 		eqawarn "perl-module.eclass: You are calling perl-module_pkg_postrm outside the perl-core category."
 		eqawarn "   This does not do anything; the call can be safely removed."
-		perl_qafatal "function"
+		perl_qafatal "function" "$FUNCNAME is private to perl-core"
 		return 0
 	fi
 	perl_link_duallife_scripts
@@ -468,7 +470,7 @@ perl_check_module_version() {
 	if [[ -n ${REAL_PV} && ${REAL_PV} != ${PV} ]] ; then
 		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
 		eqawarn "           The ebuild version should be ${REAL_PV}"
-		perl_qafatal "version"
+		perl_qafatal "version" "${REAL_PV} != ${PV}"
 	fi
 }
 
@@ -656,33 +658,49 @@ perl_link_duallife_scripts() {
 
 	perl_set_eprefix
 
-	local i ff
+	local i ff execdir mandir
+
+	execdir="usr/share/perl-${P}/bin"
+	mandir="usr/share/perl-${P}/man/man1"
+
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
+			alternatives_auto_makesym "/${i}-${PV}"	"${EROOT}${execdir}/${i##*/}"
 			alternatives_auto_makesym "/${i}" "/${i}-[0-9]*"
 		done
 		for i in "${DUALLIFEMAN[@]}" ; do
-			ff=`echo "${EROOT}"/${i%.1}-${PV}-${P}.1*`
+			# Expand $i to a full path as it was installed,
+			# which may add .gz or whatever to the end during compress.
+			# then boil it till you just get ".gz"
+			ff="${EROOT}${mandir}/${i##*/}";
+			ff=$( echo ${ff%.1}.1* );
 			ff=${ff##*.1}
-			alternatives_auto_makesym "/${i}${ff}" "/${i%.1}-[0-9]*"
+			alternatives_auto_makesym "/${i%.1}-${PV}.1${ff}" "${EROOT}${mandir}/${i##*/}${ff}"
+			alternatives_auto_makesym "/${i}${ff}" "/${i%.1}-[0-9]*.1${ff}"
 		done
 	else
 		pushd "${ED}" > /dev/null
 		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
-			mv ${i}{,-${PV}-${P}} || die
+			mkdir -p "${D}/${execdir}" || die
+			mv ${i} "${D}/${execdir}/${i##*/}" || die
 			#DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
 			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i}
 		done
 		for i in $(find usr/share/man/man1 -maxdepth 1 -type f 2>/dev/null) ; do
-			mv ${i} ${i%.1}-${PV}-${P}.1 || die
+			mkdir -p "${D}/${mandir}" || die
+			mv ${i} "${D}/${mandir}/${i##*/}" || die
 			DUALLIFEMAN[${#DUALLIFEMAN[*]}]=${i}
 		done
+
+		einfo "Cleaning empty directories"
+		perl_trim_empty_dirs "${EROOT}/usr/bin"
+
 		popd > /dev/null
 	fi
 }
 
 # @FUNCTION: perl_qafatal
-# @USAGE: perl_qafatal TYPE
+# @USAGE: perl_qafatal TYPE "Die reason"
 # @DESCRIPTION:
 # Invoking this method after eqawarn's allows an entry point for the eclass to trigger
 # a fatal exit if the user has PERL_QAFATAL set.
@@ -700,17 +718,18 @@ perl_link_duallife_scripts() {
 #  has "$type" 	- Fatal for "$type"
 perl_qafatal() {
 	local failtype=$1
+	local failreason=$2
 	if [[ "${PERLQAFATAL:-0}" == 1 ]]; then
 		eerror "Bailing out due to PERLQAFATAL including $failtype (==1)";
-		die;
+		die "$failtype: $failreason"
 	fi
 	if has 'all' ${PERLQAFATAL}; then
 		eerror "Bailing out due to PERLQAFATAL including $failtype (all)";
-		die;
+		die "$failtype: $failreason"
 	fi
 	if has $failtype ${PERLQAFATAL}; then
 		eerror "Bailing out due to PERLQAFATAL including $1";
-		die;
+		die "$failtype: $failreason"
 	fi
 }
 
@@ -725,4 +744,47 @@ perl_set_eprefix() {
 			fi
 			;;
 	esac
+}
+
+# @FUNCTION: perl_check_env
+# @USAGE: perl_check_env
+# @DESCRIPTION:
+# Checks a blacklist of known-suspect ENV values that can be accidentally set by users
+# doing personal perl work, which may accidentally leak into portage and break the
+# system perl installaton.
+# Dies if any of the suspect fields are found, and tells users the circumvention options
+# for the problem, whether it be unsetting the bad fields, or setting
+# I_KNOW_WHAT_IM_DOING=1
+
+perl_check_env() {
+	local errored value;
+
+	for i in PERL_MM_OPT PERL5LIB PERL5OPT PERL_MB_OPT PERL_CORE PERLPREFIX; do
+		# Next unless match
+		[ -v $i ] || continue;
+
+		# Warn only once, and warn only when one of the bad values are set.
+		# record failure here.
+		[ ${errored:-0} == 0 ] && \
+			ewarn "perl-module.eclass: Suspect ENV values found.";
+
+		errored=1
+
+		# Read ENV Value
+		eval "value=\$$i";
+
+		# Print ENV name/value pair
+		ewarn "    $i=\"$value\"";
+	done
+
+	# Return if there were no failures
+	[ ${errored:-0} == 0 ] && return;
+
+	# Return if user knows what they're doing
+	if [ ${I_KNOW_WHAT_IM_DOING:-0} == 1 ]; then
+		ewarn "Continuing due to I_KNOW_WHAT_IM_DOING=1"
+		return
+	fi
+
+	die "Please unset from ENV ( ~/.bashrc, package.env, etc ) or set I_KNOW_WHAT_IM_DOING=1"
 }
