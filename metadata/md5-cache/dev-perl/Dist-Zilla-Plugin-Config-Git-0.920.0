@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Dist-Zilla-1.0.0 >=dev-perl/Moose-0.340.0 >=dev-perl/MooseX-Types-0.60.0 >=dev-perl/String-Errf-0.1.0 >=dev-perl/namespace-clean-0.60.0 >=dev-lang/perl-5.10.1 virtual/perl-ExtUtils-MakeMaker test? ( >=dev-perl/Test-CheckDeps-0.10.0 >=virtual/perl-Test-Simple-0.940.0 ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Plugin configuration containing settings for a Git repo
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-Config-Git/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=dev-perl/Dist-Zilla-1.0.0 >=dev-perl/Moose-0.340.0 >=dev-perl/MooseX-Types-0.60.0 >=dev-perl/String-Errf-0.1.0 >=dev-perl/namespace-clean-0.60.0 >=dev-lang/perl-5.10.1 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BB/BBYRD/Dist-Zilla-Plugin-Config-Git-0.92.tar.gz
+_eclasses_=eutils	998e5931fb95b10a6a11ec796ada2759	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	3a1969a45ff85b026c4e0fa3aa2ab443	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=97ea001dddba6100ba68b78f1e9f058d
