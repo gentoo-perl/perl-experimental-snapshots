@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=virtual/perl-File-Spec dev-perl/DateTime >=dev-perl/Dist-Zilla-4.200.16 dev-perl/Dist-Zilla-Plugin-Config-Git virtual/perl-File-Temp dev-perl/File-chdir >=dev-perl/Git-Wrapper-0.21.0 dev-perl/IPC-System-Simple dev-perl/List-AllUtils virtual/perl-Scalar-List-Utils dev-perl/Module-Runtime dev-perl/Moose dev-perl/MooseX-Has-Sugar dev-perl/MooseX-Types >=dev-perl/MooseX-Types-Path-Tiny-0.10.0 >=dev-perl/Path-Tiny-0.48.0 dev-perl/String-Formatter dev-perl/Try-Tiny dev-perl/Version-Next virtual/perl-constant >=dev-perl/namespace-autoclean-0.90.0 >=dev-lang/perl-5.10.0 >=virtual/perl-version-0.800.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/C/CJ/CJM/Dist-Zilla-Plugin-Git-2.030.tar.gz
-_eclasses_=eutils	998e5931fb95b10a6a11ec796ada2759	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	3a1969a45ff85b026c4e0fa3aa2ab443	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	998e5931fb95b10a6a11ec796ada2759	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	b99aa37f734b5d426efd83b2f271cece	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=320282a1fd8a98df9349dc70e6326ddf
