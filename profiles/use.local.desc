@@ -19,9 +19,6 @@ dev-perl/Catalyst-Action-REST:data-taxi - Data::Taxi (text/x-data-taxi) support
 dev-perl/Catalyst-Action-REST:freezethaw - FreezeThaw (application/x-freezethaw) support
 dev-perl/Catalyst-Action-REST:json - JSON (application/json) support
 dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms with dev-perl/Catalyst-View-TT
-dev-perl/Catalyst-Model-DBIC-Schema:caching - Caching support
-dev-perl/Catalyst-Model-DBIC-Schema:catalyst_helper - Catalyst::Helper support
-dev-perl/Catalyst-Model-DBIC-Schema:replication - Replication support
 dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
 dev-perl/DBIx-Class-EncodedColumn:blowfish - Support for Crypt::Eksblowfish
 dev-perl/DBIx-Class-EncodedColumn:gpg - Support for OpenPGP Encryption
