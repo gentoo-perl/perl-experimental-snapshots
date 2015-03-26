@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.27.01 virtual/perl-File-Spec >=virtual/perl-Module-Build-0.27.01 >=virtual/perl-Test-Simple-0.17 >=virtual/perl-Getopt-Long-2.340.0 >=dev-lang/perl-5.6.0 dev-lang/perl:=[-build(-)]
+DEPEND=>=virtual/perl-Getopt-Long-2.340.0 >=dev-lang/perl-5.6.0 >=virtual/perl-Module-Build-0.270.100 virtual/perl-File-Spec >=virtual/perl-Test-Simple-0.170.0 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Subversion activity notification
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/SVN-Notify/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=virtual/perl-Getopt-Long-2.340.0 >=dev-lang/perl-5.6.0 dev-lang/perl:=[-build(-)]
+RESTRICT=test
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DW/DWHEELER/SVN-Notify-2.83.tar.gz
+SRC_URI=mirror://cpan/authors/id/D/DW/DWHEELER/SVN-Notify-2.84.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	b99aa37f734b5d426efd83b2f271cece	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=108ddd994d206d2aabfc82ee1b13e7df
+_md5_=5818ed39834cfce397a935c601371ae1

@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-Module-Build virtual/perl-Test-Simple || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=virtual/perl-Carp virtual/perl-Exporter >=virtual/perl-Module-Build-0.360.0 test? ( virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Perl module to generate random strings based on a pattern
-EAPI=3
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/String-Random/
+IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=|| ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=virtual/perl-Carp virtual/perl-Exporter dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/S/ST/STEVE/String-Random-0.22.tar.gz
+SRC_URI=mirror://cpan/authors/id/S/SH/SHLOMIF/String-Random-0.28.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	b99aa37f734b5d426efd83b2f271cece	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=d57bbe337df88903fbc310c640bd4ef7
+_md5_=036c357ce9efb11b250ac70fa9d117fe
