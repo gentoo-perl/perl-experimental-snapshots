@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.400.0 virtual/perl-ExtUtils-CBuilder >=dev-perl/Fennec-1.12.0 >=dev-lang/perl-5.10.0 dev-lang/perl:=[-build(-)]
+DEPEND=>=virtual/perl-Module-Build-0.400.0 virtual/perl-ExtUtils-CBuilder >=virtual/perl-ExtUtils-ParseXS-3.150.0 test? ( >=dev-perl/Fennec-2.004 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Functions for accessing a hashes internal iterator.
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Hash-StoredIterator/
+IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-lang/perl-5.10.0 dev-lang/perl:=[-build(-)]
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/E/EX/EXODIST/Hash-StoredIterator-0.003.tar.gz
+SRC_URI=mirror://cpan/authors/id/E/EX/EXODIST/Hash-StoredIterator-0.007.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	b99aa37f734b5d426efd83b2f271cece	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=e5c1856772a11dcddb2da0374d36b9af
+_md5_=f762c60fb9af5be28f58089aae4475a5
