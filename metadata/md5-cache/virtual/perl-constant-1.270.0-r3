@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for constant
+EAPI=5
+KEYWORDS=~amd64 ~x86
+RDEPEND=~perl-core/constant-1.270.0
+SLOT=0
+_md5_=756e5a6f7ec24a18c042748318530319

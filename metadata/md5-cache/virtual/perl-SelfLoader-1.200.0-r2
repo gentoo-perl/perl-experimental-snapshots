@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for SelfLoader
-EAPI=5
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.16* ~perl-core/SelfLoader-1.200.0 ) !<perl-core/SelfLoader-1.200.0 !>perl-core/SelfLoader-1.200.0
-SLOT=0
-_md5_=090e29f0fecbe546a9bbe3c580c7a5da
