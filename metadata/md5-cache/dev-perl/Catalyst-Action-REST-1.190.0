@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Catalyst-Runtime-5.800.300 >=dev-perl/Class-Inspector-1.130.0 dev-perl/JSON-MaybeXS >=dev-perl/MRO-Compat-0.100.0 virtual/perl-Module-Pluggable >=dev-perl/Moose-1.30.0 >=dev-perl/Params-Validate-0.760.0 dev-perl/URI-Find dev-perl/namespace-autoclean virtual/perl-ExtUtils-MakeMaker test? ( >=dev-perl/libwww-perl-5.0.0 >=virtual/perl-Test-Simple-0.880.0 dev-perl/Test-Requires ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Automated REST Method Dispatching
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Action-REST/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.800.300 >=dev-perl/Class-Inspector-1.130.0 dev-perl/JSON-MaybeXS >=dev-perl/MRO-Compat-0.100.0 virtual/perl-Module-Pluggable >=dev-perl/Moose-1.30.0 >=dev-perl/Params-Validate-0.760.0 dev-perl/URI-Find dev-perl/namespace-autoclean dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FR/FREW/Catalyst-Action-REST-1.19.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=52c7b96986b92f6da97ec695b55cd31f

@@ -14,10 +14,6 @@ dev-perl/CPANPLUS:selfupgrade - Pull more dependencies by emulating a "selfupgra
 dev-perl/CPANPLUS:signature - Install support for Module::Signature based SIGNATURE files
 dev-perl/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache for CPANPLUS
 dev-perl/CPANPLUS:storable - Install support for the "Storable" backend
-dev-perl/Catalyst-Action-REST:config-general - Config::General (text/x-config-general) support
-dev-perl/Catalyst-Action-REST:data-taxi - Data::Taxi (text/x-data-taxi) support
-dev-perl/Catalyst-Action-REST:freezethaw - FreezeThaw (application/x-freezethaw) support
-dev-perl/Catalyst-Action-REST:json - JSON (application/json) support
 dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms with dev-perl/Catalyst-View-TT
 dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
 dev-perl/DBIx-Class-EncodedColumn:blowfish - Support for Crypt::Eksblowfish
@@ -34,11 +30,11 @@ dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:metanoindex - Install support libr
 dev-perl/File-ChangeNotify:inotify - Pull in dev-perl/Linux-Inotify2 for linux Inotify Support
 dev-perl/File-Modified:digest - Ensure Digest and Digest::MD5 are installed for Digest functions
 dev-perl/Handel:catalystframework - Catalyst Support
+dev-perl/JSON-MaybeXS:recommended - Install Cpanel::JSON::XS to maximise JSON decoding speed
 dev-perl/MojoMojo:amazonboxes - Amazon boxes
 dev-perl/MojoMojo:createdb - Create new Database automatically
 dev-perl/MojoMojo:docbook - DocBook formatter
-dev-perl/MojoMojo:emoticons - Emoticons
-dev-perl/MojoMojo:markdown - Markdown formatter
+dev-perl/MojoMojo:fastcgi - Install FCGI::ProcManager for FastCGI support
 dev-perl/MojoMojo:podformatter - POD formatterr
 dev-perl/MojoMojo:recaptcha - reCAPTCHA for anonymous edits
 dev-perl/MojoMojo:rssformatter - RSS Formatter
@@ -75,8 +71,6 @@ dev-perl/Task-Kensho-CLI:corelist - Install virtual/perl-Module-CoreList
 dev-perl/Task-Kensho-CLI:nopaste - Install dev-perl/App-Nopaste
 dev-perl/Task-Kensho-CLI:perlbrew - Install dev-perl/App-perlbrew
 dev-perl/Task-Kensho-CLI:repl - Install dev-perl/Devel-REPL
-dev-perl/Task-Kensho-Config:config_any - Install dev-perl/Config-Any
-dev-perl/Task-Kensho-Config:config_general - Install dev-perl/config-general
 dev-perl/Task-Kensho-DBDev:dbixclass - Install dev-perl/DBIx-Class
 dev-perl/Task-Kensho-DBDev:perl-dbi - Install dev-perl/DBI
 dev-perl/Task-Kensho-DBDev:schemaloader - Install dev-perl/DBIx-Class-Schema-Loader
