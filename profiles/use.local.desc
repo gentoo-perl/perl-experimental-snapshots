@@ -94,9 +94,6 @@ dev-perl/Task-Kensho-Exceptions:trytiny - Install dev-perl/Try-Tiny
 dev-perl/Task-Kensho-Hackery:ioall - Install dev-perl/IO-All
 dev-perl/Task-Kensho-Hackery:progressbarsimple - Install dev-perl/Term-ProgressBar-Simple
 dev-perl/Task-Kensho-Hackery:smartcomments - Install dev-perl/Smart-Comments
-dev-perl/Task-Kensho-Logging:log4perl - Install dev-perl/Log-Log4perl
-dev-perl/Task-Kensho-Logging:logcontextual - Install dev-perl/Log-Contextual
-dev-perl/Task-Kensho-Logging:logdispatch - Install dev-perl/log-dispatch
 dev-perl/Task-Kensho-ModuleDev:carpalways - Install dev-perl/Carp-Always
 dev-perl/Task-Kensho-ModuleDev:cpanuploader - Install dev-perl/CAPN-Uploader
 dev-perl/Task-Kensho-ModuleDev:dzil - Install dev-perl/Dist-Zilla

@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-perl/Class-Load >=dev-perl/Dist-Zilla-4.101.540 dev-perl/Dist-Zilla >=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10 dev-perl/Module-Data >=dev-perl/Moose-2.0.0 dev-perl/MooseX-Types dev-perl/Readonly dev-perl/namespace-autoclean >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-MetaData-BuiltWith-0.04000000.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=cd4322f65fefe9126d4acd798a17e70a

@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Class-Inspector-1.240.0 >=dev-perl/Perl6-Junction-1.400.0 >=dev-perl/aliased-0.300.0 >=virtual/perl-parent-0.221 >=dev-perl/Data-Dump-1.14 >=dev-perl/Catalyst-Runtime-5.800.120 >=dev-perl/CLASS-1.0 >=dev-perl/Devel-Declare-0.5.11 >=dev-perl/Moose-0.890.0 >=dev-perl/MooseX-AttributeHelpers-0.21 >=dev-perl/MooseX-Declare-0.300.0 >=dev-perl/MooseX-MethodAttributes-0.160.0 >=dev-perl/MooseX-Role-Parameterized-0.130.0 >=dev-perl/MooseX-Types-0.200.0 >=dev-perl/MooseX-Method-Signatures-0.260 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/P/PH/PHAYLON/CatalystX-Declare-0.011.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	79b635d29abf0572d6a1b0dc8e63c0e4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=c81d9476c4ddb10bd2531fd769b2d116
