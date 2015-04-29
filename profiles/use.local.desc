@@ -7,6 +7,7 @@ dev-perl/Any-URI-Escape:recommended - Install URL-Escape-XS for faster URI Escap
 dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
 dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built
 dev-perl/CGI-Application:recommended - Install recommended support for PSGI with dev-perl/CGI-PSGI
+dev-perl/CGI-Application-Dispatch:apache_test - With FEATURES=test, do tests using Apache
 dev-perl/CGI-Application-Plugin-Authentication:recommended - Install recommended extras
 dev-perl/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
 dev-perl/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.
@@ -40,10 +41,6 @@ dev-perl/MojoMojo:recaptcha - reCAPTCHA for anonymous edits
 dev-perl/MojoMojo:rssformatter - RSS Formatter
 dev-perl/MojoMojo:syntaxhighlight - Syntax Highlightert
 dev-perl/MojoMojo:transclusion - Transclusion support
-dev-perl/MooseX-Storage:file - Support for virtual/perl-IO
-dev-perl/MooseX-Storage:json - Support for storing as JSON viadev-perl/JSON-Any
-dev-perl/MooseX-Storage:storable - Support for virtual/perl-Storable
-dev-perl/MooseX-Storage:yaml - Support for storing as YAML via dev-perl/Best
 dev-perl/Object-ID:object_uuid - Unique object identifier using UUIDs
 dev-perl/Parse-BACKPAN-Packages:big-net-test - Permit connecting to the internet and BACKPAN to run a test that downloads 1MB of data or more
 dev-perl/Starman:recommended - Install recommended dependencies
