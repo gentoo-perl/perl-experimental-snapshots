@@ -1,3 +1,12 @@
+# Kent Fredric <kentfredric@gmail.com> (03 Jun 2015)
+# Perl 5.22 only virtuals. Will be unmasked when it actually exists.
+=virtual/perl-constant-1.330.0*
+=virtual/perl-Pod-Perldoc-3.250.0*
+=virtual/perl-Pod-Usage-1.640.0*
+=virtual/perl-SelfLoader-1.220.0*
+=virtual/perl-Unicode-Collate-1.120.0*
+=virtual/perl-Unicode-Normalize-1.180.0*
+
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
@@ -9,8 +18,6 @@
 
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
-perl-core/B-Debug
-virtual/perl-B-Debug
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Devel-SelfStubber
@@ -19,7 +26,3 @@ perl-core/IPC-SysV
 virtual/perl-IPC-SysV
 perl-core/NEXT
 virtual/perl-NEXT
-perl-core/Unicode-Collate
-virtual/perl-Unicode-Collate
-perl-core/Unicode-Normalize
-virtual/perl-Unicode-Normalize

@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/NEXT
-EAPI=5
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/NEXT-0.650.0 )
-SLOT=0
-_md5_=3ee701e48f1e9eb12e4acb6c834c7c3d

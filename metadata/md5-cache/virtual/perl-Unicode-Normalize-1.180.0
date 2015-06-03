@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Unicode-Normalize
+EAPI=5
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( =dev-lang/perl-5.22* ~perl-core/Unicode-Normalize-1.180.0 ) !<perl-core/Unicode-Normalize-1.180.0 !>perl-core/Unicode-Normalize-1.180.0
+SLOT=0
+_md5_=c5a6a0a34f24e495beaf8ed27c9c6245

@@ -10,5 +10,5 @@ RDEPEND=selfupgrade? ( sqlite_backend? ( dev-perl/DBIx-Simple dev-perl/DBD-SQLit
 REQUIRED_USE=cpantest? ( selfupgrade ) md5? ( selfupgrade ) signature? ( selfupgrade ) storable? ( selfupgrade ) sqlite_backend? ( selfupgrade )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/CPANPLUS-0.9136.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=7d4300a0eeaff83cb4afb352f88d5472
