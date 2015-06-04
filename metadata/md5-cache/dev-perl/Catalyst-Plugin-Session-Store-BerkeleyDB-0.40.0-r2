@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/BerkeleyDB-Manager >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Class-Data-Inheritable dev-perl/MRO-Compat virtual/perl-Scalar-List-Utils virtual/perl-Storable dev-perl/namespace-clean dev-perl/File-Remove dev-perl/Test-WWW-Mechanize-Catalyst virtual/perl-Test-Simple dev-perl/Test-use-ok dev-lang/perl:=[-build(-)]
+DEPEND=dev-perl/BerkeleyDB-Manager >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Class-Data-Inheritable dev-perl/MRO-Compat virtual/perl-Scalar-List-Utils virtual/perl-Storable dev-perl/namespace-clean virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/File-Remove dev-perl/Test-WWW-Mechanize-Catalyst virtual/perl-Test-Simple || ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok ) ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=store sessions in a berkeleydb
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-BerkeleyDB/
+IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/BerkeleyDB-Manager >=dev-perl/Catalyst-Plugin-Session-0.270.0 >=dev-perl/Catalyst-Runtime-5.700.0 dev-perl/Class-Data-Inheritable dev-perl/MRO-Compat virtual/perl-Scalar-List-Utils virtual/perl-Storable dev-perl/namespace-clean dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-BerkeleyDB-0.04.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=71a9b5113ef4f4de51ca1d9f14417d49
+_md5_=09e8fa195b8f0476150bfc54b51468d5

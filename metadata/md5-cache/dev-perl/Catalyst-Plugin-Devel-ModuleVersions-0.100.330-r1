@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/CGI-Application dev-perl/Catalyst-Runtime dev-perl/MRO-Compat test? ( dev-perl/Test-MockObject dev-perl/Test-WWW-Mechanize-Catalyst dev-perl/Test-use-ok ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=dev-perl/MRO-Compat virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/Catalyst-Runtime virtual/perl-Getopt-Long virtual/perl-Pod-Usage dev-perl/Test-MockObject virtual/perl-Test-Simple || ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok ) dev-perl/Test-WWW-Mechanize-Catalyst ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Dump your loaded module versions to the debug-screen
-EAPI=4
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Devel-ModuleVersions/
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=dev-perl/CGI-Application dev-perl/Catalyst-Runtime dev-perl/MRO-Compat || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=dev-perl/MRO-Compat dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AN/ANDREMAR/Catalyst-Plugin-Devel-ModuleVersions-0.100330.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=83f792d8a3060206c1fa9394219cf9cd
+_md5_=295a6fafe1d0c80c732a41dec989ba4c
