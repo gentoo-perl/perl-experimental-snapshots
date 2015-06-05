@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/SQL-Translator-0.110.60 virtual/perl-Carp dev-perl/Class-Accessor-Grouped dev-perl/Class-Load >=dev-perl/DBI-1.607.0 >=dev-perl/DBIx-Class-0.81.270 >=dev-perl/Data-Stream-Bulk-0.70.0 dev-perl/JSON >=dev-perl/KiokuDB-0.460.0 dev-perl/List-MoreUtils dev-perl/Moose >=dev-perl/MooseX-Types-0.80.0 dev-perl/SQL-Abstract virtual/perl-Scalar-List-Utils >=dev-perl/Search-GIN-0.70.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-perl/namespace-clean dev-perl/DBIx-Class >=virtual/perl-ExtUtils-MakeMaker-6.300.0 test? ( virtual/perl-File-Spec virtual/perl-IO dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.880.0 dev-perl/Test-Requires dev-perl/Test-TempDir dev-perl/YAML-LibYAML virtual/perl-constant ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=DBI backend for KiokuDB
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/KiokuDB-Backend-DBI/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/SQL-Translator-0.110.60 virtual/perl-Carp dev-perl/Class-Accessor-Grouped dev-perl/Class-Load >=dev-perl/DBI-1.607.0 >=dev-perl/DBIx-Class-0.81.270 >=dev-perl/Data-Stream-Bulk-0.70.0 dev-perl/JSON >=dev-perl/KiokuDB-0.460.0 dev-perl/List-MoreUtils dev-perl/Moose >=dev-perl/MooseX-Types-0.80.0 dev-perl/SQL-Abstract virtual/perl-Scalar-List-Utils >=dev-perl/Search-GIN-0.70.0 dev-perl/Try-Tiny dev-perl/namespace-autoclean dev-perl/namespace-clean dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DO/DOY/KiokuDB-Backend-DBI-1.23.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=64aa109d3125aff98fafd3ac77c31aed
