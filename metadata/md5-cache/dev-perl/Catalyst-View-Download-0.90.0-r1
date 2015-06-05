@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.42 dev-perl/Catalyst-Runtime dev-perl/Catalyst-Runtime >=virtual/perl-ExtUtils-MakeMaker-6.42 virtual/perl-Test-Simple dev-perl/Test-WWW-Mechanize-Catalyst dev-perl/Text-CSV dev-perl/XML-Simple dev-perl/Test-use-ok dev-lang/perl:=[-build(-)]
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.420.0 test? ( dev-perl/Catalyst-Runtime virtual/perl-Test-Simple dev-perl/Test-WWW-Mechanize-Catalyst dev-perl/Text-CSV dev-perl/XML-Simple || ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok ) ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Helper for Download Views
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-View-Download/
+IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/G/GA/GAUDEON/Catalyst-View-Download-0.09.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=c9aee5f3b883adb0daf9c043e840f820
+_md5_=0901730faa254bdc9b39920884e31e29
