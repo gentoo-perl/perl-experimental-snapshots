@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Module-Build-Tiny-0.39.0 test? ( !minimal? ( >=virtual/perl-CPAN-Meta-2.120.900 ) virtual/perl-ExtUtils-MakeMaker >=virtual/perl-File-Path-2.40.0 >=virtual/perl-Test-Simple-0.880.0 dev-perl/Test-Requires || ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok ) ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=(DEPRECATED) Temporary files support for testing.
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Test-TempDir/
+IUSE=test minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=virtual/perl-Carp dev-perl/File-NFSLock virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/Moose dev-perl/MooseX-Types-Path-Class dev-perl/Path-Class dev-perl/Sub-Exporter virtual/perl-Test-Simple >=dev-perl/namespace-autoclean-0.80.0 !minimal? ( dev-perl/Directory-Scratch ) dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Test-TempDir-0.10.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=e23a58f635c3876344c2406f08a0e88a

@@ -145,7 +145,6 @@ dev-perl/Task-Moose:traits - Install packages that facilitate working with Moose
 dev-perl/Task-Moose:types - Install various Moose Type extensions
 dev-perl/Task-Moose:utilroles - Install various utility roles for Moose
 dev-perl/Task-Moose:utils - Install utilities for working with Moose
-dev-perl/Template-Plugin-JSON:recommended - Install JSON::XS for faster performance
 dev-perl/Test-YAML-Valid:yaml-syck - YAML::Syck support
 dev-perl/Test-YAML-Valid:yaml-tiny - YAML::Tiny support
 dev-perl/Test-YAML-Valid:yaml-xs - YAML::XS support
