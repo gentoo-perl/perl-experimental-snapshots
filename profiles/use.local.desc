@@ -69,11 +69,6 @@ dev-perl/Task-Kensho-DBDev:perl-dbi - Install dev-perl/DBI
 dev-perl/Task-Kensho-DBDev:schemaloader - Install dev-perl/DBIx-Class-Schema-Loader
 dev-perl/Task-Kensho-DBDev:sqlite - Install dev-perl/DBI-SQLite
 dev-perl/Task-Kensho-DBDev:sqlt - Install dev-perl/SQL-Translator
-dev-perl/Task-Kensho-Dates:datetime - Install dev-perl/DateTime
-dev-perl/Task-Kensho-Dates:datetimetiny - Install dev-perl/DateTime-Tiny
-dev-perl/Task-Kensho-Dates:datetiny - Install dev-perl/Date-Tiny
-dev-perl/Task-Kensho-Dates:timeparsedate - Install dev-perl/Time-modules which provides Time::ParseDate
-dev-perl/Task-Kensho-Dates:timetiny - Install dev-perl/Time-Tiny
 dev-perl/Task-Kensho-Email:emailmimekit - Install dev-perl/Email-MIME-Kit
 dev-perl/Task-Kensho-Email:emailsender - Install dev-perl/Email-Sender
 dev-perl/Task-Kensho-Email:emailsimple - Install dev-perl/Email-Simple
