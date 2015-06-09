@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL test? ( dev-perl/Test-Expect ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/Test-Expect ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=read-eval-print-loop for debugging your Catalyst application
-EAPI=2
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/CatalystX-REPL/
 IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-perl/namespace-autoclean >=dev-perl/Catalyst-Runtime-5.800.60 dev-perl/Carp-REPL dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/CatalystX-REPL-0.04.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=d129631f744323653caf3aca855c1657
+_md5_=71a59a6efd3aea53d72389bd3f540a3b
