@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Data-Section-0.4.0 >=dev-perl/Dist-Zilla-4.300.39 dev-perl/Moose dev-perl/Path-Tiny dev-perl/Sub-Exporter-ForMethods dev-perl/namespace-autoclean >=dev-perl/Module-Build-Tiny-0.39.0 test? ( >=virtual/perl-CPAN-Meta-2.120.900 >=dev-perl/CPAN-Meta-Check-0.7.0 virtual/perl-CPAN-Meta-Requirements virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec dev-perl/File-pushd virtual/perl-IO >=virtual/perl-Module-CoreList-2.770.0 >=dev-perl/Perl-PrereqScanner-1.16.0 dev-perl/Test-MinimumVersion >=virtual/perl-Test-Simple-0.940.0 >=dev-perl/Test-Warnings-0.9.0 virtual/perl-if virtual/perl-version ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Common tests to check syntax of your modules, only using core modules
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Dist-Zilla-Plugin-Test-Compile/
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/Data-Section-0.4.0 >=dev-perl/Dist-Zilla-4.300.39 dev-perl/Moose dev-perl/Path-Tiny dev-perl/Sub-Exporter-ForMethods dev-perl/namespace-autoclean dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Dist-Zilla-Plugin-Test-Compile-2.053.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-mb-tiny	6a5910f15a726152efd50a28edaf5f6f	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=4ebd818638e428cc3d6561ad4a48dc43
