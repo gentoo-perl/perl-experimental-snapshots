@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=test? ( dev-perl/MRO-Compat dev-perl/List-MoreUtils >=virtual/perl-ExtUtils-MakeMaker-6.31 dev-perl/Test-Exception ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=virtual/perl-Scalar-List-Utils-1.330.0 dev-perl/MRO-Compat virtual/perl-NEXT >=dev-perl/Module-Build-Tiny-0.39.0 test? ( virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec >=dev-perl/Test-Exception-0.270.0 virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Drop-in relacement for NEXT which uses Class::C3
-EAPI=2
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Class-C3-Adopt-NEXT/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=dev-perl/MRO-Compat dev-perl/List-MoreUtils || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+RDEPEND=>=virtual/perl-Scalar-List-Utils-1.330.0 dev-perl/MRO-Compat virtual/perl-NEXT dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/Class-C3-Adopt-NEXT-0.13.tar.gz
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Class-C3-Adopt-NEXT-0.14.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=141764855c558602a5f75a4ae26328a8
+_md5_=8a0a80a6ed333387eb82576541d8a656
