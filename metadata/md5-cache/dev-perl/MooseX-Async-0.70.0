@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Moose-0.560.0 >=dev-perl/MooseX-AttributeHelpers-0.130.0 >=virtual/perl-Test-Simple-0.42 dev-lang/perl:=[-build(-)]
+DESCRIPTION=The Orphanange of Asynchronous Love Children
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/MooseX-Async/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/Moose-0.560.0 >=dev-perl/MooseX-AttributeHelpers-0.130.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PERIGRIN/MooseX-Async-0.07.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=fc48f29ba6317a0b3e9f0e9015b14c7e
