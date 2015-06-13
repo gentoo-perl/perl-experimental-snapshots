@@ -6,7 +6,6 @@ dev-perl/Acme-LAUTER-DEUTSCHER:nettest - Enable network-only tests
 dev-perl/Any-URI-Escape:recommended - Install URL-Escape-XS for faster URI Escaping.
 dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
 dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built
-dev-perl/CGI-Application:recommended - Install recommended support for PSGI with dev-perl/CGI-PSGI
 dev-perl/CGI-Application-Dispatch:apache_test - With FEATURES=test, do tests using Apache
 dev-perl/CGI-Application-Plugin-Authentication:recommended - Install recommended extras
 dev-perl/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
