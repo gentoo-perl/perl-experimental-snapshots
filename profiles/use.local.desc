@@ -17,7 +17,6 @@ dev-perl/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache f
 dev-perl/CPANPLUS:storable - Install support for the "Storable" backend
 dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms with dev-perl/Catalyst-View-TT
 dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
-dev-perl/DBIx-Class-Validation:recommended - Install recommended package Data::FormValidator
 dev-perl/Data-Pond:xsmodule - Pull dependencies required for building XS Version of the Module.
 dev-perl/Dist-Zilla-Plugin-MetaProvides:class - Install recommended ::Class to detect MooseX::Declares 'class'
 dev-perl/Dist-Zilla-Plugin-MetaProvides:fromfile - Install recommended ::FromFile library for hand-crated metadata

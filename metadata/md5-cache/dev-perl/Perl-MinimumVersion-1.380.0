@@ -4,10 +4,10 @@ DESCRIPTION=Find a minimum required version of perl for Perl code
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Perl-MinimumVersion/
 IUSE=test
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=virtual/perl-Carp virtual/perl-Exporter dev-perl/File-Find-Rule dev-perl/File-Find-Rule-Perl virtual/perl-File-Spec virtual/perl-Getopt-Long >=virtual/perl-Scalar-List-Utils-1.200.0 >=dev-perl/PPI-1.215.0 >=dev-perl/PPIx-Regexp-0.33.0 >=dev-perl/Params-Util-0.250.0 >=dev-perl/Perl-Critic-1.104.0 >=virtual/perl-version-0.760.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/N/NE/NEILB/Perl-MinimumVersion-1.38.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=f2f903c4acd5a351e8c78cc08b2b989f
+_md5_=0e503aebe76f6d6fde95cc0d70e6f8f5
