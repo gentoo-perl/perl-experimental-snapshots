@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-parent >=dev-lang/perl-5.6.0 !<virtual/perl-Math-BigInt-1.64 !<perl-core/Math-BigRat-0.08 virtual/perl-Module-Build virtual/perl-Test-Simple >=dev-lang/perl-5.6.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=virtual/perl-parent >=dev-lang/perl-5.6.0 !<virtual/perl-Math-BigInt-1.64 !<perl-core/Math-BigRat-0.08 dev-perl/Module-Build virtual/perl-Test-Simple >=dev-lang/perl-5.6.0 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 DESCRIPTION=the three ISO 8601 numerical calendars
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Date-ISO8601/
@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-parent >=dev-lang/perl-5.6.0 !<virtual/perl-Math-BigInt-1.64 !<perl-core/Math-BigRat-0.08 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/Z/ZE/ZEFRAM/Date-ISO8601-0.004.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=a8057c9e0f96910726c2cb56afdb1dc0
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=5a9bb6df1ab28ab4298f9429fe07c45d

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=virtual/perl-Module-Build virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS test? ( virtual/perl-Test-Simple ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=dev-perl/Module-Build virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS test? ( virtual/perl-Test-Simple ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 DESCRIPTION=Perl interface to Snowball stemmers.
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Lingua-Stem-Snowball/
@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=|| ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/C/CR/CREAMYG/Lingua-Stem-Snowball-0.952.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=85bb5e0fa36477953c574c2e957e4bd6
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=686abfff50b1bd08b9341de57ef22e91

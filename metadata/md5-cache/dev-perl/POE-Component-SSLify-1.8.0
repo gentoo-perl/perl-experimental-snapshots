@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.36.01 >=virtual/perl-Module-Build-0.36.01 virtual/perl-Exporter >=virtual/perl-IO-1.25 >=dev-perl/Net-SSLeay-1.360.0 dev-perl/POE virtual/perl-Scalar-List-Utils dev-lang/perl >=dev-perl/Task-Weaken-1.30.0 virtual/perl-parent >=dev-lang/perl-5.6.0 test? ( dev-lang/perl virtual/perl-File-Temp >=dev-perl/POE-1.267.0 dev-perl/POE dev-perl/POE dev-lang/perl >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl:=[-build(-)]
+DEPEND=>=dev-perl/Module-Build-0.36.01 >=dev-perl/Module-Build-0.36.01 virtual/perl-Exporter >=virtual/perl-IO-1.25 >=dev-perl/Net-SSLeay-1.360.0 dev-perl/POE virtual/perl-Scalar-List-Utils dev-lang/perl >=dev-perl/Task-Weaken-1.30.0 virtual/perl-parent >=dev-lang/perl-5.6.0 test? ( dev-lang/perl virtual/perl-File-Temp >=dev-perl/POE-1.267.0 dev-perl/POE dev-perl/POE dev-lang/perl >=virtual/perl-Test-Simple-0.88 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Makes using SSL in the world of POE easy!
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/POE-Component-SSLify/
@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-Exporter >=virtual/perl-IO-1.25 >=dev-perl/Net-SSLeay-1.360.0 dev-perl/POE virtual/perl-Scalar-List-Utils dev-lang/perl >=dev-perl/Task-Weaken-1.30.0 virtual/perl-parent >=dev-lang/perl-5.6.0 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AP/APOCAL/POE-Component-SSLify-1.008.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=beb63a3ecbba56a482d5eef90a22714e
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=d6b2df7b3017775dbacf27558a5adf00

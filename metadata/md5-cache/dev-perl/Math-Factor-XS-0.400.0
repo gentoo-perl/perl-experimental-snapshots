@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.400.0 virtual/perl-ExtUtils-CBuilder virtual/perl-Test-Simple virtual/perl-Exporter dev-perl/List-MoreUtils dev-perl/Params-Validate virtual/perl-Scalar-List-Utils virtual/perl-XSLoader dev-perl/boolean || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=dev-perl/Module-Build-0.400.0 virtual/perl-ExtUtils-CBuilder virtual/perl-Test-Simple virtual/perl-Exporter dev-perl/List-MoreUtils dev-perl/Params-Validate virtual/perl-Scalar-List-Utils virtual/perl-XSLoader dev-perl/boolean || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 DESCRIPTION=Factorize numbers and calculate matching multiplications
 EAPI=4
 HOMEPAGE=http://search.cpan.org/dist/Math-Factor-XS/
@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-Exporter dev-perl/List-MoreUtils dev-perl/Params-Validate virtual/perl-Scalar-List-Utils virtual/perl-XSLoader dev-perl/boolean || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KR/KRYDE/Math-Factor-XS-0.40.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=4fa7f7d02ae27e8ecc466e885561b7fd
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=62ca481e0be99e3a0ba33e8c0984ddf8

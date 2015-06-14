@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-perl/Data-Dump dev-perl/HTTP-Date dev-perl/HTTP-Parser-XS dev-perl/HTTP-Message >=dev-perl/net-server-0.91 >=dev-perl/Plack-0.997.100 >=dev-perl/Test-TCP-1.110.0 virtual/perl-parent >=dev-lang/perl-5.8.1 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/Starman-0.3011.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-mb-tiny	6a5910f15a726152efd50a28edaf5f6f	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-mb-tiny	6a5910f15a726152efd50a28edaf5f6f	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=abb7a3d7f253f2af3a6cd5c8cd6d629f

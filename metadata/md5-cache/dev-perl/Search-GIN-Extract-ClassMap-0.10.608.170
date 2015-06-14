@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-Module-Build-0.400.400 >=virtual/perl-Module-Build-0.400.400 >=dev-perl/Moose-0.900.0 >=dev-perl/Moose-0.900.0 dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/aliased dev-perl/namespace-autoclean >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.980.0 ) dev-lang/perl:=[-build(-)]
+DEPEND=>=dev-perl/Module-Build-0.400.400 >=dev-perl/Module-Build-0.400.400 >=dev-perl/Moose-0.900.0 >=dev-perl/Moose-0.900.0 dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/aliased dev-perl/namespace-autoclean >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp >=virtual/perl-Test-Simple-0.980.0 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Delegate Extraction based on class.
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Search-GIN-Extract-ClassMap/
@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Moose-0.900.0 >=dev-perl/Moose-0.900.0 dev-perl/MooseX-Types dev-perl/MooseX-Types dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/Search-GIN dev-perl/aliased dev-perl/namespace-autoclean >=dev-lang/perl-5.6.0 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/Search-GIN-Extract-ClassMap-0.01060817.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	269822fefb64d06cb774f9753252cf6b	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=df0c8e41963e458ffeb6adad5cc711c8
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=99c91155d6131861222f968e11e5b34a
