@@ -4,11 +4,10 @@
 
 EAPI=5
 MODULE_AUTHOR=MLEHMANN
-MODULE_VERSION=1.01
+MODULE_VERSION=2001
 inherit perl-module
 
-DESCRIPTION="Interface to (some parts of) the Linux DVB API"
-
+DESCRIPTION="canary to check perl compatibility for schmorp's modules"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
