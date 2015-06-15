@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/XML-SAX-0.96 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DEPEND=>=dev-perl/XML-SAX-Base-1.20.0 virtual/perl-ExtUtils-MakeMaker dev-lang/perl:=[-build(-)]
 DESCRIPTION=Perl extension for generating SAX2 events from nested Perl data structures
-EAPI=2
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/XML-Generator-PerlData/
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-2 )
-RDEPEND=>=dev-perl/XML-SAX-0.96 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/XML-SAX-Base-1.20.0 dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/K/KH/KHAMPTON/XML-Generator-PerlData-0.91.tar.gz
+SRC_URI=mirror://cpan/authors/id/K/KH/KHAMPTON/XML-Generator-PerlData-0.93.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=13ec4cc3e68be9bff2df40f07fc69782
+_md5_=fef12a3c0f6c4300266712a0cc6271cc
