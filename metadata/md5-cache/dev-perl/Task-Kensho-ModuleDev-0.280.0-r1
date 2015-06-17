@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dzil? ( dev-perl/Dist-Zilla ) moduleinstall? ( dev-perl/Module-Install ) nytprof? ( dev-perl/Devel-NYTProf ) perltidy? ( dev-perl/perltidy ) perlcritic? ( dev-perl/Perl-Critic ) carpalways? ( dev-perl/Carp-Always ) modernperl? ( dev-perl/Modern-Perl ) perlversion? ( dev-perl/Perl-Version ) softwarelicense? ( dev-perl/Software-License ) podreadme? ( dev-perl/Pod-Readme ) cpanuploader? ( dev-perl/CPAN-Uploader ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=A glimpse at an Enlightened Perl (module development tools)
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Task-Kensho-ModuleDev/
+IUSE=+dzil +moduleinstall +nytprof +perltidy +perlcritic +carpalways +modernperl +perlversion +softwarelicense +podreadme +cpanuploader
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dzil? ( dev-perl/Dist-Zilla ) moduleinstall? ( dev-perl/Module-Install ) nytprof? ( dev-perl/Devel-NYTProf ) perltidy? ( dev-perl/perltidy ) perlcritic? ( dev-perl/Perl-Critic ) carpalways? ( dev-perl/Carp-Always ) modernperl? ( dev-perl/Modern-Perl ) perlversion? ( dev-perl/Perl-Version ) softwarelicense? ( dev-perl/Software-License ) podreadme? ( dev-perl/Pod-Readme ) cpanuploader? ( dev-perl/CPAN-Uploader ) dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-ModuleDev-0.28.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=ca9831c8fd463f87df43770eb7844fce
