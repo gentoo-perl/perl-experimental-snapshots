@@ -1,11 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/Perl-Critic-1.98.0 dev-perl/Readonly >=dev-perl/Perl-Critic-1.98.0 dev-perl/Module-Build dev-lang/perl:=[-build(-)]
+DEPEND=>=dev-perl/Perl-Critic-1.98.0 dev-perl/Readonly virtual/perl-ExtUtils-MakeMaker test? ( >=virtual/perl-CPAN-Meta-2.120.900 virtual/perl-File-Spec >=virtual/perl-Test-Simple-0.960.0 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Policies for Perl::Critic concerned with using Moose, the "post-modern" object system for Perl.
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Perl-Critic-Moose/
+IUSE=test
+KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=dev-perl/Perl-Critic-1.98.0 dev-perl/Readonly dev-lang/perl:=[-build(-)]
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/E/EL/ELLIOTJS/Perl-Critic-Moose-0.999_002.tar.gz
+SRC_URI=mirror://cpan/authors/id/D/DR/DROLSKY/Perl-Critic-Moose-1.03.tar.gz
 _eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
-_md5_=559d3d8d41738441722049ae6362d398
+_md5_=06aa50a916666933a119a42b9cd6f2d9
