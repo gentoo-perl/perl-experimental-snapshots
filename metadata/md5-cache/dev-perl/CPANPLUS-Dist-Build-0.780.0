@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=>=dev-perl/CPANPLUS-0.840.0 >=virtual/perl-ExtUtils-Install-1.420.0 virtual/perl-File-Spec >=virtual/perl-IPC-Cmd-0.420.0 virtual/perl-Locale-Maketext-Simple >=dev-perl/Module-Build-0.320.0 >=virtual/perl-Module-Load-0.160.0 >=virtual/perl-Module-Load-Conditional-0.300.0 >=dev-perl/Module-Pluggable-3.800.0 >=virtual/perl-Params-Check-0.260.0 >=virtual/perl-Test-Harness-3.160.0 virtual/perl-if dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/CPANPLUS-Dist-Build-0.78.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	873db09c7d001fd6bf99f578b98a8cd6	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	fb3493f4dd20003542b1c44ee4c588cd	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=4cead67f12c75957a1e14739fe574397
