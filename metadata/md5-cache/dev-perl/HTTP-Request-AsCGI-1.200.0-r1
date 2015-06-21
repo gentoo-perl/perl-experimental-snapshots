@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=virtual/perl-Test-Simple virtual/perl-IO >=dev-perl/HTTP-Message-1.530.0 dev-perl/URI dev-perl/Class-Accessor virtual/perl-Carp dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/HTTP-Request-AsCGI-1.2.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	fb3493f4dd20003542b1c44ee4c588cd	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	bf25ae358903d3a05abc92bb7f70eda3	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=8e4eb3412547940cc8552c4160481d0b
