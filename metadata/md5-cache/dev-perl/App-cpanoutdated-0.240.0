@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/CPAN-DistnameInfo-0.100.0 >=virtual/perl-ExtUtils-MakeMaker-6.56 virtual/perl-IO-Zlib dev-perl/libwww-perl virtual/perl-Module-CoreList >=virtual/perl-Module-Metadata-1.0.7 >=dev-perl/local-lib-1.6.8 >=dev-lang/perl-5.8.1 virtual/perl-version dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/T/TO/TOKUHIROM/App-cpanoutdated-0.24.tar.gz
-_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	bf25ae358903d3a05abc92bb7f70eda3	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
 _md5_=e0b822bc0d96279e7a3f4cab43fcad95
