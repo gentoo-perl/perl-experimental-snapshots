@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/URI-Fetch dev-perl/Cache-Cache virtual/perl-ExtUtils-MakeMaker dev-lang/perl:=[-build(-)]
+DESCRIPTION=URI::Fetch extension with local cache
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/URI-Fetch-SimpleCache/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-perl/URI-Fetch dev-perl/Cache-Cache dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NE/NEKOKAK/URI-Fetch-SimpleCache-0.02.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	multilib	62927b3db3a589b0806255f3a002d5d3	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=76c018502812dc7615bd914814319c0f
