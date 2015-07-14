@@ -33,7 +33,6 @@ dev-perl/MojoMojo:recaptcha - reCAPTCHA for anonymous edits
 dev-perl/MojoMojo:rssformatter - RSS Formatter
 dev-perl/MojoMojo:syntaxhighlight - Syntax Highlightert
 dev-perl/MojoMojo:transclusion - Transclusion support
-dev-perl/Parse-BACKPAN-Packages:big-net-test - Permit connecting to the internet and BACKPAN to run a test that downloads 1MB of data or more
 dev-perl/Task-Kensho:async - Asynchronous Programming
 dev-perl/Task-Kensho:basic-toolchain - Basic Toolchain
 dev-perl/Task-Kensho:cli - Useful Command-line Tools
