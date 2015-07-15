@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/IPC-SysV
-EAPI=5
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/IPC-SysV-2.40.0 ) !<perl-core/IPC-SysV-2.40.0 !>perl-core/IPC-SysV-2.40.0-r999
-SLOT=0
-_md5_=424256a29b3d92859b770c1196e585bf
