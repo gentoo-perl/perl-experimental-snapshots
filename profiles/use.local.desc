@@ -23,7 +23,6 @@ dev-perl/Dist-Zilla-Plugin-MetaProvides:metanoindex - Install support libraries 
 dev-perl/Dist-Zilla-Plugin-MetaProvides:package - Install recommended ::Package for detecting class perl packages
 dev-perl/File-ChangeNotify:inotify - Pull in dev-perl/Linux-Inotify2 for linux Inotify Support
 dev-perl/File-Modified:digest - Ensure Digest and Digest::MD5 are installed for Digest functions
-dev-perl/JSON-MaybeXS:recommended - Install Cpanel::JSON::XS to maximise JSON decoding speed
 dev-perl/MojoMojo:amazonboxes - Amazon boxes
 dev-perl/MojoMojo:createdb - Create new Database automatically
 dev-perl/MojoMojo:docbook - DocBook formatter

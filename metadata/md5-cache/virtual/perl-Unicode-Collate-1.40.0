@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Unicode-Collate
-EAPI=5
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/Unicode-Collate-1.40.0 ) !<perl-core/Unicode-Collate-1.40.0 !>perl-core/Unicode-Collate-1.40.0
-SLOT=0
-_md5_=804351549815b4674f7273a4e50f0455
