@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 EAPI=5
 MODULE_AUTHOR=BOBTFISH
 MODULE_VERSION=0.02
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
-	dev-perl/ImageSize
+	dev-perl/Image-Size
 	dev-perl/Path-Class
 	dev-perl/HTML-Parser
 	dev-perl/MRO-Compat

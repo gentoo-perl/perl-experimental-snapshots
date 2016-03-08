@@ -4,4 +4,4 @@ EAPI=5
 KEYWORDS=~x86 ~amd64
 RDEPEND=|| ( =dev-lang/perl-5.22* ~perl-core/Pod-Perldoc-3.250.0 ) !<perl-core/Pod-Perldoc-3.250.0 !>perl-core/Pod-Perldoc-3.250.0-r999
 SLOT=0
-_md5_=ff334fbe2dee0f3f23aa4a79542a75f6
+_md5_=7b5fb73fd48d10999391566ddea14f26

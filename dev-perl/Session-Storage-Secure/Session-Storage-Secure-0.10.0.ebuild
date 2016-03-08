@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 EAPI=5
 MODULE_AUTHOR=DAGOLDEN
 MODULE_VERSION=0.010
@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# Carp
 	echo virtual/perl-Carp
 	# Crypt::CBC
-	echo dev-perl/crypt-cbc
+	echo dev-perl/Crypt-CBC
 	# Crypt::Rijndael
 	echo dev-perl/Crypt-Rijndael
 	# Crypt::URandom

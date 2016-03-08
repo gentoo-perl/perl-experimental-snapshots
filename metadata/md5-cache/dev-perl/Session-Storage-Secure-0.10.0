@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.17 virtual/perl-Carp dev-perl/crypt-cbc dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl test? ( virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec virtual/perl-Scalar-List-Utils dev-perl/Test-Deep dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.96 dev-perl/Number-Tolerant virtual/perl-version ) dev-lang/perl:=[-build(-)]
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.17 virtual/perl-Carp dev-perl/Crypt-CBC dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl test? ( virtual/perl-ExtUtils-MakeMaker virtual/perl-File-Spec virtual/perl-Scalar-List-Utils dev-perl/Test-Deep dev-perl/Test-Fatal >=virtual/perl-Test-Simple-0.96 dev-perl/Number-Tolerant virtual/perl-version ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Encrypted, expiring, compressed, serialized session data with integrity
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Session-Storage-Secure/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=virtual/perl-Carp dev-perl/crypt-cbc dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
+RDEPEND=virtual/perl-Carp dev-perl/Crypt-CBC dev-perl/Crypt-Rijndael dev-perl/Crypt-URandom virtual/perl-Digest-SHA >=virtual/perl-MIME-Base64-3.120.0 dev-perl/Math-Random-ISAAC-XS dev-perl/Moo >=dev-perl/MooX-Types-MooseLike-0.160.0 dev-perl/Sereal-Decoder dev-perl/Sereal-Encoder dev-perl/String-Compare-ConstantTime dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Session-Storage-Secure-0.010.tar.gz
-_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
-_md5_=f758c321f7bbdfc9dfaed19a63009f09
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
+_md5_=4d08291a95e045415f9af599e08d7e8c

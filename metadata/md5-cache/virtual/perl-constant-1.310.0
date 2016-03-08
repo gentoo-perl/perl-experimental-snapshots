@@ -4,4 +4,4 @@ EAPI=5
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/constant-1.310.0 ) !<perl-core/constant-1.310.0 !>perl-core/constant-1.310.0
 SLOT=0
-_md5_=804351549815b4674f7273a4e50f0455
+_md5_=32cfffcbcb1af92b9fbbfbad35a3d917

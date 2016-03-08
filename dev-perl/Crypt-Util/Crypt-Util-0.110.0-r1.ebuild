@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-perl/namespace-clean-0.80.0
 	virtual/perl-MIME-Base64
 	dev-perl/URI
-	dev-perl/crypt-cbc
+	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
 	virtual/perl-Digest-SHA
 	!minimal? (

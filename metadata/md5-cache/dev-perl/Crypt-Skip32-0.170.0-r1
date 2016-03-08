@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/Module-Build test? ( >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-NoWarnings-0.084 recommended? ( dev-perl/Test-Distribution ) ) recommended? ( dev-perl/Crypt-Skip32-XS >=dev-perl/crypt-cbc-2.22 ) dev-lang/perl:=[-build(-)]
+DEPEND=dev-perl/Module-Build test? ( >=virtual/perl-Test-Simple-0.62 >=dev-perl/Test-NoWarnings-0.084 recommended? ( dev-perl/Test-Distribution ) ) recommended? ( dev-perl/Crypt-Skip32-XS >=dev-perl/Crypt-CBC-2.22 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=32-bit block cipher based on Skipjack
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Crypt-Skip32/
 IUSE=test +recommended
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=recommended? ( dev-perl/Crypt-Skip32-XS >=dev-perl/crypt-cbc-2.22 ) dev-lang/perl:=[-build(-)]
+RDEPEND=recommended? ( dev-perl/Crypt-Skip32-XS >=dev-perl/Crypt-CBC-2.22 ) dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/E/ES/ESH/Crypt-Skip32-0.17.tar.gz
-_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
-_md5_=8b13d60cdd3fb40ba5404075959bbc10
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
+_md5_=4c5bba3c6f61cc7b1c7daea387229ad2

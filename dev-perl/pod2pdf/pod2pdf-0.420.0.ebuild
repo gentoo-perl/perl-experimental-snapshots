@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -22,6 +22,6 @@ RDEPEND="
 	virtual/perl-podlators
 	virtual/perl-Pod-Parser
 	dev-perl/File-Type
-	dev-perl/ImageSize
+	dev-perl/Image-Size
 "
 DEPEND="${RDEPEND}"

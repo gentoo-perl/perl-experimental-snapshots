@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 EAPI=5
 MODULE_AUTHOR=MRAMBERG
 MODULE_VERSION=1.11
@@ -60,7 +60,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-View-Email-0.140.0
 	dev-perl/Config-General
 	dev-perl/Config-JFDI
-	>=dev-perl/crypt-cbc-2.120.0
+	>=dev-perl/Crypt-CBC-2.120.0
 	>=dev-perl/Data-Page-2.0.0
 	>=dev-perl/DateTime-0.280.0
 	dev-perl/DateTime-Format-Mail
