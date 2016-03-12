@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/net-server >=dev-perl/Server-Starter-0.02 test? ( dev-perl/libwww-perl >=dev-perl/Test-TCP-0.06 dev-perl/HTTP-Server-Simple ) dev-lang/perl:=[-build(-)]
+DEPEND=dev-perl/Net-Server >=dev-perl/Server-Starter-0.02 test? ( dev-perl/libwww-perl >=dev-perl/Test-TCP-0.06 dev-perl/HTTP-Server-Simple ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=a hot-deployable variant of Net::Server::PreFork
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Net-Server-SS-PreFork/
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=dev-perl/net-server >=dev-perl/Server-Starter-0.02 dev-lang/perl:=[-build(-)]
+RDEPEND=dev-perl/Net-Server >=dev-perl/Server-Starter-0.02 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KA/KAZUHO/Net-Server-SS-PreFork-0.05.tar.gz
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
-_md5_=7d865c9be781822752be0efb5cb7d7c8
+_md5_=b62917898cbcf988feed4497db92f9d2
