@@ -6,8 +6,8 @@ HOMEPAGE=http://search.cpan.org/dist/Padre-Plugin-PerlTidy/
 IUSE=test test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=>=app-editors/padre-0.920.0 >=dev-perl/Params-Util-1.40.0 >=dev-perl/perltidy-20101217.0.0 >=dev-lang/perl-5.8.2 dev-lang/perl:=[-build(-)]
+RDEPEND=>=app-editors/padre-0.920.0 >=dev-perl/Params-Util-1.40.0 >=dev-perl/Perl-Tidy-20101217.0.0 >=dev-lang/perl-5.8.2 dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AZ/AZAWAWI/Padre-Plugin-PerlTidy-0.22.tar.gz
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
-_md5_=6f5dc8b58c7a8bfc8c0d44a1e6411190
+_md5_=9840f3a82c41a2a0e7ecf196a6572c41
