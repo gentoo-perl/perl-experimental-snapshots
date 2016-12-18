@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-perl/yaml-0.600.0 virtual/perl-Test-Simple virtual/perl-Exporter yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 ) yaml-xs? ( dev-perl/YAML-LibYAML ) yaml-tiny? ( dev-perl/YAML-Tiny ) >=virtual/perl-ExtUtils-MakeMaker-6.420.0 test? ( virtual/perl-File-Spec ) dev-lang/perl:=[-build(-)]
+DEPEND=>=dev-perl/YAML-0.600.0 virtual/perl-Test-Simple virtual/perl-Exporter yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 ) yaml-xs? ( dev-perl/YAML-LibYAML ) yaml-tiny? ( dev-perl/YAML-Tiny ) >=virtual/perl-ExtUtils-MakeMaker-6.420.0 test? ( virtual/perl-File-Spec ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Test for valid YAML
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Test-YAML-Valid/
 IUSE=yaml-syck yaml-xs yaml-tiny test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=>=dev-perl/yaml-0.600.0 virtual/perl-Test-Simple virtual/perl-Exporter yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 ) yaml-xs? ( dev-perl/YAML-LibYAML ) yaml-tiny? ( dev-perl/YAML-Tiny ) dev-lang/perl:=[-build(-)]
+RDEPEND=>=dev-perl/YAML-0.600.0 virtual/perl-Test-Simple virtual/perl-Exporter yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 ) yaml-xs? ( dev-perl/YAML-LibYAML ) yaml-tiny? ( dev-perl/YAML-Tiny ) dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JR/JROCKWAY/Test-YAML-Valid-0.04.tar.gz
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	unpacker	45d07319df5f40ee6af58418b0f930be
-_md5_=2ca62509dac093c153bae65ac989bfd2
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be
+_md5_=61f611ed44d2add0909ba563651a55a3

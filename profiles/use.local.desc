@@ -17,10 +17,6 @@ dev-perl/CPANPLUS:sqlite_backend - Install support for using SQLite as a cache f
 dev-perl/CPANPLUS:storable - Install support for the "Storable" backend
 dev-perl/Catalyst-Controller-FormBuilder:template - Support for Templating forms with dev-perl/Catalyst-View-TT
 dev-perl/Crypt-Skip32:recommended - Install dependencies recommended by upstream that may add functionality
-dev-perl/Dist-Zilla-Plugin-MetaProvides:class - Install recommended ::Class to detect MooseX::Declares 'class'
-dev-perl/Dist-Zilla-Plugin-MetaProvides:fromfile - Install recommended ::FromFile library for hand-crated metadata
-dev-perl/Dist-Zilla-Plugin-MetaProvides:metanoindex - Install support libraries for meta_no_index feature
-dev-perl/Dist-Zilla-Plugin-MetaProvides:package - Install recommended ::Package for detecting class perl packages
 dev-perl/File-ChangeNotify:inotify - Pull in dev-perl/Linux-Inotify2 for linux Inotify Support
 dev-perl/File-Modified:digest - Ensure Digest and Digest::MD5 are installed for Digest functions
 dev-perl/MojoMojo:amazonboxes - Amazon boxes

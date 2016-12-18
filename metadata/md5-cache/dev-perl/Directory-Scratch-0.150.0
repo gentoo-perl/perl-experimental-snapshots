@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-lang/perl dev-lang/perl virtual/perl-File-Path >=dev-perl/File-Slurp-9999.12 virtual/perl-File-Spec virtual/perl-File-Temp dev-lang/perl dev-perl/Path-Class dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Directory-Scratch-0.15.tar.gz
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	unpacker	45d07319df5f40ee6af58418b0f930be
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be
 _md5_=f28ea1eeb1985f4565d3cc17177db32e

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/Mouse dev-perl/MouseX-NativeTraits dev-perl/Try-Tiny virtual/perl-XSLoader dev-perl/Data-Dump virtual/perl-Devel-PPPort dev-perl/ExtUtils-Depends virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-ParseXS dev-perl/XML-Descent dev-perl/XML-Simple dev-perl/XS-Object-Magic dev-perl/ExtUtils-PkgConfig test? ( dev-perl/Test-Deep dev-perl/Test-Exception virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)] test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DESCRIPTION=Perl bindings for libxcb
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/X11-XCB/
+IUSE=test test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-perl/Mouse dev-perl/MouseX-NativeTraits dev-perl/Try-Tiny virtual/perl-XSLoader dev-lang/perl:=[-build(-)]
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSTPLBG/X11-XCB-0.12.tar.gz
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
+_md5_=5dd140f728b2ed69571a2a23cc49d8c7

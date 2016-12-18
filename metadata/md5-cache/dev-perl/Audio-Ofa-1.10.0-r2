@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=media-libs/libofa virtual/perl-IO-Compress dev-perl/ExtUtils-PkgConfig dev-perl/Module-Build test? ( virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Perl interface to libofa, an Acoustig Fingerprinting library
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Audio-Ofa/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=media-libs/libofa virtual/perl-IO-Compress dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PEPE/Audio-Ofa-1.01.tar.gz
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be
+_md5_=bf4e51c5d3b0e7c6145b2ae4dc1b3f20

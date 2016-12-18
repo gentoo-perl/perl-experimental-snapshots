@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Moose-0.270.0 dev-perl/MooseX-Method dev-perl/DateTime >=dev-perl/Path-Abstract-0.93.0 dev-perl/DateTime-Format-DateParse >=dev-perl/Text-Diff-Parser-0.70.0 >=virtual/perl-IPC-Cmd-0.42 >=virtual/perl-Module-Load-Conditional-0.24 dev-perl/XML-Simple dev-perl/libwww-perl >=dev-perl/IPC-Run-0.55 virtual/perl-File-Spec virtual/perl-File-Temp virtual/perl-Scalar-List-Utils bazaar? ( dev-vcs/bzr ) subversion? ( >=dev-vcs/subversion-1.2[perl,-dso] ) mercurial? ( dev-vcs/mercurial ) git? ( dev-vcs/git[perl] ) cvs? ( dev-vcs/cvs ) dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MK/MKANAT/VCI-0.7.1.tar.gz
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	unpacker	45d07319df5f40ee6af58418b0f930be
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be
 _md5_=47f0800d47a84af24f0899b457fa9b8c

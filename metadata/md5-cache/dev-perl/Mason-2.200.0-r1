@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/Capture-Tiny dev-perl/Class-Unload dev-perl/Devel-GlobalDestruction dev-perl/Exception-Class virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/Guard dev-perl/IPC-System-Simple dev-perl/JSON >=dev-perl/Log-Any-0.80.0 virtual/perl-Memoize dev-perl/Method-Signatures-Simple >=dev-perl/Moose-1.150.0 >=dev-perl/MooseX-HasDefaults-0.30.0 >=dev-perl/MooseX-StrictConstructor-0.130.0 >=virtual/perl-Scalar-List-Utils-1.10.0 dev-perl/Try-Tiny dev-lang/perl:=[-build(-)]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JS/JSWARTZ/Mason-2.20.tar.gz
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	unpacker	45d07319df5f40ee6af58418b0f930be
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	unpacker	45d07319df5f40ee6af58418b0f930be
 _md5_=b9bb0553a3fe17400e465ba0f6da8bb3
