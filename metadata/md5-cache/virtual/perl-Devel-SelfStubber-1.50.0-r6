@@ -4,4 +4,4 @@ EAPI=5
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( =dev-lang/perl-5.22* =dev-lang/perl-5.20* ~perl-core/Devel-SelfStubber-1.50.0 ) !<perl-core/Devel-SelfStubber-1.50.0 !>perl-core/Devel-SelfStubber-1.50.0
 SLOT=0
-_md5_=7a6d12278d7b8b41a9d0f9d62354c1db
+_md5_=0c3c4f830454c35fbaa620c978d9c3c7

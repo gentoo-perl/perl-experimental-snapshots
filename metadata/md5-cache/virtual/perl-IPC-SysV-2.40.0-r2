@@ -4,4 +4,4 @@ EAPI=5
 KEYWORDS=~x86 ~amd64
 RDEPEND=|| ( =dev-lang/perl-5.22* =dev-lang/perl-5.20* ~perl-core/IPC-SysV-2.40.0 ) !<perl-core/IPC-SysV-2.40.0 !>perl-core/IPC-SysV-2.40.0-r999
 SLOT=0
-_md5_=93e087c4f3ab43dc1dac0391b5c0f660
+_md5_=7df12f35323d199cd8f28551eda5e2b4

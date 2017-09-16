@@ -4,4 +4,4 @@ EAPI=5
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/SelfLoader-1.210.0 ) !<perl-core/SelfLoader-1.210.0 !>perl-core/SelfLoader-1.210.0
 SLOT=0
-_md5_=ef28723f45361409cd264d117b92a3a7
+_md5_=28a20db701756bc5631fe89038d918a8
