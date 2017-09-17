@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for List-Util
-EAPI=5
-KEYWORDS=~amd64 ~x86
-RDEPEND=~virtual/perl-Scalar-List-Utils-1.380.0
-SLOT=0
-_md5_=b78414af04305ba981d9f5a0fadfffdd

@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for perl-core/Pod-Perldoc
-EAPI=5
-KEYWORDS=~x86 ~amd64
-RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/Pod-Perldoc-3.230.0 ) !<perl-core/Pod-Perldoc-3.230.0 !>perl-core/Pod-Perldoc-3.230.0-r999
-SLOT=0
-_md5_=e1e58d43ed7e1a53adc07b87d3dc9e62

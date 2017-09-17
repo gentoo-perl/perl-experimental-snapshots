@@ -10,4 +10,4 @@ RDEPEND=>=virtual/perl-Digest-SHA-5.47 >=dev-perl/Dist-Zilla-2.0.0 dev-perl/Dist
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Role-Tempdir-0.01053722.tar.gz
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	perl-functions	2e59824d5035ce2b50f73a38b6dfe8c0	perl-module	d1bfbf1a541cb1e8a0fab824714698d8	toolchain-funcs	185a06792159ca143528e7010368e8af	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70
-_md5_=18d6ed1de0b04d26b6a72d42a33f09c5
+_md5_=a8f074db194aa983408fe8f0c0953712

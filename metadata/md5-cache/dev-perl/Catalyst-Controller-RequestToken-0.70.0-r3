@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/Catalyst-Action-RenderView dev-perl/Catalyst-Plugin-Session dev-perl/Catalyst-Plugin-Session-State-Cookie >=dev-perl/Catalyst-Runtime-5.800.0 virtual/perl-Digest virtual/perl-Scalar-List-Utils >=virtual/perl-ExtUtils-MakeMaker-6.36 test? ( virtual/perl-Test-Simple || ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok ) ) dev-lang/perl:=[-build(-)]
+DEPEND=dev-perl/Catalyst-Action-RenderView dev-perl/Catalyst-Plugin-Session dev-perl/Catalyst-Plugin-Session-State-Cookie >=dev-perl/Catalyst-Runtime-5.800.0 virtual/perl-Digest virtual/perl-Scalar-List-Utils >=virtual/perl-ExtUtils-MakeMaker-6.36 test? ( >=virtual/perl-Test-Simple-1.1.10 ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=Handling transaction tokens across forms
 EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Controller-RequestToken/
@@ -10,4 +10,4 @@ RDEPEND=dev-perl/Catalyst-Action-RenderView dev-perl/Catalyst-Plugin-Session dev
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/H/HI/HIDE/Catalyst-Controller-RequestToken-0.07.tar.gz
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	perl-functions	2e59824d5035ce2b50f73a38b6dfe8c0	perl-module	d1bfbf1a541cb1e8a0fab824714698d8	toolchain-funcs	185a06792159ca143528e7010368e8af	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70
-_md5_=d42b479f4d0871f837738235ea2d032f
+_md5_=8a8e6f8ab2f90f5431e95a78b4f4b031
