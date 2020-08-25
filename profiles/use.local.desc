@@ -7,7 +7,6 @@ dev-perl/Any-URI-Escape:recommended - Install URL-Escape-XS for faster URI Escap
 dev-perl/Array-Diff:xs - Install Recommended XS dependencies for speed
 dev-perl/Authen-DecHpwd:recommended - Pull in recommended dependencies to ensure XS Modules are built
 dev-perl/Bundle-CPAN:xxl - Install additional dependencies recommended by upstream that that are more complicated, but useful for CPAN, as per Bundle::CPANxxl
-dev-perl/CGI-Application-Dispatch:apache_test - With FEATURES=test, do tests using Apache
 dev-perl/CGI-Application-Plugin-Authentication:recommended - Install recommended extras
 dev-perl/CPANPLUS:cpantest - Install dependencies to enable CPAN Testers features
 dev-perl/CPANPLUS:md5 - Install dependencies to make MD5 checksum support.
